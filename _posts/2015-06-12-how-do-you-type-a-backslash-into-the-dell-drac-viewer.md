@@ -1,0 +1,14 @@
+---
+id: 192
+title: 'How do you type a backslash &#8220;\&#8221; into the Dell DRAC viewer?'
+date: 2015-06-12T10:51:22+00:00
+author: Tom
+layout: post
+guid: http://www.tjrobinson.net/?p=192
+permalink: /?p=192
+categories:
+  - Uncategorized
+---
+If you have a UK keyboard and try typing backslash into the Dell iDRACView application you might see # appear instead.
+
+After a lot of experimentation and frustration, the only way I could find of doing this was to check _Keyboard > Hold Left Alt Key_ then type **92** on the keyboard number pad. Then uncheck _Keyboard > Hold Left Alt Key_ again.
