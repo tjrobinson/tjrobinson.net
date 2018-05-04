@@ -1,3 +1,5 @@
-{% for post in site.posts %}
-  {% include card.html title=post.title url=post.url date-time=post.date excerpt=post.excerpt cta='Read Post' %}
+{% for post in site.categories[page.category] %}
+    <a href="{{ post.url | absolute_url }}">
+      {{ post.title }}
+    </a>
 {% endfor %}
