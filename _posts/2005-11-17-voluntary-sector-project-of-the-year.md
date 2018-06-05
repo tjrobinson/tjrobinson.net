@@ -5,7 +5,7 @@ date: 2005-11-17T22:32:36+00:00
 author: Tom
 layout: post
 guid: http://blog.tjrobinson.net/?p=20
-permalink: /?p=20
+permalink-from-wordpress: /?p=20
 categories:
   - Personal
   - Technology

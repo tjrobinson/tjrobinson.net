@@ -5,7 +5,7 @@ date: 2011-05-11T14:22:31+00:00
 author: Tom
 layout: post
 guid: http://tjrobinson.wordpress.com/?p=74
-permalink: /?p=74
+permalink-from-wordpress: /?p=74
 jabber_published:
   - "1305123753"
 tagazine-media:

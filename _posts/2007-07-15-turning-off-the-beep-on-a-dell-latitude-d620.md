@@ -5,7 +5,7 @@ date: 2007-07-15T00:51:42+00:00
 author: Tom
 layout: post
 guid: http://blog.tjrobinson.net/?p=31
-permalink: /?p=31
+permalink-from-wordpress: /?p=31
 tagazine-media:
   - 'a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";s:1:"0";s:6:"author";s:6:"566973";s:7:"blog_id";s:7:"8298577";s:9:"mod_stamp";s:19:"2009-06-23 21:02:58";}'
 categories:

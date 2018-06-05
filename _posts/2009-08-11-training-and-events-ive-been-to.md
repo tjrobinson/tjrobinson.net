@@ -5,7 +5,7 @@ date: 2009-08-11T11:25:21+00:00
 author: Tom
 layout: post
 guid: http://blog.tjrobinson.net/?p=58
-permalink: /?p=58
+permalink-from-wordpress: /?p=58
 categories:
   - Personal
   - Programming

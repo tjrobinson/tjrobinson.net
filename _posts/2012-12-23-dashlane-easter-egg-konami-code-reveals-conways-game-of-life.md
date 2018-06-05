@@ -5,7 +5,7 @@ date: 2012-12-23T16:38:08+00:00
 author: Tom
 layout: post
 guid: http://www.tjrobinson.net/?p=112
-permalink: /?p=112
+permalink-from-wordpress: /?p=112
 categories:
   - Software
   - Technology

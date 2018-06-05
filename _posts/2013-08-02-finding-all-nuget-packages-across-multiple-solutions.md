@@ -5,7 +5,7 @@ date: 2013-08-02T09:57:17+00:00
 author: Tom
 layout: post
 guid: http://www.tjrobinson.net/?p=128
-permalink: /?p=128
+permalink-from-wordpress: /?p=128
 categories:
   - Uncategorized
 ---
