@@ -1,15 +1,13 @@
 ---
 id: 187
-title: 'Internet of Things and Data Hackathon &#8211; 11th June 2015'
+title: 'Internet of Things and Data Hackathon - 11th June 2015'
 date: 2015-06-11T18:36:37+00:00
-author: Tom
+author: Tom Robinson
 layout: post
-guid: http://www.tjrobinson.net/?p=187
-permalink-from-wordpress: /?p=187
 categories:
   - Uncategorized
 ---
-I don&#8217;t have time to write a proper blog post, but here are some of the links I found useful today:
+I don't have time to write a proper blog post, but here are some of the links I found useful today:
 
 Event hashtag: [#hackitmsft](https://twitter.com/search?q=%23hackitmsft)
 

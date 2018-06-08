@@ -2,17 +2,15 @@
 id: 189
 title: Most Good Ideas Actually Deliver Zero or Negative Value
 date: 2015-06-10T09:09:58+00:00
-author: Tom
+author: Tom Robinson
 layout: post
-guid: http://www.tjrobinson.net/?p=189
-permalink-from-wordpress: /?p=189
 categories:
   - Uncategorized
 ---
 <div id="main-content" class="wiki-content">
   <div class="wiki-content">
     <p>
-      &#8220;the chances are that about 2/3 of the work we are doing is of either zero or negative value to our customers &#8211; and certainly of negative value to our organization&#8221;
+      "the chances are that about 2/3 of the work we are doing is of either zero or negative value to our customers - and certainly of negative value to our organization"
     </p>
     
     <p>

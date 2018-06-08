@@ -2,10 +2,8 @@
 id: 128
 title: Finding all NuGet packages across multiple solutions
 date: 2013-08-02T09:57:17+00:00
-author: Tom
+author: Tom Robinson
 layout: post
-guid: http://www.tjrobinson.net/?p=128
-permalink-from-wordpress: /?p=128
 categories:
   - Uncategorized
 ---

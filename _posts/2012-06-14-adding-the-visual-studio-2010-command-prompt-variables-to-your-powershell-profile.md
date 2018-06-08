@@ -2,10 +2,8 @@
 id: 93
 title: Adding the Visual Studio 2010 Command Prompt variables to your PowerShell profile
 date: 2012-06-14T12:23:37+00:00
-author: Tom
+author: Tom Robinson
 layout: post
-guid: http://www.tjrobinson.net/?p=93
-permalink-from-wordpress: /?p=93
 categories:
   - Uncategorized
 ---

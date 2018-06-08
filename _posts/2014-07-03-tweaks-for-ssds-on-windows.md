@@ -2,10 +2,8 @@
 id: 161
 title: Tweaks for SSDs on Windows
 date: 2014-07-03T10:02:23+00:00
-author: Tom
+author: Tom Robinson
 layout: post
-guid: http://www.tjrobinson.net/?p=161
-permalink-from-wordpress: /?p=161
 categories:
   - Uncategorized
 ---

@@ -1,11 +1,9 @@
 ---
 id: 192
-title: 'How do you type a backslash &#8220;\&#8221; into the Dell DRAC viewer?'
+title: 'How do you type a backslash "\" into the Dell DRAC viewer?'
 date: 2015-06-12T10:51:22+00:00
-author: Tom
+author: Tom Robinson
 layout: post
-guid: http://www.tjrobinson.net/?p=192
-permalink-from-wordpress: /?p=192
 categories:
   - Uncategorized
 ---

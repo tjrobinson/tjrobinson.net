@@ -2,10 +2,8 @@
 id: 218
 title: Running IISRESET from Visual Studio
 date: 2015-12-22T11:13:18+00:00
-author: Tom
+author: Tom Robinson
 layout: post
-guid: http://www.tjrobinson.net/?p=218
-permalink-from-wordpress: /?p=218
 categories:
   - Uncategorized
 ---

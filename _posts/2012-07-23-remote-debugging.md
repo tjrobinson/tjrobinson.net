@@ -2,10 +2,8 @@
 id: 106
 title: Remote debugging
 date: 2012-07-23T14:02:27+00:00
-author: Tom
+author: Tom Robinson
 layout: post
-guid: http://www.tjrobinson.net/?p=106
-permalink-from-wordpress: /?p=106
 categories:
   - Uncategorized
 ---

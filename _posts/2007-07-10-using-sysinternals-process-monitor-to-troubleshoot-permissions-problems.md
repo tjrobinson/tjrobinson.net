@@ -2,10 +2,8 @@
 id: 16
 title: Using SysInternals Process Monitor to troubleshoot permissions problems
 date: 2007-07-10T21:37:20+00:00
-author: Tom
+author: Tom Robinson
 layout: post
-guid: http://blog.tjrobinson.net/?p=16
-permalink-from-wordpress: /?p=16
 categories:
   - Uncategorized
 ---

@@ -2,10 +2,8 @@
 id: 281
 title: Creating a self signed SSL certificate on Windows using PowerShell
 date: 2017-04-28T09:10:01+00:00
-author: Tom
+author: Tom Robinson
 layout: post
-guid: http://www.tjrobinson.net/?p=281
-permalink-from-wordpress: /?p=281
 categories:
   - Uncategorized
 ---

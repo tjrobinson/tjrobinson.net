@@ -1,11 +1,9 @@
 ---
 id: 223
-title: 'PSake: &#8220;Exception: Unknown .NET Framework version, 4.6.1 specified in 4.6.1.&#8221;'
+title: 'PSake: "Exception: Unknown .NET Framework version, 4.6.1 specified in 4.6.1."'
 date: 2016-04-06T12:58:42+00:00
-author: Tom
+author: Tom Robinson
 layout: post
-guid: http://www.tjrobinson.net/?p=223
-permalink-from-wordpress: /?p=223
 categories:
   - Uncategorized
 ---

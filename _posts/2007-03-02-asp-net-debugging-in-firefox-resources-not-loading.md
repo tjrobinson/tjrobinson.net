@@ -1,11 +1,9 @@
 ---
 id: 25
-title: 'ASP.NET debugging in Firefox &#8211; resources not loading'
+title: 'ASP.NET debugging in Firefox - resources not loading'
 date: 2007-03-02T17:33:06+00:00
-author: Tom
+author: Tom Robinson
 layout: post
-guid: http://blog.tjrobinson.net/?p=25
-permalink-from-wordpress: /?p=25
 categories:
   - Programming
   - Software
@@ -15,11 +13,11 @@ tags:
   - debugging
   - Firefox
 ---
-For a while I&#8217;ve had trouble with Firefox when using a local IIS 5 install to test/debug an ASP.NET application. Some of the images and other resources weren&#8217;t loading, almost as if a limit had been hit. It would also show a login dialog box.
+For a while I've had trouble with Firefox when using a local IIS 5 install to test/debug an ASP.NET application. Some of the images and other resources weren't loading, almost as if a limit had been hit. It would also show a login dialog box.
 
 The solution is to go to _about:config_ in Firefox and make sure that _network.http.keep-alive_ is set to _true_.
 
-The reason I&#8217;d set it to false in the past was so I could test a load balanced cluster.
+The reason I'd set it to false in the past was so I could test a load balanced cluster.
 
 **Update:** I’ve since found that the fix above doesn’t always work.
 

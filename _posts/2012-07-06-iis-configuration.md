@@ -2,10 +2,8 @@
 id: 99
 title: IIS Configuration
 date: 2012-07-06T08:59:37+00:00
-author: Tom
+author: Tom Robinson
 layout: post
-guid: http://www.tjrobinson.net/?p=99
-permalink-from-wordpress: /?p=99
 categories:
   - Uncategorized
 ---
@@ -42,4 +40,4 @@ See:
 
 Given that anonymous authentication is enabled by default (unless we’ve changed it as part of the machine image) then for this particular case we felt that it would be simplest just to assume that IIS is set up correctly. We would soon notice if this wasn’t the case.
 
-The better long-term solution would be to make sure that we set up the IIS delegation permissions as part of machine/image setup &#8211; to allow us to configure this setting and others in the web.config. This can be done via the command line so could be part of a server setup script.
+The better long-term solution would be to make sure that we set up the IIS delegation permissions as part of machine/image setup - to allow us to configure this setting and others in the web.config. This can be done via the command line so could be part of a server setup script.

@@ -2,10 +2,8 @@
 id: 81
 title: msysgit conflict with Subversion
 date: 2012-05-17T07:52:37+00:00
-author: Tom
+author: Tom Robinson
 layout: post
-guid: http://tjrobinson.wordpress.com/?p=81
-permalink-from-wordpress: /?p=81
 jabber_published:
   - "1337241158"
 categories:

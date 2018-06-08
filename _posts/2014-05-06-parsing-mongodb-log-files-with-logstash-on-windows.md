@@ -2,10 +2,8 @@
 id: 148
 title: Parsing MongoDB log files with logstash on Windows
 date: 2014-05-06T14:38:51+00:00
-author: Tom
+author: Tom Robinson
 layout: post
-guid: http://www.tjrobinson.net/?p=148
-permalink-from-wordpress: /?p=148
 categories:
   - Uncategorized
 ---

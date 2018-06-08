@@ -2,10 +2,8 @@
 id: 95
 title: '&ldquo;DateTimeOffset should be considered the default date and time type for application development&rdquo;'
 date: 2012-05-16T12:31:00+00:00
-author: Tom
+author: Tom Robinson
 layout: post
-guid: http://www.tjrobinson.net/?p=95
-permalink-from-wordpress: /?p=95
 categories:
   - Uncategorized
 ---
@@ -17,6 +15,6 @@ The main points are:
 
   * Only if a [DateTime](http://msdn.microsoft.com/en-us/library/system.datetime.aspx) value represents UTC does that value unambiguously identify a single point in time regardless of the system or time zone in which the value is used. 
       * The [DateTimeOffset](http://msdn.microsoft.com/en-us/library/system.datetimeoffset.aspx) structure represents a date and time value, together with an offset that indicates how much that value differs from UTC. Thus, the value always unambiguously identifies a single point in time. 
-          * The [DateTimeOffset](http://msdn.microsoft.com/en-us/library/system.datetimeoffset.aspx) type can be used to unambiguously define the meaning of &#8220;now&#8221;, to log transaction times, to log the times of system or application events, and to record file creation and modification times. 
+          * The [DateTimeOffset](http://msdn.microsoft.com/en-us/library/system.datetimeoffset.aspx) type can be used to unambiguously define the meaning of "now", to log transaction times, to log the times of system or application events, and to record file creation and modification times. 
               * These uses for [DateTimeOffset](http://msdn.microsoft.com/en-us/library/system.datetimeoffset.aspx) values are much more common than those for [DateTime](http://msdn.microsoft.com/en-us/library/system.datetime.aspx) values. As a result, [DateTimeOffset](http://msdn.microsoft.com/en-us/library/system.datetimeoffset.aspx) should be considered the default date and time type for application development. </ul> 
             It’s worth also mentioning that recent versions of SQL Server support an equivalent type, so you can easily persist this type in databases without any conversion: [datetimeoffset](http://msdn.microsoft.com/en-us/library/bb630289.aspx)

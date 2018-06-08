@@ -2,10 +2,8 @@
 id: 97
 title: Flotr2 charting library
 date: 2012-06-15T11:01:19+00:00
-author: Tom
+author: Tom Robinson
 layout: post
-guid: http://www.tjrobinson.net/?p=97
-permalink-from-wordpress: /?p=97
 categories:
   - Uncategorized
 ---

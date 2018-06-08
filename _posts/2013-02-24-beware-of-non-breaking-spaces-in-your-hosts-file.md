@@ -2,10 +2,8 @@
 id: 123
 title: Beware of non-breaking spaces in your HOSTS file
 date: 2013-02-24T12:53:26+00:00
-author: Tom
+author: Tom Robinson
 layout: post
-guid: http://www.tjrobinson.net/?p=123
-permalink-from-wordpress: /?p=123
 categories:
   - Uncategorized
 ---

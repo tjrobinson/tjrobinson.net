@@ -2,14 +2,12 @@
 id: 85
 title: printmanagement.msc
 date: 2012-06-05T09:02:18+00:00
-author: Tom
+author: Tom Robinson
 layout: post
-guid: http://www.tjrobinson.net/?p=85
-permalink-from-wordpress: /?p=85
 categories:
   - Uncategorized
 ---
-I&#8217;d not come across this until today, when I was having problems installing some printer drivers. It lets you list and remove printer drivers very easily.
+I'd not come across this until today, when I was having problems installing some printer drivers. It lets you list and remove printer drivers very easily.
 
 Just run this: _printmanagement.msc_
 

@@ -2,10 +2,8 @@
 id: 181
 title: Sluggish Internet Explorer performance and Browser Link
 date: 2015-02-24T09:03:56+00:00
-author: Tom
+author: Tom Robinson
 layout: post
-guid: http://www.tjrobinson.net/?p=181
-permalink-from-wordpress: /?p=181
 categories:
   - Uncategorized
 ---
@@ -13,7 +11,7 @@ I recently experienced problems where Internet Explorer performance was sluggish
 
 Disabling Browser Link solved the performance problems.
 
-Uncheck the &#8220;Enable Browser Link&#8221; option:
+Uncheck the "Enable Browser Link" option:
 
 &nbsp;
 

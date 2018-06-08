@@ -2,10 +2,8 @@
 id: 276
 title: Deleting local git branches that have been merged on the remote using PowerShell
 date: 2017-04-27T15:06:54+00:00
-author: Tom
+author: Tom Robinson
 layout: post
-guid: http://www.tjrobinson.net/?p=276
-permalink-from-wordpress: /?p=276
 categories:
   - Uncategorized
 ---

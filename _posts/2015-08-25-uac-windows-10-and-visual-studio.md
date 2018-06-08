@@ -2,10 +2,8 @@
 id: 207
 title: UAC, Windows 10 and Visual Studio
 date: 2015-08-25T11:29:14+00:00
-author: Tom
+author: Tom Robinson
 layout: post
-guid: http://www.tjrobinson.net/?p=207
-permalink-from-wordpress: /?p=207
 categories:
   - Uncategorized
 ---
@@ -17,4 +15,4 @@ Windows Registry Editor Version 5.00
 
 [HKEY\_CURRENT\_USER\Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers]
   
-&#8220;C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\IDE\\devenv.exe&#8221;=&#8221;~ RUNASADMIN&#8221;
+"C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\IDE\\devenv.exe"="~ RUNASADMIN"
