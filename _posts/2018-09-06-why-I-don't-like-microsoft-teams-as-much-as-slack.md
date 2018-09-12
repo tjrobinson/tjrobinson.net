@@ -19,5 +19,6 @@ As an ex-Slack user, who is now using Microsoft Teams, here's what I don't like 
 * If you have a short message and want to select the value in it, e.g. a story ID, you basically can't, the "on hover" UI covers it up.
 * Some of the connectors aren't as configurable or good as the Slack equivalents.
 * No slash commands.
+* The notification area icons for "In a meeting" and "you have a message" are the same.
 
 On the positive side - the integration with Outlook meetings, voice calls, and SharePoint is ok.
