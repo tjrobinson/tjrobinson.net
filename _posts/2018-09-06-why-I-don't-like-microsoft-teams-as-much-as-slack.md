@@ -20,5 +20,6 @@ As an ex-Slack user, who is now using Microsoft Teams, here's what I don't like 
 * Some of the connectors aren't as configurable or good as the Slack equivalents.
 * No slash commands.
 * The notification area icons for "In a meeting" and "you have a message" are the same.
+* The Giphy thumbnails are too small to read the text on them, and they're all squashed to be square.
 
 On the positive side - the integration with Outlook meetings, voice calls, and SharePoint is ok.
