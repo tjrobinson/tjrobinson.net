@@ -21,5 +21,6 @@ As an ex-Slack user, who is now using Microsoft Teams, here's what I don't like 
 * No slash commands.
 * The notification area icons for "In a meeting" and "you have a message" are the same.
 * The Giphy thumbnails are too small to read the text on them, and they're all squashed to be square.
+* You can't copy and paste multiple chat messages, so you can't make an archive of a conversation easily.
 
 On the positive side - the integration with Outlook meetings, voice calls, and SharePoint is ok.
