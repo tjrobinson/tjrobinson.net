@@ -21,7 +21,7 @@ Friday 3rd July 2009, 13:00 - 16:00
   
 Microsoft, Thames Valley Park, Reading
 
-[**London DotNet User Group: Silverlight 3**](http://www.dnug.org.uk/)
+**London DotNet User Group: Silverlight 3**
   
 Thursday 2nd July 2009, 18:30 - 21:00
   
