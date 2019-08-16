@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About
-permalink-from-wordpress: /about/
 ---
 
-Nothing to see here.
+I'm a software developer and this is my technology and coding blog.
