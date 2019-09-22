@@ -6,7 +6,8 @@
         {
             "type": "npm",
             "script": "develop",
-            "isBackground": true
+            "isBackground": true,
+            "problemMatcher": []
         }
     ]
 }
