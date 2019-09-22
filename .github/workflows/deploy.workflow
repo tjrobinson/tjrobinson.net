@@ -1,6 +1,6 @@
 workflow "Deploy to GitHub Pages" {
   resolves = ["npm run deploy"]
-  on = "push"
+  on = "commit_comment"
 }
 
 action "npm install" {
