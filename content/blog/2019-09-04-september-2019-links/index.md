@@ -1,6 +1,6 @@
 ---
 title: September 2019 Links
-date: 2019-09-04T00:00:00+00:00
+date: "2019-09-04"
 author: Tom Robinson
 layout: post
 ---

@@ -1,6 +1,6 @@
 ---
 title: Parsing IIS log files with logstash on Windows
-date: 2014-05-06T14:36:45+00:00
+date: "2014-05-06"
 ---
 **Note: work in progress**
 

@@ -1,6 +1,6 @@
 ---
 title: Why we stopped using the Microsoft Sync Framework
-date: 2011-05-11T14:22:31+00:00
+date: "2011-05-11"
 ---
 Somebody on Stack Overflow [recently asked](http://stackoverflow.com/questions/5965404/sync-2-net-applications/) for reasons why I wouldn't reccommend using the [Microsoft Sync Framework](http://msdn.microsoft.com/en-us/sync/bb736753). Below is some feedback which I sent to the Sync Framework team at Microsoft which covers this fairly well and may be useful to other people considering using the Sync Framework in non-database projects.
 

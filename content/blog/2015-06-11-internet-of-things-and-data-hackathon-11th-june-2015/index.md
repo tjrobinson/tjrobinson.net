@@ -1,6 +1,6 @@
 ---
 title: 'Internet of Things and Data Hackathon - 11th June 2015'
-date: 2015-06-11T18:36:37+00:00
+date: "2015-06-11"
 ---
 I don't have time to write a proper blog post, but here are some of the links I found useful today:
 

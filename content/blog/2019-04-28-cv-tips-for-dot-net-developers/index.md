@@ -1,6 +1,6 @@
 ---
 title: CV tips for .NET Developers
-date: 2019-04-28T00:00:00+00:00
+date: "2019-04-28"
 author: Tom Robinson
 layout: post
 ---

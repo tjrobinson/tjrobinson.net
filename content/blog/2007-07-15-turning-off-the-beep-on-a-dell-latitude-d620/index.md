@@ -1,6 +1,6 @@
 ---
 title: Turning off the beep on a Dell Latitude D620
-date: 2007-07-15T00:51:42+00:00
+date: "2007-07-15"
 ---
   1. Right-click on "My Computer", then click "Manage"
   2. Click on "Device Manager"

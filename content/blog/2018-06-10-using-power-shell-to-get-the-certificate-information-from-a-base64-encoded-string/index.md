@@ -1,6 +1,6 @@
 ---
 title: Using PowerShell to get the certificate information from a Base64 encoded string
-date: 2018-06-18T09:01:00+00:00
+date: "2018-06-18"
 ---
 ```powershell
 $certBase64 = 'BASE64ENCODEDSTRINGGOESHERE'

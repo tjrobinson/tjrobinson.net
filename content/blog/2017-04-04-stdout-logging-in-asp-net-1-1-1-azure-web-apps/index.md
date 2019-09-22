@@ -1,6 +1,6 @@
 ---
 title: Stdout logging in ASP.NET 1.1.1 Azure Web Apps
-date: 2017-04-04T10:25:54+00:00
+date: "2017-04-04"
 ---
 Because I keep forgetting it:
 

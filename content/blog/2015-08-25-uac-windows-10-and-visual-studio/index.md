@@ -1,6 +1,6 @@
 ---
 title: UAC, Windows 10 and Visual Studio
-date: 2015-08-25T11:29:14+00:00
+date: "2015-08-25"
 ---
 http://stackoverflow.com/questions/12257110/can-you-force-visual-studio-to-always-run-as-an-administrator-in-windows-8
 

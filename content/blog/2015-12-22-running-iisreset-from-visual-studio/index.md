@@ -1,6 +1,6 @@
 ---
 title: Running IISRESET from Visual Studio
-date: 2015-12-22T11:13:18+00:00
+date: "2015-12-22"
 ---
 If you want a quick way of running IISRESET from within Visual Studio: 
 

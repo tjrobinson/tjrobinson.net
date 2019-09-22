@@ -1,6 +1,6 @@
 ---
 title: August 2019 Links
-date: 2019-08-15T00:00:00+00:00
+date: "2019-08-15"
 author: Tom Robinson
 layout: post
 ---

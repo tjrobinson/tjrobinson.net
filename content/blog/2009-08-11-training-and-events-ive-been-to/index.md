@@ -1,6 +1,6 @@
 ---
 title: "Training and events I've been to"
-date: 2009-08-11T11:25:21+00:00
+date: "2009-08-11"
 ---
 For the last few years I've been trying to keep a list of all work-related training and events I've been to. I recently updated this and thought it might be interesting to post it here.
 

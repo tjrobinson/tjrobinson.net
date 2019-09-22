@@ -1,6 +1,6 @@
 ---
 title: Deleting files that Windows can’t delete
-date: 2013-03-19T08:54:37+00:00
+date: "2013-03-19"
 ---
 I recently downloaded some files from Salesforce Chatter which ended in "|." 
 

@@ -1,6 +1,6 @@
 ---
 title: 404 error accessing Salesforce OAuth2 endpoints?
-date: 2015-03-11T14:49:09+00:00
+date: "2015-03-11"
 ---
 Try removing the trailing slash.
 

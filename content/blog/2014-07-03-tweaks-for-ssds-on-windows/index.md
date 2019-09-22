@@ -1,6 +1,6 @@
 ---
 title: Tweaks for SSDs on Windows
-date: 2014-07-03T10:02:23+00:00
+date: "2014-07-03"
 ---
   * Update firmware
   * Check TRIM is enabled
