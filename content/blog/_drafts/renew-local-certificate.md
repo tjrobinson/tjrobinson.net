@@ -1,8 +1,6 @@
 ---
-title: Untitled
+title: Renew local certificate
 date: "2019-04-28"
-author: Tom Robinson
-layout: post
 ---
 
 ```

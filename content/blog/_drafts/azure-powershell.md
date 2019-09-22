@@ -1,8 +1,6 @@
 ---
-title: Untitled
+title: Azure PowerShell
 date: "2019-04-28"
-author: Tom Robinson
-layout: post
 ---
 
 ```

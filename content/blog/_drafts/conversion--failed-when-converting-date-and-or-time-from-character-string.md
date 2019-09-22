@@ -1,8 +1,6 @@
 ---
-title: Untitled
+title: Conversion failed when converting date and/or time from character string
 date: "2019-04-28"
-author: Tom Robinson
-layout: post
 ---
 
 ```sql

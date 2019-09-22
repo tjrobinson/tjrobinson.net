@@ -1,8 +1,6 @@
 ---
-title: Untitled
+title: PowerShell History
 date: "2019-04-28"
-author: Tom Robinson
-layout: post
 ---
 
 From: https://www.hanselman.com/blog/F7IsTheGreatestPowerShellHotkeyThatNoOneUsesAnyMoreWeMustFixThis.aspx
