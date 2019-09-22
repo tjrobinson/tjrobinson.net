@@ -1,3 +1,3 @@
 # tjrobinson.net
 
-https://www.tjrobinson.net/
+https://tjrobinson.net/
