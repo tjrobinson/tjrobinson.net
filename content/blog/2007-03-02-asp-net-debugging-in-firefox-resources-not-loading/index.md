@@ -1,17 +1,6 @@
 ---
-id: 25
 title: 'ASP.NET debugging in Firefox - resources not loading'
 date: 2007-03-02T17:33:06+00:00
-author: Tom Robinson
-layout: post
-categories:
-  - Programming
-  - Software
-  - Technology
-tags:
-  - ASP.NET
-  - debugging
-  - Firefox
 ---
 For a while I've had trouble with Firefox when using a local IIS 5 install to test/debug an ASP.NET application. Some of the images and other resources weren't loading, almost as if a limit had been hit. It would also show a login dialog box.
 
