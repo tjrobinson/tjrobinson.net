@@ -1,11 +1,6 @@
 ---
-id: 93
 title: Adding the Visual Studio 2010 Command Prompt variables to your PowerShell profile
 date: 2012-06-14T12:23:37+00:00
-author: Tom Robinson
-layout: post
-categories:
-  - Uncategorized
 ---
 If you add the following to your PowerShell profile then you’ll have access to all the commands only normally available by opening the Visual Studio 2010 Command Prompt:
 

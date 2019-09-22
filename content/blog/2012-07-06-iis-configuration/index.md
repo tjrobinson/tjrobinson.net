@@ -1,11 +1,6 @@
 ---
-id: 99
 title: IIS Configuration
 date: 2012-07-06T08:59:37+00:00
-author: Tom Robinson
-layout: post
-categories:
-  - Uncategorized
 ---
 We recently needed to make sure that anonymous authentication was enabled (at the IIS level) for an application, regardless of the defaults or configuration of the server the application was being installed on.
 

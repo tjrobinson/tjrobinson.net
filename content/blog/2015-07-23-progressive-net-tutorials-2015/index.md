@@ -1,11 +1,6 @@
 ---
-id: 199
 title: Progressive .NET Tutorials 2015
 date: 2015-07-23T11:12:58+00:00
-author: Tom Robinson
-layout: post
-categories:
-  - Uncategorized
 ---
 # <span style="color: #000000;"><span class="SpellingError SCX150598041">Microservices</span><span class="NormalTextRun SCX150598041"> in .NET</span></span>
 

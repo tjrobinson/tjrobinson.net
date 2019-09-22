@@ -1,11 +1,6 @@
 ---
-id: 192
 title: 'How do you type a backslash "\" into the Dell DRAC viewer?'
 date: 2015-06-12T10:51:22+00:00
-author: Tom Robinson
-layout: post
-categories:
-  - Uncategorized
 ---
 If you have a UK keyboard and try typing backslash into the Dell iDRACView application you might see # appear instead.
 

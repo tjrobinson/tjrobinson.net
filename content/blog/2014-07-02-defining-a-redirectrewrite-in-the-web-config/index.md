@@ -1,11 +1,6 @@
 ---
-id: 157
 title: Defining a redirect/rewrite in the Web.config
 date: 2014-07-02T13:57:53+00:00
-author: Tom Robinson
-layout: post
-categories:
-  - Uncategorized
 ---
 For my own reference:
 

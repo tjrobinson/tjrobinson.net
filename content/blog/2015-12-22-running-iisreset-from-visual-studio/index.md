@@ -1,11 +1,6 @@
 ---
-id: 218
 title: Running IISRESET from Visual Studio
 date: 2015-12-22T11:13:18+00:00
-author: Tom Robinson
-layout: post
-categories:
-  - Uncategorized
 ---
 If you want a quick way of running IISRESET from within Visual Studio: 
 

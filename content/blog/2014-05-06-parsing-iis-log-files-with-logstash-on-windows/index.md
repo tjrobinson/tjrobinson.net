@@ -1,11 +1,6 @@
 ---
-id: 141
 title: Parsing IIS log files with logstash on Windows
 date: 2014-05-06T14:36:45+00:00
-author: Tom Robinson
-layout: post
-categories:
-  - Uncategorized
 ---
 **Note: work in progress**
 

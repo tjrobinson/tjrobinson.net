@@ -1,12 +1,6 @@
 ---
-id: 60
 title: 'The New Efficiency: The UK Technical Launch of Windows 7, Windows Server 2008 R2 and Exchange Server 2010'
 date: 2009-10-08T19:58:50+00:00
-author: Tom Robinson
-layout: post
-categories:
-  - Software
-  - Technology
 ---
 Tuesday was the UK Technical Launch of Windows 7, Windows Server 2008 R2 and Exchange Server 2010 at Wembley Stadium. The weather was pretty grim but it was good to finally walk down Olympic Way for the first time and see the arch coming into view.
 

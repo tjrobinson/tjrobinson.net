@@ -1,11 +1,6 @@
 ---
-id: 159
 title: MongoDB London 2013
 date: 2014-07-03T09:40:25+00:00
-author: Tom Robinson
-layout: post
-categories:
-  - Uncategorized
 ---
 Some very rough notes from MongoDB London 2013:
 

@@ -1,11 +1,6 @@
 ---
-id: 16
 title: Using SysInternals Process Monitor to troubleshoot permissions problems
 date: 2007-07-10T21:37:20+00:00
-author: Tom Robinson
-layout: post
-categories:
-  - Uncategorized
 ---
 I recently found a good use for [Process Monitor](http://www.microsoft.com/technet/sysinternals/utilities/processmonitor.mspx) which I hadn't thought of before: 
 

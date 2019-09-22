@@ -1,13 +1,6 @@
 ---
-id: 81
 title: msysgit conflict with Subversion
 date: 2012-05-17T07:52:37+00:00
-author: Tom Robinson
-layout: post
-jabber_published:
-  - "1337241158"
-categories:
-  - Uncategorized
 ---
 I’ve got msysgit installed, with the bin directory in my PATH.
 

@@ -1,11 +1,6 @@
 ---
-id: 189
 title: Most Good Ideas Actually Deliver Zero or Negative Value
 date: 2015-06-10T09:09:58+00:00
-author: Tom Robinson
-layout: post
-categories:
-  - Uncategorized
 ---
 <div id="main-content" class="wiki-content">
   <div class="wiki-content">
