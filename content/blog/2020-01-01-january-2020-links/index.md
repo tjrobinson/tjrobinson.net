@@ -9,3 +9,5 @@ A collection of interesting things I've discovered this month:
 * https://docs.microsoft.com/en-us/sql/t-sql/functions/difference-transact-sql?view=sql-server-ver15
 * https://chrome.google.com/webstore/detail/puppeteer-recorder/djeegiggegleadkkbgopoonhjimgehda?hl=en
 * https://github.com/discimagechef/DiscImageChef
+* https://github.com/hausec/PowerZure
+* https://posts.specterops.io/attacking-azure-azure-ad-and-introducing-powerzure-ca70b330511a
