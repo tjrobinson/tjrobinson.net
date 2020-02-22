@@ -6,17 +6,10 @@ A lot of web development tools like [Dreamweaver](http://kb.adobe.com/selfservic
 
 I thought I'd share a basic [filter](http://winmerge.org/2.4/manual/filters.html) I've made for [WinMerge](http://winmerge.org/), which makes it ignore any junk files created by Dreamweaver, FrontPage and Windows.
 
-**Folders ignored:
-  
-** 
-
+* Folders ignored:
   * \_vti\_cnf
   * _notes
-
-**Files ignored:
-  
-** 
-
+* Files ignored:
   * Thumbs.db
   * \_vti\_cnf
   * dwsync.xml
