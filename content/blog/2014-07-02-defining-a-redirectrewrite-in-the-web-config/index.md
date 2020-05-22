@@ -2,6 +2,7 @@
 title: Defining a redirect/rewrite in the Web.config
 date: "2014-07-02"
 ---
+
 For my own reference:
 
 <noscript>

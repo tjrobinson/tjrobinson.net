@@ -2,6 +2,7 @@
 title: IIS Configuration
 date: "2012-07-06"
 ---
+
 We recently needed to make sure that anonymous authentication was enabled (at the IIS level) for an application, regardless of the defaults or configuration of the server the application was being installed on.
 
 To do this you can add the following (as a sibling of <system.web>) in the Web.config to make the required IIS authentication settings explicit:

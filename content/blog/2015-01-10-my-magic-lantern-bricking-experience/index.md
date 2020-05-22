@@ -2,6 +2,7 @@
 title: My Magic Lantern bricking experience
 date: "2015-01-10"
 ---
+
 A few months ago I managed to brick my wife's Canon 60D. This is the story of how it happened and the things I tried doing to fix it before finally giving up and sending it off to be repaired.
 
 Whilst using my Canon 60D (Firmware 1.1.1, ML 2.3) to take long exposures (astrophotography) I noticed it had apparently frozen up. Unfortunately I can't remember exactly what I then did, but it was probably a good 30 seconds or more before I removed the battery and card.
@@ -12,21 +13,21 @@ I was seeing nothing at all on the rear screen, LCD display or in the viewfinde
 
 I tried the following standard suggestions for a "bricked" camera but nothing helped:
 
-  * different batteries - partially charged and 100% charged
-  * different lenses
-  * with/without lens
-  * with/without card
-  * using a card formatted on my PC - empty
-  * using a card formatted on my PC - clean ML install
-  * using a card formatted on another 60D (low-level format)
+- different batteries - partially charged and 100% charged
+- different lenses
+- with/without lens
+- with/without card
+- using a card formatted on my PC - empty
+- using a card formatted on my PC - clean ML install
+- using a card formatted on another 60D (low-level format)
 
 I posted my problem onto the Magic Lantern forums: [Bricked 60D - no sign of life except for the SD card light with one ML card](http://magiclantern.fm/forum/index.php?topic=13383)
 
 There were a few diagnostic tools which I was able to run:
 
-  * LED blink test
-  * Startup log
-  * ROM dump
+- LED blink test
+- Startup log
+- ROM dump
 
 After a few teething issues with incorrectly formatted cards and corrupted file copies, we managed to get the LED blink test and ROM dump to run. The LED blink test just flashes the SD card light once a second - useful for showing that it's able to read the card and that basic startup routines are executing. The ROM dump was meaningless to me, but was of interest to the Magic Lantern developers who were able to look for possible corruption.
 
@@ -53,8 +54,6 @@ The decoding camera was set up with a very nice macro lens, looking straight at 
 &nbsp;
 
 The end result was this:
-
-
 
 Unfortunately (as is probably obvious with hindsight) the decoding process didn't work that well so the output is a bit corrupted.
 

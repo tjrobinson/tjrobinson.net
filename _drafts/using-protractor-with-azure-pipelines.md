@@ -3,7 +3,7 @@ title: This version of ChromeDriver only supports Chrome version 76
 date: "2019-09-22"
 ---
 
-This blog post is for anyone getting this error when 
+This blog post is for anyone getting this error when
 
 When using managed agent.
 
@@ -25,31 +25,19 @@ See which Azure Pipelines image is using:
 
 https://github.com/microsoft/azure-pipelines-image-generation/blob/master/images/win/Vs2019-Server2019-Readme.md#google-chrome
 
-
 ```
 (Get-Item "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe").VersionInfo
 ```
-
 
 Get the appropriate ChromeDriver version from here:
 
 https://chromedriver.chromium.org/downloads
 
-
-
-
-
-
-
 Download a specific version
 
 https://github.com/angular/webdriver-manager/blob/legacy/docs/versions.md#download-a-specific-version
 
-
-
 Don't use the global version as protractor uses the local
-
-
 
 ```
 node_modules\.bin\webdriver-manager update --gecko false --standalone false --versions.chrome 75.0.3770.140
@@ -60,7 +48,6 @@ node_modules\.bin\webdriver-manager status
 ```
 
 Example output on Azure Pipelines.
-
 
 ```
 [10:06:31] I/status - selenium standalone version available: 3.141.59 [last]

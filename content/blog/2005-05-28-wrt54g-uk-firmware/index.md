@@ -2,6 +2,7 @@
 title: WRT54G-UK Firmware
 date: "2005-05-28"
 ---
+
 I recently bought the <a href="http://www.ebuyer.com/customer/products/index.html?product_uid=45023" target="_blank">UK edition (WRT54G-UK)</a> of the [Linksys Wireless-G 54mbps Broadband Router](http://www.linksys.com/products/product.asp?prid=508). Recently it seems to have either been crashing, or not picking the connection back up again after it's dropped. Even though it's only a month or so old, I decided it was probably time for a firmware upgrade. The label on the bottom of mine said is was Version 2. The firmware was version 2.2.07.
 
 As there are differences between the UK and US models, I started by looking on the Linksys UK support site which warns you that "If you use the US versions of your wireless product's drivers or firmware on European wireless products, you may lose the ability to use high channels (channels 12 and 13)." Unfortunately I couldn't find any [European firmware updates](http://www.linksys.com/international/firmware.asp?intfwid=75&coid=6) for Version 2 of the hardware. As usual, international support is lacking.

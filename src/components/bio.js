@@ -53,9 +53,7 @@ const Bio = () => {
           borderRadius: `50%`,
         }}
       />
-      <p>
-      I'm a software developer and this is my technology and coding blog.
-      </p>
+      <p>I'm a software developer and this is my technology and coding blog.</p>
     </div>
   )
 }

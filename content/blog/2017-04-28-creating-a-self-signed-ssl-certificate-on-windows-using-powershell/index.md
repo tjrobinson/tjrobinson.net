@@ -2,10 +2,10 @@
 title: Creating a self signed SSL certificate on Windows using PowerShell
 date: "2017-04-28"
 ---
+
 Run this PowerShell command as Administrator:
 
     New-SelfSignedCertificate –DnsName *.local-dev.com –CertStoreLocation cert:\LocalMachine\My
-    
 
 Open _Manage Computer Certificates_ (typing _certificates_ in the Start menu should find it)
 

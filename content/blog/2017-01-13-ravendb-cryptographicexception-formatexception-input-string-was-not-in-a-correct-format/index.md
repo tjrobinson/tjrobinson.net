@@ -1,7 +1,8 @@
 ---
-title: 'RavenDB: CryptographicException &#038; FormatException: Input string was not in a correct format'
+title: "RavenDB: CryptographicException &#038; FormatException: Input string was not in a correct format"
 date: "2017-01-13"
 ---
+
 If you get an error similar to the below and are using encrypted databases, make sure that you're running the RavenDB process as the same user you were when the databases were created/encrypted.
 
 The encryption keys are stored in per-user stores by Windows so if you created the database while RavenDB was running as a Windows Service (as LOCAL SYSTEM) and then later run RavenDB directly using Raven.Server.exe it will be running as the logged in user, not LOCAL SYSTEM and won't have access to the encryption keys.

@@ -2,6 +2,7 @@
 title: Progressive .NET Tutorials 2015
 date: "2015-07-23"
 ---
+
 # <span style="color: #000000;"><span class="SpellingError SCX150598041">Microservices</span><span class="NormalTextRun SCX150598041"> in .NET</span></span>
 
 IDL - interface definition language - swagger?
@@ -48,8 +49,8 @@ What about having a single API to cover everything?
 
 Steps:
 
-  1. Break up into bounded contexts
-  2. Ubiquitous language
+1. Break up into bounded contexts
+2. Ubiquitous language
 
 Brighter
 
@@ -75,9 +76,9 @@ http://microservices.io/patterns/microservices.html
 
 <span style="color: #000000;">3 Core Abilities of an actor </span>
 
-  1. <span style="color: #000000;">Send messages </span>
-  2. <span style="color: #000000;">Create other actors </span>
-  3. <span style="color: #000000;">Change behaviour </span>
+1. <span style="color: #000000;">Send messages </span>
+2. <span style="color: #000000;">Create other actors </span>
+3. <span style="color: #000000;">Change behaviour </span>
 
 <span style="color: #000000;">Location transparency (same code in different locations) </span>
 
@@ -129,7 +130,7 @@ http://microservices.io/patterns/microservices.html
 
 <span style="color: #000000;">DSC not just a Microsoft/PowerShell standard </span>
 
-<span style="color: #000000;">AWS $userdata </span>
+<span style="color: #000000;">AWS \$userdata </span>
 
 <span style="color: #000000;">Pull server </span>
 
@@ -149,7 +150,7 @@ http://microservices.io/patterns/microservices.html
 
 <span style="color: #000000;">Check git repo for slides etc </span>
 
-# <span style="color: #000000;">Keynote - Why I'm *not* leaving .NET!</span>
+# <span style="color: #000000;">Keynote - Why I'm _not_ leaving .NET!</span>
 
 <span style="color: #000000;">https://skillsmatter.com/skillscasts/6397-why-i-m-not-leaving-dot-net</span>
 
@@ -212,8 +213,6 @@ http://microservices.io/patterns/microservices.html
 # <span style="color: #000000;">Reactive-interactive approaches to visualization of F# jobs</span>
 
 <span style="color: #000000;">https://skillsmatter.com/skillscasts/6443-reactive-interactive-approaches-to-visualization-of-f-sharp-jobs</span>
-
-
 
 <div style="margin-bottom:5px">
   <strong> <a href="https://www.slideshare.net/petabridge/prog-net-slides" title="Akka.NET Fundamentals — #ProgNet15" target="_blank">Akka.NET Fundamentals — #ProgNet15</a> </strong> from <strong><a href="https://www.slideshare.net/petabridge" target="_blank">petabridge</a></strong>

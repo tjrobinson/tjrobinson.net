@@ -2,6 +2,7 @@
 title: Most Good Ideas Actually Deliver Zero or Negative Value
 date: "2015-06-10"
 ---
+
 <div id="main-content" class="wiki-content">
   <div class="wiki-content">
     <p>

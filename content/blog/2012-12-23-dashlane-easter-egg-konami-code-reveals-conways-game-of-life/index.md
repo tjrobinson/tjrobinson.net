@@ -2,6 +2,7 @@
 title: "Dashlane Easter Egg - Konami Code reveals Conway's Game of Life"
 date: "2012-12-23"
 ---
+
 I've been a <a href="https://www.dashlane.com/en/cs/3b9ade75" target="_blank">Dashlane </a>user for a while now, having found out about it through a friend and respected colleague who started working for them in the Paris office.
 
 What you may not know is that Dashlane have invited a number of people to be on their "Board of Users" and to give feedback on new product developments. A few days ago one of the QA Engineers set us all a challenge - to find a hidden "cheat code" in the PC version of the application.

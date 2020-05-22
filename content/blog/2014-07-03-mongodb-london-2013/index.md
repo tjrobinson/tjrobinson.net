@@ -2,6 +2,7 @@
 title: MongoDB London 2013
 date: "2014-07-03"
 ---
+
 Some very rough notes from MongoDB London 2013:
 
 <p lang="en-US">

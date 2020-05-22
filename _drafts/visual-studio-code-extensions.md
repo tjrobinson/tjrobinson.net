@@ -1,1 +1,1 @@
-* (https://marketplace.visualstudio.com/items?itemName=MariusAlchimavicius.json-to-ts)[https://marketplace.visualstudio.com/items?itemName=MariusAlchimavicius.json-to-ts]
+- (https://marketplace.visualstudio.com/items?itemName=MariusAlchimavicius.json-to-ts)[https://marketplace.visualstudio.com/items?itemName=MariusAlchimavicius.json-to-ts]

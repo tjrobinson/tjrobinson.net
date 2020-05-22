@@ -1,4 +1,3 @@
-
 ```
 function jwt_decode(jwt) {
     var parts = jwt.split('.'); // header, payload, signature

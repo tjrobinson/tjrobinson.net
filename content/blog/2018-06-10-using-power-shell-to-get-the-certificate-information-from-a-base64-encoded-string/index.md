@@ -2,6 +2,7 @@
 title: Using PowerShell to get the certificate information from a Base64 encoded string
 date: "2018-06-18"
 ---
+
 ```powershell
 $certBase64 = 'BASE64ENCODEDSTRINGGOESHERE'
 $cert = [System.Security.Cryptography.X509Certificates.X509Certificate2]([System.Convert]::FromBase64String($certBase64))

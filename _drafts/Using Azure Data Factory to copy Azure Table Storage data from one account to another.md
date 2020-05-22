@@ -4,8 +4,8 @@ There's currently no way of easily Azure Table Storage data from one account to 
 
 Some of the options are:
 
-* PowerShell
-* Azure Data Factory
+- PowerShell
+- Azure Data Factory
 
 I will be covering the use of Azure Data Factory.
 
