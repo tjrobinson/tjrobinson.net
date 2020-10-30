@@ -9,3 +9,7 @@
 ## NPM Scripts
 
 - `npm run develop` - build, watch and serve
+
+## GraphQL
+
+- [http://localhost:8000/___graphql](http://localhost:8000/___graphql)
