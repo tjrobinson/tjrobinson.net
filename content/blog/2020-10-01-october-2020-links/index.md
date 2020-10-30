@@ -26,3 +26,21 @@ A collection of interesting things I've discovered this month:
 - [Writage](https://www.writage.com/) - Markdown plugin for Microsoft Word
 - [lunr-core](https://github.com/bleroy/lunr-core) - A port of lunr.js to .NET Core. "Lunr-core is suitable for small applications that require a simple search engine but without the overhead of a full-scale search engine such as Lucene."
 - [Bootstrap logging with Serilog + ASP.NET Core](https://nblumhardt.com/2020/10/bootstrap-logger/)
+- [Printing PDFs in Blazor](https://benjaminvertonghen.medium.com/printing-pdfs-in-blazor-8dff559101f9)
+- [Adding a little Swagger to OData](https://channel9.msdn.com/Shows/On-NET/Adding-a-little-Swagger-to-OData?WT.mc_id=ondotnet-c9-cephilli)
+- [Detecting duplicate routes in ASP.NET Core](https://andrewlock.net/detecting-duplicate-routes-in-aspnetcore/)
+- [Analyze syslog messages with Seq](https://blog.datalust.co/seq-input-syslog/)
+- [Creating a custom endpoint visualization graph](https://andrewlock.net/creating-a-custom-endpoint-visualization-graph/)
+- [Serilog Best Practices](https://benfoster.io/blog/serilog-best-practices/)
+- [Handling Web API Exceptions with ProblemDetails middleware](https://andrewlock.net/handling-web-api-exceptions-with-problemdetails-middleware/)
+- [Beginners Guide to Programming using BBC BASIC](http://www.computinghistory.org.uk/det/58142/Beginners-Guide-to-Programming-Using-BBC-BASIC-Part-1/)
+- [Using Alba for Integration Testing ASP.Net Core Web Services](https://jeremydmiller.com/2020/04/13/using-alba-for-integration-testing-asp-net-core-web-services/)
+- [Adding a git commit hash and Azure DevOps Build Number and Build ID to an ASP.NET website](https://www.hanselman.com/blog/adding-a-git-commit-hash-and-azure-devops-build-number-and-build-id-to-an-aspnet-website)
+- [Usborne coding books for a new generation](https://usborne.com/browse-books/features/computer-and-coding-books/)
+- [https://arlanblogs.alvarnet.com/adding-a-root-domain-to-azure-cdn-endpoint/](Adding a Root Domain to Azure CDN endpoint)#
+- [Messier Catalogue: the complete list](https://www.skyatnightmagazine.com/space-science/messier-catalogue/)
+- [C# 8.0 nullable references: non-nullable is the new default](https://endjin.com/blog/2020/04/dotnet-csharp-8-nullable-references-non-nullable-is-the-new-default)
+- [Nushell](https://www.nushell.sh/)
+- [Angular 9's Best Hidden Feature: Strict Template Checking](https://auth0.com/blog/angular-9s-best-hidden-feature-strict-template-checking/)
+- [Garbage Collection at Food Courts](https://devblogs.microsoft.com/dotnet/garbage-collection-at-food-courts/)
+- [Headless Recorder](https://chrome.google.com/webstore/detail/headless-recorder/djeegiggegleadkkbgopoonhjimgehda?hl=en)
