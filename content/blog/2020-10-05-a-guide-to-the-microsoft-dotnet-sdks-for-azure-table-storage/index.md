@@ -3,12 +3,11 @@ title: a-guide-to-the-microsoft-dotnet-sdks-for-azure-table-storage
 date: "2020-10-05"
 ---
 
-*Last updated: October 2020*
+_Last updated: October 2020_
 
 There are a lot of nuget packages from Microsoft for use with Azure Table Storage. This is a short guide so that you can pick the right one.
 
 # `WindowsAzure.Storage` (deprecated)
-
 
 https://www.nuget.org/packages/WindowsAzure.Storage/
 
