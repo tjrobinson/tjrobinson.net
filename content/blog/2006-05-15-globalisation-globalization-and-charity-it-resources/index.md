@@ -43,4 +43,4 @@ While tidying my bookmarks today, I found a load of sites I'd used for my MSc. I
 - [CITRA](http://www.citra.org.uk/index.php){#rdf:#\$dQMLd1}
 - [Omega Alpha Limited](http://www.omega-alpha.com/community2.htm){#rdf:#\$eQMLd1}
 
-You might also like to find out more about my [Msc Dissertation](/content/a-global-web-enablement-framework-for-small-charities-and-voluntary-sector-organisations/).
+You might also like to find out more about my [Msc Dissertation](/404).

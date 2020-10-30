@@ -22,7 +22,7 @@ When using managed agent.
 
 See which Azure Pipelines image is using:
 
-https://github.com/microsoft/azure-pipelines-image-generation/blob/master/images/win/Vs2019-Server2019-Readme.md#google-chrome
+https://github.com/microsoft/azure-pipelines-image-generation/blob/masterimages/win/Vs2019-Server2019-Readme.md#google-chrome
 
 ```
 (Get-Item "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe").VersionInfo

@@ -25,3 +25,4 @@ A collection of interesting things I've discovered this month:
 - [Fully documented source code for Elite on the BBC Micro](https://github.com/markmoxon/elite-beebasm)
 - [Writage](https://www.writage.com/) - Markdown plugin for Microsoft Word
 - [lunr-core](https://github.com/bleroy/lunr-core) - A port of lunr.js to .NET Core. "Lunr-core is suitable for small applications that require a simple search engine but without the overhead of a full-scale search engine such as Lucene."
+- [Bootstrap logging with Serilog + ASP.NET Core](https://nblumhardt.com/2020/10/bootstrap-logger/)

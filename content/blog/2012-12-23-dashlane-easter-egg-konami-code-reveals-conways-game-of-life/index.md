@@ -11,7 +11,7 @@ Well, I found it! (and I think I was the first)
 
 It turns out that if you open the application, then go to the _Help_ > _About_ screen you'll initially see this:
 
-<a href="https://www.tjrobinson.net/?attachment_id=117" rel="attachment wp-att-117"><img class="alignnone size-full wp-image-117" alt="about-before" src="/images/2012/12/about-before.png" width="316" height="289" srcset="/images/2012/12/about-before.png 316w, /images/2012/12/about-before-300x274.png 300w" sizes="(max-width: 316px) 100vw, 316px" /></a>
+<a href="https://www.tjrobinson.net/?attachment_id=117" rel="attachment wp-att-117"><img class="alignnone size-full wp-image-117" alt="about-before" src="images/2012/12/about-before.png" width="316" height="289" srcset="images/2012/12/about-before.png 316w, images/2012/12/about-before-300x274.png 300w" sizes="(max-width: 316px) 100vw, 316px" /></a>
 
 Now comes the fun part, you need to type the <a href="http://en.wikipedia.org/wiki/Konami_Code" target="_blank">Konami Code</a>:
 
@@ -19,18 +19,18 @@ Now comes the fun part, you need to type the <a href="http://en.wikipedia.org/wi
 
 As soon as you finish that, you'll see this screen and the <a href="http://en.wikipedia.org/wiki/Easter_egg_(media)" target="_blank">Easter Egg</a> will have been activated:
 
-<a style="font-style: normal; line-height: 24px; text-decoration: underline;" href="https://www.tjrobinson.net/?attachment_id=116" rel="attachment wp-att-116"><img class="alignnone size-full wp-image-116" style="border-color: #bbbbbb; background-color: #eeeeee;" alt="about-after" src="/images/2012/12/about-after.png" width="316" height="289" srcset="/images/2012/12/about-after.png 316w, /images/2012/12/about-after-300x274.png 300w" sizes="(max-width: 316px) 100vw, 316px" /></a>
+<a style="font-style: normal; line-height: 24px; text-decoration: underline;" href="https://www.tjrobinson.net/?attachment_id=116" rel="attachment wp-att-116"><img class="alignnone size-full wp-image-116" style="border-color: #bbbbbb; background-color: #eeeeee;" alt="about-after" src="images/2012/12/about-after.png" width="316" height="289" srcset="images/2012/12/about-after.png 316w, images/2012/12/about-after-300x274.png 300w" sizes="(max-width: 316px) 100vw, 316px" /></a>
 
 Initially I though, hmm, interesting, is it some kind of icon editor? You can start drawing on the grid, like this:
 
-<a href="https://www.tjrobinson.net/?attachment_id=119" rel="attachment wp-att-119"><img class="alignnone size-full wp-image-119" alt="about-start" src="/images/2012/12/about-start.png" width="316" height="289" srcset="/images/2012/12/about-start.png 316w, /images/2012/12/about-start-300x274.png 300w" sizes="(max-width: 316px) 100vw, 316px" /></a>
+<a href="https://www.tjrobinson.net/?attachment_id=119" rel="attachment wp-att-119"><img class="alignnone size-full wp-image-119" alt="about-start" src="images/2012/12/about-start.png" width="316" height="289" srcset="images/2012/12/about-start.png 316w, images/2012/12/about-start-300x274.png 300w" sizes="(max-width: 316px) 100vw, 316px" /></a>
 
 But as soon as you click the Dashlane logo then the grid turns into <a href="http://en.wikipedia.org/wiki/Conway's_Game_of_Life" target="_blank">Conway's Game of Life</a>:
 
-<a href="https://www.tjrobinson.net/?attachment_id=118" rel="attachment wp-att-118"><img class="alignnone size-full wp-image-118" alt="about-running" src="/images/2012/12/about-running.png" width="316" height="289" srcset="/images/2012/12/about-running.png 316w, /images/2012/12/about-running-300x274.png 300w" sizes="(max-width: 316px) 100vw, 316px" /></a>
+<a href="https://www.tjrobinson.net/?attachment_id=118" rel="attachment wp-att-118"><img class="alignnone size-full wp-image-118" alt="about-running" src="images/2012/12/about-running.png" width="316" height="289" srcset="images/2012/12/about-running.png 316w, images/2012/12/about-running-300x274.png 300w" sizes="(max-width: 316px) 100vw, 316px" /></a>
 
 The guys at Dashlane have been kind enough to offer to send me some goodies but the main prize is this signed Dashlane drawing from the team at Dashlane in Paris:
 
-<a href="https://www.tjrobinson.net/?attachment_id=113" rel="attachment wp-att-113"><img class="alignnone size-full wp-image-113" alt="Dashlane Konami Code Scan" src="/images/2012/10/Dashlane-Konami-Code-Scan-e1356101091303.jpg" width="600" height="731" /></a>
+<a href="https://www.tjrobinson.net/?attachment_id=113" rel="attachment wp-att-113"><img class="alignnone size-full wp-image-113" alt="Dashlane Konami Code Scan" src="images/2012/10/Dashlane-Konami-Code-Scan-e1356101091303.jpg" width="600" height="731" /></a>
 
 Thanks all!
