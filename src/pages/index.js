@@ -17,7 +17,7 @@ class BlogIndex extends React.Component {
         {posts.filter(({ node }) => node.fileAbsolutePath.includes("pages")).map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
-            <li>
+            <li key={node.fields.slug}>
                   <Link to={node.fields.slug}>{title}</Link>
             </li>
           )
@@ -29,7 +29,7 @@ class BlogIndex extends React.Component {
         {posts.filter(({ node }) => node.fileAbsolutePath.includes("blog")).map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
-            <li>
+            <li key={node.fields.slug}>
                   <Link to={node.fields.slug}>{title}</Link>
             </li>
           )

@@ -1,0 +1,34 @@
+body {
+    margin:50px;
+    background-color: #121212;
+    color: #ddd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-family: monospace;
+    margin-bottom:30px;
+    color: darkorange;
+}
+
+h2 {
+    font-family: monospace;
+    margin-bottom:30px;
+    color: goldenrod;
+}
+
+a[href] {
+	color: #1e8ad6;
+}
+
+a[href]:hover {
+	color: #3ba0e6;
+}
+
+p {
+    margin: 20px 0 20px 0;
+}
+
+pre {
+    background-color: #000;
+}

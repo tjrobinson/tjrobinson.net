@@ -15,7 +15,7 @@ class Layout extends React.Component {
       )
     } else {
       header = (
-        <h3>
+        <h1>
           <Link
             style={{
               boxShadow: `none`,
@@ -26,7 +26,7 @@ class Layout extends React.Component {
           >
             {title}
           </Link>
-        </h3>
+        </h1>
       )
     }
     return (
