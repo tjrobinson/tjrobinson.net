@@ -8,11 +8,7 @@ class Layout extends React.Component {
     let header
 
     if (location.pathname === rootPath) {
-      header = (
-        <h1>
-            {title}
-        </h1>
-      )
+      header = <h1>{title}</h1>
     } else {
       header = (
         <h1>
@@ -33,7 +29,7 @@ class Layout extends React.Component {
       <div
         style={{
           marginLeft: `auto`,
-          marginRight: `auto`
+          marginRight: `auto`,
         }}
       >
         <header>{header}</header>

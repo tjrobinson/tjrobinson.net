@@ -11,29 +11,32 @@ class BlogIndex extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        
         <h2>Pages</h2>
         <ul>
-        {posts.filter(({ node }) => node.fileAbsolutePath.includes("pages")).map(({ node }) => {
-          const title = node.frontmatter.title || node.fields.slug
-          return (
-            <li key={node.fields.slug}>
+          {posts
+            .filter(({ node }) => node.fileAbsolutePath.includes("pages"))
+            .map(({ node }) => {
+              const title = node.frontmatter.title || node.fields.slug
+              return (
+                <li key={node.fields.slug}>
                   <Link to={node.fields.slug}>{title}</Link>
-            </li>
-          )
-        })}
+                </li>
+              )
+            })}
         </ul>
-        
+
         <h2>Blog posts</h2>
         <ul>
-        {posts.filter(({ node }) => node.fileAbsolutePath.includes("blog")).map(({ node }) => {
-          const title = node.frontmatter.title || node.fields.slug
-          return (
-            <li key={node.fields.slug}>
+          {posts
+            .filter(({ node }) => node.fileAbsolutePath.includes("blog"))
+            .map(({ node }) => {
+              const title = node.frontmatter.title || node.fields.slug
+              return (
+                <li key={node.fields.slug}>
                   <Link to={node.fields.slug}>{title}</Link>
-            </li>
-          )
-        })}
+                </li>
+              )
+            })}
         </ul>
       </Layout>
     )

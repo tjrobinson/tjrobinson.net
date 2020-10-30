@@ -17,7 +17,7 @@ Now comes the fun part, you need to type the [Konami Code](http://en.wikipedia.o
 
 ↑ ↑ ↓ ↓ ← → ← → B A
 
-As soon as you finish that, you'll see this screen and the [Easter Egg](http://en.wikipedia.org/wiki/Easter_egg_(media)) will have been activated:
+As soon as you finish that, you'll see this screen and the [Easter Egg](<http://en.wikipedia.org/wiki/Easter_egg_(media)>) will have been activated:
 
 ![A Dashlane screenshot](about-after.png)
 

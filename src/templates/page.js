@@ -12,12 +12,10 @@ class PageTemplate extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <article>
           <header>
-            <h2>
-              {post.frontmatter.title}
-            </h2>
+            <h2>{post.frontmatter.title}</h2>
           </header>
           <section dangerouslySetInnerHTML={{ __html: post.html }} />
-          <hr/>
+          <hr />
         </article>
         <nav>
           <ul
@@ -30,7 +28,9 @@ class PageTemplate extends React.Component {
             }}
           >
             <li>
-                <Link to="/" rel="prev">Back</Link>
+              <Link to="/" rel="prev">
+                Back
+              </Link>
             </li>
           </ul>
         </nav>

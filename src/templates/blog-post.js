@@ -13,15 +13,11 @@ class BlogPostTemplate extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <article>
           <header>
-            <h2>
-              {post.frontmatter.title}
-            </h2>
-            <p>
-              {post.frontmatter.date}
-            </p>
+            <h2>{post.frontmatter.title}</h2>
+            <p>{post.frontmatter.date}</p>
           </header>
           <section dangerouslySetInnerHTML={{ __html: post.html }} />
-          <hr/>
+          <hr />
         </article>
 
         <nav>

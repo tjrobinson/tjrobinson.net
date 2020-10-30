@@ -12,4 +12,4 @@
 
 ## GraphQL
 
-- [http://localhost:8000/___graphql](http://localhost:8000/___graphql)
+- [http://localhost:8000/\_\_\_graphql](http://localhost:8000/___graphql)
