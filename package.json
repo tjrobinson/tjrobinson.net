@@ -6,10 +6,10 @@
   "dependencies": {
     "gatsby": "^2.24.91",
     "gatsby-image": "^2.4.21",
+    "gatsby-plugin-feed": "^2.5.20",
     "gatsby-plugin-manifest": "^2.4.37",
     "gatsby-plugin-offline": "^3.2.38",
     "gatsby-plugin-sharp": "^2.6.43",
-    "gatsby-remark-autolink-headers": "^2.3.16",
     "gatsby-remark-check-links": "^2.1.0",
     "gatsby-remark-copy-linked-files": "^2.3.19",
     "gatsby-remark-images": "^3.3.40",
@@ -36,6 +36,6 @@
     "serve": "gatsby serve",
     "deploy": "gatsby build && gh-pages -d public -u \"Github Actions <tom@tjrobinson.net>\"",
     "gatsby": "gatsby build",
-    "broken-link-checker": "npx broken-link-checker http://localhost:8000 -ro"
+    "clean": "gatsby clean"
   }
 }

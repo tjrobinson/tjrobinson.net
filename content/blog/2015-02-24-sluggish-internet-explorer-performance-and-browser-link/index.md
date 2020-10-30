@@ -11,4 +11,4 @@ Uncheck the "Enable Browser Link" option:
 
 &nbsp;
 
-[<img class="alignnone size-full wp-image-182" src="images/2015/02/Untitled.png" alt="Untitled" width="399" height="201" srcset="images/2015/02/Untitled.png 399w, images/2015/02/Untitled-300x151.png 300w" sizes="(max-width: 399px) 100vw, 399px" />](images/2015/02/Untitled.png)
+![Visual Studio screenshot](Untitled.png)

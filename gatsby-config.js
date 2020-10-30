@@ -42,8 +42,7 @@ module.exports = {
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
-          'gatsby-remark-autolink-headers',
-          'gatsby-remark-check-links'
+          // `gatsby-remark-check-links`
         ],
       },
     },
