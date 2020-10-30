@@ -1,4 +1,6 @@
-Visual Studio -> ReSharper with Visual Studio keymap -> Rider, IntelliJ etc
+---
+title: Visual Studio -> ReSharper with Visual Studio keymap -> Rider, IntelliJ etc
+---
 
 https://www.jetbrains.com/help/idea/configuring-keyboard-and-mouse-shortcuts.html
 

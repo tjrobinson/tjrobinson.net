@@ -1,6 +1,5 @@
 ---
-title: a-guide-to-the-microsoft-dotnet-sdks-for-azure-table-storage
-date: "2020-10-05"
+title: A guide to the Microsoft .NET SDKs for Azure Table Storage
 ---
 
 _Last updated: October 2020_

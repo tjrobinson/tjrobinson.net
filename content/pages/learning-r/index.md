@@ -1,3 +1,7 @@
+---
+title: Learning R
+---
+
 I'm using Windows.
 
 This is a good tutorial:

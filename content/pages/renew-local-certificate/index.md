@@ -1,6 +1,5 @@
 ---
 title: Renew local certificate
-date: "2019-04-28"
 ---
 
 ```

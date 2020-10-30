@@ -1,1 +1,0 @@
-get-azwebapp |get-azwebappslot| remove-azwebappslot

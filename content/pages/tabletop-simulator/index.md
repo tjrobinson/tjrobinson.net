@@ -1,4 +1,6 @@
-# Table Top Simulator
+---
+title: Table Top Simulator
+---
 
 ## Guides
 
