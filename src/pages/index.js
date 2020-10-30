@@ -11,8 +11,22 @@ class BlogIndex extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
+        
+        <h2>Pages</h2>
         <ul>
-        {posts.map(({ node }) => {
+        {posts.filter(({ node }) => node.fileAbsolutePath.includes("pages")).map(({ node }) => {
+          const title = node.frontmatter.title || node.fields.slug
+          return (
+            <li>
+                  <Link to={node.fields.slug}>{title}</Link>
+            </li>
+          )
+        })}
+        </ul>
+        
+        <h2>Blog posts</h2>
+        <ul>
+        {posts.filter(({ node }) => node.fileAbsolutePath.includes("blog")).map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
             <li>
@@ -39,6 +53,7 @@ export const pageQuery = graphql`
       edges {
         node {
           excerpt
+          fileAbsolutePath
           fields {
             slug
           }
