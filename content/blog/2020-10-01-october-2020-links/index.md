@@ -44,3 +44,10 @@ A collection of interesting things I've discovered this month:
 - [Angular 9's Best Hidden Feature: Strict Template Checking](https://auth0.com/blog/angular-9s-best-hidden-feature-strict-template-checking/)
 - [Garbage Collection at Food Courts](https://devblogs.microsoft.com/dotnet/garbage-collection-at-food-courts/)
 - [Headless Recorder](https://chrome.google.com/webstore/detail/headless-recorder/djeegiggegleadkkbgopoonhjimgehda?hl=en)
+- [Little Known ASP.NET Core Features - HTTP Trailers](https://www.tpeczek.com/2020/09/little-known-aspnet-core-features-http.html)
+- [Running a Kanban Standup Meeting](https://www.conjur.org/blog/running-a-kanban-standup-meeting/)
+- [Approval Testing your Open API/Swagger Documents](http://josephwoodward.co.uk/2019/08/approval-testing-open-api-swagger-documents)
+- [Flexbox Defense](http://www.flexboxdefense.com/)
+- [MDX](https://mdxjs.com/) - "MDX is an authorable format that lets you seamlessly write JSX in your Markdown documents"
+- [Accessibility Insights](https://accessibilityinsights.io/)
+- [Dotnet-Boxed/Framework/blob/master/.editorconfig](https://github.com/Dotnet-Boxed/Framework/blob/master/.editorconfig)
