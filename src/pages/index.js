@@ -11,30 +11,40 @@ class BlogIndex extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <h2>Pages</h2>
+        <h2 class="bg-black rounded-t-md py-3 px-6 text-white text-3xl mb-5">Pages</h2>
         <ul>
           {posts
             .filter(({ node }) => node.fileAbsolutePath.includes("pages"))
             .map(({ node }) => {
               const title = node.frontmatter.title || node.fields.slug
               return (
-                <li key={node.fields.slug}>
-                  <Link to={node.fields.slug}>{title}</Link>
-                </li>
+                <div class="max-w-full rounded overflow-hidden shadow-lg my-2" key={node.fields.slug}>
+                  <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2"><Link to={node.fields.slug}>{title}</Link></div>
+                    <p class="text-grey-darker text-base">
+                    {node.frontmatter.slug}
+                    </p>
+                  </div>
+                </div>
               )
             })}
         </ul>
 
-        <h2>Blog posts</h2>
+        <h2 class="bg-black rounded-t-md py-3 px-6 text-white text-3xl mb-5">Blog posts</h2>
         <ul>
           {posts
             .filter(({ node }) => node.fileAbsolutePath.includes("blog"))
             .map(({ node }) => {
               const title = node.frontmatter.title || node.fields.slug
               return (
-                <li key={node.fields.slug}>
-                  <Link to={node.fields.slug}>{title}</Link>
-                </li>
+                <div class="max-w-full rounded overflow-hidden shadow-lg my-2" key={node.fields.slug}>
+                  <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2"><Link to={node.fields.slug}>{title}</Link></div>
+                    <p class="text-grey-darker text-base">
+                    {node.frontmatter.date}
+                    </p>
+                  </div>
+                </div>
               )
             })}
         </ul>
@@ -61,7 +71,7 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
-            date(formatString: "MMMM DD, YYYY")
+            date(formatString: "D MMMM YYYY")
             title
           }
         }
