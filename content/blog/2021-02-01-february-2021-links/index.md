@@ -10,4 +10,4 @@ A collection of interesting things I've discovered this month:
 - [ASP.NET Core Application Part For Testing Anti-forgery Protected Resources](https://github.com/martincostello/antiforgery-testing-application-part/)
 - [When ASP.NET Core can't find your controller: debugging application parts](https://andrewlock.net/when-asp-net-core-cant-find-your-controller-debugging-application-parts/)
 - [Moq.AutoMock](https://github.com/moq/Moq.AutoMocker)
-- Snitch
+- [Snitch](https://github.com/spectresystems/snitch) - "A tool that help you find transitive (nuget) package references that can be removed"
