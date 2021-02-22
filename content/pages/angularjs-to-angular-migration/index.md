@@ -4,8 +4,10 @@ title: AngularJS to Angular migration
 
 This is a collection of useful links I've come across when working on an AngularJS to Angular migration project.
 
-<https://www.youtube.com/watch?v=lYOHB_yTEmo>
-<https://github.com/angular/ngMigration-Forum>
+- [Migrating Large Enterprise Angular JS Codebases to Angular by Christian Kohler](https://www.youtube.com/watch?v=lYOHB_yTEmo)
+- [ngMigration Forum](https://github.com/angular/ngMigration-Forum)
+
+
 <https://stackoverflow.com/questions/59302237/how-to-use-ng-annotate-with-hybrid-app-based-on-angular-cli>
 <https://github.com/angular/ngMigration-Forum/wiki/Migration-Paths-Overview>
 <https://angular.io/guide/upgrade>

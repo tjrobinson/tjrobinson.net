@@ -12,4 +12,4 @@ First you need to install R from this site that hasn't made it out of the 90s ye
 
 https://cloud.r-project.org/
 
-All R packages are stored globally by default. See `packrat`
+All R packages are stored globally by default. See `packrat` or seemingly better, `renv`.
