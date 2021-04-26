@@ -33,6 +33,13 @@ This is a collection of useful links I've come across when working on an Angular
 <https://blog.bitsrc.io/how-to-use-jquery-with-angular-when-you-absolutely-have-to-42c8b6a37ff9>
 <https://medium.com/better-programming/how-to-include-and-use-jquery-in-angular-cli-project-592e0fe63176>
 <https://www.npmjs.com/package/@uirouter/angular-hybrid>
+<https://github.com/just-jeb/angular-builders/search?q=ng-annotate&type=issues>
+<https://github.com/just-jeb/angular-builders/issues/12>
+<https://github.com/schmod/babel-plugin-angularjs-annotate>
+<https://github.com/manfredsteyer/ngx-build-plus>
+<https://gist.github.com/aaronfrost/a8c86cb2653d62588cd629c392a4e8dc>
+<https://medium.com/@ajexx/angular2-provide-external-data-to-app-before-bootstrap-5180d0b28ea9>
+<https://github.com/just-jeb/angular-builders/issues/186>
 
 I've also discovered that:
 
