@@ -44,3 +44,17 @@ This is a collection of useful links I've come across when working on an Angular
 I've also discovered that:
 
 * Angular CLI (11) doesn't have any official support for `ng-annotate`. In other words, any AngularJS code that you have annotated with things like `/* @ngInject */` won't work if you try to build your code using the webpack configuration that Angular CLI generates.
+
+
+To fix "The Kendo UI directives require jQuery to be available before AngularJS. Please include jquery before angular in the document" - use:
+
+```
+plugins: [
+    new webpack.ProvidePlugin({
+      $: "jquery",
+      jQuery: "jquery",
+      moment: "moment",
+      "window.jQuery": "jquery"
+    }),
+  ]
+```
