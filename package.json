@@ -9,7 +9,7 @@
     "gatsby-image": "^3.1.0",
     "gatsby-plugin-feed": "^3.1.0",
     "gatsby-plugin-manifest": "^3.1.0",
-    "gatsby-plugin-offline": "^4.1.0",
+    "gatsby-plugin-offline": "^4.5.0",
     "gatsby-plugin-postcss": "^4.1.0",
     "gatsby-plugin-sharp": "^3.1.2",
     "gatsby-remark-check-links": "^2.1.0",
