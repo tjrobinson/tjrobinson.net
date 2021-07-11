@@ -8,16 +8,11 @@ class Layout extends React.Component {
     let header
 
     if (location.pathname === rootPath) {
-      header = <h1 class="bg-green-500 rounded-full py-3 px-6 text-gray-50 text-3xl mb-5">{title}</h1>
+      header = <h1>🌍 {title}</h1>
     } else {
       header = (
-        <h1 class="bg-green-500 rounded-full py-3 px-6 text-gray-50 text-3xl mb-5">
+        <h1>
           <Link
-            style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
-            }}
             to={`/`}
           >
             {title}
@@ -27,11 +22,7 @@ class Layout extends React.Component {
     }
     return (
       <div
-        style={{
-          marginLeft: `auto`,
-          marginRight: `auto`,
-        }}
-        class="container w-full md:max-w-3xl mx-auto pt-20"
+        class="container w-full md:max-w-3xl mx-auto pt-10"
       >
         <header>{header}</header>
         <main>{children}</main>

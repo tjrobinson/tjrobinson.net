@@ -37,7 +37,7 @@ exports.createPages = async ({ graphql, actions }) => {
   const posts = result.data.allMarkdownRemark.edges
 
   posts.forEach((post, index) => {
-    if (post.node.fileAbsolutePath.includes("pages")) {
+    if (post.node.fileAbsolutePath.includes("bliki")) {
       createPage({
         path: post.node.fields.slug,
         component: page,

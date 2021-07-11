@@ -3,7 +3,7 @@ import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 
-class BlogIndex extends React.Component {
+class SiteIndex extends React.Component {
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
@@ -11,49 +11,43 @@ class BlogIndex extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <h2 class="bg-black rounded-t-md py-3 px-6 text-white text-3xl mb-5">Pages</h2>
-        <ul>
-          {posts
-            .filter(({ node }) => node.fileAbsolutePath.includes("pages"))
-            .map(({ node }) => {
-              const title = node.frontmatter.title || node.fields.slug
-              return (
-                <div class="max-w-full rounded overflow-hidden shadow-lg my-2" key={node.fields.slug}>
-                  <div class="px-6 py-4">
-                    <div class="font-bold text-xl mb-2"><Link to={node.fields.slug}>{title}</Link></div>
-                    <p class="text-grey-darker text-base">
-                    {node.frontmatter.slug}
-                    </p>
-                  </div>
-                </div>
-              )
-            })}
-        </ul>
+        <h2>Bliki pages</h2>
+        <p>A cross between a blog and a wiki - content which is not specific to a particular point in time, and is being updated.</p>
+        {posts
+          .filter(({ node }) => node.fileAbsolutePath.includes("bliki"))
+          .map(({ node }) => {
+            const title = node.frontmatter.title || node.fields.slug
+            return (
+              <div class="max-w-full my-2" key={node.fields.slug}>
+                  <div class="mb-2"><Link to={node.fields.slug}>{title}</Link></div>
+                  <p class="text-grey-darker text-base">
+                  {node.frontmatter.slug}
+                  </p>
+              </div>
+            )
+          })}
 
-        <h2 class="bg-black rounded-t-md py-3 px-6 text-white text-3xl mb-5">Blog posts</h2>
-        <ul>
+        <h2>Blog posts</h2>
+        <p>Older posts may no longer be accurate or up to date!</p>
           {posts
             .filter(({ node }) => node.fileAbsolutePath.includes("blog"))
             .map(({ node }) => {
               const title = node.frontmatter.title || node.fields.slug
               return (
-                <div class="max-w-full rounded overflow-hidden shadow-lg my-2" key={node.fields.slug}>
-                  <div class="px-6 py-4">
-                    <div class="font-bold text-xl mb-2"><Link to={node.fields.slug}>{title}</Link></div>
-                    <p class="text-grey-darker text-base">
+                <div class="max-w-full my-2" key={node.fields.slug}>
+                    <div class="mb-0"><Link to={node.fields.slug}>{title}</Link></div>
+                    <div class="text-grey-darker text-base">
                     {node.frontmatter.date}
-                    </p>
-                  </div>
+                    </div>
                 </div>
               )
             })}
-        </ul>
       </Layout>
     )
   }
 }
 
-export default BlogIndex
+export default SiteIndex
 
 export const pageQuery = graphql`
   query {
