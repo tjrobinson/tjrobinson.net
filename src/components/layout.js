@@ -15,7 +15,7 @@ class Layout extends React.Component {
           <Link
             to={`/`}
           >
-            {title}
+            🌍 {title}
           </Link>
         </h1>
       )
