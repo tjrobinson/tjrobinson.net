@@ -11,7 +11,7 @@
     "gatsby-plugin-manifest": "^3.9.0",
     "gatsby-plugin-offline": "^4.9.0",
     "gatsby-plugin-postcss": "^4.9.0",
-    "gatsby-plugin-sharp": "^3.9.0",
+    "gatsby-plugin-sharp": "^3.10.2",
     "gatsby-remark-check-links": "^2.1.0",
     "gatsby-remark-copy-linked-files": "^4.6.0",
     "gatsby-remark-images": "^5.6.0",
