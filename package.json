@@ -5,7 +5,7 @@
   "author": "Tom Robinson",
   "dependencies": {
     "autoprefixer": "^10.4.2",
-    "gatsby": "^4.6.0",
+    "gatsby": "^4.6.1",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-feed": "^4.6.0",
     "gatsby-plugin-manifest": "^4.6.0",
