@@ -4,7 +4,7 @@
   "description": "tjrobinson.net",
   "author": "Tom Robinson",
   "dependencies": {
-    "autoprefixer": "^10.4.4",
+    "autoprefixer": "^10.4.7",
     "gatsby": "^4.14.0",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-feed": "^4.6.0",
