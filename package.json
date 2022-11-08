@@ -5,7 +5,7 @@
   "author": "Tom Robinson",
   "dependencies": {
     "autoprefixer": "^10.4.7",
-    "gatsby": "^4.18.0",
+    "gatsby": "^5.0.0",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-feed": "^4.18.0",
     "gatsby-plugin-manifest": "^4.18.0",
@@ -19,7 +19,7 @@
     "gatsby-remark-responsive-iframe": "^5.18.0",
     "gatsby-remark-smartypants": "^5.18.0",
     "gatsby-source-filesystem": "^4.18.0",
-    "gatsby-transformer-remark": "^5.18.0",
+    "gatsby-transformer-remark": "^6.0.0",
     "gatsby-transformer-sharp": "^4.18.0",
     "postcss": "^8.4.14",
     "prismjs": "^1.28.0",
