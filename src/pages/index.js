@@ -11,7 +11,7 @@ class SiteIndex extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <a rel="me" href="https://mastodon.social/@tjrobinson">Mastodon</a>
+        <a rel="me" href="https://hachyderm.io/@tjrobinson">Mastodon</a>
         <h2>Bliki pages</h2>
         <p>A cross between a blog and a wiki - content which is not specific to a particular point in time, and is being updated.</p>
         {posts
