@@ -8,24 +8,21 @@ exports.createPages = async ({ graphql, actions }) => {
   const page = path.resolve(`./src/templates/page.js`)
   const result = await graphql(
     `
-      {
-        allMarkdownRemark(
-          sort: { fields: [frontmatter___date], order: DESC }
-          limit: 1000
-        ) {
-          edges {
-            node {
-              fileAbsolutePath
-              fields {
-                slug
-              }
-              frontmatter {
-                title
-              }
+    {
+      allMarkdownRemark(sort: {frontmatter: {date: DESC}}, limit: 1000) {
+        edges {
+          node {
+            fileAbsolutePath
+            fields {
+              slug
+            }
+            frontmatter {
+              title
             }
           }
         }
       }
+    }
     `
   )
 
