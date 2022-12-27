@@ -40,6 +40,7 @@
     "serve": "gatsby serve",
     "deploy": "gatsby build && gh-pages -d public -u \"Github Actions <tom@tjrobinson.net>\"",
     "gatsby": "gatsby build",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "test": "echo No tests yet"
   }
 }
