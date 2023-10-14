@@ -1,0 +1,4 @@
+- [CompTIA Security+ (SY0-601) Path | Pluralsight](https://app.pluralsight.com/paths/certificate/comptia-security-sy0-601)
+- [Are You Ready for Test Day? - Get Certified Get Ahead](https://blogs.getcertifiedgetahead.com/are-you-ready-for-test-day/?goal=0_3fe6b422c8-4ca4b9b003-118116150)
+- [Are You Ready to Get Certified? - Get Certified Get Ahead](https://getcertifiedgetahead.com/)
+- [SY0-601 Supplementary Content – Great Administrator](https://greatadministrator.com/sy0-601-extras/)

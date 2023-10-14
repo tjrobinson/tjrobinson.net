@@ -1,0 +1,1 @@
+- [https://releases.aks.azure.com/](AKS Release Status)

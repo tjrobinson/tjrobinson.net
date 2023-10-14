@@ -1,0 +1,2 @@
+- [VCV Rack 2 - Virtual Eurorack Studio](https://vcvrack.com/Rack)
+- [Neural Beatbox (alpha)](https://codepen.io/naotokui/pen/NBzJMW)

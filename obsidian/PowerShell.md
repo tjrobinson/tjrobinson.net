@@ -1,0 +1,1 @@
+- [Accessing PowerShell Properties and Variables with Periods (and other special characters) in their Name](https://blog.danskingdom.com/accessing-powershell-variables-with-periods-in-their-name/)

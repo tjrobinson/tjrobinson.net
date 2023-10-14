@@ -1,0 +1,248 @@
+{
+  "main": {
+    "id": "4d0e0b2b25d3bb72",
+    "type": "split",
+    "children": [
+      {
+        "id": "b850ecdc088b80fa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f770b7bf283885a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Security.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "defe124fa6854e72",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Azure PowerShell.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "09a1d020b4bfebd8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PowerShell.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9f7b2ddcca7a32b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Azure Kubernetes Service.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3e56781150399fa4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OSINT.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ebd7f5db300b2135",
+    "type": "split",
+    "children": [
+      {
+        "id": "9c5009ff6717dd4f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bfc63cb41f7c62c8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1e0fec0915ef87ec",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "azure kuber",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ce9b92a334f85005",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "bb258c7db1aead9d",
+    "type": "split",
+    "children": [
+      {
+        "id": "ff1ba59ed9dd9ee5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e2637eaa05714a29",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Azure Kubernetes Service.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "40497951975862b3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Azure Kubernetes Service.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6ba801fa56b59c4c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "80781c45e25bb737",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Azure Kubernetes Service.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "9f7b2ddcca7a32b4",
+  "lastOpenFiles": [
+    "PowerShell.md",
+    "Azure Kubernetes Service.md",
+    "Untitled",
+    "Azure PowerShell.md",
+    "Kubernetes.md",
+    "Security.md",
+    "OSINT.md",
+    "CompTIA Security+.md",
+    "Postman JWT.md",
+    "Microsoft Certification.md",
+    "Terraform.md",
+    "Threat Modelling.md",
+    "Microsoft Flight Simulator.md",
+    "AZ-500.md",
+    "AZ-104.md",
+    "AngularJS to Angular migration.md",
+    "AngularJS.md",
+    "404.md",
+    "blog/2014-07-02-defining-a-redirectrewrite-in-the-web-config/Defining a redirect rewrite in the Web.config.md",
+    "blog/2014-07-03-mongodb-london-2013/MongoDB London 2013.md",
+    "blog/2014-05-06-parsing-iis-log-files-with-logstash-on-windows/Parsing IIS log files with logstash on Windows.md",
+    "blog/2014-05-06-parsing-mongodb-log-files-with-logstash-on-windows/index.md",
+    "blog/2013-08-02-finding-all-nuget-packages-across-multiple-solutions/Finding all NuGet packages across multiple solutions.md",
+    "blog/2013-03-19-deleting-files-that-windows-cant-delete/Deleting files that Windows can’t delete.md",
+    "blog/2013-02-24-beware-of-non-breaking-spaces-in-your-hosts-file/Beware of non-breaking spaces in your HOSTS file.md",
+    "blog/2012-12-23-dashlane-easter-egg-konami-code-reveals-conways-game-of-life/Dashlane-Konami-Code-Scan.jpg",
+    "blog/2012-06-14-adding-the-visual-studio-2010-command-prompt-variables-to-your-powershell-profile/Adding the Visual Studio 2010 Command Prompt variables to your PowerShell profile.md",
+    "blog/2012-07-06-iis-configuration/IIS Configuration.md",
+    "blog/2015-02-24-sluggish-internet-explorer-performance-and-browser-link/Untitled.png",
+    "to-migrate",
+    "_drafts",
+    "blog/2015-12-22-running-iisreset-from-visual-studio/clip_image004.png",
+    "blog/2015-12-22-running-iisreset-from-visual-studio/clip_image003.png",
+    "blog/2015-12-22-running-iisreset-from-visual-studio/clip_image002.png",
+    "blog/2015-12-22-running-iisreset-from-visual-studio/clip_image001.png",
+    "blog/2015-01-10-my-magic-lantern-bricking-experience/20141108_110117.jpg",
+    "blog/2015-01-10-my-magic-lantern-bricking-experience/20141108_105945.jpg",
+    "blog/2015-01-10-my-magic-lantern-bricking-experience/20141108_105917.jpg",
+    "blog/2012-12-23-dashlane-easter-egg-konami-code-reveals-conways-game-of-life/about-start.png",
+    "blog/2021-05-05-may-2022-links",
+    "blog/2021-05-01-may-2021-links",
+    "blog/2021-02-01-february-2021-links",
+    "blog/2020-12-01-december-2020-links",
+    "blog/2020-11-01-november-2020-links",
+    "blog/2020-10-05-a-guide-to-the-microsoft-dotnet-sdks-for-azure-table-storage",
+    "blog/2020-10-01-october-2020-links",
+    "Untitled.canvas"
+  ]
+}
