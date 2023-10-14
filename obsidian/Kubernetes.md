@@ -16,6 +16,8 @@
 - [Deploying ASP.NET Core applications to Kubernetes](https://andrewlock.net/series/deploying-asp-net-core-applications-to-kubernetes/)
 - [Performing a Rolling Update](https://kubernetes.io/docs/tutorials/kubernetes-basics/update/update-intro/)
 - [Virtual Patching Best Practices](https://owasp.org/www-community/Virtual_Patching_Best_Practices)
+- [kubelogin](https://github.com/Azure/kubelogin) - used for Azure Entra ID login
+
 ## Certification
 
 - [Acing CKA Exam — Certified Kubernetes Administrator](https://kanger.dev/cka-exam-certified-kubernetes-administrator/)

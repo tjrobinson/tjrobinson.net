@@ -24,6 +24,9 @@ tags:
 - [badssl.com](https://badssl.com/)
 - https://sigmahq.io/
 - https://github.com/synacktiv/nord-stream - Nord Stream is a tool that allows you extract secrets stored inside CI/CD environments by deploying _malicious_ pipelines.
+- [Axonius](https://www.axonius.com/)
+- [Seedata.io](https://www.seedata.io/) - deception platform
+- [Mandiant capa](https://github.com/mandiant/capa) - capa detects capabilities in executable files
 
 ## Training
 - [Snyk Learn - Trusted Developer Security Training | Snyk](https://snyk.io/platform/learn/?utm_medium=events-email&utm_source=mkto-drip-1&utm_campaign=clm-platform-learn&mkt_tok=Njc3LVRIUC00MTUAAAGMXsK6FYK_9j-87bm4Nj96zXfGGZEJDam6Czi4XzoBfUhc4wSCngnLEaY5Q3TBC5qDoQYTfOjJGjrrHL2IgdPFeTm_5jkN9M63LgilrUIagHZiyw)
@@ -57,6 +60,7 @@ tags:
 - [PentesterLab: Learn Web Penetration Testing: The Right Way](https://www.pentesterlab.com/)
 - [Crash-only software: More than meets the eye [LWN.net]](https://lwn.net/Articles/191059/)
 - [Google Online Security Blog: Capslock: What is your code really capable of?](https://security.googleblog.com/2023/09/capslock-what-is-your-code-really.html)
+- [Connect Microsoft Sentinel to STIX/TAXII threat intelligence feeds](https://learn.microsoft.com/en-us/azure/sentinel/connect-threat-intelligence-taxii)
 
 Podcasts
 - [Cybersecurity History Podcast | Malicious Life](https://malicious.life/)
