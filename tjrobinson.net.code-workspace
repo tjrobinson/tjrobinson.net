@@ -6,14 +6,10 @@
 	],
 	"settings": {
 		"files.exclude": {
-			"**/.cache": true,
-			"**/node_modules": true
 		}
 	},
 	"extensions": {
 		"recommendations": [
-			"nickytonline.gatsby-extension-pack",
-			"eliostruyf.vscode-front-matter"
 		],
 		"unwantedRecommendations": []
 	}
