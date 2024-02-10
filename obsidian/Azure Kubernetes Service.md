@@ -1,0 +1,2 @@
+- [AKS Release Status](https://releases.aks.azure.com/)
+- [Simplifying development experience and deployment with Azure Kubernetes Service extension in VS Code](https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/simplifying-development-experience-and-deployment-with-azure/ba-p/3932193)

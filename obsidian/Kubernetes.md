@@ -1,0 +1,26 @@
+- [The Azure Kubernetes Service Checklist - ✨ Be ready for production ✨](https://www.the-aks-checklist.com/#section-resource-management)
+- [Udemy - Kubernetes Certified Application Developer (CKAD) with Tests](https://www.udemy.com/course/certified-kubernetes-application-developer/)
+- [K8sGPT](https://k8sgpt.ai/)
+- [Rancher Desktop](https://rancherdesktop.io/)
+- [steveteuber/kubectl-graph: A kubectl plugin to visualize Kubernetes resources and relationships.](https://github.com/steveteuber/kubectl-graph)
+- [Must Read Free Kubernetes Books ~ Bilgin Ibryam (@bibryam)](https://www.ofbizian.com/2020/09/must-read-free-kubernetes-books.html)
+- [AKS (Kubernetes) day-2 operations guide - Azure Architecture Center | Microsoft Learn](https://learn.microsoft.com/en-us/azure/architecture/operator-guides/aks/day-2-operations-guide)
+- [Introducing the Azure Linux container host for AKS](https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/introducing-the-azure-linux-container-host-for-aks/ba-p/3824101)
+- [How to use Gatekeeper | Gatekeeper](https://open-policy-agent.github.io/gatekeeper/website/docs/howto/)
+- [Azure DevOps agents on AKS with workload identity - DEV Community](https://dev.to/oskarm93/azure-devops-agents-on-aks-with-workload-identity-113o)
+- ["Hacking Container Security" - Super Cyber Friday - crowdcast](https://www.crowdcast.io/c/hacking-container-security)
+- [Explore the Azure Kubernetes Service cluster and node architecture - Training | Microsoft Learn](https://learn.microsoft.com/en-gb/training/modules/configure-azure-kubernetes-service/3-kubernetes-clusters)
+- [Securing container deployments on Azure Kubernetes Service with open-source tools](https://build.microsoft.com/en-US/sessions/0301c5a0-34cb-4a5b-ac0f-164b2d4191fa?source=sessions)
+- [Leveraging Defender for Containers to simplify policy management in your Kubernetes Clusters - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/leveraging-defender-for-containers-to-simplify-policy-management/ba-p/3755757)
+- [Deliver apps from code to cloud with Azure Kubernetes Service](https://build.microsoft.com/en-US/sessions/64b2f97f-bde6-4d86-aa26-587c60863886?source=sessions)
+- [Deploying ASP.NET Core applications to Kubernetes](https://andrewlock.net/series/deploying-asp-net-core-applications-to-kubernetes/)
+- [Performing a Rolling Update](https://kubernetes.io/docs/tutorials/kubernetes-basics/update/update-intro/)
+- [Virtual Patching Best Practices](https://owasp.org/www-community/Virtual_Patching_Best_Practices)
+- [kubelogin](https://github.com/Azure/kubelogin) - used for Azure Entra ID login
+
+## Certification
+
+- [Acing CKA Exam — Certified Kubernetes Administrator](https://kanger.dev/cka-exam-certified-kubernetes-administrator/)
+- [Kubernetes - tips for your CKAD exam by CNCF - Sokube](https://www.sokube.io/blog/kubernetes-tips-for-your-ckad-exam-by-cncf)
+- [Kubernetes Certified Application Developer (CKAD) Training | Udemy](https://www.udemy.com/course/certified-kubernetes-application-developer/)
+- [Ramilito/kubediff: Source VS Deployed](https://github.com/Ramilito/kubediff)
