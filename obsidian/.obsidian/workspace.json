@@ -4,81 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "b850ecdc088b80fa",
+        "id": "fd402afc0c12fea9",
         "type": "tabs",
         "children": [
           {
-            "id": "f770b7bf283885a2",
+            "id": "3fc746becf69c47c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Security.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "defe124fa6854e72",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Azure PowerShell.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "09a1d020b4bfebd8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PowerShell.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9f7b2ddcca7a32b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AZ-500.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b06212686be23fd8",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.3"
-              }
-            }
-          },
-          {
-            "id": "3e56781150399fa4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OSINT.md",
+                "file": "blog/2012-07-06-iis-configuration/IIS Configuration.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -144,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AZ-500.md",
+                "file": "blog/2012-07-06-iis-configuration/IIS Configuration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AZ-500.md",
+                "file": "blog/2012-07-06-iis-configuration/IIS Configuration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AZ-500.md"
+                "file": "blog/2012-07-06-iis-configuration/IIS Configuration.md"
               }
             }
           }
@@ -206,40 +147,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b06212686be23fd8",
+  "active": "bfc63cb41f7c62c8",
   "lastOpenFiles": [
-    "tools/index.md",
-    "tools",
-    "synths/index.md",
-    "synths",
-    "skip-youtube-adds-bookmarklet/index.md",
-    "skip-youtube-adds-bookmarklet",
-    "kubernetes/index.md",
-    "kubernetes",
-    "blog/2023-07-10-octopus-hcl-parser/index.md",
-    "blog/2023-07-10-octopus-hcl-parser",
-    "Kubernetes and Cloud Native Security Associate (KCSA).md",
-    "Azure Kubernetes Service.md",
-    "PowerShell.md",
-    "Untitled",
-    "Azure PowerShell.md",
-    "Kubernetes.md",
-    "Security.md",
-    "OSINT.md",
-    "CompTIA Security+.md",
-    "Postman JWT.md",
-    "Microsoft Certification.md",
-    "Terraform.md",
-    "Threat Modelling.md",
-    "Microsoft Flight Simulator.md",
-    "AZ-500.md",
-    "AZ-104.md",
-    "AngularJS to Angular migration.md",
-    "AngularJS.md",
-    "404.md",
+    "blog/2009-10-08-the-new-efficiency-the-uk-technical-launch-of-windows-7-windows-server-2008-r2-and-exchange-server-2010-olympic-way.jpg",
+    "blog/2009-10-08-the-new-efficiency-the-uk-technical-launch-of-windows-7-windows-server-2008-r2-and-exchange-server-2010-me-at-wembley.jpg",
+    "blog/2009-10-08-the-new-efficiency-the-uk-technical-launch-of-windows-7-windows-server-2008-r2-and-exchange-server-2010/2009-10-08-the-new-efficiency-the-uk-technical-launch-of-windows-7-windows-server-2008-r2-and-exchange-server-2010-olympic-way.jpg",
+    "blog/2009-10-08-the-new-efficiency-the-uk-technical-launch-of-windows-7-windows-server-2008-r2-and-exchange-server-2010/2009-10-08-the-new-efficiency-the-uk-technical-launch-of-windows-7-windows-server-2008-r2-and-exchange-server-2010-me-at-wembley.jpg",
+    "blog/2009-10-08-the-new-efficiency-the-uk-technical-launch-of-windows-7-windows-server-2008-r2-and-exchange-server-2010.md",
+    "blog/2015-07-23-progressive-net-tutorials-2015/2015-07-23-progressive-net-tutorials-2015.md",
+    "blog/2015-06-10-most-good-ideas-actually-deliver-zero-or-negative-value/2015-06-10-most-good-ideas-actually-deliver-zero-or-negative-value.md",
+    "Adding the Visual Studio 2010 Command Prompt variables to your PowerShell profile.md",
+    "Deleting files that Windows can’t delete.md",
+    "jQuery and SWFObject.md",
+    "blog/jQuery and SWFObject.md",
+    "Parsing IIS log files with logstash on Windows.md",
+    "blog/2014-07-03-mongodb-london-2013.md",
+    "blog/2012-10-05-powershell-contains-vs-match-and-like.md",
+    "2014-07-03-tweaks-for-ssds-on-windows.md",
+    "blog/2015-06-11-internet-of-things-and-data-hackathon-11th-june-2015.md",
+    "blog/2015-06-12-how-do-you-type-a-backslash-into-the-dell-drac-viewer.md",
+    "blog/2015-08-25-uac-windows-10-and-visual-studio.md",
+    "blog/2015-02-24-sluggish-internet-explorer-performance-and-browser-link/2015-02-24-sluggish-internet-explorer-performance-and-browser-link.md",
+    "Defining a redirect rewrite in the Web.config.md",
     "blog/2014-07-02-defining-a-redirectrewrite-in-the-web-config/Defining a redirect rewrite in the Web.config.md",
-    "blog/2014-07-03-mongodb-london-2013/MongoDB London 2013.md",
-    "blog/2014-05-06-parsing-iis-log-files-with-logstash-on-windows/Parsing IIS log files with logstash on Windows.md",
+    "blog/2014-07-02-defining-a-redirectrewrite-in-the-web-config/2014-07-02-defining-a-redirectrewrite-in-the-web-config.md",
+    "blog/2014-07-02-defining-a-redirectrewrite-in-the-web-config/Defining a redirect/rewrite in the Web.config.md",
+    "blog/2014-07-02-defining-a-redirectrewrite-in-the-web-config/Defining a redirect",
+    "Finding all NuGet packages across multiple solutions.md",
+    "blog/2012-06-15-flotr2-charting-library.md",
+    "blog/2012-06-15-flotr2-charting-library/2012-06-15-flotr2-charting-library.md",
+    "blog/2012-05-17-msysgit-conflict-with-subversion.md",
+    "blog/2012-05-17-msysgit-conflict-with-subversion/2012-05-17-msysgit-conflict-with-subversion.md",
+    "blog/2016-01-12-rewriting-git-history-removing-a-directory.md",
+    "blog/2015-02-24-sluggish-internet-explorer-performance-and-browser-link/2015-02-24-sluggish-internet-explorer-performance-and-browser-link.png",
+    "tools",
+    "synths",
+    "Skip YouTube Ads Bookmarklet",
+    "kubernetes",
+    "blog/2023-07-10-octopus-hcl-parser",
+    "Untitled",
     "blog/2012-12-23-dashlane-easter-egg-konami-code-reveals-conways-game-of-life/Dashlane-Konami-Code-Scan.jpg",
     "blog/2015-02-24-sluggish-internet-explorer-performance-and-browser-link/Untitled.png",
     "to-migrate",
@@ -248,12 +194,7 @@
     "blog/2015-12-22-running-iisreset-from-visual-studio/clip_image003.png",
     "blog/2015-12-22-running-iisreset-from-visual-studio/clip_image002.png",
     "blog/2015-12-22-running-iisreset-from-visual-studio/clip_image001.png",
-    "blog/2015-01-10-my-magic-lantern-bricking-experience/20141108_110117.jpg",
-    "blog/2015-01-10-my-magic-lantern-bricking-experience/20141108_105945.jpg",
-    "blog/2015-01-10-my-magic-lantern-bricking-experience/20141108_105917.jpg",
-    "blog/2012-12-23-dashlane-easter-egg-konami-code-reveals-conways-game-of-life/about-start.png",
     "blog/2021-05-05-may-2022-links",
-    "blog/2021-05-01-may-2021-links",
     "Untitled.canvas"
   ]
 }

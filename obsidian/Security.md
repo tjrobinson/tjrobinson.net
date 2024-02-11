@@ -7,6 +7,9 @@ tags:
 - [[AZ-104]]
 - [[AZ-500]]
 - [[CompTIA Security+]]
+- [[Sentinel]]
+- [[Snyk CTF 2022]]
+- [[SQL Server Authentication]]
 
 ## Tools
 

@@ -24,3 +24,5 @@
 - [Kubernetes - tips for your CKAD exam by CNCF - Sokube](https://www.sokube.io/blog/kubernetes-tips-for-your-ckad-exam-by-cncf)
 - [Kubernetes Certified Application Developer (CKAD) Training | Udemy](https://www.udemy.com/course/certified-kubernetes-application-developer/)
 - [Ramilito/kubediff: Source VS Deployed](https://github.com/Ramilito/kubediff)
+- [Udemy - Kubernetes Certified Application Developer (CKAD) with Tests](https://www.udemy.com/course/certified-kubernetes-application-developer/)
+- [[Kubernetes and Cloud Native Security Associate (KCSA)]]
