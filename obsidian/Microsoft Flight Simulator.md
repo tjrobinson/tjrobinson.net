@@ -1,3 +1,5 @@
 - [Flightspots](https://flightspots.co/app)
 - [Flightsim.to](https://flightsim.to/)
-- 
+- [The best FREE addons and mods for Microsoft Flight Simulator (August 2022) - MSFS Addons](https://msfsaddons.com/2022/08/04/the-best-free-addons-and-mods-for-microsoft-flight-simulator/)
+- [FSXmap is a very useful browser-based interactive map for Flight Simulator - MSFS Addons](https://msfsaddons.com/2021/07/16/fsxmap-is-a-very-useful-browser-based-interactive-map-for-flight-simulator/)
+- [FSXmap.com](https://fsxmap.com/)

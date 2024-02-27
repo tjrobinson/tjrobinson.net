@@ -1,2 +1,3 @@
 - [AKS Release Status](https://releases.aks.azure.com/)
 - [Simplifying development experience and deployment with Azure Kubernetes Service extension in VS Code](https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/simplifying-development-experience-and-deployment-with-azure/ba-p/3932193)
+- [Explore the Azure Kubernetes Service cluster and node architecture - Training | Microsoft Learn](https://learn.microsoft.com/en-gb/training/modules/configure-azure-kubernetes-service/3-kubernetes-clusters)

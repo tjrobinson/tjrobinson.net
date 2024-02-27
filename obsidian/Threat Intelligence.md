@@ -1,0 +1,2 @@
+- [Threat intelligence: Charting the future of security - anticipate, adapt, protect - SASIG](https://www.thesasig.com/calendar/event/23-10-12-intelligence/)
+- [The Microsoft Threat Intelligence Podcast](https://thecyberwire.com/podcasts/microsoft-threat-intelligence)

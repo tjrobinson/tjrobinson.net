@@ -1,0 +1,3 @@
+- [Table Top Simulator](./Table%20Top%20Simulator.md)
+- [https://www.readingmegagames.com/](Reading Megagames)
+- [Megagame Assembly](https://www.megagameassembly.com/)

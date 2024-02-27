@@ -10,6 +10,7 @@ tags:
 - [[Sentinel]]
 - [[Snyk CTF 2022]]
 - [[SQL Server Authentication]]
+- [[Security Training]]
 
 ## Tools
 
@@ -50,6 +51,7 @@ tags:
 - [Google Online Security Blog: Announcing the deps.dev API: critical dependency data for secure supply chains](https://security.googleblog.com/2023/04/announcing-depsdev-api-critical.html
 - [How to refresh Azure Identity Governance access packages after renaming Azure Active Directory groups – Medium](https://medium.com/p/36878623f6ea/edit)
 - [[Threat Modelling]]
+- [[Threat Intelligence]]
 - [Titan in depth: Security in plaintext | Google Cloud Blog](https://cloud.google.com/blog/products/identity-security/titan-in-depth-security-in-plaintext)
 - [When MFA is not enough: 5 easy and essential steps for hardening our identities](https://secure.microsoft.com/en-US/sessions/b3492f82-523b-4b18-9a8c-cf6ac66bc776?source=sessions)
 - [Cloud native Data Loss Prevention | The future of data security](https://techcommunity.microsoft.com/t5/security-compliance-and-identity/cloud-native-data-loss-prevention-the-future-of-data-security/ba-p/3771548)
@@ -64,6 +66,10 @@ tags:
 - [Crash-only software: More than meets the eye [LWN.net]](https://lwn.net/Articles/191059/)
 - [Google Online Security Blog: Capslock: What is your code really capable of?](https://security.googleblog.com/2023/09/capslock-what-is-your-code-really.html)
 - [Connect Microsoft Sentinel to STIX/TAXII threat intelligence feeds](https://learn.microsoft.com/en-us/azure/sentinel/connect-threat-intelligence-taxii)
+- [Secrets Management - OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html)
+- [Cloudflare Radar](https://radar.cloudflare.com/)
+- [OWASP WrongSecrets | OWASP Foundation](https://owasp.org/www-project-wrongsecrets/)
+- [Deploying ASP.NET Core applications to Kubernetes](https://andrewlock.net/series/deploying-asp-net-core-applications-to-kubernetes/)
 
 Podcasts
 - [Cybersecurity History Podcast | Malicious Life](https://malicious.life/)

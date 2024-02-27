@@ -4,22 +4,93 @@
     "type": "split",
     "children": [
       {
-        "id": "fd402afc0c12fea9",
+        "id": "ede85ba9db61ed00",
         "type": "tabs",
         "children": [
           {
-            "id": "3fc746becf69c47c",
+            "id": "299927d645065a18",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/2012-07-06-iis-configuration/IIS Configuration.md",
+                "file": "Security.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cf5fd589e1d4f0a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Threat Intelligence.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b99adc8ec5d3fc67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Security.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bcca33182beabb33",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "blog/2015-02-24-sluggish-internet-explorer-performance-and-browser-link/2015-02-24-sluggish-internet-explorer-performance-and-browser-link.png"
+              }
+            }
+          },
+          {
+            "id": "d66d6181c896cc73",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Security.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d9d85fb6c93d2493",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sentinel.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "10aa8ccf2fd9a247",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Threat Modelling.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -48,7 +119,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "azure kuber",
+                "query": "KQL",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,11 +136,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 420.5
   },
   "right": {
     "id": "bb258c7db1aead9d",
@@ -85,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blog/2012-07-06-iis-configuration/IIS Configuration.md",
+                "file": "Sentinel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blog/2012-07-06-iis-configuration/IIS Configuration.md",
+                "file": "Sentinel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +197,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blog/2012-07-06-iis-configuration/IIS Configuration.md"
+                "file": "Sentinel.md"
               }
             }
           }
@@ -142,44 +214,45 @@
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "bfc63cb41f7c62c8",
+  "active": "1e0fec0915ef87ec",
   "lastOpenFiles": [
+    "Security.md",
+    "Kubernetes.md",
+    "Terraform.md",
+    "AI.md",
+    "SQL Server.md",
+    "AWS.md",
+    "blog/2015-02-24-sluggish-internet-explorer-performance-and-browser-link/2015-02-24-sluggish-internet-explorer-performance-and-browser-link.md",
+    "blog/2015-02-24-sluggish-internet-explorer-performance-and-browser-link/2015-02-24-sluggish-internet-explorer-performance-and-browser-link.png",
+    "OSINT.md",
+    "AZ-104.md",
+    "Azure Kubernetes Service.md",
+    "Music Production.md",
+    "Microsoft Flight Simulator.md",
+    "Elite Dangerous.md",
+    "Threat Modelling.md",
+    "Threat Intelligence.md",
+    "Security Training.md",
+    "CompTIA Security+.md",
+    "Kubernetes and Cloud Native Security Associate (KCSA).md",
+    "Microsoft Entra ID.md",
+    "Cybersecurity Skills Frameworks.md",
+    "ADRs.md",
+    "Adding the Visual Studio 2010 Command Prompt variables to your PowerShell profile.md",
+    "2014-07-03-tweaks-for-ssds-on-windows.md",
+    "blog/Links/March 2020 Links.md",
+    "blog/Links/Links.md",
+    "blog/Links/June 2020 Links.md",
     "blog/2009-10-08-the-new-efficiency-the-uk-technical-launch-of-windows-7-windows-server-2008-r2-and-exchange-server-2010-olympic-way.jpg",
     "blog/2009-10-08-the-new-efficiency-the-uk-technical-launch-of-windows-7-windows-server-2008-r2-and-exchange-server-2010-me-at-wembley.jpg",
     "blog/2009-10-08-the-new-efficiency-the-uk-technical-launch-of-windows-7-windows-server-2008-r2-and-exchange-server-2010/2009-10-08-the-new-efficiency-the-uk-technical-launch-of-windows-7-windows-server-2008-r2-and-exchange-server-2010-olympic-way.jpg",
     "blog/2009-10-08-the-new-efficiency-the-uk-technical-launch-of-windows-7-windows-server-2008-r2-and-exchange-server-2010/2009-10-08-the-new-efficiency-the-uk-technical-launch-of-windows-7-windows-server-2008-r2-and-exchange-server-2010-me-at-wembley.jpg",
-    "blog/2009-10-08-the-new-efficiency-the-uk-technical-launch-of-windows-7-windows-server-2008-r2-and-exchange-server-2010.md",
-    "blog/2015-07-23-progressive-net-tutorials-2015/2015-07-23-progressive-net-tutorials-2015.md",
-    "blog/2015-06-10-most-good-ideas-actually-deliver-zero-or-negative-value/2015-06-10-most-good-ideas-actually-deliver-zero-or-negative-value.md",
-    "Adding the Visual Studio 2010 Command Prompt variables to your PowerShell profile.md",
-    "Deleting files that Windows can’t delete.md",
-    "jQuery and SWFObject.md",
-    "blog/jQuery and SWFObject.md",
-    "Parsing IIS log files with logstash on Windows.md",
-    "blog/2014-07-03-mongodb-london-2013.md",
-    "blog/2012-10-05-powershell-contains-vs-match-and-like.md",
-    "2014-07-03-tweaks-for-ssds-on-windows.md",
-    "blog/2015-06-11-internet-of-things-and-data-hackathon-11th-june-2015.md",
-    "blog/2015-06-12-how-do-you-type-a-backslash-into-the-dell-drac-viewer.md",
-    "blog/2015-08-25-uac-windows-10-and-visual-studio.md",
-    "blog/2015-02-24-sluggish-internet-explorer-performance-and-browser-link/2015-02-24-sluggish-internet-explorer-performance-and-browser-link.md",
-    "Defining a redirect rewrite in the Web.config.md",
-    "blog/2014-07-02-defining-a-redirectrewrite-in-the-web-config/Defining a redirect rewrite in the Web.config.md",
-    "blog/2014-07-02-defining-a-redirectrewrite-in-the-web-config/2014-07-02-defining-a-redirectrewrite-in-the-web-config.md",
-    "blog/2014-07-02-defining-a-redirectrewrite-in-the-web-config/Defining a redirect/rewrite in the Web.config.md",
     "blog/2014-07-02-defining-a-redirectrewrite-in-the-web-config/Defining a redirect",
-    "Finding all NuGet packages across multiple solutions.md",
-    "blog/2012-06-15-flotr2-charting-library.md",
-    "blog/2012-06-15-flotr2-charting-library/2012-06-15-flotr2-charting-library.md",
-    "blog/2012-05-17-msysgit-conflict-with-subversion.md",
-    "blog/2012-05-17-msysgit-conflict-with-subversion/2012-05-17-msysgit-conflict-with-subversion.md",
-    "blog/2016-01-12-rewriting-git-history-removing-a-directory.md",
-    "blog/2015-02-24-sluggish-internet-explorer-performance-and-browser-link/2015-02-24-sluggish-internet-explorer-performance-and-browser-link.png",
     "tools",
     "synths",
     "Skip YouTube Ads Bookmarklet",
@@ -193,7 +266,6 @@
     "blog/2015-12-22-running-iisreset-from-visual-studio/clip_image004.png",
     "blog/2015-12-22-running-iisreset-from-visual-studio/clip_image003.png",
     "blog/2015-12-22-running-iisreset-from-visual-studio/clip_image002.png",
-    "blog/2015-12-22-running-iisreset-from-visual-studio/clip_image001.png",
     "blog/2021-05-05-may-2022-links",
     "Untitled.canvas"
   ]
