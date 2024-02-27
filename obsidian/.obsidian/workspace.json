@@ -4,93 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "ede85ba9db61ed00",
+        "id": "e14aee04e09d7531",
         "type": "tabs",
         "children": [
           {
-            "id": "299927d645065a18",
+            "id": "efff97336e048d75",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Security.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cf5fd589e1d4f0a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Threat Intelligence.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b99adc8ec5d3fc67",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Security.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bcca33182beabb33",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "blog/2015-02-24-sluggish-internet-explorer-performance-and-browser-link/2015-02-24-sluggish-internet-explorer-performance-and-browser-link.png"
-              }
-            }
-          },
-          {
-            "id": "d66d6181c896cc73",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Security.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d9d85fb6c93d2493",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sentinel.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "10aa8ccf2fd9a247",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Threat Modelling.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -157,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sentinel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sentinel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Sentinel.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -219,8 +140,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "1e0fec0915ef87ec",
+  "active": "efff97336e048d75",
   "lastOpenFiles": [
+    "Sentinel.md",
     "Security.md",
     "Kubernetes.md",
     "Terraform.md",
@@ -247,7 +169,6 @@
     "2014-07-03-tweaks-for-ssds-on-windows.md",
     "blog/Links/March 2020 Links.md",
     "blog/Links/Links.md",
-    "blog/Links/June 2020 Links.md",
     "blog/2009-10-08-the-new-efficiency-the-uk-technical-launch-of-windows-7-windows-server-2008-r2-and-exchange-server-2010-olympic-way.jpg",
     "blog/2009-10-08-the-new-efficiency-the-uk-technical-launch-of-windows-7-windows-server-2008-r2-and-exchange-server-2010-me-at-wembley.jpg",
     "blog/2009-10-08-the-new-efficiency-the-uk-technical-launch-of-windows-7-windows-server-2008-r2-and-exchange-server-2010/2009-10-08-the-new-efficiency-the-uk-technical-launch-of-windows-7-windows-server-2008-r2-and-exchange-server-2010-olympic-way.jpg",
