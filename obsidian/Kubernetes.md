@@ -21,6 +21,8 @@
 - [iximiuz/kexp: k'exp - Kubernetes Explorer](https://github.com/iximiuz/kexp)
 - [Argo CD - Declarative GitOps CD for Kubernetes](https://argo-cd.readthedocs.io/en/stable/)
 - [techiescamp/kubernetes-learning-path: A roadmap to learn Kubernetes from scratch (Beginner to Advanced level)](https://github.com/techiescamp/kubernetes-learning-path)
+- [Kubernetes Virtual Book Club](https://community.cncf.io/kubernetes-virtual-book-club/)
+- [Send a Signal to a Kubernetes App: a Non-Root Container Case | Challenge](https://www.instapaper.com/read/1664683425)
 ## Security
 
  - [Securing container deployments on Azure Kubernetes Service with open-source tools](https://build.microsoft.com/en-US/sessions/0301c5a0-34cb-4a5b-ac0f-164b2d4191fa?source=sessions)
@@ -42,6 +44,9 @@
 - [Azure Kubernetes Service: RBAC options in practice - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/fasttrack-for-azure/azure-kubernetes-service-rbac-options-in-practice/ba-p/3684275)
 - [undistro/marvin: Marvin is a CLI tool that scans a k8s cluster by performing CEL expressions to report potential issues, misconfigurations and vulnerabilities.](https://github.com/undistro/marvin)
 - [Kubernetes SecurityContext with practical examples | by Eugene Butan | Marionete | Medium](https://medium.com/marionete/kubernetes-securitycontext-with-practical-examples-67d890558d11)
+- [Introducing Enhanced Security in Azure Kubernetes Service: Disabling SSH Access on Cluster Nodes](https://pixelrobots.co.uk/2024/02/introducing-enhanced-security-in-azure-kubernetes-service-disabling-ssh-access-on-cluster-nodes/)
+- [Simulator](https://github.com/controlplaneio/simulator)[] - Kubernetes Security Training Platform - focusing on security mitigation
+- [Securing Kubernetes: A Comprehensive Guide to Runtime Security and System Hardening](https://www.instapaper.com/read/1667363945)
 ## Certification
 
 - [Acing CKA Exam — Certified Kubernetes Administrator](https://kanger.dev/cka-exam-certified-kubernetes-administrator/)
