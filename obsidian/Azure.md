@@ -1,0 +1,33 @@
+- [[Azure PowerShell]]
+- [[Microsoft Entra ID]]
+- [[Azure DevOps]]
+- [[Azure Kubernetes Service]]
+- [[Azure Functions - The listener for function 'MyTimerFunction' was unable to start]]
+- [[AZ-500]]
+- [[AZ-104]]
+- [[Removing Azure Web App staging slots]]
+- [[Using Azure Data Factory to copy Azure Table Storage data from one account to another]]
+- [[2020-09-07-net-framework-4.8-on-azure-app-service]]
+- [Azure Deployment Environments](https://techcommunity.microsoft.com/t5/azure-developer-community-blog/azure-deployment-environments-is-now-generally-available/ba-p/3826373)
+- [Take your Azure CLI skills to the next level - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/fasttrack-for-azure/take-your-azure-cli-skills-to-the-next-level/ba-p/3723638)
+- [Azure Container Storage in Public Preview - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/azure-storage-blog/azure-container-storage-in-public-preview/ba-p/3819246)
+- [Azure CLI supports Tab Completion on PowerShell - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/azure-tools-blog/azure-cli-supports-tab-completion-on-powershell/ba-p/3829771)
+- [dolevshor/azure-orphan-resources: Centralize orphan resources in Azure environments](https://github.com/dolevshor/azure-orphan-resources?utm_content=buffer53954&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
+- [Azure Orphan Resources](https://techcommunity.microsoft.com/t5/fasttrack-for-azure/azure-orphan-resources/ba-p/3492198)
+- [Azure Container Hosting Demystified - 2022 Edition - samcogan.com](https://samcogan.com/azure-container-hosting-demystified-2022-edition/)
+- [Preview: Azure Boost | Azure updates | Microsoft Azure](https://azure.microsoft.com/en-gb/updates/preview-azure-boost/)
+- [AzAdvertizer](https://www.azadvertizer.net/index.html)
+- [Choose an Azure compute service - Azure Architecture Center | Microsoft Learn](https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/compute-decision-tree)
+- [Setting up AAD Policies in Azure DevOps - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/azure-devops-blog/setting-up-aad-policies-in-azure-devops/ba-p/3878358)
+- [Download all the Azure Icons for Free! - Ciraltos](https://www.ciraltos.com/download-all-the-azure-icons-for-free/)
+- [Using Stored Access Policy with Azure Storage – TheSleepyAdmins](https://thesleepyadmins.com/2022/05/19/using-stored-access-policy-with-azure-storage/)
+- [Introducing the New "az aks copilot" Preview Feature for Azure Kubernetes Service (AKS) in Azure CLI - Pixel Robots.](https://pixelrobots.co.uk/2023/09/introducing-the-new-az-aks-copilot-preview-feature-for-azure-kubernetes-service-aks-in-azure-cli/)
+- [Microsoft Azure Cheat Sheets - Tutorials Dojo](https://tutorialsdojo.com/microsoft-azure-cheat-sheets/)
+- [AzureAD/AzureADAssessment: Tooling for assessing an Azure AD tenant state and configuration](https://github.com/AzureAD/AzureADAssessment)
+- [Azure/aztfexport: A tool to bring existing Azure resources under Terraform's management](https://github.com/Azure/aztfexport)
+- [Azure global infrastructure experience](https://infrastructuremap.microsoft.com/explore?info=region_uksouth)
+- [Azure CLI Error Handling in PowerShell - Matt's Blog](https://matthorgan.xyz/blog/azcli-error-handling-in-powershell/)
+- [Privileged Identity Management (PIM) for Groups - Microsoft Entra | Microsoft Learn](https://learn.microsoft.com/en-gb/azure/active-directory/privileged-identity-management/concept-pim-for-groups)
+- [Passwordless Azure for CI/CD, Infrastructure and User Experiences](https://techcommunity.microsoft.com/t5/azure-developer-community-blog/passwordless-azure-for-ci-cd-infrastructure-and-user-experiences/ba-p/3613655)
+- [aaronparker/icons: Icons for use with applications deployed via Microsoft Intune / MDM / ConfigMgr etc.](https://github.com/aaronparker/icons)
+- [Docs overview | Azure/azapi | Terraform Registry](https://registry.terraform.io/providers/Azure/azapi/latest/docs)

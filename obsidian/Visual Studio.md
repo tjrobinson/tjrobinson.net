@@ -1,0 +1,2 @@
+- [Configure Visual Studio across your organization with .vsconfig - Visual Studio Setup](https://devblogs.microsoft.com/setup/configure-visual-studio-across-your-organization-with-vsconfig/)
+- [Conveyor by Keyoti - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=vs-publisher-1448185.ConveyorbyKeyoti)

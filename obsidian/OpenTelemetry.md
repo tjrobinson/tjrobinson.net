@@ -1,0 +1,1 @@
+- [Optimally Configuring Open Telemetry Tracing for ASP.NET Core - Muhammad Rehan Saeed](https://rehansaeed.com/optimally-configuring-open-telemetry-tracing-for-asp-net-core/)
