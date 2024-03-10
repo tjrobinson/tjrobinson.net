@@ -11,7 +11,8 @@ tags:
 - [[Snyk CTF 2022]]
 - [[SQL Server Authentication]]
 - [[Security Training & Certification]]
-- [[Zero Trust]]
+- [[Zero Trust
+- [[Microsoft Entra ID]]
 
 ## Tools
 

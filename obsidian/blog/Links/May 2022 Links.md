@@ -8,7 +8,6 @@ A collection of interesting things I've discovered since May 2021!
 - [jq](https://stedolan.github.io/jq/)
 - [DevToys - A Swiss Army knife for developers](https://devtoys.app/)
 - [DaVinci Resolve 17 | Blackmagic Design](https://www.blackmagicdesign.com/products/davinciresolve/)
-- [The SQL Diagnostic (jupyter) Book - T-SQL Tech](https://tsql.tech/the-sql-diagnostic-jupyter-book/)
 - [testing-library/angular-testing-library: 🦔 Simple and complete Angular testing utilities that encourage good testing practices](https://github.com/testing-library/angular-testing-library)
 - [datalust/seq-forwarder: Local collection and reliable forwarding of log data to Seq](https://github.com/datalust/seq-forwarder)
 - [Create Amazing Password Forms](https://www.chromium.org/developers/design-documents/create-amazing-password-forms/)

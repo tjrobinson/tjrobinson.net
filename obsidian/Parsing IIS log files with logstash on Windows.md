@@ -2,7 +2,6 @@
 title: Parsing IIS log files with logstash on Windows
 date: "2014-05-06"
 ---
-
 **Note: work in progress**
 
 I found a couple of example configurations for IIS logging, but they both rely on NXLog and contain deprecated configuration settings:
