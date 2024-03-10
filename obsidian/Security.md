@@ -10,7 +10,8 @@ tags:
 - [[Sentinel]]
 - [[Snyk CTF 2022]]
 - [[SQL Server Authentication]]
-- [[Security Training]]
+- [[Security Training & Certification]]
+- [[Zero Trust]]
 
 ## Tools
 
@@ -39,8 +40,7 @@ tags:
 - [Free developer security education lessons | Snyk Learn](https://learn.snyk.io/lessons/)
 
 ## Misc
-- [OWASP WrongSecrets | OWASP Foundation](https://owasp.org/www-project-wrongsecrets/)
-- [Secrets Management - OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html)
+- [[Secret Management]]
 - [BinaryEdge](https://www.binaryedge.io/)
 - [ONYPHE | Attack Surface Management & Cyber Defense Search Engine](https://www.onyphe.io/about)
 - [How to Conduct Person of Interest Investigations Using OSINT & Maltego - Maltego](https://www.maltego.com/blog/how-to-conduct-person-of-interest-investigations-using-osint-and-maltego/)

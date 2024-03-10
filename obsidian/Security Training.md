@@ -1,2 +1,0 @@
-- [Cyber Security Training : HTB Academy](https://academy.hackthebox.com/)
-- [Snyk - Free Interactive Secure Development Training](https://learn.snyk.io/)

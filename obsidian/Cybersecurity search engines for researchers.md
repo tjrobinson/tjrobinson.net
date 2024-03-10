@@ -35,16 +35,17 @@ From: https://twitter.com/danielmakelley/status/1591389408577654784
 17. Vulners—Search vulnerabilities in a large database.
 18. WayBackMachine—View content from deleted websites.
 19. Shodan—Search for devices connected to the internet.
-20. Netlas—Search and monitor internet connected assets.
-21. CRT sh—Search for certs that have been logged by CT.
-22. Wigle—Database of wireless networks, with statistics.
-23. PublicWWW—Marketing and affiliate marketing research.
-24. Binary Edge—Scans the internet for threat intelligence.
-25. GreyNoise—Search for devices connected to the internet.
-26. Hunter—Search for email addresses belonging to a website.
-27. Censys—Assessing attack surface for internet connected devices.
-28. IntelligenceX—Search Tor, I2P, data leaks, domains, and emails.
-29. Packet Storm Security—Browse latest vulnerabilities and exploits.
-30. SearchCode—Search 75 billion lines of code from 40 million projects.
+20. [[Shodan]]
+21. Netlas—Search and monitor internet connected assets.
+22. CRT sh—Search for certs that have been logged by CT.
+23. Wigle—Database of wireless networks, with statistics.
+24. PublicWWW—Marketing and affiliate marketing research.
+25. Binary Edge—Scans the internet for threat intelligence.
+26. GreyNoise—Search for devices connected to the internet.
+27. Hunter—Search for email addresses belonging to a website.
+28. Censys—Assessing attack surface for internet connected devices.
+29. IntelligenceX—Search Tor, I2P, data leaks, domains, and emails.
+30. Packet Storm Security—Browse latest vulnerabilities and exploits.
+31. SearchCode—Search 75 billion lines of code from 40 million projects.
 
 

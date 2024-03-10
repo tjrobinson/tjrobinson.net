@@ -2,6 +2,8 @@
 - [Udemy - Kubernetes Certified Application Developer (CKAD) with Tests](https://www.udemy.com/course/certified-kubernetes-application-developer/)
 - [K8sGPT](https://k8sgpt.ai/)
 - [Rancher Desktop](https://rancherdesktop.io/)
+- [Minikube](https://minikube.sigs.k8s.io/docs/)
+- https://github.com/GoogleCloudPlatform/microservices-demo
 - [steveteuber/kubectl-graph: A kubectl plugin to visualize Kubernetes resources and relationships.](https://github.com/steveteuber/kubectl-graph)
 - [Must Read Free Kubernetes Books ~ Bilgin Ibryam (@bibryam)](https://www.ofbizian.com/2020/09/must-read-free-kubernetes-books.html)
 - [AKS (Kubernetes) day-2 operations guide - Azure Architecture Center | Microsoft Learn](https://learn.microsoft.com/en-us/azure/architecture/operator-guides/aks/day-2-operations-guide)
@@ -23,6 +25,7 @@
 - [techiescamp/kubernetes-learning-path: A roadmap to learn Kubernetes from scratch (Beginner to Advanced level)](https://github.com/techiescamp/kubernetes-learning-path)
 - [Kubernetes Virtual Book Club](https://community.cncf.io/kubernetes-virtual-book-club/)
 - [Send a Signal to a Kubernetes App: a Non-Root Container Case | Challenge](https://www.instapaper.com/read/1664683425)
+- [wagoodman/dive: A tool for exploring each layer in a docker image](https://github.com/wagoodman/dive)
 ## Security
 
  - [Securing container deployments on Azure Kubernetes Service with open-source tools](https://build.microsoft.com/en-US/sessions/0301c5a0-34cb-4a5b-ac0f-164b2d4191fa?source=sessions)
@@ -47,6 +50,10 @@
 - [Introducing Enhanced Security in Azure Kubernetes Service: Disabling SSH Access on Cluster Nodes](https://pixelrobots.co.uk/2024/02/introducing-enhanced-security-in-azure-kubernetes-service-disabling-ssh-access-on-cluster-nodes/)
 - [Simulator](https://github.com/controlplaneio/simulator)[] - Kubernetes Security Training Platform - focusing on security mitigation
 - [Securing Kubernetes: A Comprehensive Guide to Runtime Security and System Hardening](https://www.instapaper.com/read/1667363945)
+- Workload Identity
+	- [Kubernetes Workload Identity with AKS – baeke.info](https://blog.baeke.info/2022/01/31/kubernetes-workload-identity-with-aks/)
+	- [AKS Workload Identity Revisited – baeke.info](https://blog.baeke.info/2022/11/24/aks-workload-identity-revisited/)
+- [Sail Sharp, 9 tips to optimize and secure your .NET containers for Kubernetes](https://medium.com/google-cloud/sail-sharp-8-tips-to-optimize-and-secure-your-net-containers-for-kubernetes-c68ba253844a)
 ## Certification
 
 - [Acing CKA Exam — Certified Kubernetes Administrator](https://kanger.dev/cka-exam-certified-kubernetes-administrator/)

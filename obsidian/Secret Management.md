@@ -1,0 +1,8 @@
+- [Secrets Management Maturity Model | GitGuardian](https://www.gitguardian.com/files/secrets-management-maturity-model)
+- [OWASP WrongSecrets | OWASP Foundation](https://owasp.org/www-project-wrongsecrets/)
+- [Secrets Management - OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html)
+- [Azure Tips and Tricks - Remove Azure Secrets committed to GitHub](https://techcommunity.microsoft.com/t5/azure-developer-community-blog/azure-tips-and-tricks-remove-azure-secrets-committed-to-github/ba-p/3545349)
+- [Protect git secret](https://techcommunity.microsoft.com/t5/azure-developer-community-blog/protect-production-branches-from-having-secrets-through-an-azure/ba-p/3780659)
+- Scanning tools
+	- [GitGuardian/ggshield: Detect secrets in source code, scan git repos, and use pre commit hooks to prevent API key leaks.](https://github.com/GitGuardian/ggshield)
+	- [abnamro/repository-scanner: Tool to detect secrets in source code management systems.](https://github.com/abnamro/repository-scanner)
