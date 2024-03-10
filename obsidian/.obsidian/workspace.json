@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5ae3a0920ba7063c",
+        "id": "5a6d37c36dd07c7a",
         "type": "tabs",
         "children": [
           {
-            "id": "a55b3fee85947409",
+            "id": "9d3f383d11419142",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -140,7 +140,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "a55b3fee85947409",
+  "active": "9d3f383d11419142",
   "lastOpenFiles": [
     "Using PowerShell to get the certificate information from a Base64 encoded string.md",
     "Sentinel.md",
