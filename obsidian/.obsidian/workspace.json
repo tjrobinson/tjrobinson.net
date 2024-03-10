@@ -4,18 +4,71 @@
     "type": "split",
     "children": [
       {
-        "id": "5a6d37c36dd07c7a",
+        "id": "aaa160b6e912c6ae",
         "type": "tabs",
         "children": [
           {
-            "id": "9d3f383d11419142",
+            "id": "60441b6366121ced",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Pokemon.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b1a006d88a4eecd6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL Server.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a5d26d1dee9a52c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Engineering Practices.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4a6dcd58b0b946a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Azure.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6797df065d5d90f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Microsoft 365.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -44,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "security",
+                "query": "azure",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +119,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 420.5
+    "width": 421.5
   },
   "right": {
     "id": "bb258c7db1aead9d",
@@ -82,6 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Azure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Azure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +174,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Azure.md"
+              }
             }
           }
         ]
@@ -140,37 +197,39 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "9d3f383d11419142",
+  "active": "4a6dcd58b0b946a8",
   "lastOpenFiles": [
-    "Using PowerShell to get the certificate information from a Base64 encoded string.md",
-    "Sentinel.md",
-    "Security.md",
-    "NuGet.md",
-    "Microsoft Entra ID.md",
-    "Azure.md",
-    "Terraform.md",
+    "Parenting.md",
     "dotnet.md",
-    "Visual Studio.md",
-    "Azure DevOps.md",
-    "Testing.md",
-    "Travel.md",
-    "Music Production.md",
-    "OpenTelemetry.md",
-    "Architecture.md",
-    "APIs.md",
-    "API.md",
-    "Untitled.md",
-    "Neo4J.md",
-    "Microsoft 365.md",
-    "blog/2017-11-02-microsoft-future-decoded.md",
-    "OSINT.md",
-    "SQL Server Authentication.md",
+    "Tools.md",
     "SQL Server.md",
-    "blog/Links/May 2022 Links.md",
+    "New (To Sort).md",
+    "Gaming.md",
+    "Pokemon.md",
+    "Microsoft 365.md",
+    "Untitled.md",
+    "Engineering Practices.md",
+    "Kubernetes.md",
+    "AZ-104.md",
+    "BBC Micro.md",
+    "Kubernetes and Cloud Native Security Associate (KCSA).md",
+    "JetBrains Keymaps.md",
+    "Learning R.md",
+    "Maps.md",
+    "Microsoft Certification.md",
+    "Microsoft Entra ID.md",
+    "Microsoft Flight Simulator.md",
+    "Music Production.md",
     "My Hardware.md",
-    "blog/2015-02-24-sluggish-internet-explorer-performance-and-browser-link/2015-02-24-sluggish-internet-explorer-performance-and-browser-link.png",
-    "blog/2009-10-08-the-new-efficiency-the-uk-technical-launch-of-windows-7-windows-server-2008-r2-and-exchange-server-2010-olympic-way.jpg",
+    "Neo4J.md",
+    "NuGet.md",
+    "Octopus HCL Parser.md",
+    "OpenTelemetry.md",
     "blog/2009-10-08-the-new-efficiency-the-uk-technical-launch-of-windows-7-windows-server-2008-r2-and-exchange-server-2010-me-at-wembley.jpg",
+    "blog/2009-10-08-the-new-efficiency-the-uk-technical-launch-of-windows-7-windows-server-2008-r2-and-exchange-server-2010-olympic-way.jpg",
+    "blog/2012-07-23-remote-debugging/Untitled.png",
+    "blog/2012-06-05-printmanagement-msc/printmanagement.png",
+    "blog/2015-02-24-sluggish-internet-explorer-performance-and-browser-link/2015-02-24-sluggish-internet-explorer-performance-and-browser-link.png",
     "blog/2009-10-08-the-new-efficiency-the-uk-technical-launch-of-windows-7-windows-server-2008-r2-and-exchange-server-2010/2009-10-08-the-new-efficiency-the-uk-technical-launch-of-windows-7-windows-server-2008-r2-and-exchange-server-2010-olympic-way.jpg",
     "blog/2009-10-08-the-new-efficiency-the-uk-technical-launch-of-windows-7-windows-server-2008-r2-and-exchange-server-2010/2009-10-08-the-new-efficiency-the-uk-technical-launch-of-windows-7-windows-server-2008-r2-and-exchange-server-2010-me-at-wembley.jpg",
     "blog/2014-07-02-defining-a-redirectrewrite-in-the-web-config/Defining a redirect",
@@ -185,8 +244,6 @@
     "to-migrate",
     "_drafts",
     "blog/2015-12-22-running-iisreset-from-visual-studio/clip_image004.png",
-    "blog/2015-12-22-running-iisreset-from-visual-studio/clip_image003.png",
-    "blog/2015-12-22-running-iisreset-from-visual-studio/clip_image002.png",
     "blog/2021-05-05-may-2022-links",
     "Untitled.canvas"
   ]

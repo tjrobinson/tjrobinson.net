@@ -5,7 +5,8 @@
 - [[Azure Functions - The listener for function 'MyTimerFunction' was unable to start]]
 - [[AZ-500]]
 - [[AZ-104]]
-- [[Removing Azure Web App staging slots]]
+- [[Azure Web Apps]]
+- [Azure Resource Explorer](https://resources.azure.com/)
 - [[Using Azure Data Factory to copy Azure Table Storage data from one account to another]]
 - [[2020-09-07-net-framework-4.8-on-azure-app-service]]
 - [Azure Deployment Environments](https://techcommunity.microsoft.com/t5/azure-developer-community-blog/azure-deployment-environments-is-now-generally-available/ba-p/3826373)

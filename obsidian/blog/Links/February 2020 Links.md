@@ -11,7 +11,6 @@ A collection of interesting things I've discovered this month:
 - [Blazor Contacts](https://github.com/bradwellsb/blazor-contacts) - "A project template for OData API, IdentityServer4 auth, and server-side Blazor"
 - [Nick Craver - Binding Redirects](https://nickcraver.com/blog/2020/02/11/binding-redirects/)
 - [Current Status of Python Packaging - 2019](https://stefanoborini.com/current-status-of-python-packaging/)
-- [ASP.NET Core MVC 3.x – AddMvc(), AddMvcCore(), AddControllers() and other bootstrapping approaches](https://www.strathweb.com/2020/02/asp-net-core-mvc-3-x-addmvc-addmvccore-addcontrollers-and-other-bootstrapping-approaches/)
-- [ASP.NET Core Integration Testing & Mocking using Moq](https://rehansaeed.com/asp-net-core-integration-testing-mocking-using-moq/)
+
 - [AWS to Azure services comparison](https://docs.microsoft.com/en-us/azure/architecture/aws-professional/services)
 - [Nailing Your Naming Convention With Azure Policy](https://blog.matthewbrowne.com/blog/nailing-your-naming-convention-with-azure-policy/)

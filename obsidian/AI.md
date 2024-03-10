@@ -14,3 +14,4 @@
 - [11 ways you can use ChatGPT to write code | Santiago](https://typefully.com/svpino/11-ways-you-can-use-chatgpt-to-write-code-YnkOEF4)
 - [New research, tooling, and partnerships for more secure AI and machine learning | Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/2023/03/02/new-research-tooling-and-partnerships-for-more-secure-ai-and-machine-learning/?ocid=eml_pg395585_gdc_comm_mw&mkt_tok=MTU3LUdRRS0zODIAAAGMFMQF8fYg6k5R1ffYNU6uULXR6dTrBmtbSXF2lALykHmPWg285PL_L1l4BQpLIYVe0q86DzWm85gJa5JiQB32-qSKrNS_tDMkp_WkeVVfBhpx7YlIdpkJn9ax)
 - [Learn Python, Data Viz, Pandas & More | Tutorials | Kaggle](https://www.kaggle.com/learn)
+- [joonspk-research/generative_agents: Generative Agents: Interactive Simulacra of Human Behavior](https://github.com/joonspk-research/generative_agents)

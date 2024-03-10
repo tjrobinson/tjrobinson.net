@@ -1,8 +1,12 @@
 - [[Visual Studio]]
+- [[Binding Redirects]]]
+- [ASP.NET Core MVC 3.x – AddMvc(), AddMvcCore(), AddControllers() and other bootstrapping approaches](https://www.strathweb.com/2020/02/asp-net-core-mvc-3-x-addmvc-addmvccore-addcontrollers-and-other-bootstrapping-approaches/)
+- [ASP.NET Core Integration Testing & Mocking using Moq](https://rehansaeed.com/asp-net-core-integration-testing-mocking-using-moq/)
 - [[2015-07-23-progressive-net-tutorials-2015]]
 - [[ASP.NET Core Antiforgery troubleshooting]]
 - [[2020-10-05-a-guide-to-the-microsoft-dotnet-sdks-for-azure-table-storage]]
 - [Running dotnet test in docker | chester.codes](https://chester.codes/running-dotnet-test-in-docker)
+- [Source Browser](https://source.dot.net/)
 - [C# 8.0 nullable references: non-nullable is the new default | endjin](https://endjin.com/blog/2020/04/dotnet-csharp-8-nullable-references-non-nullable-is-the-new-default)
 - [GitHub - leonardochaia/dotnet-affected: .NET tool for determining which projects are affected by a set of changes. Useful for large projects or monorepos.](https://github.com/leonardochaia/dotnet-affected)
 - [TNG/ArchUnitNET: A C# architecture test library to specify and assert architecture rules in C# for automated testing.](https://github.com/TNG/ArchUnitNET)

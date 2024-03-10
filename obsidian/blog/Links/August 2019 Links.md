@@ -10,7 +10,6 @@ A collection of interesting things I've discovered this month (and a few from be
 - [https://weblog.west-wind.com/posts/2014/jan/06/javascript-json-date-parsing-and-real-dates](https://weblog.west-wind.com/posts/2014/jan/06/javascript-json-date-parsing-and-real-dates)
 - [https://blog.angularindepth.com/debugging-rxjs-4f0340286dd3](https://blog.angularindepth.com/debugging-rxjs-4f0340286dd3)
 - [https://github.com/microsoft/api-guidelines/blob/vNext/Guidelines.md](https://github.com/microsoft/api-guidelines/blob/vNext/Guidelines.md)
-- [https://www.red-gate.com/simple-talk/sql/t-sql-programming/modeling-time/](https://www.red-gate.com/simple-talk/sql/t-sql-programming/modeling-time/)
 - [https://jamesmccaffrey.wordpress.com/2019/05/14/a-first-look-at-automl-for-the-ml-net-machine-learning-library/](https://jamesmccaffrey.wordpress.com/2019/05/14/a-first-look-at-automl-for-the-ml-net-machine-learning-library/)
 - [https://camerondwyer.com/2018/07/11/how-to-inspect-dynamic-html-elements-that-keep-disappearing-in-chrome/](https://camerondwyer.com/2018/07/11/how-to-inspect-dynamic-html-elements-that-keep-disappearing-in-chrome/)
 - [https://medium.com/capgemini-dynamics-365-team/adventures-in-infrastructure-as-code-lessons-learnt-using-azure-arm-templates-4cf76fec6879](https://medium.com/capgemini-dynamics-365-team/adventures-in-infrastructure-as-code-lessons-learnt-using-azure-arm-templates-4cf76fec6879)
