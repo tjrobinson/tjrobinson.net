@@ -1,4 +1,3 @@
-
 ## Image Generation
 
 - [Scribble Diffusion](https://scribblediffusion.com/) - From rough sketches to masterpieces with Scribble Diffusion using ControlNet.

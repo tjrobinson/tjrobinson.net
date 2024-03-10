@@ -4,71 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "aaa160b6e912c6ae",
+        "id": "5bb41e1cf6c6c602",
         "type": "tabs",
         "children": [
           {
-            "id": "60441b6366121ced",
+            "id": "ea7d4d949bdfe2c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pokemon.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b1a006d88a4eecd6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SQL Server.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a5d26d1dee9a52c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Engineering Practices.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4a6dcd58b0b946a8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Azure.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6797df065d5d90f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Microsoft 365.md",
+                "file": "Kubernetes.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "azure",
+                "query": "file:security",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -135,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Azure.md",
+                "file": "Kubernetes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Azure.md",
+                "file": "Kubernetes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Azure.md"
+                "file": "Kubernetes.md"
               }
             }
           }
@@ -197,34 +147,34 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "4a6dcd58b0b946a8",
+  "active": "ea7d4d949bdfe2c1",
   "lastOpenFiles": [
-    "Parenting.md",
-    "dotnet.md",
-    "Tools.md",
-    "SQL Server.md",
-    "New (To Sort).md",
-    "Gaming.md",
-    "Pokemon.md",
-    "Microsoft 365.md",
-    "Untitled.md",
-    "Engineering Practices.md",
-    "Kubernetes.md",
-    "AZ-104.md",
-    "BBC Micro.md",
-    "Kubernetes and Cloud Native Security Associate (KCSA).md",
-    "JetBrains Keymaps.md",
     "Learning R.md",
-    "Maps.md",
-    "Microsoft Certification.md",
+    "Kubernetes and Cloud Native Security Associate (KCSA).md",
+    "Kubernetes.md",
+    "Microsoft 365.md",
     "Microsoft Entra ID.md",
-    "Microsoft Flight Simulator.md",
-    "Music Production.md",
-    "My Hardware.md",
-    "Neo4J.md",
-    "NuGet.md",
-    "Octopus HCL Parser.md",
-    "OpenTelemetry.md",
+    "Microsoft Certification.md",
+    "Maps.md",
+    "Testing.md",
+    "PowerShell.md",
+    "PowerZure.md",
+    "Security.md",
+    "Adding the Visual Studio 2010 Command Prompt variables to your PowerShell profile.md",
+    "Data Visualisation.md",
+    "Visual Studio.md",
+    "Visual Studio Code Extensions.md",
+    "blog/2015-12-22-running-iisreset-from-visual-studio/2015-12-22-running-iisreset-from-visual-studio.md",
+    "blog/2015-08-25-uac-windows-10-and-visual-studio.md",
+    "AI.md",
+    "API.md",
+    "AngularJS to Angular migration.md",
+    "AngularJS.md",
+    "ADRs.md",
+    "404.md",
+    "blog/2007-03-02-asp-net-debugging-in-firefox-resources-not-loading.md",
+    "New (To Sort).md",
+    "blog/Links/Links.md",
     "blog/2009-10-08-the-new-efficiency-the-uk-technical-launch-of-windows-7-windows-server-2008-r2-and-exchange-server-2010-me-at-wembley.jpg",
     "blog/2009-10-08-the-new-efficiency-the-uk-technical-launch-of-windows-7-windows-server-2008-r2-and-exchange-server-2010-olympic-way.jpg",
     "blog/2012-07-23-remote-debugging/Untitled.png",

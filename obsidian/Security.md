@@ -13,6 +13,7 @@ tags:
 - [[Security Training & Certification]]
 - [[Zero Trust
 - [[Microsoft Entra ID]]
+- [[Supply Chain Management]]
 
 ## Tools
 
