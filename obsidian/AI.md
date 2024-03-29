@@ -7,6 +7,8 @@
 ## Other
 
 - [Generative Agents: Interactive Simulacra of Human Behavior](https://github.com/joonspk-research/generative_agents)
+- [Demystifying Retrieval Augmented Generation with .NET - .NET Blog](https://devblogs.microsoft.com/dotnet/demystifying-retrieval-augmented-generation-with-dotnet/)
+- [GitHub Engineering - How AI code generation works](https://github.blog/2024-02-22-how-ai-code-generation-works/)
 - [Professional AI whisperers have launched a marketplace for DALL-E prompts - The Verge](https://www.theverge.com/2022/9/2/23326868/dalle-midjourney-ai-promptbase-prompt-market-sales-artist-interview)
 - [Understanding AI | Timothy B Lee | Substack](https://www.understandingai.org/p/large-language-models-explained-with)
 - [How AI impacts software development | Google Cloud Blog](https://cloud.google.com/blog/products/ai-machine-learning/how-ai-impacts-software-development/)

@@ -1,6 +1,8 @@
 - [The Azure Kubernetes Service Checklist - ✨ Be ready for production ✨](https://www.the-aks-checklist.com/#section-resource-management)
 - [Udemy - Kubernetes Certified Application Developer (CKAD) with Tests](https://www.udemy.com/course/certified-kubernetes-application-developer/)
 - [K8sGPT](https://k8sgpt.ai/)
+- [Azure Container Storage: A New Dawn in Kubernetes Storage Solutions](https://medium.com/microsoftazure/azure-container-storage-a-new-dawn-in-kubernetes-storage-solutions-5a8f4618dc73)
+- [K9s](https://k9scli.io/) - "Kubernetes CLI To Manage Your Clusters In Style!"
 - [Rancher Desktop](https://rancherdesktop.io/)
 - [Minikube](https://minikube.sigs.k8s.io/docs/)
 - https://github.com/GoogleCloudPlatform/microservices-demo
@@ -9,6 +11,7 @@
 - [AKS (Kubernetes) day-2 operations guide - Azure Architecture Center | Microsoft Learn](https://learn.microsoft.com/en-us/azure/architecture/operator-guides/aks/day-2-operations-guide)
 - [Introducing the Azure Linux container host for AKS](https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/introducing-the-azure-linux-container-host-for-aks/ba-p/3824101)
 - [How to use Gatekeeper | Gatekeeper](https://open-policy-agent.github.io/gatekeeper/website/docs/howto/)
+- [learnk8s - Kubernetes Research](https://learnk8s.io/research)
 - [Azure DevOps agents on AKS with workload identity - DEV Community](https://dev.to/oskarm93/azure-devops-agents-on-aks-with-workload-identity-113o)
 - ["Hacking Container Security" - Super Cyber Friday - crowdcast](https://www.crowdcast.io/c/hacking-container-security)
 - [Explore the Azure Kubernetes Service cluster and node architecture - Training | Microsoft Learn](https://learn.microsoft.com/en-gb/training/modules/configure-azure-kubernetes-service/3-kubernetes-clusters)
@@ -26,10 +29,13 @@
 - [Kubernetes Virtual Book Club](https://community.cncf.io/kubernetes-virtual-book-club/)
 - [Send a Signal to a Kubernetes App: a Non-Root Container Case | Challenge](https://www.instapaper.com/read/1664683425)
 - [wagoodman/dive: A tool for exploring each layer in a docker image](https://github.com/wagoodman/dive)
+- [kubernetes-sigs/kube-scheduler-simulator: The simulator for the Kubernetes scheduler](https://github.com/kubernetes-sigs/kube-scheduler-simulator)
 ## Security
 
  - [Securing container deployments on Azure Kubernetes Service with open-source tools](https://build.microsoft.com/en-US/sessions/0301c5a0-34cb-4a5b-ac0f-164b2d4191fa?source=sessions)
 - [Leveraging Defender for Containers to simplify policy management in your Kubernetes Clusters - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/leveraging-defender-for-containers-to-simplify-policy-management/ba-p/3755757)
+- [sigstore/cosign: Code signing and transparency for containers and binaries](https://github.com/sigstore/cosign)
+- [bitnami-labs/sealed-secrets: A Kubernetes controller and tool for one-way encrypted Secrets](https://github.com/bitnami-labs/sealed-secrets)
 - [Kubernetes security fundamentals: API Security | Datadog Security Labs](https://securitylabs.datadoghq.com/articles/kubernetes-security-fundamentals-part-2/)
 - [Kubernetes Exposed: One Yaml away from Disaster](https://blog.aquasec.com/kubernetes-exposed-one-yaml-away-from-disaster)
 - [Encrypting Secret data at etcd store on a Minikube K8s Cluster | by Seralahthan | Medium](https://techexpertise.medium.com/encrypting-the-secret-data-at-etcd-store-on-a-minikube-k8s-cluster-2338c68263a5)
@@ -38,12 +44,17 @@
 - [A Guide to Securing Kubernetes Namespaces | Rapid7 Blog](https://www.rapid7.com/blog/post/2021/04/08/kubernetes-namespaces-are-not-as-secure-as-you-think/)
 - [What if your Pods need to trust self-signed certificates?](https://blog.alexellis.io/what-if-your-pods-need-to-trust-self-signed-certificates/)
 - [WithSecureLabs/IceKube](https://github.com/WithSecureLabs/IceKube)
+- [A Look at Software Composition Analysis](https://blog.doyensec.com/2024/03/14/supplychain.html)
+- [quay/clair: Vulnerability Static Analysis for Containers](https://github.com/quay/clair)
+- [aquasecurity/trivy: Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more](https://github.com/aquasecurity/trivy)
 - [acrlabs/simkube: Virtual Kubelet provider for Kubernetes scheduling simulations](https://github.com/acrlabs/simkube?utm_source=thenewstack&utm_medium=website&utm_content=inline-mention&utm_campaign=platform)
 - [Network Policies: Understanding Kubernetes Network Policies](https://blog.slycreator.com/network-policies-understanding-kubernetes-network-policies)
 - [Tactics - Threat Matrix for Kubernetes](https://microsoft.github.io/Threat-Matrix-for-Kubernetes/)
+- [K8S Threat Model](https://cloudsecdocs.com/containers/theory/threats/k8s_threat_model/)
 - [jatrost/awesome-kubernetes-threat-detection: A curated list of resources about detecting threats and defending Kubernetes systems.](https://github.com/jatrost/awesome-kubernetes-threat-detection)
 - [cyberark/KubiScan: A tool to scan Kubernetes cluster for risky permissions](https://github.com/cyberark/KubiScan)
 - RBAC
+	- [PaloAltoNetworks/rbac-police: Evaluate the RBAC permissions of Kubernetes identities through policies written in Rego](https://github.com/PaloAltoNetworks/rbac-police)
 	- [Azure Kubernetes Service: RBAC options in practice - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/fasttrack-for-azure/azure-kubernetes-service-rbac-options-in-practice/ba-p/3684275)
 	- [Kubernetes RBAC: Privilege Escalation Exploits and Mitigations | by Seifeddine Rajhi | Medium](https://medium.com/@seifeddinerajhi/kubernetes-rbac-privilege-escalation-exploits-and-mitigations-26c07629eeab)
 	- [https://github.com/alcideio/rbac-tool](https://github.com/alcideio/rbac-tool)

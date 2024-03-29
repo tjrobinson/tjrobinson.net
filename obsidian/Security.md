@@ -13,7 +13,7 @@ tags:
 - [[Security Training & Certification]]
 - [[Zero Trust
 - [[Microsoft Entra ID]]
-- [[Supply Chain Management]]
+- [[Supply Chain Security]]
 
 ## Tools
 
@@ -44,6 +44,7 @@ tags:
 ## Misc
 - [[Secret Management]]
 - [BinaryEdge](https://www.binaryedge.io/)
+- [digininja/DVWA: Damn Vulnerable Web Application (DVWA)](https://github.com/digininja/DVWA)
 - [ONYPHE | Attack Surface Management & Cyber Defense Search Engine](https://www.onyphe.io/about)
 - [How to Conduct Person of Interest Investigations Using OSINT & Maltego - Maltego](https://www.maltego.com/blog/how-to-conduct-person-of-interest-investigations-using-osint-and-maltego/)
 - [Persistence via App Registration in Entra ID](https://cyberdom.blog/2023/07/29/persistence-via-app-registration-in-entra-id/)

@@ -6,3 +6,4 @@
 - [How to Preview and Test a Changing YAML Pipeline on Azure DevOps – RazorSPoint](https://www.razorspoint.com/2020/03/13/how-to-preview-and-test-a-changing-yaml-pipeline-on-azure-devops/)
 - [Terraform Pull Request Automation | Atlantis](https://www.runatlantis.io/)
 - [Project Documentation from Azure DevOps Wikis - Paul Hatcher](https://blog.paulhatcher.com/2022/01/project-documentation-from-azure-devops-wikis/)
+- [TFS/Azure DevOps Code Statistics](https://github.com/wandrille-hubert/AzureDevopsCodeStats)
