@@ -1,1 +1,2 @@
 - [Software platform dependency analysis with F# and Neo4j | chester.codes](https://chester.codes/software-platform-dependency-analysis-with-fsharp-and-neofourj)
+- [Neo4j partners with Microsoft, unfolds strategy to power Generative AI applications with cloud platforms and Graph RAG](https://linkeddataorchestration.com/2024/03/27/neo4j-partners-with-microsoft-unfolds-strategy-to-power-generative-ai-applications-with-cloud-platforms-and-graph-rag/)

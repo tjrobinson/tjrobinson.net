@@ -3,3 +3,4 @@
 - [Top Ten Security Tips for APIs - YouTube](https://www.youtube.com/watch?v=GpcxQJanOXc)
 - [Web Application and API Attack Trends to Look for in 2023](https://www.brighttalk.com/webcast/14253/580555?utm_source=brighttalk-recommend&utm_campaign=network_weekly_email&utm_medium=email&utm_content=collab&utm_term=212023)
 - [Ctrl+Alt+Azure | 190 - Let's take Defender for APIs for a spin](https://share.transistor.fm/s/d43cb5fa)
+- [Security Code Challenge for Developers & Ethical Hackers – The Damn Vulnerable RESTaurant](https://devsec-blog.com/2024/04/security-code-challenge-for-developers-ethical-hackers-the-damn-vulnerable-restaurant/)

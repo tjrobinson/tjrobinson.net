@@ -34,6 +34,7 @@ tags:
 - [Axonius](https://www.axonius.com/)
 - [Seedata.io](https://www.seedata.io/) - deception platform
 - [Mandiant capa](https://github.com/mandiant/capa) - capa detects capabilities in executable files
+- [DNS Dumpster](https://dnsdumpster.com/) - passive DNS
 
 ## Training
 - [Snyk Learn - Trusted Developer Security Training | Snyk](https://snyk.io/platform/learn/?utm_medium=events-email&utm_source=mkto-drip-1&utm_campaign=clm-platform-learn&mkt_tok=Njc3LVRIUC00MTUAAAGMXsK6FYK_9j-87bm4Nj96zXfGGZEJDam6Czi4XzoBfUhc4wSCngnLEaY5Q3TBC5qDoQYTfOjJGjrrHL2IgdPFeTm_5jkN9M63LgilrUIagHZiyw)

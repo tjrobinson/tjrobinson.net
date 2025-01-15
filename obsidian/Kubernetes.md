@@ -68,6 +68,7 @@
 	- [AKS Workload Identity Revisited – baeke.info](https://blog.baeke.info/2022/11/24/aks-workload-identity-revisited/)
 - [Sail Sharp, 9 tips to optimize and secure your .NET containers for Kubernetes](https://medium.com/google-cloud/sail-sharp-8-tips-to-optimize-and-secure-your-net-containers-for-kubernetes-c68ba253844a)
 - - [Ramilito/kubediff: Source VS Deployed](https://github.com/Ramilito/kubediff)
+- [Let's talk about anonymous access to Kubernetes](https://raesene.github.io/blog/2023/03/18/lets-talk-about-anonymous-access-to-Kubernetes/)
 ## Certification
 
 - CKA
