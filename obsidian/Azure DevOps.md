@@ -21,3 +21,41 @@ https://dev.azure.com/{organisation}/_apis/hooks/publishers
 
 https://dev.azure.com/{organisation}/{project}/_apis/git/pullrequests?searchCriteria.status=completed&api-version=6.0
 https://dev.azure.com/{organisation}/_apis/git/pullrequests?searchCriteria.status=all&api-version=6.0
+
+## Azure Pipelines
+
+### Tasks to log all the files in the various working directories
+
+```yaml
+  - task: PowerShell@2
+    displayName: List contents of Build.ArtifactStagingDirectory
+    inputs:
+        targetType: "inline"
+        workingDirectory: '$(Build.ArtifactStagingDirectory)'
+        script: |
+        Get-ChildItem -Recurse |% { $_.FullName }
+
+    - task: PowerShell@2
+    displayName: List contents of Build.SourcesDirectory
+    inputs:
+        targetType: "inline"
+        workingDirectory: '$(Build.SourcesDirectory)'
+        script: |
+        Get-ChildItem -Recurse |% { $_.FullName }
+
+    - task: PowerShell@2
+    displayName: List contents of Pipeline.Workspace
+    inputs:
+        targetType: "inline"
+        workingDirectory: '$(Pipeline.Workspace)'
+        script: |
+        Get-ChildItem -Recurse |% { $_.FullName }
+
+    - task: PowerShell@2
+    displayName: List contents of Agent.BuildDirectory
+    inputs:
+        targetType: "inline"
+        workingDirectory: '$(Agent.BuildDirectory)'
+        script: |
+        Get-ChildItem -Recurse |% { $_.FullName }
+```
