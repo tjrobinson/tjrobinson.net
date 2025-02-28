@@ -17,6 +17,7 @@ https://dev.azure.com/{organisation}/_apis/hooks/consumers
  
 https://dev.azure.com/{organisation}/_apis/hooks/publishers
 
-Recent PRs:
+### Recent PRs
 
-https://dev.azure.com/{organisation}/cbi/_apis/git/pullrequests?searchCriteria.status=completed&api-version=6.0
+https://dev.azure.com/{organisation}/{project}/_apis/git/pullrequests?searchCriteria.status=completed&api-version=6.0
+https://dev.azure.com/{organisation}/_apis/git/pullrequests?searchCriteria.status=all&api-version=6.0
