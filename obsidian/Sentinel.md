@@ -5,3 +5,16 @@
 - [rod-trent/Sentinel-SOC-101: Content and collateral for the Microsoft Sentinel SOC 101 series](https://github.com/rod-trent/Sentinel-SOC-101)
 - [Microsoft Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/azuresentinel.azure-sentinel-solution-abuseipdb?tab=overview)
 - [[KQL]]
+
+## Useful queries
+
+Find any changes to access package policies:
+
+```kql
+AuditLogs
+| where TimeGenerated > ago(730d)
+| where Category == "EntitlementManagement"
+| where ActivityDisplayName contains "policy"
+| mv-expand TargetResources, AdditionalDetails
+| where tostring(TargetResources.id) == "2f28e35c-3d01-46b4-b820-5dfff2aa08e5"
+```
