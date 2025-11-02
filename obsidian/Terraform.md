@@ -7,3 +7,6 @@ title: Terraform
 - [Terratest | Automated tests for your infrastructure code.](https://terratest.gruntwork.io/)
 - [Tools to Visualize your Terraform plan](https://medium.com/vmacwrites/tools-to-visualize-your-terraform-plan-d421c6255f9f)
 - [[Octopus HCL Parser]]
+
+Validation is quite handy:
+![[Pasted image 20251019151206.png]]
