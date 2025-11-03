@@ -18,3 +18,17 @@ AuditLogs
 | mv-expand TargetResources, AdditionalDetails
 | where tostring(TargetResources.id) == "2f28e35c-3d01-46b4-b820-5dfff2aa08e5"
 ```
+
+Find issues where executable has been blocked by Defender:
+
+```kql
+DeviceProcessEvents
+| where FolderPath startswith "C:\\Tools\\opengrep-playground-win32-x64"
+
+DeviceEvents
+| where ActionType in ("Blocked", "Quarantined", "Remediated")
+| where FolderPath startswith "C:\\Tools\\opengrep-playground-win32-x64"
+
+DeviceFileEvents
+| where FolderPath startswith "C:\\Tools\\opengrep-playground-win32-x64"
+```
