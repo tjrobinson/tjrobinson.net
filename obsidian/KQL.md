@@ -4,6 +4,3 @@
 - [KQL Search](https://www.kqlsearch.com/)
 [rod-trent/MustLearnKQL: Code included as part of the MustLearnKQL blog series](https://github.com/rod-trent/MustLearnKQL)
 - [SentinelKQL/LabKQL/LabKQL.md at master · rod-trent/SentinelKQL](https://github.com/rod-trent/SentinelKQL/blob/master/LabKQL/LabKQL.md)
-
-## Useful queries
-
