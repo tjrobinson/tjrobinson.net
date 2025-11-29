@@ -11,14 +11,13 @@
             "id": "645d94341e8103c5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Terraform.md",
-                "mode": "source",
-                "source": false
+                "file": "Untitled.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file",
-              "title": "Terraform"
+              "icon": "lucide-table",
+              "title": "Untitled"
             }
           }
         ]
@@ -53,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "terraform",
+                "query": "pasted",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -170,6 +169,8 @@
   },
   "active": "645d94341e8103c5",
   "lastOpenFiles": [
+    "Terraform.md",
+    "Untitled.base",
     "Pasted image 20251019151206.png",
     "Elite Dangerous.md",
     "API Security.md",
@@ -214,8 +215,6 @@
     "blog/2015-02-24-sluggish-internet-explorer-performance-and-browser-link/Untitled.png",
     "to-migrate",
     "_drafts",
-    "blog/2015-12-22-running-iisreset-from-visual-studio/clip_image004.png",
-    "blog/2021-05-05-may-2022-links",
     "Untitled.canvas"
   ]
 }
