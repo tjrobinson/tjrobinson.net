@@ -4,20 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0434f00f2e10055f",
+        "id": "1bfc6775a20d1e40",
         "type": "tabs",
         "children": [
           {
-            "id": "645d94341e8103c5",
+            "id": "45b2f022b6672b10",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Untitled.base",
-                "viewName": "Table"
+                "file": "AWS.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "Untitled"
+              "icon": "lucide-file",
+              "title": "AWS"
             }
           }
         ]
@@ -52,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pasted",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -167,10 +167,20 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "645d94341e8103c5",
+  "active": "45b2f022b6672b10",
   "lastOpenFiles": [
-    "Terraform.md",
+    "ASP.NET Core Antiforgery troubleshooting.md",
+    "AngularJS to Angular migration.md",
+    "AngularJS.md",
+    "AI.md",
+    "Adding the Visual Studio 2010 Command Prompt variables to your PowerShell profile.md",
+    "Access Packages.md",
+    "Untitled 4.base",
+    "Untitled 3.base",
+    "Untitled 2.base",
+    "Untitled 1.base",
     "Untitled.base",
+    "Terraform.md",
     "Pasted image 20251019151206.png",
     "Elite Dangerous.md",
     "API Security.md",
@@ -180,7 +190,6 @@
     "Threat Modelling.md",
     "Microsoft Entra ID.md",
     "Security.md",
-    "AI.md",
     "Security Training & Certification.md",
     "Kubernetes and Cloud Native Security Associate (KCSA).md",
     "Kubernetes.md",
@@ -192,11 +201,6 @@
     "Git hook for blocking specific files being committed.md",
     "Learning R.md",
     "Microsoft 365.md",
-    "Microsoft Certification.md",
-    "Maps.md",
-    "Testing.md",
-    "PowerShell.md",
-    "PowerZure.md",
     "blog/2009-10-08-the-new-efficiency-the-uk-technical-launch-of-windows-7-windows-server-2008-r2-and-exchange-server-2010-me-at-wembley.jpg",
     "blog/2009-10-08-the-new-efficiency-the-uk-technical-launch-of-windows-7-windows-server-2008-r2-and-exchange-server-2010-olympic-way.jpg",
     "blog/2012-07-23-remote-debugging/Untitled.png",
@@ -209,12 +213,8 @@
     "synths",
     "Skip YouTube Ads Bookmarklet",
     "kubernetes",
-    "blog/2023-07-10-octopus-hcl-parser",
-    "Untitled",
     "blog/2012-12-23-dashlane-easter-egg-konami-code-reveals-conways-game-of-life/Dashlane-Konami-Code-Scan.jpg",
     "blog/2015-02-24-sluggish-internet-explorer-performance-and-browser-link/Untitled.png",
-    "to-migrate",
-    "_drafts",
     "Untitled.canvas"
   ]
 }
