@@ -1,10 +1,9 @@
 ---
-title: Finally, I have a blog
 date: 2005-05-27
 tags:
   - blog
 ---
-# 2005-05-27-finally-i-have-a-blog
+# Finally, I have a blog
 
 
 I thought it was about time I gave this a go. I hope you enjoy reading it, but don't expect anything more than a few technical notes or interesting links.

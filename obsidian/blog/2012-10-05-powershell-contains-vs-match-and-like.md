@@ -1,8 +1,7 @@
 ---
-title: "Powershell: -contains vs. -match and -like"
 date: "2012-10-05"
 ---
-# 2012-10-05-powershell-contains-vs-match-and-like
+# Powershell: -contains vs. -match and -like
 
 
 I recently discovered a problem where the _Where-Object_&nbsp;_–contains_ operator wasn’t doing what I thought it was, i.e. the equivalent of _String.Contains()_ in C#. For example:

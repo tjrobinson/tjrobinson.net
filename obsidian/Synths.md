@@ -1,7 +1,4 @@
----
-title: Snyths & Electronic Music
----
-# Synths
+# Snyths & Electronic Music
 
 
 - https://bedroomproducersblog.com/free-vst-plugins/

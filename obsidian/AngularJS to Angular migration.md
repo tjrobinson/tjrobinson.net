@@ -1,6 +1,3 @@
----
-title: AngularJS to Angular migration
----
 # AngularJS to Angular migration
 
 

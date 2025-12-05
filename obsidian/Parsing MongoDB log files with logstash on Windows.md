@@ -3,7 +3,7 @@ title: Parsing MongoDB log files with logstash on Windows
 date: "2014-05-06"
 ---
 
-# **Note: work in progress**
+# Parsing MongoDB log files with logstash on Windows
 
 This site helps with the date/time formats used:
 

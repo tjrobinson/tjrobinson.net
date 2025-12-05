@@ -1,10 +1,9 @@
 ---
-title: CV tips for .NET Developers
 date: "2019-04-28"
 author: Tom Robinson
 layout: post
 ---
-# 2019-04-28-cv-tips-for-dot-net-developers
+# CV tips for .NET Developers
 
 
 I've seen quite a few CVs for .NET Developers over the years and unfortunately some people are let down by common mistakes. This is a list of tips and suggestions, in no particular order. These are my personal opinions, not the official view of any current or previous employers.

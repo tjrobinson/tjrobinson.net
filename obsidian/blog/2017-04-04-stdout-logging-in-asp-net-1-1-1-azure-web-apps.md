@@ -1,8 +1,7 @@
 ---
-title: Stdout logging in ASP.NET 1.1.1 Azure Web Apps
 date: "2017-04-04"
 ---
-# 2017-04-04-stdout-logging-in-asp-net-1-1-1-azure-web-apps
+# Stdout logging in ASP.NET 1.1.1 Azure Web Apps
 
 
 Because I keep forgetting it:

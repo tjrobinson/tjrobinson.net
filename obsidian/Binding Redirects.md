@@ -1,6 +1,3 @@
----
-title: Binding Redirects
----
 # Binding Redirects
 
 

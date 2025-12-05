@@ -1,8 +1,7 @@
 ---
-title: "Internet of Things and Data Hackathon - 11th June 2015"
 date: "2015-06-11"
 ---
-# 2015-06-11-internet-of-things-and-data-hackathon-11th-june-2015
+# Internet of Things and Data Hackathon - 11th June 2015
 
 
 I don't have time to write a proper blog post, but here are some of the links I found useful today:

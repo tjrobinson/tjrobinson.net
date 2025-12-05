@@ -1,8 +1,7 @@
 ---
-title: msysgit conflict with Subversion
 date: "2012-05-17"
 ---
-# 2012-05-17-msysgit-conflict-with-subversion
+# msysgit conflict with Subversion
 
 
 I’ve got msysgit installed, with the bin directory in my PATH.

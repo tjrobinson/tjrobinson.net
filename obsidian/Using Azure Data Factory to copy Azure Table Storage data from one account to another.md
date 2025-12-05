@@ -1,6 +1,3 @@
----
-title: Using Azure Data Factory to copy Azure Table Storage data from one account to another
----
 # Using Azure Data Factory to copy Azure Table Storage data from one account to another
 
 

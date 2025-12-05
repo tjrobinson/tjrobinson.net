@@ -1,8 +1,7 @@
 ---
-title: WordPress and Gallery 2
 date: "2006-01-27"
 ---
-# 2006-01-27-wordpress-and-gallery-2
+# WordPress and Gallery 2
 
 
 As you may have noticed, this site now runs on [WordPress](http://wordpress.org/) and [Gallery 2](http://gallery.menalto.com/). I then integrated the gallery into WordPress by using the [WPG2](http://wpg2.galleryembedded.com/) plug-in.

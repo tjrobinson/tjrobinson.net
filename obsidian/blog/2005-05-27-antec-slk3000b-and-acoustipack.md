@@ -1,8 +1,7 @@
 ---
-title: Antec SLK3000B and AcoustiPack
 date: "2005-05-27"
 ---
-# 2005-05-27-antec-slk3000b-and-acoustipack
+# Antec SLK3000B and AcoustiPack
 
 
 I recently bought a new case, the [Antec SLK3000B](http://www.antec.com/us/productDetails.php?ProdID=93000). The reason I'm posting this is that some people might be interested to know that the [AcoustiPack™ Pre-cut kit](http://www.acoustiproducts.com/en/acoustipack_precut.asp#APAntecBQE) for the [Antec SLK3700-BQE](http://www.antec.com/us/productDetails.php?ProdID=93703) is a perfect fit (with a couple of exceptions).

@@ -1,8 +1,7 @@
 ---
-title: Tweaks for SSDs on Windows
 date: "2014-07-03"
 ---
-# 2014-07-03-tweaks-for-ssds-on-windows
+# Tweaks for SSDs on Windows
 
 
 - Update firmware

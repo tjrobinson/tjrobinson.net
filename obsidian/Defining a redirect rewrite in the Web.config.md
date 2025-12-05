@@ -1,7 +1,4 @@
----
-title: Defining a redirect/rewrite in the Web.config
----
-# Defining a redirect rewrite in the Web.config
+# Defining a redirect/rewrite in the Web.config
 
 
 

@@ -1,6 +1,3 @@
----
-title: Learning R
----
 # Learning R
 
 I'm using Windows.

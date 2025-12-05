@@ -1,8 +1,7 @@
 ---
-title: "DateTimeOffset should be considered the default date and time type for application development"
 date: "2012-05-16"
 ---
-# 2012-05-16-datetimeoffset-should-be-considered-the-default-date-and-time-type-for-application-development-2
+# DateTimeOffset should be considered the default date and time type for application development
 
 
 If you’re in the habit (like I was until recently) of using the [DateTime](http://msdn.microsoft.com/en-us/library/system.datetime.aspx) data type whenever you need to represent a date, time or timestamp then I strongly recommend reading this MSDN article:

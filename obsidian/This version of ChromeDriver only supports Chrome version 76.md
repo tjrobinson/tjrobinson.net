@@ -1,6 +1,3 @@
----
-title: This version of ChromeDriver only supports Chrome version 76
----
 # This version of ChromeDriver only supports Chrome version 76
 
 

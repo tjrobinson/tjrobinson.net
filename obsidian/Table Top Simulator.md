@@ -1,6 +1,3 @@
----
-title: Table Top Simulator
----
 # Table Top Simulator
 
 ## Guides

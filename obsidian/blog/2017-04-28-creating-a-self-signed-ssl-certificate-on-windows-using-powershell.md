@@ -1,8 +1,7 @@
 ---
-title: Creating a self signed SSL certificate on Windows using PowerShell
 date: "2017-04-28"
 ---
-# 2017-04-28-creating-a-self-signed-ssl-certificate-on-windows-using-powershell
+# Creating a self signed SSL certificate on Windows using PowerShell
 
 
 Run this PowerShell command as Administrator:

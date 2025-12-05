@@ -1,6 +1,3 @@
----
-title: Renew local certificate
----
 # Renew local certificate
 
 

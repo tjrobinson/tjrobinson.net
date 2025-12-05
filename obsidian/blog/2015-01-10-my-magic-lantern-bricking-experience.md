@@ -1,8 +1,7 @@
 ---
-title: My Magic Lantern bricking experience
 date: "2015-01-10"
 ---
-# 2015-01-10-my-magic-lantern-bricking-experience
+# My Magic Lantern bricking experience
 
 
 A few months ago I managed to brick my wife's Canon 60D. This is the story of how it happened and the things I tried doing to fix it before finally giving up and sending it off to be repaired.

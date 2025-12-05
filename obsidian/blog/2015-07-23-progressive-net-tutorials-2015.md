@@ -1,9 +1,8 @@
 ---
-title: Progressive .NET Tutorials 2015
 date: "2015-07-23"
 ---
 
-# <span style="color: #000000;"><span class="SpellingError SCX150598041">Microservices</span><span class="NormalTextRun SCX150598041"> in .NET</span></span>
+# Progressive .NET Tutorials 2015
 
 IDL - interface definition language - swagger?
 

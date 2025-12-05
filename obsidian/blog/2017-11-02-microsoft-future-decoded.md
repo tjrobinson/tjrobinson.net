@@ -1,9 +1,8 @@
 ---
-title: "Microsoft Future Decoded, November 1st 2017, Day 2: Tech Deep Dives"
 date: "2017-11-02"
 ---
 
-# Microsoft Future Decoded, November 1st 2017, Day 2 - Tech Deep Dives
+# Microsoft Future Decoded, November 1st 2017, Day 2: Tech Deep Dives
 
 These are my notes from the day. It's not a detailed summary of the event, just notes for things I found interesting or want to remember to try out or do.
 

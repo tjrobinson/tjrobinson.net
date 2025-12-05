@@ -1,6 +1,3 @@
----
-title: Azure Functions - The listener for function 'MyTimerFunction' was unable to start
----
 # Azure Functions - The listener for function 'MyTimerFunction' was unable to start
 
 

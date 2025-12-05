@@ -1,6 +1,3 @@
----
-title: Azure PowerShell login
----
 # Azure PowerShell login
 
 

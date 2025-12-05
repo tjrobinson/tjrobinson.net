@@ -1,8 +1,7 @@
 ---
-title: WRT54G-UK Firmware
 date: "2005-05-28"
 ---
-# 2005-05-28-wrt54g-uk-firmware
+# WRT54G-UK Firmware
 
 
 I recently bought the <a href="http://www.ebuyer.com/customer/products/index.html?product_uid=45023" target="_blank">UK edition (WRT54G-UK)</a> of the [Linksys Wireless-G 54mbps Broadband Router](http://www.linksys.com/products/product.asp?prid=508). Recently it seems to have either been crashing, or not picking the connection back up again after it's dropped. Even though it's only a month or so old, I decided it was probably time for a firmware upgrade. The label on the bottom of mine said is was Version 2. The firmware was version 2.2.07.

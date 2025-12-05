@@ -1,6 +1,3 @@
----
-title: ASP.NET Core Antiforgery troubleshooting
----
 # ASP.NET Core Antiforgery troubleshooting
 
 
