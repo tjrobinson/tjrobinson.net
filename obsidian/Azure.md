@@ -1,3 +1,5 @@
+# Azure
+
 - [[Azure PowerShell]]
 - [[Microsoft Entra ID]]
 - [[Azure DevOps]]

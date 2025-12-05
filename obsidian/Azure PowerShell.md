@@ -1,3 +1,5 @@
+# Azure PowerShell
+
 ```powershell
 Set-PSRepository -Name PSGallery -InstallationPolicy Trusted
 Get-Module AzureRM -ListAvailable

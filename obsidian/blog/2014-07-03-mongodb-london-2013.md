@@ -2,6 +2,8 @@
 title: MongoDB London 2013
 date: "2014-07-03"
 ---
+# 2014-07-03-mongodb-london-2013
+
 
 Some very rough notes from MongoDB London 2013:
 

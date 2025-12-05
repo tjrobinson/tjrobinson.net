@@ -2,6 +2,8 @@
 title: Remote debugging
 date: "2012-07-23"
 ---
+# Remote debugging
+
 
 If you have problems remote debugging then make sure you check all the boxes in the _Control Panel\All Control Panel Items\Windows Firewall\Allowed Programs_ screen.
 

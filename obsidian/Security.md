@@ -2,6 +2,8 @@
 tags:
   - security
 ---
+# Security
+
 - [[Kubernetes]]
 - [[KQL]]
 - [[AZ-104]]

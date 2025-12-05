@@ -1,6 +1,8 @@
 ---
 title: Conversion failed when converting date and/or time from character string
 ---
+# Conversion failed when converting date and or time from character string
+
 
 ```sql
 SELECT COUNT(*)

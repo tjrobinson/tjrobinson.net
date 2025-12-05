@@ -2,6 +2,8 @@
 title: "Dashlane Easter Egg - Conway's Game of Life"
 date: "2012-12-23"
 ---
+# 2012-12-23-dashlane-easter-egg-konami-code-reveals-conways-game-of-life
+
 
 I've been a [Dashlane](https://www.dashlane.com/) user for a while now, having found out about it through a friend and respected colleague who started working for them in the Paris office.
 

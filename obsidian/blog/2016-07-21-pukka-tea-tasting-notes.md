@@ -2,6 +2,8 @@
 title: Pukka tea tasting notes
 date: "2016-07-21"
 ---
+# 2016-07-21-pukka-tea-tasting-notes
+
 
 I bought a [Pukka teas taster pack](https://www.amazon.co.uk/Pukka-Herbal-Organic-Tea-Sachets/dp/B014V9D7U0/ref=sr_1_1_a_it?ie=UTF8&qid=1470060271&sr=8-1&keywords=pukka+selection) a few weeks ago, and kept notes so I could remember which ones I wanted to buy more of. These are my personal tastes and opinions, your results may differ!
 

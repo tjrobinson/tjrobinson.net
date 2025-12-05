@@ -1,3 +1,5 @@
+# Sample Insecure Code
+
 Netflicks
     o	Original: https://github.com/LeviHassel/.net-flicks
     o	With deliberate vulnerabilities added (only for SAST): https://github.com/TreetopTechie/demo-netflicks

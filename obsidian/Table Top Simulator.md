@@ -1,6 +1,8 @@
 ---
 title: Table Top Simulator
 ---
+# Table Top Simulator
+
 ## Guides
 
 - [Advanced Controls](https://kb.tabletopsimulator.com/player-guides/advanced-controls/)

@@ -1,3 +1,5 @@
+# Testing
+
 - [Horrible edge cases to consider when dealing with music](https://dustri.org/b/horrible-edge-cases-to-consider-when-dealing-with-music.html)
 - [ardalis/HttpClientTestExtensions: Extensions for testing HTTP endpoints and deserializing the results. Currently works with XUnit.](https://github.com/ardalis/HttpClientTestExtensions)
 - [Running dotnet test in docker | chester.codes](https://chester.codes/running-dotnet-test-in-docker)

@@ -1,3 +1,5 @@
+# KQL
+
 - [rod-trent/MustLearnKQL: Code included as part of the MustLearnKQL blog series](https://github.com/rod-trent/MustLearnKQL)
 - [Fun With KQL – Distinct – Arcane Code](https://arcanecode.com/2022/06/13/fun-with-kql-distinct/)
 [SentinelKQL/LabKQL/LabKQL.md at master · rod-trent/SentinelKQL](https://github.com/rod-trent/-SentinelKQL/blob/master/LabKQL/LabKQL.md)

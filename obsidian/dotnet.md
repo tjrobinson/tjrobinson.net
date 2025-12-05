@@ -1,3 +1,5 @@
+# dotnet
+
 - [[Visual Studio]]
 - [[Binding Redirects]]]
 - [ASP.NET Core MVC 3.x – AddMvc(), AddMvcCore(), AddControllers() and other bootstrapping approaches](https://www.strathweb.com/2020/02/asp-net-core-mvc-3-x-addmvc-addmvccore-addcontrollers-and-other-bootstrapping-approaches/)

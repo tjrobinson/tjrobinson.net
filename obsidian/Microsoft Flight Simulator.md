@@ -1,3 +1,5 @@
+# Microsoft Flight Simulator
+
 - [Flightspots](https://flightspots.co/app)
 - [Flightsim.to](https://flightsim.to/)
 - [The best FREE addons and mods for Microsoft Flight Simulator (August 2022) - MSFS Addons](https://msfsaddons.com/2022/08/04/the-best-free-addons-and-mods-for-microsoft-flight-simulator/)

@@ -1,6 +1,8 @@
 ---
 title: Pokémon
 ---
+# Pokemon
+
 
 - [Limitless – Pokemon TCG articles, tournament results, decklists and more](https://limitlesstcg.com/)
 - [Proxy creator](https://limitlesstcg.com/tools/proxies/)

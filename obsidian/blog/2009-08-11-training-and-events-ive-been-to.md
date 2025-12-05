@@ -2,6 +2,8 @@
 title: "Training and events I've been to"
 date: "2009-08-11"
 ---
+# 2009-08-11-training-and-events-ive-been-to
+
 
 For the last few years I've been trying to keep a list of all work-related training and events I've been to. I recently updated this and thought it might be interesting to post it here.
 

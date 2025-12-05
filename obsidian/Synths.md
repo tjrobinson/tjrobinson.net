@@ -1,6 +1,8 @@
 ---
 title: Snyths & Electronic Music
 ---
+# Synths
+
 
 - https://bedroomproducersblog.com/free-vst-plugins/
 - https://blog.landr.com/best-free-vst-instruments-2022/

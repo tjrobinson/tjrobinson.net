@@ -1,3 +1,5 @@
+# Zero Trust
+
 - [Zero Trust Architecture](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-207.pdf)
 - [What is Zero Trust and why would you want it? • The Register](https://www.theregister.com/2022/06/30/zero_trust_expectations/)
 - [Zero Trust framework to enable remote work](https://www.microsoft.com/security/blog/2020/04/02/announcing-microsoft-zero-trust-assessment-tool/)

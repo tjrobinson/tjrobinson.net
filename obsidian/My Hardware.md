@@ -1,6 +1,8 @@
 ---
 title: My Hardware
 ---
+# My Hardware
+
 
 ## Work Desktop PC
 

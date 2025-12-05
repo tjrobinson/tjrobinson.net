@@ -1,1 +1,3 @@
+# Travel
+
 - [Floating Sanctuary | A unique stay in Devon - Lilypod](https://lilypod.uk/)

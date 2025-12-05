@@ -2,6 +2,8 @@
 title: Most Good Ideas Actually Deliver Zero or Negative Value
 date: "2015-06-10"
 ---
+# 2015-06-10-most-good-ideas-actually-deliver-zero-or-negative-value
+
 
 <div id="main-content" class="wiki-content">
   <div class="wiki-content">
