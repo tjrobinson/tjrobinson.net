@@ -1,4 +1,6 @@
 {
   "alwaysUpdateLinks": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "livePreview": false,
+  "showInlineTitle": false
 }

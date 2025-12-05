@@ -1,4 +1,6 @@
 {
   "accentColor": "",
-  "baseFontSize": 14
+  "baseFontSize": 20,
+  "textFontFamily": "Liberation Mono",
+  "nativeMenus": true
 }
