@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "New (To Sort).md",
+                "file": "Parenting.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "New (To Sort)"
+              "title": "Parenting"
             }
           }
         ]
@@ -169,7 +169,9 @@
   },
   "active": "45b2f022b6672b10",
   "lastOpenFiles": [
+    "OSINT.md",
     "API.md",
+    "New (To Sort).md",
     "APIs.md",
     "Azure Functions - The listener for function 'MyTimerFunction' was unable to start.md",
     "Azure PowerShell.md",
@@ -193,8 +195,6 @@
     "ADRs.md",
     "Access Packages.md",
     "Git hook for blocking specific files being committed.md",
-    "Git.md",
-    "Google Workspace.md",
     "Untitled 1.base",
     "Untitled 4.base",
     "Untitled 3.base",
