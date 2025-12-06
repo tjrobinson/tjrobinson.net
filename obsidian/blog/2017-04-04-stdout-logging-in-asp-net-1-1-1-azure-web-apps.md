@@ -6,7 +6,9 @@ date: "2017-04-04"
 
 Because I keep forgetting it:
 
-<pre>stdoutLogEnabled="true"
- stdoutLogFile="\\?\%home%\LogFiles\stdout"</pre>
+```
+stdoutLogEnabled="true"
+ stdoutLogFile="\\?\%home%\LogFiles\stdout"
+```
 
 Full details: https://github.com/aspnet/Docs/blob/master/aspnetcore/host-and-deploy/azure-apps/troubleshoot.md#run-the-app-in-the-kudu-console

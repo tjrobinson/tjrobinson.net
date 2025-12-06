@@ -6,7 +6,7 @@ date: "2011-05-11"
 
 Somebody on Stack Overflow [recently asked](http://stackoverflow.com/questions/5965404/sync-2-net-applications/) for reasons why I wouldn't reccommend using the [Microsoft Sync Framework](http://msdn.microsoft.com/en-us/sync/bb736753). Below is some feedback which I sent to the Sync Framework team at Microsoft which covers this fairly well and may be useful to other people considering using the Sync Framework in non-database projects.
 
-<!--more-->
+
 
 We originally chose the Sync Framework as we were looking for something to produce a quick prototype of a tool which allowed file synchronisation from a Windows filesystem to Windows Azure Blob Storage. We found an example provider for Azure and we used this (and modified it) along with the FileSyncProvider to achieve our goal. It had been working okay in basic situations and was fine for the prototype but as the prototype developed into a beta release of the product we were finding it getting in the way of progress, primarily because when strange behaviour occurred it was very difficult to understand what the Sync Framework was doing under the covers – debugging was very difficult. We came across the problem which this case refers to and realised that we had come as far as we could with the Sync Framework, due to changes in the original requirements from our product owner. The original benefit of using the Sync Framework (quicker to get started) was being outweighed by the restrictions it placed on what we were trying to do. Our requirement changes meant that our synchronisation scenario was much simpler than originally thought and we decided that we no longer needed to use the Sync Framework.
 

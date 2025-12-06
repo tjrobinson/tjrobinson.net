@@ -7,24 +7,28 @@ date: "2012-07-06"
 
 We recently needed to make sure that anonymous authentication was enabled (at the IIS level) for an application, regardless of the defaults or configuration of the server the application was being installed on.
 
-To do this you can add the following (as a sibling of <system.web>) in the Web.config to make the required IIS authentication settings explicit:
+To do this you can add the following (as a sibling of ) in the Web.config to make the required IIS authentication settings explicit:
 
-<pre class="csharpcode"><span class="kwrd">&lt;</span><span class="html">system.webServer</span><span class="kwrd">&gt;</span>
-      <span class="kwrd">&lt;</span><span class="html">security</span><span class="kwrd">&gt;</span>
-         <span class="kwrd">&lt;</span><span class="html">authentication</span><span class="kwrd">&gt;</span>
-            <span class="kwrd">&lt;</span><span class="html">anonymousAuthentication</span> <span class="attr">enabled</span><span class="kwrd">="true"</span> <span class="kwrd">/&gt;</span>
-         <span class="kwrd">&lt;/</span><span class="html">authentication</span><span class="kwrd">&gt;</span>
-      <span class="kwrd">&lt;/</span><span class="html">security</span><span class="kwrd">&gt;</span>
-   <span class="kwrd">&lt;/</span><span class="html">system.webServer</span><span class="kwrd">&gt;</span></pre>
+```
+<system.webServer>
+      <security>
+         <authentication>
+            <anonymousAuthentication enabled="true" />
+         </authentication>
+      </security>
+   </system.webServer>
+```
 
 This will override any settings made in the IIS Manager and the applicationHost.config file.
 
 Whilst on this subject, it’s worth mentioning that you can also configure IIS on the command line using something like this:
 
-<pre class="csharpcode">appcmd.exe set config "Contoso"
+```
+appcmd.exe set config "Contoso"
     -section:system.webServer/security/authentication/windowsAuthentication
     /enabled:"True"
-    /commit:apphost</pre>
+    /commit:apphost
+```
 
 There is lots more inforomation about the various settings here:  
 <http://www.iis.net/ConfigReference/system.webServer/security>

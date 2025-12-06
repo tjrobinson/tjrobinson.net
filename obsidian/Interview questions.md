@@ -5,7 +5,7 @@
 - If I had your team next door to me and I asked them what you could improve upon the most, what would they say?
   - Shows self-awareness.
 - Have you ever had to persuade a group of people to do something differently
-? Tell us how you approached that?
+- Tell us how you approached that?
   - Do they know how to drive change? How do they approach uncertainty/disagreement. Their level of answer will depend on seniority. Situational leadership.
 - Can you share a specific example of a time when you received constructive feedback from a supervisor or colleague?
   - Openness to feedback.

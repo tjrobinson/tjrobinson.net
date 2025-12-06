@@ -169,6 +169,7 @@
   },
   "active": "45b2f022b6672b10",
   "lastOpenFiles": [
+    "Interview questions.md",
     "OSINT.md",
     "API.md",
     "New (To Sort).md",
@@ -194,7 +195,6 @@
     "Adding the Visual Studio 2010 Command Prompt variables to your PowerShell profile.md",
     "ADRs.md",
     "Access Packages.md",
-    "Git hook for blocking specific files being committed.md",
     "Untitled 1.base",
     "Untitled 4.base",
     "Untitled 3.base",

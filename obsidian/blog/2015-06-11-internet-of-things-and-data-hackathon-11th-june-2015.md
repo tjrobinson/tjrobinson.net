@@ -13,8 +13,8 @@ Event hashtag: [#hackitmsft](https://twitter.com/search?q=%23hackitmsft)
 - [Data: Download the hands on lab: Machine Learning without a PhD](http://1drv.ms/1F7UUcr)
 - [Get started with Event Hubs](https://azure.microsoft.com/en-gb/documentation/articles/service-bus-event-hubs-csharp-ephcs-getstarted/)
 - [Send Data into Azure Event Hubs using Web Api’s HttpClient](https://blogs.endjin.com/2015/02/send-data-into-azure-event-hubs-using-web-apis-httpclient/)
-- <div class="repository-description">
-    Connect tiny devices to Microsoft Azure services to build IoT solutions <a href="http://connectthedots.io/" rel="nofollow">http://connectthedots.io</a>
-  </div>
+- 
+    Connect tiny devices to Microsoft Azure services to build IoT solutions [http://connectthedots.io](http://connectthedots.io/)
+  
 
 Thanks to Microsoft for a fun and informative day.
