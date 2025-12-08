@@ -61,3 +61,7 @@ https://dev.azure.com/{organisation}/_apis/git/pullrequests?searchCriteria.statu
         script: |
         Get-ChildItem -Recurse |% { $_.FullName }
 ```
+
+## Setup
+
+Region and language: https://dev.azure.com/cbinfrastructure/_usersSettings/preferences

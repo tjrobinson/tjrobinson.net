@@ -45,4 +45,11 @@ SmartGit
 git config --global user.name "Tom Robinson"
 git config --global user.email "XXXXXXXXXXXXXXX"
 dotnet tool install --global dotnet-outdated-tool
+
+
+
+Install-Module SqlServer
+Install-Module PSReadLine
+Install-Module posh-git
+
 ``
