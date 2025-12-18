@@ -37,3 +37,10 @@
 - [Given, When and Then helper classes for testing | by Andrew Poole | ClearBank | Medium](https://medium.com/clearbank/given-when-and-then-helper-classes-for-testing-39d4062dcab8)
 - [Safe storage of app secrets in development in ASP.NET Core | Microsoft Learn](https://learn.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-7.0&tabs=windows)
 - [Optimally Configuring Open Telemetry Tracing for ASP.NET Core - Muhammad Rehan Saeed](https://rehansaeed.com/optimally-configuring-open-telemetry-tracing-for-asp-net-core/)
+
+## New project setup
+
+- Logging (Serilog)
+- Docker-compose
+- StyleCop + SonarAnalyzer
+- Coding conventions (.editorconfig)
