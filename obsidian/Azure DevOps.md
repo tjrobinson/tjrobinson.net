@@ -64,4 +64,14 @@ https://dev.azure.com/{organisation}/_apis/git/pullrequests?searchCriteria.statu
 
 ## Setup
 
-Region and language: https://dev.azure.com/cbinfrastructure/_usersSettings/preferences
+[Region and language settings](https://dev.azure.com/cbinfrastructure/_usersSettings/preferences)
+
+## SDK usage
+
+`VssAadSettings.DefaultScopes` is a property used in Azure DevOps to define the default OAuth 2.0 scopes required for authentication with Azure Active Directory (AAD).
+
+## Comparing history without creating a branch/PR
+
+Create a URL like this, by hand!
+
+See: <https://stackoverflow.com/a/60229869/12124>

@@ -9,3 +9,13 @@
 
 Validation is quite handy:
 ![[Pasted image 20251019151206.png]]
+
+Security issues with importing modules as you can reference a branch or tag:
+
+```text
+git::https://your-module-url//modules/module_name?ref=somethingDodgyHere
+```
+
+Can also be imported from various other untrusted source (GitHub over HTTP)
+
+Some code can execute during the plan stage of Terraform, usually unprotected.

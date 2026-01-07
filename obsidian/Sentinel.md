@@ -34,3 +34,14 @@ DeviceEvents
 DeviceFileEvents
 | where FolderPath startswith "C:\\Tools\\opengrep-playground-win32-x64"
 ```
+
+Azure DevOps activity:
+
+```kql
+AzureDevOpsAuditing
+| where TimeGenerated > ago(90d)
+| where ActorUPN == "user@example.org"
+| where ProjectName == "your-project"
+| project TimeGenerated, ActorUPN, ActorDisplayName, OperationName, Details
+| sort by TimeGenerated desc
+```

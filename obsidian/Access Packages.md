@@ -9,6 +9,7 @@
 - Multiple approval stages not supported for PIM?
 - Custom extensions - can we remove need for Logic Apps and just use HTTP calls
 - Terraform provider - needs updating to use `v1` API
+- Hidden/unpublished access packages still appear in recently used list, and via direct links.
 
 ## Sentinel query to get access package policy change information
 

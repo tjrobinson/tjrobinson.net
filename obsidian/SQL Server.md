@@ -1,11 +1,11 @@
 # SQL Server
 
 - [AT TIME ZONE (Transact-SQL) - SQL Server | Microsoft Docs](https://docs.microsoft.com/en-us/sql/t-sql/queries/at-time-zone-transact-sql?view=sql-server-ver16)
- - [The SQL Diagnostic (jupyter) Book - T-SQL Tech](https://tsql.tech/the-sql-diagnostic-jupyter-book/)
- - [[SQL Server Authentication]]
- - [https://www.red-gate.com/simple-talk/sql/t-sql-programming/modeling-time/](https://www.red-gate.com/simple-talk/sql/t-sql-programming/modeling-time/)
- - [SOUNDEX](https://docs.microsoft.com/en-us/sql/t-sql/functions/soundex-transact-sql?view=sql-server-ver15) and [DIFFERENCE](https://docs.microsoft.com/en-us/sql/t-sql/functions/difference-transact-sql?view=sql-server-ver15) - "SOUNDEX converts an alphanumeric string to a four-character code that is based on how the string sounds when spoken."
- - [SQL Formatter](https://www.red-gate.com/website/sql-formatter)
+- [The SQL Diagnostic (jupyter) Book - T-SQL Tech](https://tsql.tech/the-sql-diagnostic-jupyter-book/)
+- [[SQL Server Authentication]]
+- [https://www.red-gate.com/simple-talk/sql/t-sql-programming/modeling-time/](https://www.red-gate.com/simple-talk/sql/t-sql-programming/modeling-time/)
+- [SOUNDEX](https://docs.microsoft.com/en-us/sql/t-sql/functions/soundex-transact-sql?view=sql-server-ver15) and [DIFFERENCE](https://docs.microsoft.com/en-us/sql/t-sql/functions/difference-transact-sql?view=sql-server-ver15) - "SOUNDEX converts an alphanumeric string to a four-character code that is based on how the string sounds when spoken."
+- [SQL Formatter](https://www.red-gate.com/website/sql-formatter)
 
 Getting the full data out of an NVARCHAR(MAX) column in SQL Server Management Studio:
 
@@ -60,4 +60,24 @@ FROM sys.database_principals dbprin
 INNER JOIN sys.database_permissions dbperm ON dbperm.grantee_principal_id = dbprin.principal_id
 WHERE dbprin.name like concat('%', @User, '%') AND dbperm.permission_name not in ('EXECUTE', 'CONNECT')
 order by principal_name
+```
+
+## Sanitising connection strings in C\#
+
+```csharp
+/// <summary>
+/// Accepts a SQL Connection string, and sanitises it by redacting the password value.
+/// </summary>
+/// <param name="connectionString"></param>
+/// <returns></returns>
+private static string SanitiseConnectionString(string connectionString)
+{
+    var builder = new SqlConnectionStringBuilder { ConnectionString = connectionString };
+    
+    if (!string.IsNullOrWhiteSpace(builder.Password))
+    {
+        builder["password"] = "[REDACTED]";
+    }
+    return builder.ToString();
+}
 ```
