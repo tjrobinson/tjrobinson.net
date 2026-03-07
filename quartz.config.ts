@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "TJ's Digital Garden",
+    pageTitle: "tjrobinson.net",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -72,6 +72,7 @@ const config: QuartzConfig = {
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
+      Plugin.StripH1(),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [
