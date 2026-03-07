@@ -4,9 +4,6 @@
   "private": true,
   "version": "4.5.2",
   "type": "module",
-  "author": "jackyzha0 <j.zhao2k19@gmail.com>",
-  "license": "MIT",
-  "homepage": "https://quartz.jzhao.xyz",
   "repository": {
     "type": "git",
     "url": "https://github.com/jackyzha0/quartz.git"
@@ -23,14 +20,6 @@
     "npm": ">=10.9.2",
     "node": ">=22"
   },
-  "keywords": [
-    "site generator",
-    "ssg",
-    "digital-garden",
-    "markdown",
-    "blog",
-    "quartz"
-  ],
   "bin": {
     "quartz": "./quartz/bootstrap-cli.mjs"
   },

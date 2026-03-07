@@ -4,6 +4,7 @@ import script from "./scripts/graph.inline"
 import style from "./styles/graph.scss"
 import { i18n } from "../i18n"
 import { classNames } from "../util/lang"
+import { simplifySlug } from "../util/path"
 
 export interface D3Config {
   drag: boolean
@@ -60,7 +61,18 @@ const defaultOptions: GraphOptions = {
 }
 
 export default ((opts?: Partial<GraphOptions>) => {
-  const Graph: QuartzComponent = ({ displayClass, cfg }: QuartzComponentProps) => {
+  const Graph: QuartzComponent = ({ fileData, allFiles, displayClass, cfg }: QuartzComponentProps) => {
+    const slug = simplifySlug(fileData.slug!)
+    const outgoingLinks = fileData.links ?? []
+    const incomingLinks = allFiles.filter((file) => file.links?.includes(slug))
+    const totalLinks = outgoingLinks.length + incomingLinks.length
+
+    console.log(`[Graph Debug] ${slug} - Out: ${outgoingLinks.length}, In: ${incomingLinks.length}, Total: ${totalLinks}`)
+
+    if (totalLinks === 0) {
+      return null
+    }
+
     const localGraph = { ...defaultOptions.localGraph, ...opts?.localGraph }
     const globalGraph = { ...defaultOptions.globalGraph, ...opts?.globalGraph }
     return (

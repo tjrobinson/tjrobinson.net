@@ -1,7 +1,8 @@
 # dotnet
 
 - [[Visual Studio]]
-- [[Binding Redirects]]]
+- [[Binding Redirects]]
+- [[dotnet outdated]]
 - [ASP.NET Core MVC 3.x – AddMvc(), AddMvcCore(), AddControllers() and other bootstrapping approaches](https://www.strathweb.com/2020/02/asp-net-core-mvc-3-x-addmvc-addmvccore-addcontrollers-and-other-bootstrapping-approaches/)
 - [ASP.NET Core Integration Testing & Mocking using Moq](https://rehansaeed.com/asp-net-core-integration-testing-mocking-using-moq/)
 - [[2015-07-23-progressive-net-tutorials-2015]]
