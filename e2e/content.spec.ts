@@ -51,7 +51,7 @@ test.describe("Content (Quartz)", () => {
     }) => {
       await page.goto("/content/cissp");
       await expect(page.locator(".article-title")).toBeVisible();
-      await expect(page.locator("article")).toBeVisible();
+      await expect(page.locator("article").first()).toBeVisible();
     });
 
     test("table of contents renders on content page", async ({ page }) => {
@@ -129,7 +129,7 @@ test.describe("Content (Quartz)", () => {
   test.describe("Error handling", () => {
     test("404 page renders for invalid paths", async ({ page }) => {
       await page.goto("/content/this-page-definitely-does-not-exist-12345");
-      await expect(page.locator("article")).toBeVisible();
+      await expect(page.locator("article").first()).toBeVisible();
     });
   });
 
