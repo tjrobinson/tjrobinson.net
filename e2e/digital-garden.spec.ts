@@ -49,9 +49,7 @@ test.describe("Digital Garden (Quartz)", () => {
     test("content page with special characters (parentheses) loads correctly", async ({
       page,
     }) => {
-      await page.goto(
-        "/obsidian/cissp",
-      );
+      await page.goto("/obsidian/cissp");
       await expect(page.locator(".article-title")).toBeVisible();
       await expect(page.locator("article")).toBeVisible();
     });
