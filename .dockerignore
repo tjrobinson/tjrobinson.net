@@ -1,0 +1,10 @@
+.git
+node_modules
+public
+prof
+.quartz-cache
+.vscode
+.github
+.DS_Store
+*.md
+!content/**/*.md

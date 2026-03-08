@@ -14,6 +14,7 @@
     "check": "tsc --noEmit && npx prettier . --check",
     "format": "npx prettier . --write",
     "test": "tsx --test",
+    "test:e2e": "playwright test",
     "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1"
   },
   "engines": {
@@ -87,6 +88,7 @@
     "yargs": "^18.0.0"
   },
   "devDependencies": {
+    "@playwright/test": "^1.58.2",
     "@types/d3": "^7.4.3",
     "@types/hast": "^3.0.4",
     "@types/js-yaml": "^4.0.9",
@@ -97,6 +99,7 @@
     "@types/yargs": "^17.0.35",
     "esbuild": "^0.27.2",
     "prettier": "^3.8.1",
+    "serve": "^14.2.6",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3"
   }
