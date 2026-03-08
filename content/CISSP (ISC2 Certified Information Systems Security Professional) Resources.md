@@ -1,3 +1,7 @@
+---
+permalink: cissp
+---
+
 # CISSP (ISC2 Certified Information Systems Security Professional) Resources
 
 ## Communities

@@ -50,7 +50,7 @@ test.describe("Digital Garden (Quartz)", () => {
       page,
     }) => {
       await page.goto(
-        "/obsidian/cissp-(isc2-certified-information-systems-security-professional)-resources",
+        "/obsidian/cissp",
       );
       await expect(page.locator(".article-title")).toBeVisible();
       await expect(page.locator("article")).toBeVisible();
