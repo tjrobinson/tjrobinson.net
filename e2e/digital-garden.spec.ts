@@ -50,7 +50,7 @@ test.describe("Digital Garden (Quartz)", () => {
       page,
     }) => {
       await page.goto(
-        "/obsidian/CISSP-(ISC2-Certified-Information-Systems-Security-Professional)-Resources",
+        "/obsidian/cissp-(isc2-certified-information-systems-security-professional)-resources",
       );
       await expect(page.locator(".article-title")).toBeVisible();
       await expect(page.locator("article")).toBeVisible();
@@ -67,7 +67,7 @@ test.describe("Digital Garden (Quartz)", () => {
     });
 
     test("graph view component renders", async ({ page }) => {
-      await page.goto("/obsidian/Security");
+      await page.goto("/obsidian/security");
       await expect(page.locator(".graph")).toBeVisible();
     });
 
@@ -75,7 +75,7 @@ test.describe("Digital Garden (Quartz)", () => {
       page,
     }) => {
       // Visit a page that is likely linked from other pages
-      await page.goto("/obsidian/Azure");
+      await page.goto("/obsidian/azure");
       // The backlinks component hides when empty, so we check if it renders
       const backlinks = page.locator(".backlinks");
       const count = await backlinks.count();
