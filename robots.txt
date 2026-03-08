@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://www.tjrobinson.net/obsidian/sitemap.xml
+Sitemap: https://www.tjrobinson.net/content/sitemap.xml

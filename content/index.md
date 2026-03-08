@@ -1,7 +1,7 @@
 ---
-title: Welcome to my Digital Garden
+title: Welcome to my content and notes
 ---
 
-Welcome! This is where I keep my notes and thoughts on various topics.
+Welcome! This is where I keep my content and notes on various topics.
 
-Feel free to explore using the links or the search bar.
+Please explore using the links or the search bar.

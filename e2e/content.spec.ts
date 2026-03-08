@@ -1,14 +1,14 @@
 import { test, expect } from "@playwright/test";
 
-test.describe("Digital Garden (Quartz)", () => {
+test.describe("Content (Quartz)", () => {
   test.describe("Index page", () => {
     test.beforeEach(async ({ page }) => {
-      await page.goto("/obsidian/");
+      await page.goto("/content/");
     });
 
     test("loads with correct page title", async ({ page }) => {
       await expect(page.locator(".article-title")).toContainText(
-        "Welcome to my Digital Garden",
+        "Welcome to my Content",
       );
     });
 
@@ -39,7 +39,7 @@ test.describe("Digital Garden (Quartz)", () => {
       expect(newTheme).not.toBe(initialTheme);
     });
 
-    test("page title links back to garden home", async ({ page }) => {
+    test("page title links back to content home", async ({ page }) => {
       const pageTitle = page.locator(".page-title a");
       await expect(pageTitle).toHaveText("tjrobinson.net");
     });
@@ -49,23 +49,23 @@ test.describe("Digital Garden (Quartz)", () => {
     test("content page with special characters (parentheses) loads correctly", async ({
       page,
     }) => {
-      await page.goto("/obsidian/cissp");
+      await page.goto("/content/cissp");
       await expect(page.locator(".article-title")).toBeVisible();
       await expect(page.locator("article")).toBeVisible();
     });
 
     test("table of contents renders on content page", async ({ page }) => {
-      await page.goto("/obsidian/dotnet");
+      await page.goto("/content/dotnet");
       await expect(page.locator(".toc")).toBeVisible();
     });
 
     test("breadcrumbs display on non-index content pages", async ({ page }) => {
-      await page.goto("/obsidian/dotnet");
+      await page.goto("/content/dotnet");
       await expect(page.locator(".breadcrumb-container")).toBeVisible();
     });
 
     test("graph view component renders", async ({ page }) => {
-      await page.goto("/obsidian/security");
+      await page.goto("/content/security");
       await expect(page.locator(".graph")).toBeVisible();
     });
 
@@ -73,7 +73,7 @@ test.describe("Digital Garden (Quartz)", () => {
       page,
     }) => {
       // Visit a page that is likely linked from other pages
-      await page.goto("/obsidian/azure");
+      await page.goto("/content/azure");
       // The backlinks component hides when empty, so we check if it renders
       const backlinks = page.locator(".backlinks");
       const count = await backlinks.count();
@@ -85,26 +85,26 @@ test.describe("Digital Garden (Quartz)", () => {
     });
 
     test("content meta (reading time) is displayed", async ({ page }) => {
-      await page.goto("/obsidian/dotnet");
+      await page.goto("/content/dotnet");
       await expect(page.locator(".content-meta")).toBeVisible();
     });
   });
 
   test.describe("SEO & meta tags", () => {
     test("og:title meta tag is present", async ({ page }) => {
-      await page.goto("/obsidian/dotnet");
+      await page.goto("/content/dotnet");
       const ogTitle = page.locator('meta[property="og:title"]');
       await expect(ogTitle).toHaveAttribute("content", /.+/);
     });
 
     test("description meta tag is present", async ({ page }) => {
-      await page.goto("/obsidian/dotnet");
+      await page.goto("/content/dotnet");
       const desc = page.locator('meta[name="description"]');
       await expect(desc).toHaveAttribute("content", /.+/);
     });
 
     test("og:type meta tag is website", async ({ page }) => {
-      await page.goto("/obsidian/dotnet");
+      await page.goto("/content/dotnet");
       const ogType = page.locator('meta[property="og:type"]');
       await expect(ogType).toHaveAttribute("content", "website");
     });
@@ -112,14 +112,14 @@ test.describe("Digital Garden (Quartz)", () => {
 
   test.describe("Feeds & sitemap", () => {
     test("sitemap.xml is accessible", async ({ request }) => {
-      const response = await request.get("/obsidian/sitemap.xml");
+      const response = await request.get("/content/sitemap.xml");
       expect(response.ok()).toBeTruthy();
       const body = await response.text();
       expect(body).toContain("<urlset");
     });
 
     test("RSS feed (index.xml) is accessible", async ({ request }) => {
-      const response = await request.get("/obsidian/index.xml");
+      const response = await request.get("/content/index.xml");
       expect(response.ok()).toBeTruthy();
       const body = await response.text();
       expect(body).toContain("<rss");
@@ -128,7 +128,7 @@ test.describe("Digital Garden (Quartz)", () => {
 
   test.describe("Error handling", () => {
     test("404 page renders for invalid paths", async ({ page }) => {
-      await page.goto("/obsidian/this-page-definitely-does-not-exist-12345");
+      await page.goto("/content/this-page-definitely-does-not-exist-12345");
       await expect(page.locator("article")).toBeVisible();
     });
   });
@@ -137,7 +137,7 @@ test.describe("Digital Garden (Quartz)", () => {
     test("clicking a link in content navigates via SPA without full reload", async ({
       page,
     }) => {
-      await page.goto("/obsidian/");
+      await page.goto("/content/");
 
       // Find any internal link in the article and click it
       const internalLink = page.locator("article a[href]").first();
@@ -149,7 +149,7 @@ test.describe("Digital Garden (Quartz)", () => {
 
         // Verify we navigated (URL changed)
         const currentUrl = page.url();
-        expect(currentUrl).not.toBe("http://localhost:8080/obsidian/");
+        expect(currentUrl).not.toBe("http://localhost:8080/content/");
       }
     });
   });

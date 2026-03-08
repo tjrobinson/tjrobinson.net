@@ -29,14 +29,14 @@ jobs:
       - name: Lint and Typecheck
         run: npm run check
       - name: Build Quartz
-        run: npx quartz build -d content -o public/obsidian
+        run: npx quartz build -d content -o public/content
       - name: Copy root pages
         run: |
           mkdir -p public
           cp index.html public/
           cp CNAME public/
           cp robots.txt public/
-          cp public/obsidian/404.html public/404.html
+          cp public/content/404.html public/404.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
