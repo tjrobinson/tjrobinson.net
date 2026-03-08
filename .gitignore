@@ -10,4 +10,4 @@ private/
 .replit
 replit.nix
 test-results/
-playwright-report/index.html
+playwright-report/
