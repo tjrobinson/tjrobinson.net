@@ -36,7 +36,6 @@ export default {
       title: "Fájlböngésző",
     },
     footer: {
-      createdWith: "Készítve ezzel:",
     },
     graph: {
       title: "Grafikonnézet",

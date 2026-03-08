@@ -36,7 +36,6 @@ export default {
       title: "Nội dung",
     },
     footer: {
-      createdWith: "Được tạo bằng",
     },
     graph: {
       title: "Sơ đồ",

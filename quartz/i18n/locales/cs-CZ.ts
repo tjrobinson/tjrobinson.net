@@ -36,7 +36,6 @@ export default {
       title: "Procházet",
     },
     footer: {
-      createdWith: "Vytvořeno pomocí",
     },
     graph: {
       title: "Graf",

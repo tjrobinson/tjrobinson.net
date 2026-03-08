@@ -37,7 +37,6 @@ export default {
       title: "סייר",
     },
     footer: {
-      createdWith: "נוצר באמצעות",
     },
     graph: {
       title: "מבט גרף",

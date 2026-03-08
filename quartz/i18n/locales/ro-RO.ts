@@ -36,7 +36,6 @@ export default {
       title: "Explorator",
     },
     footer: {
-      createdWith: "Creat cu",
     },
     graph: {
       title: "Graf",

@@ -36,7 +36,6 @@ export default {
       title: "Naršyklė",
     },
     footer: {
-      createdWith: "Sukurta Su",
     },
     graph: {
       title: "Grafiko Vaizdas",

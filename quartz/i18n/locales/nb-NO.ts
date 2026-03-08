@@ -36,7 +36,6 @@ export default {
       title: "Utforsker",
     },
     footer: {
-      createdWith: "Laget med",
     },
     graph: {
       title: "Graf-visning",

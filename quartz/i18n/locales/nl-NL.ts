@@ -36,7 +36,6 @@ export default {
       title: "Verkenner",
     },
     footer: {
-      createdWith: "Gemaakt met",
     },
     graph: {
       title: "Grafiekweergave",

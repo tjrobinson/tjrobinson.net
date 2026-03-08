@@ -36,7 +36,6 @@ export default {
       title: "Penjelajah",
     },
     footer: {
-      createdWith: "Dibuat dengan",
     },
     graph: {
       title: "Tampilan Grafik",

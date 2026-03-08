@@ -36,7 +36,6 @@ export default {
       title: "Gezgin",
     },
     footer: {
-      createdWith: "Şununla oluşturuldu",
     },
     graph: {
       title: "Grafik Görünümü",

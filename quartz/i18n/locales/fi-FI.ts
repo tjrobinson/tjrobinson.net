@@ -36,7 +36,6 @@ export default {
       title: "Selain",
     },
     footer: {
-      createdWith: "Luotu käyttäen",
     },
     graph: {
       title: "Verkkonäkymä",
