@@ -11,3 +11,4 @@ private/
 replit.nix
 test-results/
 playwright-report/
+.log

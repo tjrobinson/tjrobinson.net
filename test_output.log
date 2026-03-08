@@ -1,0 +1,127 @@
+
+> @jackyzha0/quartz@4.5.2 test
+> tsx --test
+
+▶ search encoder
+  ▶ English text
+    ✔ should tokenize simple English words (2.221617ms)
+    ✔ should handle multiple spaces (0.312847ms)
+    ✔ should handle tabs and newlines (0.168872ms)
+    ✔ should lowercase all text (0.191956ms)
+  ✔ English text (6.199074ms)
+  ▶ CJK text
+    ✔ should tokenize Japanese Hiragana character by character (2.78922ms)
+    ✔ should tokenize Japanese Katakana character by character (0.431002ms)
+    ✔ should tokenize Japanese Kanji character by character (0.219118ms)
+    ✔ should tokenize Korean Hangul character by character (1.251147ms)
+    ✔ should tokenize Chinese characters character by character (0.233866ms)
+    ✔ should handle mixed Hiragana/Katakana/Kanji (0.234277ms)
+  ✔ CJK text (5.805744ms)
+  ▶ Mixed CJK and English
+    ✔ should handle Japanese with English words (0.315662ms)
+    ✔ should handle English with Japanese words (0.181226ms)
+    ✔ should handle complex mixed content (0.148313ms)
+    ✔ should handle mixed Korean and English (0.16792ms)
+    ✔ should handle mixed Chinese and English (0.239196ms)
+  ✔ Mixed CJK and English (1.390231ms)
+  ▶ Edge cases
+    ✔ should handle empty string (0.341241ms)
+    ✔ should handle only whitespace (0.224348ms)
+    ✔ should handle single character (0.124748ms)
+    ✔ should handle single CJK character (0.122884ms)
+    ✔ should handle CJK with trailing whitespace (0.124287ms)
+    ✔ should handle English with trailing whitespace (0.115851ms)
+  ✔ Edge cases (1.335167ms)
+✔ search encoder (15.668805ms)
+▶ FileTrie
+  ▶ constructor
+    ✔ should create an empty trie (2.409316ms)
+    ✔ should set displayName from data title (0.552884ms)
+    ✔ should be able to set displayName (0.482871ms)
+  ✔ constructor (4.747906ms)
+  ▶ add
+    ✔ should add a file at root level (0.759849ms)
+    ✔ should handle index files (0.522035ms)
+    ✔ should add nested files (0.779767ms)
+  ✔ add (2.543922ms)
+  ▶ filter
+    ✔ should filter nodes based on condition (0.467141ms)
+  ✔ filter (0.672232ms)
+  ▶ map
+    ✔ should apply function to all nodes (0.379995ms)
+    ✔ map over folders should work (0.351911ms)
+  ✔ map (0.909816ms)
+  ▶ entries
+    ✔ should return all entries (0.598341ms)
+  ✔ entries (0.70783ms)
+  ▶ fromEntries
+    ✔ nested (0.501807ms)
+  ✔ fromEntries (0.663175ms)
+  ▶ findNode
+    ✔ should find root node with empty path (0.596498ms)
+    ✔ should find node at first level (0.35147ms)
+    ✔ should find nested node (0.33035ms)
+    ✔ should return undefined for non-existent path (0.333336ms)
+    ✔ should return undefined for partial path (0.277148ms)
+  ✔ findNode (2.285218ms)
+  ▶ getFolderPaths
+    ✔ should return all folder paths (0.674306ms)
+  ✔ getFolderPaths (0.851965ms)
+  ▶ sort
+    ✔ should sort nodes according to sort function (14.925468ms)
+  ✔ sort (15.207405ms)
+  ▶ pathToNode
+    ✔ should return root node for empty path (0.450018ms)
+    ✔ should return root node for index path (0.18856ms)
+    ✔ should return path to first level node (0.455649ms)
+    ✔ should return path to nested node (0.448064ms)
+    ✔ should return undefined for non-existent path (0.226462ms)
+    ✔ should return file data for intermediate folders (0.233636ms)
+    ✔ should return path for partial path (0.346561ms)
+  ✔ pathToNode (2.813636ms)
+✔ FileTrie (33.010902ms)
+▶ typeguards
+  ✔ isSimpleSlug (1.496544ms)
+  ✔ isRelativeURL (0.535842ms)
+  ✔ isAbsoluteURL (0.381648ms)
+  ✔ isFullSlug (0.225921ms)
+  ✔ isFilePath (0.224378ms)
+✔ typeguards (4.392728ms)
+▶ transforms
+  ✔ simplifySlug (0.519511ms)
+  ✔ slugifyFilePath (0.861613ms)
+  ✔ transformInternalLink (1.912528ms)
+  ✔ pathToRoot (0.538126ms)
+  ✔ joinSegments (0.491487ms)
+✔ transforms (5.217171ms)
+▶ link strategies
+  ▶ absolute
+    ✔ from a/b/c (0.929502ms)
+    ✔ from a/b/index (0.243735ms)
+    ✔ from index (0.220781ms)
+  ✔ absolute (1.688471ms)
+  ▶ shortest
+    ✔ from a/b/c (0.684746ms)
+    ✔ from a/b/index (0.241049ms)
+    ✔ from index (0.252291ms)
+  ✔ shortest (1.366547ms)
+  ▶ relative
+    ✔ from a/b/c (0.332875ms)
+    ✔ from a/b/index (0.179272ms)
+    ✔ from index (0.161668ms)
+  ✔ relative (0.832638ms)
+✔ link strategies (4.250127ms)
+▶ resolveRelative
+  ✔ from index (0.22023ms)
+  ✔ from nested page (0.128465ms)
+  ✔ with index paths (1.690935ms)
+  ✔ with simple slugs (0.355238ms)
+✔ resolveRelative (2.675613ms)
+ℹ tests 69
+ℹ suites 23
+ℹ pass 69
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 439.636596

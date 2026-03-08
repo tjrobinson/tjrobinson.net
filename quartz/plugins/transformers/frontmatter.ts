@@ -90,8 +90,12 @@ export const FrontMatter: QuartzTransformerPlugin<Partial<Options>> = (userOpts)
             if (data.permalink != null && data.permalink.toString() !== "") {
               data.permalink = data.permalink.toString() as FullSlug
               const aliases = file.data.aliases ?? []
-              aliases.push(data.permalink)
+              // Push the original auto-generated slug to aliases
+              aliases.push(file.data.slug as FullSlug)
               file.data.aliases = aliases
+              
+              // Override the file's canonical slug
+              file.data.slug = data.permalink
               allSlugs.push(data.permalink)
             }
 
