@@ -28,9 +28,9 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: openapi-template
-  description: | 
+  description: |
     Provides the basic template for API entities in Backstage based on OpenAPI. OpenAPI is used to describe both APIs and Webhooks (APIs to publish in the developer portal, Webhooks to provide to customers to describe what they need to implement).
-    
+
     Copy this to your repository in readiness for generating your API description document. This file will be concatenated with your API description document generated from source code in CI. Teams must edit the `metadata` and `spec` sections to their needs, with the exception of the `definition` property **which will be updated in the build**.
 
     **PLEASE READ THE GUIDANCE ON THE ANNOTATIONS IN THIS EXAMPLE IN THE README. THEY ARE IMPORTANT FOR THE BUILD TO FUNCTION CORRECTLY.**

@@ -1,4 +1,4 @@
-import { defineConfig } from "@playwright/test"
+import { defineConfig } from "@playwright/test";
 
 export default defineConfig({
   testDir: "./e2e",
@@ -20,9 +20,9 @@ export default defineConfig({
   webServer: {
     // Build the full site (Quartz + root pages) and serve from public/ — mirrors production
     command:
-      'npx quartz build -d content -o public/obsidian && cp index.html public/ && cp robots.txt public/ && npx serve public -l 8080 --no-request-logging',
+      "npx quartz build -d content -o public/obsidian && cp index.html public/ && cp robots.txt public/ && npx serve public -l 8080 --no-request-logging",
     url: "http://localhost:8080",
     reuseExistingServer: !process.env.CI,
     timeout: 120_000,
   },
-})
+});

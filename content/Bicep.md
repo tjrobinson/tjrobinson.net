@@ -1,6 +1,5 @@
 # Bicep
 
-
 This is a collection of useful links I've come across when working with Bicep:
 
 - [Reference New Or Existing Resource In Azure Bicep](https://ochzhen.com/blog/reference-new-or-existing-resource-in-azure-bicep)

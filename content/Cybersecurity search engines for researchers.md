@@ -6,12 +6,6 @@ tags:
 
 - [OWASP Top 10 CI/CD Security Risks](https://owasp.org/www-project-top-10-ci-cd-security-risks/)
 
-
-
-
-
-
-
 # Cybersecurity search engines for researchers
 
 From: https://twitter.com/danielmakelley/status/1591389408577654784
@@ -47,5 +41,3 @@ From: https://twitter.com/danielmakelley/status/1591389408577654784
 29. IntelligenceX—Search Tor, I2P, data leaks, domains, and emails.
 30. Packet Storm Security—Browse latest vulnerabilities and exploits.
 31. SearchCode—Search 75 billion lines of code from 40 million projects.
-
-

@@ -1,6 +1,5 @@
 # Conversion failed when converting date and/or time from character string
 
-
 ```sql
 SELECT COUNT(*)
 FROM [vwTasks] AS [item]

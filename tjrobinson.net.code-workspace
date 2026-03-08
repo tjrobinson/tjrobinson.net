@@ -1,16 +1,14 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"settings": {
-		"files.exclude": {
-		}
-	},
-	"extensions": {
-		"recommendations": [
-		],
-		"unwantedRecommendations": []
-	}
+  "folders": [
+    {
+      "path": ".",
+    },
+  ],
+  "settings": {
+    "files.exclude": {},
+  },
+  "extensions": {
+    "recommendations": [],
+    "unwantedRecommendations": [],
+  },
 }

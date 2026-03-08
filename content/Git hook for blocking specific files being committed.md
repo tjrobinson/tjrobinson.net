@@ -35,7 +35,7 @@ else
         echo
         echo "To prevent exposing credentials, confirm that you want to include these files by adding \"FORCECOMMIT\" to the commit message."
         exit 1;
-    esac  
+    esac
 fi
 ```
 

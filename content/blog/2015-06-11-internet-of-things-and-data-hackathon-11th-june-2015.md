@@ -1,8 +1,8 @@
 ---
 date: "2015-06-11"
 ---
-# Internet of Things and Data Hackathon - 11th June 2015
 
+# Internet of Things and Data Hackathon - 11th June 2015
 
 I don't have time to write a proper blog post, but here are some of the links I found useful today:
 
@@ -13,8 +13,6 @@ Event hashtag: [#hackitmsft](https://twitter.com/search?q=%23hackitmsft)
 - [Data: Download the hands on lab: Machine Learning without a PhD](http://1drv.ms/1F7UUcr)
 - [Get started with Event Hubs](https://azure.microsoft.com/en-gb/documentation/articles/service-bus-event-hubs-csharp-ephcs-getstarted/)
 - [Send Data into Azure Event Hubs using Web Api’s HttpClient](https://blogs.endjin.com/2015/02/send-data-into-azure-event-hubs-using-web-apis-httpclient/)
-- 
-    Connect tiny devices to Microsoft Azure services to build IoT solutions [http://connectthedots.io](http://connectthedots.io/)
-  
+- Connect tiny devices to Microsoft Azure services to build IoT solutions [http://connectthedots.io](http://connectthedots.io/)
 
 Thanks to Microsoft for a fun and informative day.

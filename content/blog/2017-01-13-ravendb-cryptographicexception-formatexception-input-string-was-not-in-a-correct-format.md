@@ -1,8 +1,8 @@
 ---
 date: "2017-01-13"
 ---
-# RavenDB: CryptographicException & FormatException: Input string was not in a correct format
 
+# RavenDB: CryptographicException & FormatException: Input string was not in a correct format
 
 If you get an error similar to the below and are using encrypted databases, make sure that you're running the RavenDB process as the same user you were when the databases were created/encrypted.
 

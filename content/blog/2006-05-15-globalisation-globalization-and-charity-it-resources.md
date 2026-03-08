@@ -1,8 +1,8 @@
 ---
 date: 2006-05-15
 ---
-# Globalisation/Globalization and Charity IT Resources
 
+# Globalisation/Globalization and Charity IT Resources
 
 While tidying my bookmarks today, I found a load of sites I'd used for my MSc. I thought I might as well post them here before I delete them as it took me a while to collect them all and they may be useful for somebody somewhere.
 

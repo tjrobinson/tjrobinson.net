@@ -8,12 +8,12 @@ Reboot plenty of times and after doing any significant changes.
 
 Reboot after applying updates and then re-check as some updates won't come up until after others are installed.
 
-* Check Windows Update
-* Check Microsoft Store
+- Check Windows Update
+- Check Microsoft Store
 
 ### Drivers
 
-* Connect mouse via Bluetooth - automatically prompts to install Logi Options+
+- Connect mouse via Bluetooth - automatically prompts to install Logi Options+
 
 ### Enable virtualisation and WSL
 
@@ -27,7 +27,7 @@ wsl --install
 winget install Microsoft.DotNet.SDK.10
 ```
 
-```
+````
 winget install --exact --id Microsoft.PowerShell --source winget
 winget install --exact --id Hashicorp.Terraform --source winget
 winget install --exact --id bruno.bruno
@@ -70,7 +70,7 @@ skaffold 2.10.1
 sysinternals 2024.2.13
 terraform 1.12.2
 tfsec 1.28.1
-```
+````
 
 ```bash
 npm list -g --depth=0

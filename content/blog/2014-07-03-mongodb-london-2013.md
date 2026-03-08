@@ -1,8 +1,8 @@
 ---
 date: "2014-07-03"
 ---
-# MongoDB London 2013
 
+# MongoDB London 2013
 
 Some very rough notes from MongoDB London 2013:
 

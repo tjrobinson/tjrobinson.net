@@ -1,8 +1,8 @@
 ---
 date: "2020-09-07"
 ---
-# .NET Framework 4.8 on Azure App Service
 
+# .NET Framework 4.8 on Azure App Service
 
 Last updated: 7th September 2020
 

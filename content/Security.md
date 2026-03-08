@@ -2,6 +2,7 @@
 tags:
   - security
 ---
+
 # Security
 
 - [[Kubernetes]]
@@ -32,19 +33,21 @@ tags:
 - [HackmichNet/AzTokenFinder](https://github.com/HackmichNet/AzTokenFinder)
 - [badssl.com](https://badssl.com/)
 - https://sigmahq.io/
-- https://github.com/synacktiv/nord-stream - Nord Stream is a tool that allows you extract secrets stored inside CI/CD environments by deploying _malicious_ pipelines.
+- https://github.com/synacktiv/nord-stream - Nord Stream is a tool that allows you extract secrets stored inside CI/CD environments by deploying *malicious* pipelines.
 - [Axonius](https://www.axonius.com/)
 - [Seedata.io](https://www.seedata.io/) - deception platform
 - [Mandiant capa](https://github.com/mandiant/capa) - capa detects capabilities in executable files
 - [DNS Dumpster](https://dnsdumpster.com/) - passive DNS
 
 ## Training
+
 - [Snyk Learn - Trusted Developer Security Training | Snyk](https://snyk.io/platform/learn/?utm_medium=events-email&utm_source=mkto-drip-1&utm_campaign=clm-platform-learn&mkt_tok=Njc3LVRIUC00MTUAAAGMXsK6FYK_9j-87bm4Nj96zXfGGZEJDam6Czi4XzoBfUhc4wSCngnLEaY5Q3TBC5qDoQYTfOjJGjrrHL2IgdPFeTm_5jkN9M63LgilrUIagHZiyw)
 - [ISC(2) Skill Builders](https://learn.isc2.org/d2l/le/discovery/view/)
 - [juice-shop/juice-shop: OWASP Juice Shop: Probably the most modern and sophisticated insecure web application](https://github.com/juice-shop/juice-shop)
 - [Free developer security education lessons | Snyk Learn](https://learn.snyk.io/lessons/)
 
 ## Misc
+
 - [[Secret Management]]
 - [BinaryEdge](https://www.binaryedge.io/)
 - [digininja/DVWA: Damn Vulnerable Web Application (DVWA)](https://github.com/digininja/DVWA)
@@ -127,7 +130,7 @@ tags:
 - [vulhub/vulhub: Pre-Built Vulnerable Environments Based on Docker-Compose](https://github.com/vulhub/vulhub)
 - [Protective Domain Name Service (PDNS) - NCSC.GOV.UK](https://www.ncsc.gov.uk/information/pdns)
 - [A Realistic Look at Implications of ChatGPT for Cybercrime](https://malwaretech.com/2023/02/a-realistic-look-at-chatgpt-cybercrime.html)
-- [Thread by @_wald0 on Thread Reader App – Thread Reader App](https://threadreaderapp.com/thread/1572283008840777728.html)
+- [Thread by @\_wald0 on Thread Reader App – Thread Reader App](https://threadreaderapp.com/thread/1572283008840777728.html)
 - [The DEF CON® Media Server - Archives of the conferences](https://media.defcon.org/)
 - [Bug Alert](https://bugalert.org/)
 - [The Hidden Complexity of Vulnerability Remediation | Cyentia](https://www.cyentia.com/the-hidden-complexity-of-vulnerability-remediation/)
@@ -211,7 +214,7 @@ tags:
 - [Quick Wins I OWASP Top Ten for .NET Developers in 30 Minutes - YouTube](https://www.youtube.com/watch?v=V93whG8J4is)
 - [Infosec/hacking videos recorded by Cooper (@Ministraitor)](https://administraitor.video/editions)
 - [InfoCon Hacking and Security Conference Archives](https://infocon.org/)
-- [Dread (forum) - Wikipedia](https://en.wikipedia.org/wiki/Dread_(forum))
+- [Dread (forum) - Wikipedia](<https://en.wikipedia.org/wiki/Dread_(forum)>)
 - [I Will IDOR Myself In - Vangelis Stykas - YouTube](https://www.youtube.com/watch?v=2M78nhL0GC0)
 - [Announcing .NET Chiseled Containers - .NET Blog](https://devblogs.microsoft.com/dotnet/announcing-dotnet-chiseled-containers/)
 - [New Microsoft Incident Response team guide shares best practices for security teams and leaders | Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/2023/12/11/new-microsoft-incident-response-team-guide-shares-best-practices-for-security-teams-and-leaders/)
@@ -238,7 +241,7 @@ tags:
 - [Security policies - Snyk User Docs](https://docs.snyk.io/manage-issues/policies/security-policies)
 - [Introduction - Azure AD Workload Identity](https://azure.github.io/azure-workload-identity/docs/introduction.html)
 - [A developer on my team accidentally published a repo under his personal account on BitBucket. It was public for 10 minutes. How worried should I be about the contents leaking? : r/sysadmin](https://www.reddit.com/r/sysadmin/comments/16v8jql/a_developer_on_my_team_accidentally_published_a/?share_id=-AVpVVDU0GFjyZRHuxa6_&utm_content=1&utm_medium=ios_app&utm_name=ioscss&utm_source=share&utm_term=1)
-- [CL0P Seeds ^_- Gotta Catch Em All!](https://unit42.paloaltonetworks.com/cl0p-group-distributes-ransomware-data-with-torrents/)
+- [CL0P Seeds ^\_- Gotta Catch Em All!](https://unit42.paloaltonetworks.com/cl0p-group-distributes-ransomware-data-with-torrents/)
 - [Introducing GraphRunner: A Post-Exploitation Toolset for Microsoft 365 - Black Hills Information Security](https://www.blackhillsinfosec.com/introducing-graphrunner/)
 - [Microsoft Azure Managed Identity Deep Dive - YouTube](https://www.youtube.com/watch?v=rC1TV0_sIrM)
 - [HackmichNet/AzTokenFinder](https://github.com/HackmichNet/AzTokenFinder)
@@ -270,7 +273,7 @@ tags:
 - [Use Azure Functions to Remove Unauthorized Role Assignments - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/use-azure-functions-to-remove-unauthorized-role-assignments/ba-p/3835628)
 - [10 ways SecOps can strengthen cybersecurity with ChatGPT | VentureBeat](https://venturebeat.com/security/10-ways-secops-can-strengthen-cybersecurity-with-chatgpt/)
 - [Rogue IT security worker who impersonated ransomware gang is sentenced to jail • Graham Cluley](https://grahamcluley.com/rogue-it-security-worker-who-impersonated-ransomware-gang-sentenced-to-jail/)
-- [Shostack + Associates > Tabletop Security Games + Cards](https://shostack.org/games.html#:~:text=Cyber%20Threat%20Defender%20(CTD)%20is,game%20regardless%20of%20skill%20level.)
+- [Shostack + Associates > Tabletop Security Games + Cards](<https://shostack.org/games.html#:~:text=Cyber%20Threat%20Defender%20(CTD)%20is,game%20regardless%20of%20skill%20level.>)
 - [Azure DevOps agents on AKS with workload identity - DEV Community](https://dev.to/oskarm93/azure-devops-agents-on-aks-with-workload-identity-113o)
 - [How managed identities for Azure resources work with Azure virtual machines - Microsoft Entra | Microsoft Learn](https://learn.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/how-managed-identities-work-vm)
 - [Az Mask](https://chrome.google.com/webstore/detail/az-mask/amobeamdmdnloajcaiomgegpakjdiacm)
@@ -299,7 +302,7 @@ tags:
 - [OpenYOLO for Android](https://openid.net/specs/openyolo-android-03.html)
 
 Podcasts
+
 - [Cybersecurity History Podcast | Malicious Life](https://malicious.life/)
 
-
- [[OSINT]]
+[[OSINT]]

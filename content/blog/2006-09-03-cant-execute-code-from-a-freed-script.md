@@ -1,8 +1,8 @@
 ---
 date: "2006-09-03"
 ---
-# Can't execute code from a freed script
 
+# Can't execute code from a freed script
 
 Another good reason to hate Internet Explorer 6 and it's hopeless error messages.
 

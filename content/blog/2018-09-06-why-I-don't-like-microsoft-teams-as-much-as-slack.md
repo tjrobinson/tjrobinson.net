@@ -3,8 +3,8 @@ date: "2018-09-06"
 author: Tom Robinson
 layout: post
 ---
-# Why I don't like Microsoft Teams as much as Slack
 
+# Why I don't like Microsoft Teams as much as Slack
 
 As an ex-Slack user, who is now using Microsoft Teams, here's what I don't like about using it:
 

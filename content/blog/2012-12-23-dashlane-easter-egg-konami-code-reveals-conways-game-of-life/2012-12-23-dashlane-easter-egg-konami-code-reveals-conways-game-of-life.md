@@ -1,8 +1,8 @@
 ---
 date: "2012-12-23"
 ---
-# Dashlane Easter Egg - Conway's Game of Life
 
+# Dashlane Easter Egg - Conway's Game of Life
 
 I've been a [Dashlane](https://www.dashlane.com/) user for a while now, having found out about it through a friend and respected colleague who started working for them in the Paris office.
 

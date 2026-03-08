@@ -1,8 +1,8 @@
 ---
 date: "2007-07-12"
 ---
-# Filter for WinMerge
 
+# Filter for WinMerge
 
 A lot of web development tools like [Dreamweaver](http://kb.adobe.com/selfservice/viewContent.do?externalId=tn_15237&sliceId=1) and [FrontPage](http://www.microsoft.com/technet/community/chats/trans/frontpage/fp1022.mspx) like to create annoying files and folders throughout a build. I'm sure they're useful to somebody, but they just get in the way when you're doing a comparison of two builds.
 

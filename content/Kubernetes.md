@@ -93,7 +93,7 @@ kubectl config get-contexts
 
 ```shell
 kubectl config use-context docker-desktop
-````
+```
 
 ```shell
 docker container ls

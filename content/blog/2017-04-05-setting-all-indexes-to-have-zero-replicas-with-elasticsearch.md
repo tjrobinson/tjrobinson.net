@@ -1,8 +1,8 @@
 ---
 date: "2017-04-05"
 ---
-# Setting all indexes to have zero replicas with Elasticsearch
 
+# Setting all indexes to have zero replicas with Elasticsearch
 
 To configure all indexes (including existing ones) to have zero replicas (useful if running on only one server, e.g. in development), execute this (syntax assumes you're using Sense):
 

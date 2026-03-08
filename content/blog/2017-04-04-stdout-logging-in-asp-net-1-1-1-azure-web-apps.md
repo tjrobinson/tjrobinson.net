@@ -1,8 +1,8 @@
 ---
 date: "2017-04-04"
 ---
-# Stdout logging in ASP.NET 1.1.1 Azure Web Apps
 
+# Stdout logging in ASP.NET 1.1.1 Azure Web Apps
 
 Because I keep forgetting it:
 

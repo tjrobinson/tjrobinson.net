@@ -10,13 +10,12 @@
 - [Project Documentation from Azure DevOps Wikis - Paul Hatcher](https://blog.paulhatcher.com/2022/01/project-documentation-from-azure-devops-wikis/)
 - [TFS/Azure DevOps Code Statistics](https://github.com/wandrille-hubert/AzureDevopsCodeStats)
 
-
 ## Useful API endpoints
 
 https://dev.azure.com/{organisation}/_apis/hooks/subscriptions
- 
+
 https://dev.azure.com/{organisation}/_apis/hooks/consumers
- 
+
 https://dev.azure.com/{organisation}/_apis/hooks/publishers
 
 ### Recent PRs

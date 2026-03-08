@@ -22,9 +22,9 @@ DECLARE @User NVARCHAR(200) = 'user.name@example.com'
 SELECT -- DB roles
     '' AS schema_name, DP1.name AS resource_name, 'ROLE' as class_desc,
     '' as permission_name, '' as permission_state_desc, isnull (DP2.name, 'No members') AS principal_name
-FROM sys.database_role_members AS DRM  
-RIGHT OUTER JOIN sys.database_principals AS DP1 ON DRM.role_principal_id = DP1.principal_id  
-LEFT OUTER JOIN sys.database_principals AS DP2 ON DRM.member_principal_id = DP2.principal_id  
+FROM sys.database_role_members AS DRM
+RIGHT OUTER JOIN sys.database_principals AS DP1 ON DRM.role_principal_id = DP1.principal_id
+LEFT OUTER JOIN sys.database_principals AS DP2 ON DRM.member_principal_id = DP2.principal_id
 WHERE DP1.type = 'R' and DP2.name like concat('%', @User, '%')
 UNION ALL
 SELECT -- execute (db and objects)
@@ -73,7 +73,7 @@ order by principal_name
 private static string SanitiseConnectionString(string connectionString)
 {
     var builder = new SqlConnectionStringBuilder { ConnectionString = connectionString };
-    
+
     if (!string.IsNullOrWhiteSpace(builder.Password))
     {
         builder["password"] = "[REDACTED]";

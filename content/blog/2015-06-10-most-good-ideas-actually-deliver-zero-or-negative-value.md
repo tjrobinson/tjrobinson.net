@@ -1,8 +1,8 @@
 ---
 date: "2015-06-10"
 ---
-# Most Good Ideas Actually Deliver Zero or Negative Value
 
+# Most Good Ideas Actually Deliver Zero or Negative Value
 
 <div id="main-content" class="wiki-content">
   <div class="wiki-content">

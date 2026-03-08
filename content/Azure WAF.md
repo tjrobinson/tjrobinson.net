@@ -3,8 +3,8 @@
 ## Useful queries
 
 ```kql
-AzureDiagnostics 
-| where OperationName == "ApplicationGatewayFirewall" 
+AzureDiagnostics
+| where OperationName == "ApplicationGatewayFirewall"
 | where clientIp_s == "IP_ADDRESS_HERE"
 | where policyScopeName_s == "POLICY_NAME_HERE"
 | where (action_s == "Blocked") or (action_s == "Matched")

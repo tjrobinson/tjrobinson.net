@@ -1,8 +1,8 @@
 ---
 date: "2015-06-12"
 ---
-# How do you type a backslash "\" into the Dell DRAC viewer?
 
+# How do you type a backslash "\" into the Dell DRAC viewer?
 
 If you have a UK keyboard and try typing backslash into the Dell iDRACView application you might see # appear instead.
 

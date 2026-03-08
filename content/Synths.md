@@ -1,6 +1,5 @@
 # Snyths & Electronic Music
 
-
 - https://bedroomproducersblog.com/free-vst-plugins/
 - https://blog.landr.com/best-free-vst-instruments-2022/
 - https://www.youtube.com/watch?app=desktop&v=W8HWLgQtdrw

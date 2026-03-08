@@ -1,6 +1,5 @@
 # My Hardware
 
-
 ## Work Desktop PC
 
 - [ROG STRIX B550-F GAMING (WI-FI)](https://rog.asus.com/us/motherboards/rog-strix/rog-strix-b550-f-gaming-wi-fi-model/)
