@@ -1,5 +1,5 @@
 ---
-title: Welcome to my content and notes
+title: Welcome to my Content
 ---
 
 Welcome! This is where I keep my content and notes on various topics.
