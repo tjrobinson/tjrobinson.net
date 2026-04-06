@@ -45,3 +45,20 @@
 - Docker-compose
 - StyleCop + SonarAnalyzer
 - Coding conventions (.editorconfig)
+
+
+Misc
+
+    <ItemGroup Condition="$(MSBuildProjectName.EndsWith('Tests'))">
+        <Compile Include="GlobalUsings.Tests.cs" />
+    </ItemGroup>
+
+
+
+    https://www.fuget.org/packages/Selenium.WebDriver/4.0.1/lib/netstandard2.1/diff/4.0.0-alpha07/
+
+
+    Need to update .NET 5 projects to 6 for LTS
+
+
+    What about Application Insights instead of Seq?

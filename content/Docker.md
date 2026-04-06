@@ -14,3 +14,7 @@ docker run --rm -dit --network none --name [container-name] [image-name]
 - `-it` is a combination of two options: `-i` for interactive mode and `-t` for allocating a pseudo-TTY. This allows you to interact with the container's command prompt.
 
 Overall, the command `docker run --rm -dit` creates and starts a Docker container in the background, with an interactive shell that you can access.
+
+Location of files when running in Windows:
+
+\\wsl$\docker-desktop-data\version-pack-data\community\docker\volumes
