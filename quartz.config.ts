@@ -16,7 +16,9 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "https://www.tjrobinson.net/content",
+    // Quartz prepends the scheme itself — this must NOT include https://
+    // (with the scheme included, sitemap/RSS/canonical URLs come out as "https://https://...")
+    baseUrl: "www.tjrobinson.net/content",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {

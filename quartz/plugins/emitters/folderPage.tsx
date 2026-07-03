@@ -20,8 +20,34 @@ import { write } from "./helpers"
 import { i18n, TRANSLATIONS } from "../../i18n"
 import { BuildCtx } from "../../util/ctx"
 import { StaticResources } from "../../util/resources"
+import { clone } from "../../util/clone"
+import { visit } from "unist-util-visit"
+import { Root as HtmlRoot } from "hast"
 interface FolderPageOptions extends FullPageLayout {
   sort?: (f1: QuartzPluginData, f2: QuartzPluginData) => number
+}
+
+// Folder content reused from an existing note (e.g. Blog.md for blog/) has its
+// relative links already resolved for the note's own slug. The folder page is
+// emitted one level deeper (folder/index), so re-base those links or they
+// break when the page is served at folder/.
+function rebaseRelativeLinks(tree: HtmlRoot, oldSlug: FullSlug, newSlug: FullSlug): HtmlRoot {
+  const rebase = (value: string): string => {
+    // Leave absolute URLs, protocol-relative URLs, and pure anchors alone
+    if (/^([a-z][a-z0-9+.-]*:|\/\/|#)/i.test(value)) return value
+    const url = new URL(value, `https://base/${oldSlug}`)
+    const rootRelative = url.pathname.replace(/^\//, "")
+    return joinSegments(pathToRoot(newSlug), rootRelative) + url.search + url.hash
+  }
+  visit(tree, "element", (node) => {
+    for (const prop of ["href", "src"] as const) {
+      const value = node.properties?.[prop]
+      if (typeof value === "string") {
+        node.properties[prop] = rebase(value)
+      }
+    }
+  })
+  return tree
 }
 
 async function* processFolderInfo(
@@ -36,12 +62,17 @@ async function* processFolderInfo(
     ProcessedContent,
   ][]) {
     const slug = joinSegments(folder, "index") as FullSlug
-    const [tree, file] = folderContent
+    let [tree, file] = folderContent
+    if (file.data.slug !== slug) {
+      tree = rebaseRelativeLinks(clone(tree), file.data.slug!, slug)
+    }
     const cfg = ctx.cfg.configuration
     const externalResources = pageResources(pathToRoot(slug), resources)
     const componentData: QuartzComponentProps = {
       ctx,
-      fileData: file.data,
+      // Components must generate links relative to where this page is emitted,
+      // not relative to the source note's own slug
+      fileData: { ...file.data, slug },
       externalResources,
       cfg,
       children: [],

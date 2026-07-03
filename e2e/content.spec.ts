@@ -64,24 +64,29 @@ test.describe("Content (Quartz)", () => {
       await expect(page.locator(".breadcrumb-container")).toBeVisible();
     });
 
-    test("graph view component renders", async ({ page }) => {
+    test("graph view component renders on a page with links", async ({
+      page,
+    }) => {
       await page.goto("/content/security");
       await expect(page.locator(".graph")).toBeVisible();
+    });
+
+    test("graph view is hidden on a page with no links", async ({ page }) => {
+      // Local customisation in quartz/components/Graph.tsx: the graph is not
+      // rendered at all when a page has no incoming or outgoing links.
+      await page.goto("/content/jquery-and-swfobject");
+      await expect(page.locator("article").first()).toBeVisible();
+      await expect(page.locator(".graph")).toHaveCount(0);
     });
 
     test("backlinks section renders when page has incoming links", async ({
       page,
     }) => {
-      // Visit a page that is likely linked from other pages
-      await page.goto("/content/azure");
-      // The backlinks component hides when empty, so we check if it renders
+      // azure-devops is linked from several other notes
+      await page.goto("/content/azure-devops");
       const backlinks = page.locator(".backlinks");
-      const count = await backlinks.count();
-      if (count > 0) {
-        await expect(backlinks).toBeVisible();
-        // Verify it contains at least one link
-        await expect(backlinks.locator("a.internal")).not.toHaveCount(0);
-      }
+      await expect(backlinks).toBeVisible();
+      await expect(backlinks.locator("a.internal")).not.toHaveCount(0);
     });
 
     test("content meta (reading time) is displayed", async ({ page }) => {
@@ -126,31 +131,79 @@ test.describe("Content (Quartz)", () => {
     });
   });
 
+  test.describe("Redirects (permalinks)", () => {
+    test("original slug redirects to the permalink slug", async ({ page }) => {
+      // The CISSP note sets `permalink: cissp` in its frontmatter; the local
+      // customisation in quartz/plugins/transformers/frontmatter.ts makes the
+      // permalink canonical and emits a redirect page at the original slug.
+      await page.goto(
+        "/content/cissp-(isc2-certified-information-systems-security-professional)-resources",
+      );
+      await page.waitForURL(/\/content\/cissp$/);
+      await expect(page.locator(".article-title")).toBeVisible();
+    });
+
+    test("redirect page declares the permalink as canonical", async ({
+      request,
+    }) => {
+      const response = await request.get(
+        "/content/cissp-(isc2-certified-information-systems-security-professional)-resources",
+      );
+      expect(response.ok()).toBeTruthy();
+      const html = await response.text();
+      expect(html).toContain('rel="canonical"');
+      expect(html).toContain("cissp");
+    });
+  });
+
   test.describe("Error handling", () => {
-    test("404 page renders for invalid paths", async ({ page }) => {
-      await page.goto("/content/this-page-definitely-does-not-exist-12345");
+    test("invalid paths return HTTP 404 with the 404 page", async ({
+      page,
+    }) => {
+      const response = await page.goto(
+        "/content/this-page-definitely-does-not-exist-12345",
+      );
+      expect(response?.status()).toBe(404);
       await expect(page.locator("article").first()).toBeVisible();
     });
   });
 
   test.describe("Navigation (SPA)", () => {
-    test("clicking a link in content navigates via SPA without full reload", async ({
+    test("clicking a link in content navigates via SPA", async ({ page }) => {
+      // dotnet has several internal links in its article body
+      await page.goto("/content/dotnet");
+
+      const internalLink = page.locator("article a.internal").first();
+      await expect(internalLink).toBeVisible();
+      const href = await internalLink.getAttribute("href");
+      expect(href).toBeTruthy();
+
+      await internalLink.click();
+      await page.waitForURL((url) => !url.pathname.endsWith("/dotnet"));
+      await expect(page.locator(".article-title")).toBeVisible();
+    });
+  });
+
+  test.describe("Runtime health", () => {
+    test("pages load without uncaught errors or CSP violations", async ({
       page,
     }) => {
-      await page.goto("/content/");
+      const problems: string[] = [];
+      page.on("pageerror", (error) => {
+        problems.push(`pageerror: ${error.message}`);
+      });
+      page.on("console", (message) => {
+        if (message.text().includes("Content Security Policy")) {
+          problems.push(`csp: ${message.text()}`);
+        }
+      });
 
-      // Find any internal link in the article and click it
-      const internalLink = page.locator("article a[href]").first();
-      const isVisible = await internalLink.isVisible().catch(() => false);
-
-      if (isVisible) {
-        await internalLink.click();
-        await page.waitForTimeout(1000);
-
-        // Verify we navigated (URL changed)
-        const currentUrl = page.url();
-        expect(currentUrl).not.toBe("http://localhost:8080/content/");
+      for (const path of ["/content/", "/content/dotnet"]) {
+        await page.goto(path);
+        await page.waitForLoadState("load");
       }
+
+      expect(problems, problems.join("\n")).toEqual([]);
     });
   });
 });

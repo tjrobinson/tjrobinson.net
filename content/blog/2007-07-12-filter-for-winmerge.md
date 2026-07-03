@@ -16,4 +16,4 @@ I thought I'd share a basic [filter](http://winmerge.org/2.4/manual/filters.html
   - \_vti_cnf
   - dwsync.xml
 
-I'll probably add more files to this list as I discover them, but for now please feel free to [download the filter](/404). If you have any suggestions, please add a comment to this post.
+I'll probably add more files to this list as I discover them, but for now please feel free to download the filter (no longer online). If you have any suggestions, please add a comment to this post.

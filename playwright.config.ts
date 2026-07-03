@@ -10,6 +10,12 @@ export default defineConfig({
   use: {
     baseURL: "http://localhost:8080",
     trace: "on-first-retry",
+    // Escape hatch for environments with a pre-installed Chromium (unset in CI)
+    ...(process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH && {
+      launchOptions: {
+        executablePath: process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH,
+      },
+    }),
   },
   projects: [
     {

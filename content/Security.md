@@ -162,7 +162,7 @@ tags:
 - [Tide helps small businesses do business securely with Wiz | Wiz](https://www.wiz.io/customers/tide)
 - [AppSec Fundamentals](https://community.wehackpurple.com/courses/7510333/content?utm_campaign=welcome_to_space&utm_medium=email&utm_source=transactional_emails)
 - [Best Practices for Developer-Centric Application Security Testing - Bright Security](https://www.instapaper.com/read/1629203918)
-- [Entro-secret-protection-White-paper-entro.pdf](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://entro.security/wp-content/uploads/2023/05/Entro-secret-protection-White-paper-entro.pdf)
+- [Entro-secret-protection-White-paper-entro.pdf](https://entro.security/wp-content/uploads/2023/05/Entro-secret-protection-White-paper-entro.pdf)
 - [How You Should Not Remediate Your Hardcoded Secrets](https://www.crowdcast.io/c/remediate-hardcoded-secrets?utm_campaign=178&utm_content=1627&utm_medium=cio&utm_source=email)
 - [mTLS: When certificate authentication is done wrong - The GitHub Blog](https://github.blog/2023-08-17-mtls-when-certificate-authentication-is-done-wrong/)
 - [Experts Uncover Weaknesses in PowerShell Gallery Enabling Supply Chain Attacks](https://thehackernews.com/2023/08/experts-uncover-weaknesses-in.html)
