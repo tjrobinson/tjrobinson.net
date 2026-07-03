@@ -11,3 +11,13 @@ Forcing a change without making any actual changes, e.g. to re-trigger a GitHub 
 ```
 git commit -m 'Empty change' --allow-empty && git push
 ```
+
+
+unfuck
+
+$ git unfuck  
+  
+Resets it to the state of your remote tracking branch.
+
+
+$ git config --global alias.unfuck 'reset --hard @{upstream}'
