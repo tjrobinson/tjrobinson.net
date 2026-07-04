@@ -1,5 +1,5 @@
 # Tabletop Gaming
 
 - [Table Top Simulator](./Table%20Top%20Simulator.md)
-- [https://www.readingmegagames.com/](Reading Megagames)
+- [Reading Megagames](https://www.readingmegagames.com/)
 - [Megagame Assembly](https://www.megagameassembly.com/)

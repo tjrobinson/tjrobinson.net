@@ -1,10 +1,6 @@
 # AI
 
-## Image Generation
-
-
 ## Other
 
-
-Security
+- [[Security]]
 

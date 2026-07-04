@@ -5,22 +5,19 @@ tags:
 
 # Security
 
+- [[AI]]
 - [[Kubernetes]]
 - [[KQL]]
 - [[AZ-104]]
 - [[AZ-500]]
-- [[CompTIA Security+]]
 - [[Sentinel]]
 - [[Snyk CTF 2022]]
 - [[SQL Server Authentication]]
 - [[Security Training & Certification]]
+- [[Security Conferences]]
 - [[Zero Trust]]
 - [[Microsoft Entra ID]]
 - [[Supply Chain Security]]
-
-## Tools
-
-## Training
 
 ## Misc
 

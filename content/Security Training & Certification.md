@@ -12,4 +12,4 @@
 
 ## Certification
 
-- [Security Certification Roadmap - Paul Jerimy Media](https://pauljerimy.com/security-certification-roadmap/
+- [Security Certification Roadmap - Paul Jerimy Media](https://pauljerimy.com/security-certification-roadmap/)

@@ -14,8 +14,7 @@
 - StyleCop + SonarAnalyzer
 - Coding conventions (.editorconfig)
 
-
-Misc
+## Misc
 
     <ItemGroup Condition="$(MSBuildProjectName.EndsWith('Tests'))">
         <Compile Include="GlobalUsings.Tests.cs" />
