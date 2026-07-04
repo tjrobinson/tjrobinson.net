@@ -13,4 +13,4 @@ Disabling Browser Link solved the performance problems.
 
 Uncheck the "Enable Browser Link" option:
 
-![Visual Studio screenshot](2015-02-24-sluggish-internet-explorer-performance-and-browser-link.png)
+![Visual Studio screenshot](browser-link-screenshot.png)

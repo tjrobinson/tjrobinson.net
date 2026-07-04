@@ -7,7 +7,7 @@ date: "2009-10-08"
 
 Tuesday was the UK Technical Launch of Windows 7, Windows Server 2008 R2 and Exchange Server 2010 at Wembley Stadium. The weather was pretty grim but it was good to finally walk down Olympic Way for the first time and see the arch coming into view.
 
-![Olympic Way](2009-10-08-the-new-efficiency-the-uk-technical-launch-of-windows-7-windows-server-2008-r2-and-exchange-server-2010-olympic-way.jpg)
+![Olympic Way](olympic-way.jpg)
 
 Although the event was aimed at "IT Pros" rather than developers I figured this event would be a good way of finding out what's new and what I, as a developer, might be able to work with in the near future. There was also the bonus of a free copy of Windows 7 Ultimate for turning up which helped make the peak travelcard and the day off work a bit less painful.
 
@@ -33,4 +33,4 @@ Although I use virtual machines a lot for testing and development I'd not though
 
 There are some nice new features with this release. While you're composing a message you get a warning if someone on the recipient list is out of office, before you send it - a nice potential timesaver. You can create your own customisable alerts too e.g. a warning if you're sending a mail externally or if it contains certain keywords. The web interface now has threaded conversation support, and works in Firefox just as well as in IE. And finally the beginning of the end of PST files which I know can be a nightmare.
 
-![Me at Wembley](2009-10-08-the-new-efficiency-the-uk-technical-launch-of-windows-7-windows-server-2008-r2-and-exchange-server-2010-me-at-wembley.jpg)
+![Me at Wembley](me-at-wembley.jpg)

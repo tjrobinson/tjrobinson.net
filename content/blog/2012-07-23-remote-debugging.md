@@ -11,4 +11,4 @@ If you have problems remote debugging then make sure you check all the boxes in 
 
 You may or may not have two entries, I don’t know what causes this.
 
-[Windows Firewall screenshot](2012-07-23-remote-debugging-screenshot.png)
+[Windows Firewall screenshot](firewall-screenshot.png)
