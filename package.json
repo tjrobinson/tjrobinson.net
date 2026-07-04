@@ -13,6 +13,7 @@
     "docs": "npx quartz build --serve -d docs",
     "check": "tsc --noEmit && npx prettier . --check",
     "format": "npx prettier . --write",
+    "lint:content": "tsx scripts/lint-content.ts",
     "test": "tsx --test",
     "test:coverage": "tsx --test --experimental-test-coverage",
     "test:e2e": "playwright test",

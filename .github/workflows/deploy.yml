@@ -30,6 +30,9 @@ jobs:
         run: npm ci
       - name: Lint and Typecheck
         run: npm run check
+      - name: Lint content
+        run: npm run lint:content
+        continue-on-error: true
       - name: Build Quartz
         run: npx quartz build -d content -o public/content
       - name: Copy root pages
