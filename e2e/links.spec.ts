@@ -16,10 +16,7 @@ const PUBLIC_DIR = path.join(
 // Dangling Obsidian wikilinks: notes that are linked from the vault but do not
 // exist (yet). Quartz still renders them as internal links, so they 404 on the
 // live site. Either create the notes or unlink them, then remove them here.
-const KNOWN_DANGLING_LINKS = new Set([
-  "/content/api-security", // [[API Security]] in APIs.md
-  "/content/comptia-security+", // [[CompTIA Security+]] in Security.md
-]);
+const KNOWN_DANGLING_LINKS = new Set<string>([]);
 
 // Hosts like GitHub Pages treat "+" literally, but the local `serve` used by
 // this test decodes it as a space — encode it so both agree on the target.
