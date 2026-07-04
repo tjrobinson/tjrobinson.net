@@ -7,9 +7,7 @@ test.describe("Content (Quartz)", () => {
     });
 
     test("loads with correct page title", async ({ page }) => {
-      await expect(page.locator(".article-title")).toContainText(
-        "Welcome",
-      );
+      await expect(page.locator(".article-title")).toContainText("Welcome");
     });
 
     test("search component is visible", async ({ page }) => {
