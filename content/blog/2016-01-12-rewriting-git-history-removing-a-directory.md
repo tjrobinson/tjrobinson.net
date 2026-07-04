@@ -1,4 +1,5 @@
 ---
+title: "Rewriting git history - removing a directory"
 date: "2016-01-12"
 ---
 

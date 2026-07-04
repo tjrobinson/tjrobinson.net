@@ -1,6 +1,8 @@
 ---
 title: Remote debugging
 date: "2012-07-23"
+aliases:
+  - blog/2012-07-23-remote-debugging/remote-debugging
 ---
 
 # Remote debugging
@@ -9,4 +11,4 @@ If you have problems remote debugging then make sure you check all the boxes in 
 
 You may or may not have two entries, I don’t know what causes this.
 
-[Windows Firewall screenshot](Untitled.png)
+[Windows Firewall screenshot](2012-07-23-remote-debugging-screenshot.png)

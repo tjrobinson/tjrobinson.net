@@ -1,4 +1,5 @@
 ---
+title: "Training and events I've been to"
 date: "2009-08-11"
 ---
 

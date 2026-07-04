@@ -1,4 +1,5 @@
 ---
+title: "Internet of Things and Data Hackathon - 11th June 2015"
 date: "2015-06-11"
 ---
 

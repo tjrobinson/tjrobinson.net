@@ -1,4 +1,5 @@
 ---
+title: "A guide to the Microsoft .NET SDKs for Azure Table Storage"
 date: "2020-10-05"
 ---
 

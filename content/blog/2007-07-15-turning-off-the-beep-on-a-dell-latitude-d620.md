@@ -1,4 +1,5 @@
 ---
+title: "Turning off the beep on a Dell Latitude D620"
 date: "2007-07-15"
 ---
 

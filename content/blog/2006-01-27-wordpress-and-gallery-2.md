@@ -1,4 +1,5 @@
 ---
+title: "WordPress and Gallery 2"
 date: "2006-01-27"
 ---
 

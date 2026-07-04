@@ -1,6 +1,8 @@
 ---
 title: Sluggish Internet Explorer performance and Browser Link
 date: "2015-02-24"
+aliases:
+  - blog/2015-02-24-sluggish-internet-explorer-performance-and-browser-link/2015-02-24-sluggish-internet-explorer-performance-and-browser-link
 ---
 
 # Sluggish Internet Explorer performance and Browser Link
@@ -11,4 +13,4 @@ Disabling Browser Link solved the performance problems.
 
 Uncheck the "Enable Browser Link" option:
 
-![Visual Studio screenshot](Untitled.png)
+![Visual Studio screenshot](2015-02-24-sluggish-internet-explorer-performance-and-browser-link.png)

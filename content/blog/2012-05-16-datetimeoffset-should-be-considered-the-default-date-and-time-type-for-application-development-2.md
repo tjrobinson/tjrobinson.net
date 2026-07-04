@@ -1,4 +1,5 @@
 ---
+title: "DateTimeOffset should be considered the default date and time type for application development"
 date: "2012-05-16"
 ---
 

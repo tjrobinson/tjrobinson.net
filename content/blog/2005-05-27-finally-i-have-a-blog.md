@@ -1,4 +1,5 @@
 ---
+title: "Finally, I have a blog"
 date: 2005-05-27
 tags:
   - blog

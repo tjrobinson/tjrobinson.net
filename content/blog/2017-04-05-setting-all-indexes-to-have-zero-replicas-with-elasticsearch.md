@@ -1,4 +1,5 @@
 ---
+title: "Setting all indexes to have zero replicas with Elasticsearch"
 date: "2017-04-05"
 ---
 

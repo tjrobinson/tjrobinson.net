@@ -1,4 +1,5 @@
 ---
+title: ".NET Framework 4.8 on Azure App Service"
 date: "2020-09-07"
 ---
 

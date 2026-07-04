@@ -1,4 +1,5 @@
 ---
+title: "My Magic Lantern bricking experience"
 date: "2015-01-10"
 ---
 

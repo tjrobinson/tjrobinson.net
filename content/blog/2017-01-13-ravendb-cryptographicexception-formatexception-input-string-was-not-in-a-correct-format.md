@@ -1,4 +1,5 @@
 ---
+title: "RavenDB: CryptographicException & FormatException: Input string was not in a correct format"
 date: "2017-01-13"
 ---
 

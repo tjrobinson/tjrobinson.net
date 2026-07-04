@@ -1,4 +1,5 @@
 ---
+title: "Tweaks for SSDs on Windows"
 date: "2014-07-03"
 ---
 

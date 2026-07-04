@@ -1,4 +1,5 @@
 ---
+title: "Filter for WinMerge"
 date: "2007-07-12"
 ---
 

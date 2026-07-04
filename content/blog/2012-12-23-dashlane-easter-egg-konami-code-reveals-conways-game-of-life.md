@@ -1,5 +1,8 @@
 ---
+title: "Dashlane Easter Egg - Conway's Game of Life"
 date: "2012-12-23"
+aliases:
+  - blog/2012-12-23-dashlane-easter-egg-konami-code-reveals-conways-game-of-life/2012-12-23-dashlane-easter-egg-konami-code-reveals-conways-game-of-life
 ---
 
 # Dashlane Easter Egg - Conway's Game of Life
@@ -12,7 +15,7 @@ Well, I found it! (and I think I was the first)
 
 It turns out that if you open the application, then go to the _Help_ > _About_ screen you'll initially see this:
 
-![A Dashlane screenshot](about-before.png)
+![A Dashlane screenshot](2012-12-23-dashlane-easter-egg-konami-code-reveals-conways-game-of-life-about-before.png)
 
 Now comes the fun part, you need to type the [Konami Code](http://en.wikipedia.org/wiki/Konami_Code):
 
@@ -20,18 +23,18 @@ Now comes the fun part, you need to type the [Konami Code](http://en.wikipedia.o
 
 As soon as you finish that, you'll see this screen and the [Easter Egg](<http://en.wikipedia.org/wiki/Easter_egg_(media)>) will have been activated:
 
-![A Dashlane screenshot](about-after.png)
+![A Dashlane screenshot](2012-12-23-dashlane-easter-egg-konami-code-reveals-conways-game-of-life-about-after.png)
 
 Initially I though, hmm, interesting, is it some kind of icon editor? You can start drawing on the grid, like this:
 
-![A Dashlane screenshot](about-start.png)
+![A Dashlane screenshot](2012-12-23-dashlane-easter-egg-konami-code-reveals-conways-game-of-life-about-start.png)
 
 But as soon as you click the Dashlane logo then the grid turns into Conway's Game of Life:
 
-![A Dashlane screenshot](about-running.png)
+![A Dashlane screenshot](2012-12-23-dashlane-easter-egg-konami-code-reveals-conways-game-of-life-about-running.png)
 
 The guys at Dashlane have been kind enough to offer to send me some goodies but the main prize is this signed Dashlane drawing from the team at Dashlane in Paris:
 
-![Dashlane Konami Code Scan](Dashlane-Konami-Code-Scan.jpg)
+![Dashlane Konami Code Scan](2012-12-23-dashlane-easter-egg-konami-code-reveals-conways-game-of-life-Dashlane-Konami-Code-Scan.jpg)
 
 Thanks all!

@@ -1,4 +1,5 @@
 ---
+title: "Most Good Ideas Actually Deliver Zero or Negative Value"
 date: "2015-06-10"
 ---
 

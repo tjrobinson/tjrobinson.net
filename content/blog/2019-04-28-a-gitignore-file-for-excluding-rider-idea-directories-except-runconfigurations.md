@@ -1,4 +1,5 @@
 ---
+title: "A .gitignore file for excluding Rider (.idea) directories, except runConfigurations"
 date: "2019-04-28"
 author: Tom Robinson
 layout: post

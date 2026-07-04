@@ -1,4 +1,5 @@
 ---
+title: "msysgit conflict with Subversion"
 date: "2012-05-17"
 ---
 
