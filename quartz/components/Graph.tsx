@@ -67,8 +67,6 @@ export default ((opts?: Partial<GraphOptions>) => {
     const incomingLinks = allFiles.filter((file) => file.links?.includes(slug))
     const totalLinks = outgoingLinks.length + incomingLinks.length
 
-    console.log(`[Graph Debug] ${slug} - Out: ${outgoingLinks.length}, In: ${incomingLinks.length}, Total: ${totalLinks}`)
-
     if (totalLinks === 0) {
       return null
     }

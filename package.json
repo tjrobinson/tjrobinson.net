@@ -14,6 +14,7 @@
     "check": "tsc --noEmit && npx prettier . --check",
     "format": "npx prettier . --write",
     "test": "tsx --test",
+    "test:coverage": "tsx --test --experimental-test-coverage",
     "test:e2e": "playwright test",
     "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1"
   },
