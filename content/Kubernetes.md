@@ -1,87 +1,15 @@
 # Kubernetes
 
-- [The Azure Kubernetes Service Checklist - ✨ Be ready for production ✨](https://www.the-aks-checklist.com/#section-resource-management)
-- [Udemy - Kubernetes Certified Application Developer (CKAD) with Tests](https://www.udemy.com/course/certified-kubernetes-application-developer/)
-- [K8sGPT](https://k8sgpt.ai/)
-- [Azure Container Storage: A New Dawn in Kubernetes Storage Solutions](https://medium.com/microsoftazure/azure-container-storage-a-new-dawn-in-kubernetes-storage-solutions-5a8f4618dc73)
-- [K9s](https://k9scli.io/) - "Kubernetes CLI To Manage Your Clusters In Style!"
-- [Rancher Desktop](https://rancherdesktop.io/)
-- [Minikube](https://minikube.sigs.k8s.io/docs/)
-- <https://github.com/GoogleCloudPlatform/microservices-demo>
-- [steveteuber/kubectl-graph: A kubectl plugin to visualize Kubernetes resources and relationships.](https://github.com/steveteuber/kubectl-graph)
-- [Must Read Free Kubernetes Books ~ Bilgin Ibryam (@bibryam)](https://www.ofbizian.com/2020/09/must-read-free-kubernetes-books.html)
-- [AKS (Kubernetes) day-2 operations guide - Azure Architecture Center | Microsoft Learn](https://learn.microsoft.com/en-us/azure/architecture/operator-guides/aks/day-2-operations-guide)
-- [Introducing the Azure Linux container host for AKS](https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/introducing-the-azure-linux-container-host-for-aks/ba-p/3824101)
-- [How to use Gatekeeper | Gatekeeper](https://open-policy-agent.github.io/gatekeeper/website/docs/howto/)
-- [learnk8s - Kubernetes Research](https://learnk8s.io/research)
-- [Azure DevOps agents on AKS with workload identity - DEV Community](https://dev.to/oskarm93/azure-devops-agents-on-aks-with-workload-identity-113o)
-- ["Hacking Container Security" - Super Cyber Friday - crowdcast](https://www.crowdcast.io/c/hacking-container-security)
-- [Explore the Azure Kubernetes Service cluster and node architecture - Training | Microsoft Learn](https://learn.microsoft.com/en-gb/training/modules/configure-azure-kubernetes-service/3-kubernetes-clusters)
-- [Deliver apps from code to cloud with Azure Kubernetes Service](https://build.microsoft.com/en-US/sessions/64b2f97f-bde6-4d86-aa26-587c60863886?source=sessions)
-- [Deploying ASP.NET Core applications to Kubernetes](https://andrewlock.net/series/deploying-asp-net-core-applications-to-kubernetes/)
-- [Performing a Rolling Update](https://kubernetes.io/docs/tutorials/kubernetes-basics/update/update-intro/)
-- [Virtual Patching Best Practices](https://owasp.org/www-community/Virtual_Patching_Best_Practices)
-- [kubelogin](https://github.com/Azure/kubelogin) - used for Azure Entra ID login
-- [Tetragon - eBPF-based Security Observability and Runtime Enforcement](https://tetragon.io/)
-- [Deploy containers by using Azure Kubernetes Service - Applied Skills | Microsoft Learn](https://learn.microsoft.com/en-us/credentials/applied-skills/deploy-containers-by-using-azure-kubernetes-service/)
-- [Must Read Free Kubernetes Books ~ Bilgin Ibryam (@bibryam)](https://www.ofbizian.com/2020/09/must-read-free-kubernetes-books.html)
-- [iximiuz/kexp: k'exp - Kubernetes Explorer](https://github.com/iximiuz/kexp)
-- [Argo CD - Declarative GitOps CD for Kubernetes](https://argo-cd.readthedocs.io/en/stable/)
-- [techiescamp/kubernetes-learning-path: A roadmap to learn Kubernetes from scratch (Beginner to Advanced level)](https://github.com/techiescamp/kubernetes-learning-path)
-- [Kubernetes Virtual Book Club](https://community.cncf.io/kubernetes-virtual-book-club/)
-- [Send a Signal to a Kubernetes App: a Non-Root Container Case | Challenge](https://www.instapaper.com/read/1664683425)
-- [wagoodman/dive: A tool for exploring each layer in a docker image](https://github.com/wagoodman/dive)
-- [kubernetes-sigs/kube-scheduler-simulator: The simulator for the Kubernetes scheduler](https://github.com/kubernetes-sigs/kube-scheduler-simulator)
 
 ## Security
 
-- [Securing container deployments on Azure Kubernetes Service with open-source tools](https://build.microsoft.com/en-US/sessions/0301c5a0-34cb-4a5b-ac0f-164b2d4191fa?source=sessions)
-- [Leveraging Defender for Containers to simplify policy management in your Kubernetes Clusters - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/leveraging-defender-for-containers-to-simplify-policy-management/ba-p/3755757)
-- [sigstore/cosign: Code signing and transparency for containers and binaries](https://github.com/sigstore/cosign)
-- [bitnami-labs/sealed-secrets: A Kubernetes controller and tool for one-way encrypted Secrets](https://github.com/bitnami-labs/sealed-secrets)
-- [Kubernetes security fundamentals: API Security | Datadog Security Labs](https://securitylabs.datadoghq.com/articles/kubernetes-security-fundamentals-part-2/)
-- [Kubernetes Exposed: One Yaml away from Disaster](https://blog.aquasec.com/kubernetes-exposed-one-yaml-away-from-disaster)
-- [Encrypting Secret data at etcd store on a Minikube K8s Cluster | by Seralahthan | Medium](https://techexpertise.medium.com/encrypting-the-secret-data-at-etcd-store-on-a-minikube-k8s-cluster-2338c68263a5)
-- [openclarity/kubeclarity: KubeClarity is a tool for detection and management of Software Bill Of Materials (SBOM) and vulnerabilities of container images and filesystems](<https://github.com/openclarity/kubeclarity>
-- [Kubernetes Secret Management: A Comprehensive Guide with AWS Secrets Manager | by Sharon Sahadevan | Medium](https://sharonsahadevan.medium.com/kubernetes-secret-management-a-comprehensive-guide-with-aws-secrets-manager-bdebbd70d7b1)
-- [A Guide to Securing Kubernetes Namespaces | Rapid7 Blog](https://www.rapid7.com/blog/post/2021/04/08/kubernetes-namespaces-are-not-as-secure-as-you-think/)
-- [What if your Pods need to trust self-signed certificates?](https://blog.alexellis.io/what-if-your-pods-need-to-trust-self-signed-certificates/)
-- [WithSecureLabs/IceKube](https://github.com/WithSecureLabs/IceKube)
-- [A Look at Software Composition Analysis](https://blog.doyensec.com/2024/03/14/supplychain.html)
-- [quay/clair: Vulnerability Static Analysis for Containers](https://github.com/quay/clair)
-- [aquasecurity/trivy: Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more](https://github.com/aquasecurity/trivy)
-- [acrlabs/simkube: Virtual Kubelet provider for Kubernetes scheduling simulations](https://github.com/acrlabs/simkube?utm_source=thenewstack&utm_medium=website&utm_content=inline-mention&utm_campaign=platform)
-- [Network Policies: Understanding Kubernetes Network Policies](https://blog.slycreator.com/network-policies-understanding-kubernetes-network-policies)
-- [Tactics - Threat Matrix for Kubernetes](https://microsoft.github.io/Threat-Matrix-for-Kubernetes/)
-- [K8S Threat Model](https://cloudsecdocs.com/containers/theory/threats/k8s_threat_model/)
-- [jatrost/awesome-kubernetes-threat-detection: A curated list of resources about detecting threats and defending Kubernetes systems.](https://github.com/jatrost/awesome-kubernetes-threat-detection)
-- [cyberark/KubiScan: A tool to scan Kubernetes cluster for risky permissions](https://github.com/cyberark/KubiScan)
 - RBAC
-  - [PaloAltoNetworks/rbac-police: Evaluate the RBAC permissions of Kubernetes identities through policies written in Rego](https://github.com/PaloAltoNetworks/rbac-police)
-  - [Azure Kubernetes Service: RBAC options in practice - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/fasttrack-for-azure/azure-kubernetes-service-rbac-options-in-practice/ba-p/3684275)
-  - [Kubernetes RBAC: Privilege Escalation Exploits and Mitigations | by Seifeddine Rajhi | Medium](https://medium.com/@seifeddinerajhi/kubernetes-rbac-privilege-escalation-exploits-and-mitigations-26c07629eeab)
-  - [https://github.com/alcideio/rbac-tool](https://github.com/alcideio/rbac-tool)
-- [undistro/marvin: Marvin is a CLI tool that scans a k8s cluster by performing CEL expressions to report potential issues, misconfigurations and vulnerabilities.](https://github.com/undistro/marvin)
-- [Kubernetes SecurityContext with practical examples | by Eugene Butan | Marionete | Medium](https://medium.com/marionete/kubernetes-securitycontext-with-practical-examples-67d890558d11)
-- [Introducing Enhanced Security in Azure Kubernetes Service: Disabling SSH Access on Cluster Nodes](https://pixelrobots.co.uk/2024/02/introducing-enhanced-security-in-azure-kubernetes-service-disabling-ssh-access-on-cluster-nodes/)
-- [Simulator](https://github.com/controlplaneio/simulator)[] - Kubernetes Security Training Platform - focusing on security mitigation
-- [Securing Kubernetes: A Comprehensive Guide to Runtime Security and System Hardening](https://www.instapaper.com/read/1667363945)
 - Workload Identity
-  - [Kubernetes Workload Identity with AKS – baeke.info](https://blog.baeke.info/2022/01/31/kubernetes-workload-identity-with-aks/)
-  - [AKS Workload Identity Revisited – baeke.info](https://blog.baeke.info/2022/11/24/aks-workload-identity-revisited/)
-- [Sail Sharp, 9 tips to optimize and secure your .NET containers for Kubernetes](https://medium.com/google-cloud/sail-sharp-8-tips-to-optimize-and-secure-your-net-containers-for-kubernetes-c68ba253844a)
-- - [Ramilito/kubediff: Source VS Deployed](https://github.com/Ramilito/kubediff)
-- [Let's talk about anonymous access to Kubernetes](https://raesene.github.io/blog/2023/03/18/lets-talk-about-anonymous-access-to-Kubernetes/)
 
 ## Certification
 
 - CKA
-  - [Acing CKA Exam — Certified Kubernetes Administrator](https://kanger.dev/cka-exam-certified-kubernetes-administrator/)
-  - [My preparation and tips for the Certified Kubernetes Administrator exam - Daniel's Tech Blog](https://www.danielstechblog.io/my-preparation-and-tips-for-the-certified-kubernetes-administrator-exam/)
 - CKAD
-  - [Kubernetes - tips for your CKAD exam by CNCF - Sokube](https://www.sokube.io/blog/kubernetes-tips-for-your-ckad-exam-by-cncf)
-  - [Kubernetes Certified Application Developer (CKAD) Training | Udemy](https://www.udemy.com/course/certified-kubernetes-application-developer/)
-  - [Udemy - Kubernetes Certified Application Developer (CKAD) with Tests](https://www.udemy.com/course/certified-kubernetes-application-developer/)
 - KCSA
   - [[Kubernetes and Cloud Native Security Associate (KCSA)]]
 
