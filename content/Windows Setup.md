@@ -25,9 +25,6 @@ wsl --install
 
 ```
 winget install Microsoft.DotNet.SDK.10
-```
-
-````
 winget install --exact --id Microsoft.PowerShell --source winget
 winget install --exact --id Hashicorp.Terraform --source winget
 winget install --exact --id bruno.bruno
@@ -35,24 +32,25 @@ winget install --exact --id Microsoft.AzureCLI
 winget install --exact --id Kubernetes.kubectl
 winget install --exact --id Microsoft.Azure.Kubelogin
 winget install --exact --id Derailed.k9s
+```
 
+```
 az login
+```
 
 Resharper extension for VS Code
 
 SmartGit
 
+```
 git config --global user.name "Tom Robinson"
 git config --global user.email "XXXXXXXXXXXXXXX"
 dotnet tool install --global dotnet-outdated-tool
 
-
-
 Install-Module SqlServer
 Install-Module PSReadLine
 Install-Module posh-git
-
-``
+```
 
 ```bash
 choco list
@@ -89,4 +87,4 @@ npm list -g --depth=0
 `-- vsts-npm-auth@0.43.0
 ```
 
-https://github.com/antonbabenko/pre-commit-terraform
+- [antonbabenko/pre-commit-terraform](https://github.com/antonbabenko/pre-commit-terraform)

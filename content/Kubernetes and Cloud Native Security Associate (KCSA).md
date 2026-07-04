@@ -1,6 +1,6 @@
 # Kubernetes and Cloud Native Security Associate (KCSA)
 
-- https://www.udemy.com/course/kubernetes-and-cloud-native-security-associate-exam-prep/
-- https://training.linuxfoundation.org/certification/kubernetes-and-cloud-native-security-associate-kcsa/
-- https://www.cncf.io/training/certification/kcsa/
-- https://dev.to/thenjdevopsguy/new-kubernetes-cert-kcsa-8b6
+- [KCSA — Linux Foundation Training & Certification](https://training.linuxfoundation.org/certification/kubernetes-and-cloud-native-security-associate-kcsa/)
+- [KCSA — CNCF](https://www.cncf.io/training/certification/kcsa/)
+- [KCSA exam prep course — Udemy](https://www.udemy.com/course/kubernetes-and-cloud-native-security-associate-exam-prep/)
+- [New Kubernetes Cert: KCSA — DEV Community](https://dev.to/thenjdevopsguy/new-kubernetes-cert-kcsa-8b6)

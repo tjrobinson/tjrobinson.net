@@ -9,8 +9,8 @@ Try removing the trailing slash.
 
 This works:
 
-<https://login.salesforce.com/services/oauth2/token>
+`https://login.salesforce.com/services/oauth2/token`
 
 This doesn't:
 
-<https://login.salesforce.com/services/oauth2/token/>
+`https://login.salesforce.com/services/oauth2/token/`

@@ -9,7 +9,6 @@ Satisfactory (Epic Games) - cloud synced
 Valheim - Steam - Cloud synced
 Starbound - Steam - ???
 
-https://help.ea.com/en-gb/help/origin/origin/backing-up-origin-game-saves/
+- [Backing up Origin game saves — EA Help](https://help.ea.com/en-gb/help/origin/origin/backing-up-origin-game-saves/)
 
-
-C:\Users\TomRobinson\Documents\STAR WARS Squadrons
+`C:\Users\TomRobinson\Documents\STAR WARS Squadrons`

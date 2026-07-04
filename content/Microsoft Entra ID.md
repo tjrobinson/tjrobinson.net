@@ -35,4 +35,4 @@ Additionally, the memberOf attribute can't be used with other operators. For exa
 
 The dynamic group rule builder and validate feature can't be used for memberOf at this time.
 
-https://learn.microsoft.com/en-us/entra/identity/users/groups-dynamic-membership#supported-expression-operators
+See: [Dynamic membership rules for groups — Microsoft Learn](https://learn.microsoft.com/en-us/entra/identity/users/groups-dynamic-membership#supported-expression-operators)

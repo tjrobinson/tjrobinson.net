@@ -41,8 +41,6 @@ REST in practice - reference data - ATOM feeds, very cacheable
 
 Could use EventStore for the feed - then services poll the event feed - like a queue of orders in a restuarant
 
-&nbsp;
-
 Versioning?
 
 What about having a single API to cover everything?
@@ -66,164 +64,155 @@ DNS SD & SRV records - difficult to manage, so Zookeeper/etcd etc better
 
 Consul
 
-http://microservices.io/patterns/microservices.html
+- [Introduction to Microservices — microservices.io](http://microservices.io/patterns/microservices.html)
 
-# <span style="color: #000000;">Akka.NET</span>
+## Akka.NET
 
-<span style="color: #000000;">Concurrency </span>
+Concurrency
 
-<span style="color: #000000;">Everything is an actor </span>
+Everything is an actor
 
-<span style="color: #000000;">3 Core Abilities of an actor </span>
+3 Core Abilities of an actor
 
-1. <span style="color: #000000;">Send messages </span>
-2. <span style="color: #000000;">Create other actors </span>
-3. <span style="color: #000000;">Change behaviour </span>
+1. Send messages
+2. Create other actors
+3. Change behaviour
 
-<span style="color: #000000;">Location transparency (same code in different locations) </span>
+Location transparency (same code in different locations)
 
-<span style="color: #000000;">But URLs do have machine names in them </span>
+But URLs do have machine names in them
 
-<span style="color: #000000;">ReactiveManifesto.org </span>
+ReactiveManifesto.org
 
-<span style="color: #000000;">Switchable behaviour </span>
+Switchable behaviour
 
-<span style="color: #000000;">Akka.net web crawler </span>
+Akka.net web crawler
 
-<span style="color: #000000;">Lighthouse (dedicated seed node) </span>
+Lighthouse (dedicated seed node)
 
-<span style="color: #000000;">Dead letters </span>
+Dead letters
 
-<span style="color: #000000;">Push dangerous calls down to children </span>
+Push dangerous calls down to children
 
-<span style="color: #000000;">Supervision directives </span>
+Supervision directives
 
-<span style="color: #000000;"><a style="color: #000000;" href="https://petabridge.com/bootcamp/">https://petabridge.com/bootcamp/</a> </span>
+- [Petabridge Bootcamp](https://petabridge.com/bootcamp/)
+- [Top Akka.NET Design Patterns — Petabridge](https://petabridge.com/blog/top-akkadotnet-design-patterns/)
 
-<span style="color: #000000;">https://petabridge.com/blog/top-akkadotnet-design-patterns/?__s=sysx7cuy86jz1nqm11nd&utm_campaign=blog_content&utm_content=post_title&utm_medium=email&utm_source=drip&utm_term=meet%20the%20top%20akka.net%20design%20patterns </span>
+## Functional programming in F#
 
-# <span style="color: #000000;">Functional programming in F#</span>
+fsharpforfunandprofit.com
 
-<span style="color: #000000;">fsharpforfunandprofit.com </span>
+Types are sets and are composable
 
-<span style="color: #000000;">Types are sets and are composable </span>
+Algebraic types
 
-<span style="color: #000000;">Algebraic types </span>
+Function oriented
 
-<span style="color: #000000;">Function oriented </span>
+Expressions
 
-<span style="color: #000000;">Expressions </span>
+Pattern matching
 
-<span style="color: #000000;">Pattern matching </span>
+No ==, use let for assignment otherwise it will compare
 
-<span style="color: #000000;">No ==, use let for assignment otherwise it will compare </span>
+pure - no side effects
 
-<span style="color: #000000;">pure - no side effects </span>
+Pipeline more logical than nesting paranthesis
 
-<span style="color: #000000;">Pipeline more logical than nesting paranthesis </span>
+Currying - one input, then returns a function taking another input??
 
-<span style="color: #000000;">Currying - one input, then returns a function taking another input?? </span>
+HOFs - parameterise all the things
 
-<span style="color: #000000;">HOFs - parameterise all the things </span>
+## PowerShell DSC
 
-# <span style="color: #000000;">PowerShell DSC</span>
+DSC not just a Microsoft/PowerShell standard
 
-<span style="color: #000000;">DSC not just a Microsoft/PowerShell standard </span>
+AWS $userdata
 
-<span style="color: #000000;">AWS \$userdata </span>
+Pull server
 
-<span style="color: #000000;">Pull server </span>
+Generates MOF file
 
-<span style="color: #000000;">Generates MOF file </span>
+"WMI Tester"
 
-<span style="color: #000000;">"WMI Tester" </span>
+DSC resource kit - lots of modules!
 
-<span style="color: #000000;">DSC resource kit - lots of modules! </span>
+- [PowerShell Gallery](http://www.powershellgallery.com/)
 
-<span style="color: #000000;"><a style="color: #000000;" href="http://www.powershellgallery.com/">http://www.powershellgallery.com/</a> </span>
+The DSC book
 
-<span style="color: #000000;">The DSC book </span>
+Also see Chef's site
 
-<span style="color: #000000;">Also see Chef's site </span>
+Microsoft DSC Resource Kit
 
-<span style="color: #000000;">Microsoft DSC Resource Kit </span>
+Check git repo for slides etc
 
-<span style="color: #000000;">Check git repo for slides etc </span>
+## Keynote - Why I'm _not_ leaving .NET!
 
-# <span style="color: #000000;">Keynote - Why I'm _not_ leaving .NET!</span>
+- [Why I'm not leaving .NET — SkillsCast](https://skillsmatter.com/skillscasts/6397-why-i-m-not-leaving-dot-net)
 
-<span style="color: #000000;">https://skillsmatter.com/skillscasts/6397-why-i-m-not-leaving-dot-net</span>
+## ASP.NET 5: How to Get Your Cheese Back
 
-# <span style="color: #000000;">ASP.NET 5: How to Get Your Cheese Back</span>
+- [ASP.NET 5: How to Get Your Cheese Back — SkillsCast](https://skillsmatter.com/skillscasts/6401-aspdot-net-5-how-to-get-your-cheese-back)
 
-<span style="color: #000000;">https://skillsmatter.com/skillscasts/6401-aspdot-net-5-how-to-get-your-cheese-back</span>
+## Visual Studio & .NET on OS-X, Linux, and Windows
 
-# <span style="color: #000000;">Visual Studio & .NET on OS-X, Linux, and Windows</span>
+- [Visual Studio & .NET on OS-X, Linux, and Windows — SkillsCast](https://skillsmatter.com/skillscasts/6444-visual-studio-and-dot-net-on-os-x-linux-and-windows)
 
-<span style="color: #000000;">https://skillsmatter.com/skillscasts/6444-visual-studio-and-dot-net-on-os-x-linux-and-windows</span>
+## Going Further with ASP.NET 5
 
-# <span style="color: #000000;">Going Further with ASP.NET 5</span>
+- [Going Further with ASP.NET 5 — SkillsCast](https://skillsmatter.com/skillscasts/6402-going-further-with-aspdot-net-5)
 
-<span style="color: #000000;">https://skillsmatter.com/skillscasts/6402-going-further-with-aspdot-net-5</span>
+## Complete Code Craft
 
-# <span style="color: #000000;">Complete Code Craft</span>
+- [Complete Code Craft — SkillsCast](https://skillsmatter.com/skillscasts/6438-complete-code-craft)
 
-<span style="color: #000000;">https://skillsmatter.com/skillscasts/6438-complete-code-craft</span>
+## Introduction to RabbitMQ & EasyNetQ
 
-<span style="color: #000000;">http://t.co/dx3KSZFNng</span>
+- [Introduction to RabbitMQ & EasyNetQ — SkillsCast](https://skillsmatter.com/skillscasts/6424-introduction-to-rabbitmq-and-easynetq)
 
-# <span style="color: #000000;">Introduction to RabbitMQ & EasyNetQ</span>
+tryrabbitmq.com
 
-<span style="color: #000000;">https://skillsmatter.com/skillscasts/6424-introduction-to-rabbitmq-and-easynetq</span>
+EasyNETMQ
 
-<span style="color: #000000;">tryrabbitmq.com </span>
+## Knowing what went bump in Production - modern monitoring in .net
 
-<span style="color: #000000;">EasyNETMQ</span>
+- [Knowing what went bump in Production — SkillsCast](https://skillsmatter.com/skillscasts/6473-knowing-what-went-bump-in-production-modern-monitoring-in-dot-net)
 
-# <span style="color: #000000;">Knowing what went bump in Production - modern monitoring in .net</span>
+Seyren
 
-<span style="color: #000000;">https://skillsmatter.com/skillscasts/6473-knowing-what-went-bump-in-production-modern-monitoring-in-dot-net</span>
+Grafana
 
-<span style="color: #000000;">https://t.co/r6fPTYqDzH</span>
+nxlog community edition
 
-<span style="color: #000000;">Seyren </span>
+200GB/day of logs
 
-<span style="color: #000000;">Grafana </span>
+How big is the cluster?
 
-<span style="color: #000000;">nxlog community edition </span>
+13 months retained
 
-<span style="color: #000000;">200GB/day of logs </span>
+Scheduled health checks
 
-<span style="color: #000000;">How big is the cluster? </span>
+statsd
 
-<span style="color: #000000;">13 months retained </span>
+embedded checks - config missing etc
 
-<span style="color: #000000;">Scheduled health checks </span>
+HipChat
 
-<span style="color: #000000;">statsd </span>
+Move reads from writes
 
-<span style="color: #000000;">embedded checks - config missing etc </span>
+Correlation IDs
 
-<span style="color: #000000;">HipChat </span>
+## Reactive-interactive approaches to visualization of F# jobs
 
-<span style="color: #000000;">Move reads from writes </span>
+- [Reactive-interactive approaches to visualization of F# jobs — SkillsCast](https://skillsmatter.com/skillscasts/6443-reactive-interactive-approaches-to-visualization-of-f-sharp-jobs)
+- [Akka.NET Fundamentals — #ProgNet15 slides](https://www.slideshare.net/petabridge/prog-net-slides)
 
-<span style="color: #000000;">Correlation IDs </span>
+## The Joy Of REPL
 
-# <span style="color: #000000;">Reactive-interactive approaches to visualization of F# jobs</span>
+- [The Joy Of REPL — SkillsCast](https://skillsmatter.com/skillscasts/6428-the-joy-of-repl)
+- [richardadalton/JoyOfREPL](https://github.com/richardadalton/JoyOfREPL)
 
-<span style="color: #000000;">https://skillsmatter.com/skillscasts/6443-reactive-interactive-approaches-to-visualization-of-f-sharp-jobs</span>
+## Monoliths to Microservices: A Journey
 
-<div style="margin-bottom:5px">
-  <strong> <a href="https://www.slideshare.net/petabridge/prog-net-slides" title="Akka.NET Fundamentals — #ProgNet15" target="_blank">Akka.NET Fundamentals — #ProgNet15</a> </strong> from <strong><a href="https://www.slideshare.net/petabridge" target="_blank">petabridge</a></strong>
-</div>
-
-# <span style="color: #000000;">The Joy Of REPL</span>
-
-<span style="color: #000000;">https://skillsmatter.com/skillscasts/6428-the-joy-of-repl</span>
-
-<span style="color: #000000;">https://github.com/richardadalton/JoyOfREPL</span>
-
-# <span style="color: #000000;">Monoliths to Microservices: A Journey</span>
-
-<span style="color: #000000;">https://skillsmatter.com/skillscasts/6471-monoliths-to-microservices-a-journey</span>
+- [Monoliths to Microservices: A Journey — SkillsCast](https://skillsmatter.com/skillscasts/6471-monoliths-to-microservices-a-journey)

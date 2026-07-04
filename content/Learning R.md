@@ -4,10 +4,10 @@ I'm using Windows.
 
 This is a good tutorial:
 
-https://moderndive.netlify.app/1-getting-started.html
+- [Getting Started with Data in R — ModernDive](https://moderndive.netlify.app/1-getting-started.html)
 
 First you need to install R from this site that hasn't made it out of the 90s yet:
 
-https://cloud.r-project.org/
+- [The Comprehensive R Archive Network (CRAN)](https://cloud.r-project.org/)
 
 All R packages are stored globally by default. See `packrat` or seemingly better, `renv`.

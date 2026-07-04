@@ -2,7 +2,7 @@
 
 Plugins and extensions can be set in `mkdocs.yaml`:
 
-```
+```yaml
 nav:
   - Home: index.md
 plugins:
@@ -16,9 +16,8 @@ markdown_extensions:
   - md_in_html
 ```
 
-https://backstage.io/docs/features/software-catalog/descriptor-format/#specprovidesapis-optional
-
-https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/
+- [Descriptor Format of Catalog Entities — Backstage docs](https://backstage.io/docs/features/software-catalog/descriptor-format/#specprovidesapis-optional)
+- [Setting up site search — Material for MkDocs](https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/)
 
 You can also embed references to Open API specs in the catalog-info.yaml
 
