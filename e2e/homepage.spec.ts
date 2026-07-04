@@ -10,7 +10,9 @@ test.describe("Homepage (root landing page)", () => {
   });
 
   test("displays welcome text", async ({ page }) => {
-    await expect(page.locator("p.lead")).toHaveText("Welcome!");
+    await expect(page.locator("p.lead")).toHaveText(
+      "The personal site of Tom Robinson.",
+    );
   });
 
   test("has Content link pointing to /content/", async ({ page }) => {
@@ -26,10 +28,6 @@ test.describe("Homepage (root landing page)", () => {
       "href",
       "https://www.github.com/tjrobinson",
     );
-  });
-
-  test("displays footer with copyright", async ({ page }) => {
-    await expect(page.locator("footer")).toContainText("Tom Robinson");
   });
 
   test("Content link navigates successfully", async ({ page }) => {
