@@ -1,3 +1,91 @@
 @use "./base.scss";
+@use "./variables.scss" as *;
 
-// put your custom CSS here!
+// Custom design for tjrobinson.net.
+// The nav panel width lives in variables.scss ($sidePanelWidth).
+
+// ---------------------------------------------------------------------------
+// Left sidebar / Explorer
+// ---------------------------------------------------------------------------
+
+@media all and not ($mobile) {
+  // keep the divider line well clear of the central content: trade some of
+  // the sidebar's right padding for margin so the border moves inward
+  .page > #quartz-body .sidebar.left {
+    border-right: 1px solid var(--lightgray);
+    padding-right: 1rem;
+    margin-right: 2rem;
+  }
+}
+
+// $sidePanelWidth (400px) suits desktop, but on tablet the content column
+// needs the room more than the nav does
+@media all and ($tablet) {
+  .page > #quartz-body {
+    grid-template-columns: 340px auto;
+  }
+}
+
+// the "Explorer" heading/collapse toggle is redundant on desktop — hide it
+// (the mobile hamburger button stays)
+.explorer button.desktop-explorer {
+  display: none;
+}
+
+// with the toggle gone, make sure the list can never be stuck collapsed
+@media all and not ($mobile) {
+  .explorer.collapsed {
+    flex: 0 1 auto;
+  }
+}
+
+.explorer-content {
+  margin-top: 0.75rem;
+  scrollbar-width: thin;
+  scrollbar-color: var(--lightgray) transparent;
+
+  // each note becomes a distinct, padded row with a hover state
+  & .explorer-ul li > a {
+    display: block;
+    box-sizing: border-box;
+    padding: 0.34rem 0.6rem;
+    margin: 0.14rem 0.5rem 0.14rem 0;
+    border-radius: 8px;
+    font-size: 0.86rem;
+    line-height: 1.4;
+    opacity: 1;
+    color: var(--darkgray);
+    transition:
+      background-color 0.15s ease,
+      color 0.15s ease;
+
+    &:hover {
+      background-color: var(--highlight);
+      color: var(--secondary);
+    }
+
+    &.active {
+      background-color: var(--highlight);
+      color: var(--secondary);
+      font-weight: $semiBoldWeight;
+    }
+  }
+
+  // folder rows (e.g. blog) — align sizing with the note rows
+  & .folder-container {
+    padding: 0.2rem 0;
+
+    & div > a {
+      font-size: 0.86rem;
+    }
+
+    & div > button span {
+      font-size: 0.86rem;
+    }
+  }
+
+  & .folder-outer > ul {
+    margin-left: 0.4rem;
+    padding-left: 0.6rem;
+  }
+}
