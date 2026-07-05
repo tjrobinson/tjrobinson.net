@@ -4,30 +4,34 @@
 // build to consume. Auth: BOOKMARKS_GITHUB_TOKEN env var (CI), falling back to the
 // local `gh` CLI token. Exits non-zero on any failure so builds fail loudly.
 
-import { execFileSync } from "child_process";
-import { mkdirSync, writeFileSync } from "fs";
-import path from "path";
+import { execFileSync } from "node:child_process";
+import { existsSync, mkdirSync, writeFileSync } from "node:fs";
+import path from "node:path";
 
 const REPO = "tjrobinson/raindrop-automation";
 const API_URL = `https://api.github.com/repos/${REPO}/contents/bookmarks.json?ref=main`;
 const OUTPUT_PATH = path.join(process.cwd(), "data", "bookmarks.json");
 
+// Absolute paths only — no $PATH resolution, so `gh` can't be shadowed (SonarCloud S4036)
+const GH_LOCATIONS = [
+  "/opt/homebrew/bin/gh",
+  "/usr/local/bin/gh",
+  "/usr/bin/gh",
+];
+
 function resolveToken(): string {
   const envToken = process.env.BOOKMARKS_GITHUB_TOKEN?.trim();
   if (envToken) return envToken;
-  try {
-    const ghToken = execFileSync("gh", ["auth", "token"], {
-      encoding: "utf-8",
-      // Fixed, root-owned directories only, so `gh` can't be shadowed via a
-      // writable PATH entry (SonarCloud S4036).
-      env: {
-        ...process.env,
-        PATH: "/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin",
-      },
-    }).trim();
-    if (ghToken) return ghToken;
-  } catch {
-    // fall through to the error below
+  const gh = GH_LOCATIONS.find((location) => existsSync(location));
+  if (gh) {
+    try {
+      const ghToken = execFileSync(gh, ["auth", "token"], {
+        encoding: "utf-8",
+      }).trim();
+      if (ghToken) return ghToken;
+    } catch {
+      // fall through to the error below
+    }
   }
   console.error(
     "fetch-bookmarks: no GitHub token available. Set BOOKMARKS_GITHUB_TOKEN or run `gh auth login`.",
@@ -48,7 +52,6 @@ async function main() {
   });
 
   if (!response.ok) {
-    const body = await response.text();
     console.error(
       `fetch-bookmarks: GitHub API returned ${response.status} for ${REPO}.`,
     );
@@ -57,8 +60,6 @@ async function main() {
         "fetch-bookmarks: a 404 usually means the token lacks access — check the PAT has read-only Contents permission on tjrobinson/raindrop-automation.",
       );
     }
-    // JSON.stringify escapes control characters so the response can't forge log lines
-    console.error(JSON.stringify(body.slice(0, 500)));
     process.exit(1);
   }
 
@@ -93,7 +94,9 @@ async function main() {
   );
 }
 
-main().catch((err) => {
+try {
+  await main();
+} catch (err) {
   console.error(`fetch-bookmarks: ${err instanceof Error ? err.message : err}`);
   process.exit(1);
-});
+}

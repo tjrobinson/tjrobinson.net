@@ -1,5 +1,5 @@
-import { readFileSync } from "fs"
-import path from "path"
+import { readFileSync } from "node:fs"
+import path from "node:path"
 
 export interface Bookmark {
   _id: number
@@ -68,7 +68,7 @@ export function loadTagIndex(): TagIndex {
     )
   }
   if (!Array.isArray(raw.collections)) {
-    throw new Error("data/bookmarks.json has an unexpected shape — missing collections array.")
+    throw new TypeError("data/bookmarks.json has an unexpected shape — missing collections array.")
   }
   cachedIndex = buildTagIndex(raw)
   return cachedIndex

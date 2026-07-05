@@ -22,7 +22,7 @@ const RelatedBookmarks: QuartzComponent = ({
       <h3>Related bookmarks ({bookmarks.length})</h3>
       <ul>
         {bookmarks.map((b) => (
-          <li>
+          <li key={b._id}>
             <a href={b.link} class="external">
               {b.title}
             </a>
