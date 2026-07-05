@@ -2,6 +2,11 @@
 # Full checks, mirroring the CI "build" and "test" jobs before code reaches GitHub.
 set -e
 
+if [ ! -f data/bookmarks.json ]; then
+  echo "pre-push: data/bookmarks.json missing — run 'npm run fetch:bookmarks' first" >&2
+  exit 1
+fi
+
 echo "pre-push: type checking and formatting..."
 npm run check
 

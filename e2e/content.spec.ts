@@ -91,6 +91,22 @@ test.describe("Content (Quartz)", () => {
       await page.goto("/content/dotnet");
       await expect(page.locator(".content-meta")).toBeVisible();
     });
+
+    test("related bookmarks render on a tagged page", async ({ page }) => {
+      // Security.md is tagged `security`, which matches many Raindrop bookmarks
+      await page.goto("/content/security");
+      const bookmarks = page.locator(".related-bookmarks");
+      await expect(bookmarks).toBeVisible();
+      await expect(bookmarks.locator("a.external")).not.toHaveCount(0);
+    });
+
+    test("related bookmarks are absent on an untagged page", async ({
+      page,
+    }) => {
+      await page.goto("/content/dotnet");
+      await expect(page.locator("article").first()).toBeVisible();
+      await expect(page.locator(".related-bookmarks")).toHaveCount(0);
+    });
   });
 
   test.describe("SEO & meta tags", () => {

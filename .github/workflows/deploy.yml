@@ -33,6 +33,10 @@ jobs:
       - name: Lint content
         run: npm run lint:content
         continue-on-error: true
+      - name: Fetch bookmarks
+        env:
+          BOOKMARKS_GITHUB_TOKEN: ${{ secrets.BOOKMARKS_GITHUB_TOKEN }}
+        run: npm run fetch:bookmarks
       - name: Build Quartz
         run: npx quartz build -d content -o public/content
       - name: Copy root pages
@@ -60,6 +64,10 @@ jobs:
           node-version: 22
       - name: Install Dependencies
         run: npm ci
+      - name: Fetch bookmarks
+        env:
+          BOOKMARKS_GITHUB_TOKEN: ${{ secrets.BOOKMARKS_GITHUB_TOKEN }}
+        run: npm run fetch:bookmarks
       - name: Run unit tests
         run: npm test
       - name: Install Playwright Browsers
