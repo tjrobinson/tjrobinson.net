@@ -1,0 +1,12 @@
+#!/usr/bin/env sh
+# Fast local checks, mirroring the first steps of the CI "build" job.
+set -e
+
+echo "pre-commit: type checking and formatting..."
+npm run check
+
+echo "pre-commit: linting content..."
+npm run lint:content || echo "⚠️  lint:content reported issues (non-blocking, matches CI)"
+
+echo "pre-commit: unit tests..."
+npm test

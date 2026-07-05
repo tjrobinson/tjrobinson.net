@@ -1,0 +1,15 @@
+#!/usr/bin/env sh
+# Full checks, mirroring the CI "build" and "test" jobs before code reaches GitHub.
+set -e
+
+echo "pre-push: type checking and formatting..."
+npm run check
+
+echo "pre-push: linting content..."
+npm run lint:content || echo "⚠️  lint:content reported issues (non-blocking, matches CI)"
+
+echo "pre-push: unit tests..."
+npm test
+
+echo "pre-push: end-to-end tests (builds the site and runs Playwright)..."
+npx playwright test
