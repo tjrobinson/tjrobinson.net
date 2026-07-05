@@ -18,6 +18,12 @@ function resolveToken(): string {
   try {
     const ghToken = execFileSync("gh", ["auth", "token"], {
       encoding: "utf-8",
+      // Fixed, root-owned directories only, so `gh` can't be shadowed via a
+      // writable PATH entry (SonarCloud S4036).
+      env: {
+        ...process.env,
+        PATH: "/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin",
+      },
     }).trim();
     if (ghToken) return ghToken;
   } catch {
@@ -51,7 +57,8 @@ async function main() {
         "fetch-bookmarks: a 404 usually means the token lacks access — check the PAT has read-only Contents permission on tjrobinson/raindrop-automation.",
       );
     }
-    console.error(body.slice(0, 500));
+    // JSON.stringify escapes control characters so the response can't forge log lines
+    console.error(JSON.stringify(body.slice(0, 500)));
     process.exit(1);
   }
 
@@ -76,8 +83,13 @@ async function main() {
     (n, c) => n + (c.bookmarks?.length ?? 0),
     0,
   );
+  // Re-parse the snapshot date so the logged value can't carry control characters
+  const snapshotMs = Date.parse(data.date ?? "");
+  const snapshot = Number.isNaN(snapshotMs)
+    ? "unknown"
+    : new Date(snapshotMs).toISOString();
   console.log(
-    `fetch-bookmarks: wrote ${count} bookmarks (snapshot ${data.date ?? "unknown"}) to ${path.relative(process.cwd(), OUTPUT_PATH)}`,
+    `fetch-bookmarks: wrote ${count} bookmarks (snapshot ${snapshot}) to ${path.relative(process.cwd(), OUTPUT_PATH)}`,
   );
 }
 
