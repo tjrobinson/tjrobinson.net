@@ -103,7 +103,7 @@ test.describe("Content (Quartz)", () => {
     test("related bookmarks are absent on an untagged page", async ({
       page,
     }) => {
-      await page.goto("/content/dotnet");
+      await page.goto("/content/visual-studio");
       await expect(page.locator("article").first()).toBeVisible();
       await expect(page.locator(".related-bookmarks")).toHaveCount(0);
     });
