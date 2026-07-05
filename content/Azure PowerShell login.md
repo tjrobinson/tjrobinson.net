@@ -1,3 +1,8 @@
+---
+tags:
+  - azure
+  - powershell
+---
 # Azure PowerShell login
 
 ```powershell

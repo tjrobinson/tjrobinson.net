@@ -1,3 +1,7 @@
+---
+tags:
+  - sql-server
+---
 # SQL Server Authentication
 
 There are two main types of authentication:

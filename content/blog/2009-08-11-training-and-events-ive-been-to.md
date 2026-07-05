@@ -1,6 +1,9 @@
 ---
-title: "Training and events I've been to"
-date: "2009-08-11"
+title: Training and events I've been to
+date: 2009-08-11
+tags:
+  - training
+  - conference
 ---
 
 # Training and events I've been to

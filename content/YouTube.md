@@ -1,3 +1,7 @@
+---
+tags:
+  - youtube
+---
 # YouTube
 
 ## Skip YouTube Ads Bookmarklet

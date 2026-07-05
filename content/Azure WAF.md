@@ -1,3 +1,8 @@
+---
+tags:
+  - azure
+  - waf
+---
 # Azure WAF
 
 ## Useful queries

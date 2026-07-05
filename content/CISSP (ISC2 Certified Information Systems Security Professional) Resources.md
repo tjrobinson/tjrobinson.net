@@ -1,5 +1,9 @@
 ---
 permalink: cissp
+tags:
+  - cissp
+  - security
+  - certification
 ---
 
 # CISSP (ISC2 Certified Information Systems Security Professional) Resources

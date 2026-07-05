@@ -1,6 +1,8 @@
 ---
-title: "Why we stopped using the Microsoft Sync Framework"
-date: "2011-05-11"
+title: Why we stopped using the Microsoft Sync Framework
+date: 2011-05-11
+tags:
+  - microsoft
 ---
 
 # Why we stopped using the Microsoft Sync Framework

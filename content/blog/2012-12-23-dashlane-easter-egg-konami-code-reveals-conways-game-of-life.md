@@ -1,8 +1,10 @@
 ---
-title: "Dashlane Easter Egg - Conway's Game of Life"
-date: "2012-12-23"
+title: Dashlane Easter Egg - Conway's Game of Life
+date: 2012-12-23
 aliases:
   - blog/2012-12-23-dashlane-easter-egg-konami-code-reveals-conways-game-of-life/2012-12-23-dashlane-easter-egg-konami-code-reveals-conways-game-of-life
+tags:
+  - passwords
 ---
 
 # Dashlane Easter Egg - Conway's Game of Life

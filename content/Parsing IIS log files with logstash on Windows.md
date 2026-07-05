@@ -1,3 +1,7 @@
+---
+tags:
+  - logging
+---
 # Parsing IIS log files with logstash on Windows
 
 I found a couple of example configurations for IIS logging, but they both rely on NXLog and contain deprecated configuration settings:

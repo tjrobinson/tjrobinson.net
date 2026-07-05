@@ -1,3 +1,8 @@
+---
+tags:
+  - architecture
+  - documentation
+---
 # ADRs
 
 [Example for the NATS project](https://github.com/nats-io/nats-architecture-and-design/tree/main?tab=readme-ov-file)

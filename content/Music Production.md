@@ -1,3 +1,7 @@
+---
+tags:
+  - music creation
+---
 # Music Production
 
 - [VCV Rack 2 - Virtual Eurorack Studio](https://vcvrack.com/Rack)

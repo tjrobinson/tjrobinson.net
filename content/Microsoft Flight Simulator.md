@@ -1,3 +1,7 @@
+---
+tags:
+  - flight simulator
+---
 # Microsoft Flight Simulator
 
 - [Flightspots](https://flightspots.co/app)

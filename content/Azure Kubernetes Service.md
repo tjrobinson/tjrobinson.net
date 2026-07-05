@@ -1,3 +1,9 @@
+---
+tags:
+  - aks
+  - kubernetes
+  - azure
+---
 # Azure Kubernetes Service
 
 - [AKS Release Status](https://releases.aks.azure.com/)

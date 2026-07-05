@@ -1,3 +1,7 @@
+---
+tags:
+  - jetbrains
+---
 # Visual Studio -> ReSharper with Visual Studio keymap -> Rider, IntelliJ etc
 
 - [Configure keyboard shortcuts — IntelliJ IDEA documentation](https://www.jetbrains.com/help/idea/configuring-keyboard-and-mouse-shortcuts.html)

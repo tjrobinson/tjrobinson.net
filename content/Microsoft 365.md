@@ -1,3 +1,7 @@
+---
+tags:
+  - microsoft
+---
 # Microsoft 365
 
 - [Developer Program | Microsoft 365 Dev Center](https://developer.microsoft.com/en-us/microsoft-365/dev-program)

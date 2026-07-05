@@ -1,3 +1,7 @@
+---
+tags:
+  - mac
+---
 Showing hidden files by default:
 
 Run this to show hidden files in Finder again:

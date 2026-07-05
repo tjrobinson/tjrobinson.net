@@ -1,3 +1,7 @@
+---
+tags:
+  - azure
+---
 # Azure Web Apps
 
 Removing Azure Web App staging slots using the Azure CLI:

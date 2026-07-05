@@ -1,6 +1,8 @@
 ---
-title: "MongoDB London 2013"
-date: "2014-07-03"
+title: MongoDB London 2013
+date: 2014-07-03
+tags:
+  - conference
 ---
 
 # MongoDB London 2013

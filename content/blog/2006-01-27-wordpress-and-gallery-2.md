@@ -1,6 +1,8 @@
 ---
-title: "WordPress and Gallery 2"
-date: "2006-01-27"
+title: WordPress and Gallery 2
+date: 2006-01-27
+tags:
+  - wordpress
 ---
 
 # WordPress and Gallery 2

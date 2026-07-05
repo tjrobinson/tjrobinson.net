@@ -1,3 +1,9 @@
+---
+tags:
+  - security
+  - certification
+  - training
+---
 # Security Training & Certification
 
 ## Training

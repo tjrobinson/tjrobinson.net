@@ -1,5 +1,7 @@
 ---
-date: "2012-06-14"
+date: 2012-06-14
+tags:
+  - powershell
 ---
 
 # Adding the Visual Studio 2010 Command Prompt variables to your PowerShell profile

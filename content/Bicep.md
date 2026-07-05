@@ -1,3 +1,8 @@
+---
+tags:
+  - azure
+  - iac
+---
 # Bicep
 
 This is a collection of useful links I've come across when working with Bicep:

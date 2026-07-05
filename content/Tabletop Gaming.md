@@ -1,3 +1,7 @@
+---
+tags:
+  - board-game
+---
 # Tabletop Gaming
 
 - [Table Top Simulator](./Table%20Top%20Simulator.md)

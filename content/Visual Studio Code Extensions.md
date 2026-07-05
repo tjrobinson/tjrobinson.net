@@ -1,3 +1,7 @@
+---
+tags:
+  - vscode
+---
 # Visual Studio Code Extensions
 
 - [JSON to TS](https://marketplace.visualstudio.com/items?itemName=MariusAlchimavicius.json-to-ts)

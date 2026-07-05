@@ -1,3 +1,8 @@
+---
+tags:
+  - recruiting
+  - hiring
+---
 # Interview questions
 
 - Tell me about a time you had a disagreement about something important with a co-worker, and how did you deal with it?

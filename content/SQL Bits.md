@@ -1,3 +1,8 @@
+---
+tags:
+  - conference
+  - sql
+---
 # SQL Bits 2023
 
 Erland Sommarskog presented “Don't Let Your Permissions be Hijacked” which covered an attack on SQL server where somebody with db_owner on a database could elevate themselves to a sysadmin on the server by abusing the ability to create DDL triggers. In short, if you can create a trigger on a database, and then a sysadmin runs a maintenance job, e.g. updating indexes, then your trigger will get run as them and the trigger can then grant you sysadmin access. I think we’re probably protected from this because of the way SQL Azure works but I’ll have a proper look through the slides and code at some point. It’s a good lesson in why we want to follow least privilege.

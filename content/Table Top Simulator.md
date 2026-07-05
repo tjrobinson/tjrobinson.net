@@ -1,3 +1,7 @@
+---
+tags:
+  - board-game
+---
 # Table Top Simulator
 
 ## Guides

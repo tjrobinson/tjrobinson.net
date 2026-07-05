@@ -1,3 +1,7 @@
+---
+tags:
+  - angular
+---
 # AngularJS
 
 - [[AngularJS to Angular migration]]

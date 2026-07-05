@@ -1,6 +1,8 @@
 ---
-title: "Antec SLK3000B and AcoustiPack"
-date: "2005-05-27"
+title: Antec SLK3000B and AcoustiPack
+date: 2005-05-27
+tags:
+  - hardware
 ---
 
 # Antec SLK3000B and AcoustiPack

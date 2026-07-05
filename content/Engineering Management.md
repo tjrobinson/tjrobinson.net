@@ -1,3 +1,9 @@
+---
+tags:
+  - management
+  - engineering-practices
+  - technical leadership
+---
 > 1. Let go of the urge to do everything yourself. As a manager, your core value is enabling & amplifying the success of others. Develop a strong support structure of high-performing leads and delegate effectively. 
 > 
 > 2. The other one is unlike code, people problems don't always have elegant solutions. Prepare yourself to handle difficult conversations, workplace conflicts, and navigate delicate performance issues.

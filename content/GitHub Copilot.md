@@ -1,3 +1,9 @@
+---
+tags:
+  - copilot
+  - ai
+  - github
+---
 # GitHub Copilot
 
 ## Useful prompts

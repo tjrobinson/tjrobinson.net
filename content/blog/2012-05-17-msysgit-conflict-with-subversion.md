@@ -1,6 +1,8 @@
 ---
-title: "msysgit conflict with Subversion"
-date: "2012-05-17"
+title: msysgit conflict with Subversion
+date: 2012-05-17
+tags:
+  - git
 ---
 
 # msysgit conflict with Subversion

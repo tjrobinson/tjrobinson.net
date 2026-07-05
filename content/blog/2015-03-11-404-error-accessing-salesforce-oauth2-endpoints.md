@@ -1,6 +1,8 @@
 ---
-title: "404 error accessing Salesforce OAuth2 endpoints?"
-date: "2015-03-11"
+title: 404 error accessing Salesforce OAuth2 endpoints?
+date: 2015-03-11
+tags:
+  - oauth
 ---
 
 # 404 error accessing Salesforce OAuth2 endpoints?

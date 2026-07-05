@@ -1,3 +1,7 @@
+---
+tags:
+  - git
+---
 # Git
 
 Deleting local git branches that have been merged on the remote using PowerShell:

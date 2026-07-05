@@ -1,3 +1,7 @@
+---
+tags:
+  - finance
+---
 # Personal Finance
 
 - [Check your State Pension forecast - GOV.UK](https://www.gov.uk/check-state-pension)

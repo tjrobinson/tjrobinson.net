@@ -1,6 +1,8 @@
 ---
-title: "ASP.NET debugging in Firefox - resources not loading"
+title: ASP.NET debugging in Firefox - resources not loading
 date: 2007-03-02T17:33:06+00:00
+tags:
+  - dotnet
 ---
 
 # ASP.NET debugging in Firefox - resources not loading

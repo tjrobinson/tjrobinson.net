@@ -1,8 +1,10 @@
 ---
 title: Remote debugging
-date: "2012-07-23"
+date: 2012-07-23
 aliases:
   - blog/2012-07-23-remote-debugging/remote-debugging
+tags:
+  - dotnet
 ---
 
 # Remote debugging

@@ -1,6 +1,8 @@
 ---
 title: "Powershell: -contains vs. -match and -like"
-date: "2012-10-05"
+date: 2012-10-05
+tags:
+  - powershell
 ---
 
 # Powershell: -contains vs. -match and -like

@@ -1,6 +1,8 @@
 ---
-title: "Progressive .NET Tutorials 2015"
-date: "2015-07-23"
+title: Progressive .NET Tutorials 2015
+date: 2015-07-23
+tags:
+  - conference
 ---
 
 # Progressive .NET Tutorials 2015

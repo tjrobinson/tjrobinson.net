@@ -1,6 +1,8 @@
 ---
-title: "Internet of Things and Data Hackathon - 11th June 2015"
-date: "2015-06-11"
+title: Internet of Things and Data Hackathon - 11th June 2015
+date: 2015-06-11
+tags:
+  - iot
 ---
 
 # Internet of Things and Data Hackathon - 11th June 2015

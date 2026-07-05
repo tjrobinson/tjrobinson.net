@@ -1,3 +1,8 @@
+---
+tags:
+  - conference
+  - security
+---
 # Security Conferences
 
 ## Major International Conferences

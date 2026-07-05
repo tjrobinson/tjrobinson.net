@@ -1,3 +1,7 @@
+---
+tags:
+  - kubernetes
+---
 # Mounting certificates in Kubernetes
 
 ```yaml

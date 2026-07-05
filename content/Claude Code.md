@@ -1,3 +1,9 @@
+---
+tags:
+  - claude
+  - ai
+  - agent
+---
  1. Claude 101: [https://anthropic.skilljar.com/claude-101](https://anthropic.skilljar.com/claude-101) 
  2. AI Fluency, Framework & Foundations: [https://anthropic.skilljar.com/ai-fluency-framework-foundations](https://anthropic.skilljar.com/ai-fluency-framework-foundations) 
  3. Intro to Claude Cowork: [https://anthropic.skilljar.com/introduction-to-claude-cowork](https://anthropic.skilljar.com/introduction-to-claude-cowork) 

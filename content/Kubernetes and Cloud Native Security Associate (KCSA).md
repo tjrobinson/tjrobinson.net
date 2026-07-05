@@ -1,3 +1,9 @@
+---
+tags:
+  - kubernetes
+  - certification
+  - security
+---
 # Kubernetes and Cloud Native Security Associate (KCSA)
 
 - [KCSA — Linux Foundation Training & Certification](https://training.linuxfoundation.org/certification/kubernetes-and-cloud-native-security-associate-kcsa/)

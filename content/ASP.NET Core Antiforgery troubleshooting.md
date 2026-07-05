@@ -1,3 +1,8 @@
+---
+tags:
+  - dotnet
+  - security
+---
 # ASP.NET Core Antiforgery troubleshooting
 
 Set a breakpoint in https://github.com/dotnet/aspnetcore/blob/main/src/Antiforgery/src/Internal/DefaultAntiforgery.cs

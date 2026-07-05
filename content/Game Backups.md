@@ -1,3 +1,7 @@
+---
+tags:
+  - game
+---
 Terraria - Steam - cloud saves unreliable, C:\Users\TomRobinson\Documents\My Games\Terraria
 Satisfactory - Epic Games - cloud saves enabled, C:\Program Files\Epic Games\SatisfactoryEarlyAccess
 Hades - Epic Games - Cloud synced, C:\Program Files\Epic Games\Hades (install), C:\Users\TomRobinson\Documents\Saved Games\Hades (saves)

@@ -1,3 +1,8 @@
+---
+tags:
+  - ai
+  - llm
+---
 # AI
 
 ## Other

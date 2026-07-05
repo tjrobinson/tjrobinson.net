@@ -1,6 +1,9 @@
 ---
-title: "Stdout logging in ASP.NET 1.1.1 Azure Web Apps"
-date: "2017-04-04"
+title: Stdout logging in ASP.NET 1.1.1 Azure Web Apps
+date: 2017-04-04
+tags:
+  - logging
+  - azure
 ---
 
 # Stdout logging in ASP.NET 1.1.1 Azure Web Apps

@@ -1,6 +1,9 @@
 ---
-title: "DateTimeOffset should be considered the default date and time type for application development"
-date: "2012-05-16"
+title: DateTimeOffset should be considered the default date and time type for application development
+date: 2012-05-16
+tags:
+  - dotnet
+  - csharp
 ---
 
 # DateTimeOffset should be considered the default date and time type for application development

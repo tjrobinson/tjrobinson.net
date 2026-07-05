@@ -1,3 +1,7 @@
+---
+tags:
+  - threat modeling
+---
 # Threat Modelling
 
 - [AzureArchitecture/threat-model-templates: Templates for the Microsoft Threat Modeling Tool](https://github.com/AzureArchitecture/threat-model-templates)

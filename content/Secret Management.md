@@ -1,3 +1,7 @@
+---
+tags:
+  - secrets
+---
 # Secret Management
 
 - [Secrets Management Maturity Model | GitGuardian](https://www.gitguardian.com/files/secrets-management-maturity-model)

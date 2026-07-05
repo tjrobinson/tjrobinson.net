@@ -1,3 +1,8 @@
+---
+tags:
+  - azure
+  - cloud
+---
 # Azure
 
 - [[Azure PowerShell]]

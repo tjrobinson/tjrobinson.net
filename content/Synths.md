@@ -1,3 +1,7 @@
+---
+tags:
+  - music creation
+---
 # Synths & Electronic Music
 
 - [Free VST Plugins — Bedroom Producers Blog](https://bedroomproducersblog.com/free-vst-plugins/)

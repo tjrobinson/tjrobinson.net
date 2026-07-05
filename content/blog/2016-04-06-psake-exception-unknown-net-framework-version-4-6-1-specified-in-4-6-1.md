@@ -1,6 +1,8 @@
 ---
-title: "PSake: \"Exception: Unknown .NET Framework version, 4.6.1 specified in 4.6.1.\""
-date: "2016-04-06"
+title: 'PSake: "Exception: Unknown .NET Framework version, 4.6.1 specified in 4.6.1."'
+date: 2016-04-06
+tags:
+  - dotnet
 ---
 
 # PSake: "Exception: Unknown .NET Framework version, 4.6.1 specified in 4.6.1."

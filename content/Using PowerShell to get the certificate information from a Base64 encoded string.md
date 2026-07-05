@@ -1,6 +1,8 @@
 ---
 title: Using PowerShell to get the certificate information from a Base64 encoded string
-date: "2018-06-18"
+date: 2018-06-18
+tags:
+  - powershell
 ---
 
 # Using PowerShell to get the certificate information from a Base64 encoded string

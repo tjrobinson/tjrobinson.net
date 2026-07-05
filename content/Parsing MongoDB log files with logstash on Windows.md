@@ -1,6 +1,8 @@
 ---
 title: Parsing MongoDB log files with logstash on Windows
-date: "2014-05-06"
+date: 2014-05-06
+tags:
+  - logging
 ---
 
 # Parsing MongoDB log files with logstash on Windows

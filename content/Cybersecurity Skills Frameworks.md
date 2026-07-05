@@ -1,3 +1,9 @@
+---
+tags:
+  - cybersecurity
+  - security
+  - career development
+---
 # Cybersecurity Skills Frameworks
 
 - [Infosec Skills Matrix](https://infosecskillsmatrix.com/rolesskills)

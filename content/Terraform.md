@@ -1,3 +1,7 @@
+---
+tags:
+  - terraform
+---
 # Terraform
 
 - [Gripping Terraform in Azure DevOps to build Infrastructure](https://adamtheautomator.com/terraform-azure-devops/)

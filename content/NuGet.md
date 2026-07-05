@@ -1,3 +1,7 @@
+---
+tags:
+  - nuget
+---
 # NuGet
 
 ## Finding all NuGet packages across multiple solutions

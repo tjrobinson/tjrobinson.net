@@ -1,3 +1,8 @@
+---
+tags:
+  - azure
+  - security
+---
 # Sentinel
 
 - [How to visualize graphs in Kusto using Plotly and Python](https://techcommunity.microsoft.com/t5/azure-data-explorer-blog/how-to-visualize-graphs-in-kusto-using-plotly-and-python/ba-p/3943410)

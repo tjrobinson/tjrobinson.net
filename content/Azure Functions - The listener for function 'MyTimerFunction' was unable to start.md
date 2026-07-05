@@ -1,3 +1,7 @@
+---
+tags:
+  - azure
+---
 # Azure Functions - The listener for function 'MyTimerFunction' was unable to start
 
 ```

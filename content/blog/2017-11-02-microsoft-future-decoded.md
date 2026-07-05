@@ -1,6 +1,9 @@
 ---
 title: "Microsoft Future Decoded, November 1st 2017, Day 2: Tech Deep Dives"
-date: "2017-11-02"
+date: 2017-11-02
+tags:
+  - conference
+  - microsoft
 ---
 
 # Microsoft Future Decoded, November 1st 2017, Day 2: Tech Deep Dives

@@ -1,3 +1,8 @@
+---
+tags:
+  - azure-devops
+  - azure
+---
 # Azure DevOps
 
 - [Build Quality Checks - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=mspremier.BuildQualityChecks)

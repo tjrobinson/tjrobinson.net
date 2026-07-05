@@ -1,8 +1,10 @@
 ---
-title: "A .gitignore file for excluding Rider (.idea) directories, except runConfigurations"
-date: "2019-04-28"
+title: A .gitignore file for excluding Rider (.idea) directories, except runConfigurations
+date: 2019-04-28
 author: Tom Robinson
 layout: post
+tags:
+  - git
 ---
 
 This was suprisingly tricky to set up so I thought it would be good to share.

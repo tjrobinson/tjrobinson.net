@@ -1,6 +1,8 @@
 ---
-title: "Rewriting git history - removing a directory"
-date: "2016-01-12"
+title: Rewriting git history - removing a directory
+date: 2016-01-12
+tags:
+  - git
 ---
 
 # Rewriting git history - removing a directory

@@ -1,3 +1,7 @@
+---
+tags:
+  - hardware
+---
 # Hardware
 
 - [[2005-05-28-wrt54g-uk-firmware]]

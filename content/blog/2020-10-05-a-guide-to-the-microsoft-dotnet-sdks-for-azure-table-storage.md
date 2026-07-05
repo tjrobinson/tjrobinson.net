@@ -1,6 +1,9 @@
 ---
-title: "A guide to the Microsoft .NET SDKs for Azure Table Storage"
-date: "2020-10-05"
+title: A guide to the Microsoft .NET SDKs for Azure Table Storage
+date: 2020-10-05
+tags:
+  - azure
+  - dotnet
 ---
 
 # A guide to the Microsoft .NET SDKs for Azure Table Storage

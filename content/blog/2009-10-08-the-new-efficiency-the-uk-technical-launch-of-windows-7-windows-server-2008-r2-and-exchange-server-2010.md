@@ -1,6 +1,8 @@
 ---
 title: "The New Efficiency: The UK Technical Launch of Windows 7, Windows Server 2008 R2 and Exchange Server 2010"
-date: "2009-10-08"
+date: 2009-10-08
+tags:
+  - microsoft
 ---
 
 # The New Efficiency: The UK Technical Launch of Windows 7, Windows Server 2008 R2 and Exchange Server 2010

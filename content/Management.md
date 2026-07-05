@@ -1,3 +1,9 @@
+---
+tags:
+  - management
+  - leadership
+  - people management
+---
 # Management
 
 ## Resources

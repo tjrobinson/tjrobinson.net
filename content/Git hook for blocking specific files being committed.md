@@ -1,3 +1,7 @@
+---
+tags:
+  - git
+---
 # Git hook for blocking specific files being committed
 
 ```sh
