@@ -15,6 +15,7 @@
     "check": "tsc --noEmit && npx prettier . --check",
     "format": "npx prettier . --write",
     "lint:content": "tsx scripts/lint-content.ts",
+    "fetch:bookmarks": "tsx scripts/fetch-bookmarks.ts",
     "test": "tsx --test",
     "test:coverage": "tsx --test --experimental-test-coverage",
     "test:e2e": "playwright test",
