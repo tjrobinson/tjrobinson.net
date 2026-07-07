@@ -1,3 +1,7 @@
+---
+tags:
+  - maps
+---
 # Maps
 
 - [National Library of Scotland Maps](https://maps.nls.uk/)

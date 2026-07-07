@@ -1,6 +1,8 @@
 ---
 title: Beware of non-breaking spaces in your HOSTS file
 date: "2013-02-24"
+tags:
+  - windows
 ---
 
 # Beware of non-breaking spaces in your HOSTS file

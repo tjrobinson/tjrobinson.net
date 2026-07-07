@@ -1,6 +1,10 @@
+---
+tags:
+  - iis
+---
 # Defining a redirect/rewrite in the Web.config
 
-```
+```xml
 <?xml version="1.0"?>
 <configuration>
   <system.webServer>
@@ -13,5 +17,9 @@
       </rules>
     </rewrite>
   </system.webServer>
-</configuration>`
+</configuration>
 ```
+
+## See also
+
+- [[IIS Configuration]]

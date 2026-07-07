@@ -1,6 +1,9 @@
 ---
 title: "My Magic Lantern bricking experience"
 date: "2015-01-10"
+tags:
+  - photography
+  - hardware
 ---
 
 # My Magic Lantern bricking experience
@@ -53,7 +56,7 @@ The decoding camera was set up with a very nice macro lens, looking straight at 
 
 ![](20141108_110117.jpg)
 
-The end result was this:
+The end result was a video of the process (no longer available).
 
 Unfortunately (as is probably obvious with hindsight) the decoding process didn't work that well so the output is a bit corrupted.
 

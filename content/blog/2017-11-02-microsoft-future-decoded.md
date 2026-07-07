@@ -14,7 +14,7 @@ These are my notes from the day. It's not a detailed summary of the event, just 
 
 Not much that was relevant to us. Mostly vendors helping people migrate to the cloud.
 
-## Innvovation Keynote
+## Innovation Keynote
 
 Focused on Mixed Reality, DNA storage, blockchain in Azure. All very interesting but nothing immediately actionable.
 

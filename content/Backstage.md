@@ -1,4 +1,11 @@
+---
+tags:
+  - backstage
+  - developer-portal
+---
 # Backstage
+
+## MkDocs / TechDocs configuration
 
 Plugins and extensions can be set in `mkdocs.yaml`:
 
@@ -19,7 +26,9 @@ markdown_extensions:
 - [Descriptor Format of Catalog Entities — Backstage docs](https://backstage.io/docs/features/software-catalog/descriptor-format/#specprovidesapis-optional)
 - [Setting up site search — Material for MkDocs](https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/)
 
-You can also embed references to Open API specs in the catalog-info.yaml
+## Embedding OpenAPI specs in the catalog
+
+You can embed references to OpenAPI specs in the `catalog-info.yaml`:
 
 ```yaml
 ---
@@ -52,3 +61,7 @@ spec:
             "200":
               description: Example response
 ```
+
+## See also
+
+- [[APIs]]

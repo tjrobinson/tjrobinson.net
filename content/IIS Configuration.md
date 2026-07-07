@@ -1,6 +1,8 @@
 ---
 title: IIS Configuration
 date: "2012-07-06"
+tags:
+  - iis
 ---
 
 # IIS Configuration

@@ -1,6 +1,8 @@
 ---
 title: "How do you type a backslash \"\\\" into the Dell DRAC viewer?"
 date: "2015-06-12"
+tags:
+  - hardware
 ---
 
 # How do you type a backslash "\" into the Dell DRAC viewer?

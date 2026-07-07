@@ -1,8 +1,11 @@
+---
+tags:
+  - testing
+  - azure-devops
+---
 # This version of ChromeDriver only supports Chrome version 76
 
-This blog post is for anyone getting this error when
-
-When using managed agent.
+This is for anyone getting the error below when running Protractor/Selenium UI tests on an Azure Pipelines managed agent.
 
 ```shell
 [07:43:32] I/launcher - Running 1 instances of WebDriver
@@ -18,9 +21,9 @@ When using managed agent.
 [07:43:35] E/launcher - Process exited with error code 100
 ```
 
-See which Azure Pipelines image is using:
+See which Chrome version the Azure Pipelines image is using:
 
-[https://github.com/microsoft/azure-pipelines-image-generation/blob/master/images/win/Vs2019-Server2019-Readme.md#google-chrome](https://github.com/microsoft/azure-pipelines-image-generation/blob/master/images/win/Vs2019-Server2019-Readme.md#google-chrome)
+[microsoft/azure-pipelines-image-generation — Vs2019-Server2019 image, Google Chrome](https://github.com/microsoft/azure-pipelines-image-generation/blob/master/images/win/Vs2019-Server2019-Readme.md#google-chrome)
 
 ```powershell
 (Get-Item "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe").VersionInfo
@@ -28,13 +31,13 @@ See which Azure Pipelines image is using:
 
 Get the appropriate ChromeDriver version from here:
 
-[https://chromedriver.chromium.org/downloads](https://chromedriver.chromium.org/downloads)
+[ChromeDriver downloads](https://chromedriver.chromium.org/downloads)
 
-Download a specific version
+Download a specific version:
 
-[https://github.com/angular/webdriver-manager/blob/legacy/docs/versions.md#download-a-specific-version](https://github.com/angular/webdriver-manager/blob/legacy/docs/versions.md#download-a-specific-version)
+[webdriver-manager: download a specific version](https://github.com/angular/webdriver-manager/blob/legacy/docs/versions.md#download-a-specific-version)
 
-Don't use the global version as protractor uses the local
+Don't use the global version, as Protractor uses the local one:
 
 ```shell
 node_modules\.bin\webdriver-manager update --gecko false --standalone false --versions.chrome 75.0.3770.140
@@ -44,9 +47,9 @@ node_modules\.bin\webdriver-manager update --gecko false --standalone false --ve
 node_modules\.bin\webdriver-manager status
 ```
 
-Example output on Azure Pipelines.
+Example output on Azure Pipelines:
 
-```
+```text
 [10:06:31] I/status - selenium standalone version available: 3.141.59 [last]
 [10:06:31] I/status - chromedriver versions available: 75.0.3770.140 [last], 76.0.3809.12
 [10:06:31] I/status - geckodriver version available: v0.25.0 [last]

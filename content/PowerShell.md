@@ -4,9 +4,20 @@ tags:
 ---
 # PowerShell
 
+## Notes
+
+- [[Azure PowerShell]]
+- [[Azure PowerShell login]]
+- [[Adding the Visual Studio 2010 Command Prompt variables to your PowerShell profile]]
+- [[Using PowerShell to get the certificate information from a Base64 encoded string]]
+- [[2012-10-05-powershell-contains-vs-match-and-like|PowerShell: -contains vs. -match and -like]]
+- [[2017-04-28-creating-a-self-signed-ssl-certificate-on-windows-using-powershell|Creating a self signed SSL certificate on Windows using PowerShell]]
+
+## Links
+
 - [Accessing PowerShell Properties and Variables with Periods (and other special characters) in their Name](https://blog.danskingdom.com/accessing-powershell-variables-with-periods-in-their-name/)
 
-From: https://www.hanselman.com/blog/F7IsTheGreatestPowerShellHotkeyThatNoOneUsesAnyMoreWeMustFixThis.aspx
+From: <https://www.hanselman.com/blog/F7IsTheGreatestPowerShellHotkeyThatNoOneUsesAnyMoreWeMustFixThis.aspx>
 
 > Did you also know that `PSReadline` logs all your commands to disk by default? Have a look at it:
 > `notepad (Get-PSReadLineOption).HistorySavePath`

@@ -7,6 +7,12 @@ tags:
 
 # Rewriting git history - removing a directory
 
-git filter-branch -force -index-filter &#8216;git rm -cached -r -ignore-unmatch directoryToRemove' -prune-empty &#8212; -all
+```shell
+git filter-branch --force --index-filter 'git rm --cached -r --ignore-unmatch directoryToRemove' --prune-empty -- --all
+```
 
-git push origin master -force
+```shell
+git push origin master --force
+```
+
+Note: these days [git filter-repo](https://github.com/newren/git-filter-repo) is the recommended tool for this job.

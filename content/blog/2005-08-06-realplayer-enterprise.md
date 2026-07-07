@@ -1,6 +1,8 @@
 ---
 title: "RealPlayer Enterprise"
 date: "2005-08-06"
+tags:
+  - software
 ---
 
 # RealPlayer Enterprise

@@ -6,6 +6,9 @@ tags:
 ---
 # Management
 
+- [[Engineering Management]]
+- [[Interview questions]]
+
 ## Resources
 
 - [How To Be A Good Listener](https://thought.is/the-myth-of-the-good-listener/)

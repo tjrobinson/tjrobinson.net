@@ -1,6 +1,9 @@
 ---
 title: "Filter for WinMerge"
 date: "2007-07-12"
+tags:
+  - windows
+  - tools
 ---
 
 # Filter for WinMerge

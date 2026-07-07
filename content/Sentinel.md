@@ -11,7 +11,6 @@ tags:
 - [Azure/Azure-Sentinel: Cloud-native SIEM for intelligent security analytics for your entire enterprise.](https://github.com/Azure/Azure-Sentinel)
 - [rod-trent/Sentinel-SOC-101: Content and collateral for the Microsoft Sentinel SOC 101 series](https://github.com/rod-trent/Sentinel-SOC-101)
 - [Microsoft Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/azuresentinel.azure-sentinel-solution-abuseipdb?tab=overview)
-- [[KQL]]
 
 ## Useful queries
 
@@ -50,3 +49,9 @@ AzureDevOpsAuditing
 | project TimeGenerated, ActorUPN, ActorDisplayName, OperationName, Details
 | sort by TimeGenerated desc
 ```
+
+## See also
+
+- [[KQL]]
+- [[Access Packages]]
+- [[Azure WAF]]

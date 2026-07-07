@@ -85,3 +85,9 @@ private static string SanitiseConnectionString(string connectionString)
     return builder.ToString();
 }
 ```
+
+## See also
+
+- [[SQL Server Authentication]]
+- [[Conversion failed when converting date and or time from character string]]
+- [[SQL Bits]]

@@ -3,6 +3,8 @@ title: printmanagement.msc
 date: "2012-06-05"
 aliases:
   - blog/2012-06-05-printmanagement-msc/printmanagement.msc
+tags:
+  - windows
 ---
 
 # printmanagement.msc

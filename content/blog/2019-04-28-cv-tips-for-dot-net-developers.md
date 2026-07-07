@@ -14,7 +14,7 @@ I've seen quite a few CVs for .NET Developers over the years and unfortunately s
 
 - Keep it to two or three pages.
 
-- Emphasis your more recent roles as they're the ones more likely to be relevant to the role you're applying for.
+- Emphasise your more recent roles as they're the ones more likely to be relevant to the role you're applying for.
 
 - You don't need to be good at spelling to be a good developer but if you know you're not, get someone else to check over your CV for you.
 
@@ -34,8 +34,8 @@ I've seen quite a few CVs for .NET Developers over the years and unfortunately s
 
 - If you have a large gap in your CV then a good interviewer will ask about it, don't be afraid to explain it up-front.
 
-- Leave off irrelavant work experience or at least reduce the amount of space it uses up. If you worked in a shop for a few years it's fine to list it but don't waste space explaining that you "worked in a customer-facing role in a busy retail environment".
+- Leave off irrelevant work experience or at least reduce the amount of space it uses up. If you worked in a shop for a few years it's fine to list it but don't waste space explaining that you "worked in a customer-facing role in a busy retail environment".
 
-- If you're applying for an ASP.NET and C# job, don't go into great detail about your previous PHP experience from 10 years ago. Leave off, or don't emphasis technologies that are defunct or you don't want to work with anymore.
+- If you're applying for an ASP.NET and C# job, don't go into great detail about your previous PHP experience from 10 years ago. Leave off, or don't emphasise, technologies that are defunct or you don't want to work with anymore.
 
-- Make sure your LinkedIn profile matches your CV, it will probably be looked at an inconsistencies could raise concerns, e.g. different job titles or durations.
+- Make sure your LinkedIn profile matches your CV, it will probably be looked at and inconsistencies could raise concerns, e.g. different job titles or durations.

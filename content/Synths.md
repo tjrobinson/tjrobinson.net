@@ -12,3 +12,7 @@ tags:
 - [Behringer UCA202 U-Control ultra low-latency 2 In/2 Out USB audio interface — Amazon](https://amzn.eu/d/hPfWIKC)
 - [Zynthian — Pi-based modular software synth](https://zynthian.org/)
 - This sample library should keep you busy for a while: [Sample CDs collection — Internet Archive](https://archive.org/details/samplecds)
+
+## See also
+
+- [[Music Production]]

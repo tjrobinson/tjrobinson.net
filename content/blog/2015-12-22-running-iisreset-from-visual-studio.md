@@ -3,6 +3,9 @@ title: "Running IISRESET from Visual Studio"
 date: "2015-12-22"
 aliases:
   - blog/2015-12-22-running-iisreset-from-visual-studio/2015-12-22-running-iisreset-from-visual-studio
+tags:
+  - iis
+  - visual-studio
 ---
 
 # Running IISRESET from Visual Studio

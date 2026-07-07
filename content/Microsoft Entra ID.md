@@ -4,12 +4,14 @@ tags:
   - identity
   - iam
 ---
+# Microsoft Entra ID
+
 - [EasyPIM](https://github.com/kayasax/EasyPIM)
 - [MSIdentityTools](https://github.com/AzureAD/MSIdentityTools) - The Microsoft Identity Tools PowerShell module provides various tools for performing enhanced Identity administration activities. It is intended to address more complex business scenarios that can't be met solely with the use of MS Graph PowerShell SDK module.
 
-# Scripts
+## Scripts
 
-Script to get group members from group
+Script to get group members from a group:
 
 ```powershell
 # Get the group ID (replace with your actual group name)
@@ -42,3 +44,8 @@ Additionally, the memberOf attribute can't be used with other operators. For exa
 The dynamic group rule builder and validate feature can't be used for memberOf at this time.
 
 See: [Dynamic membership rules for groups — Microsoft Learn](https://learn.microsoft.com/en-us/entra/identity/users/groups-dynamic-membership#supported-expression-operators)
+
+## See also
+
+- [[Access Packages]]
+- [[Azure]]

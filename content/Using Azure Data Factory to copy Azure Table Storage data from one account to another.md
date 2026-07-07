@@ -4,7 +4,7 @@ tags:
 ---
 # Using Azure Data Factory to copy Azure Table Storage data from one account to another
 
-There's currently no way of easily Azure Table Storage data from one account to another, for example from an account in one region, to another.
+There's currently no way of easily copying Azure Table Storage data from one account to another, for example from an account in one region, to another.
 
 Some of the options are:
 

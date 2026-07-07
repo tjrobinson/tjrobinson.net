@@ -1,6 +1,8 @@
 ---
 title: "Migration to Gatsby"
 date: "2019-09-22"
+tags:
+  - blog
 ---
 
 # Migration to Gatsby

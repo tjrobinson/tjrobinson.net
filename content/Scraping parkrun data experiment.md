@@ -5,6 +5,8 @@ tags:
   - scraping
 date: 2026-07-04
 ---
+# Scraping parkrun data experiment
+
 I had an idea for a fun webpage which relies on scraping parkrun data for a specified parkrunner ID. Unfortunately it wasn't possible. These notes might help others to avoid attempting to do the same.
 
 **Conclusion: it isn't possible from a purely client-side page.** parkrun deliberately blocks every programmatic route to its data.

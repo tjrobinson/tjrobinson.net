@@ -10,9 +10,7 @@ tags:
 
 For the last few years I've been trying to keep a list of all work-related training and events I've been to. I recently updated this and thought it might be interesting to post it here.
 
-Events are shown in chronological order, newest first.\*\*
-
-\*\*
+Events are shown in chronological order, newest first.
 
 [**Vista Squad: Scott Guthrie - ASP.NET MVC Special Event**](http://vistasquad.co.uk/blogs/announcements/archive/2009/06/26/special-event-scott-guthrie-at-vista-squad-3rd-july-for-one-night-only.aspx)
 

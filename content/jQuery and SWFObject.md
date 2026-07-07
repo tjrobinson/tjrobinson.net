@@ -1,6 +1,8 @@
 ---
 title: jQuery and SWFObject
 date: "2007-07-02"
+tags:
+  - javascript
 ---
 
 # jQuery and SWFObject

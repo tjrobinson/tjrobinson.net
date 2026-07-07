@@ -2,16 +2,22 @@
 tags:
   - mac
 ---
-Showing hidden files by default:
+# Mac OS
 
-Run this to show hidden files in Finder again:
+## Showing hidden files in Finder
 
- defaults write com.apple.finder AppleShowAllFiles -bool true
- osascript -e 'tell application "Finder" to quit'
- open -a Finder
+Show hidden files:
 
-Run this to hide them again:
+```shell
+defaults write com.apple.finder AppleShowAllFiles -bool true
+osascript -e 'tell application "Finder" to quit'
+open -a Finder
+```
 
- defaults write com.apple.finder AppleShowAllFiles -bool false
- osascript -e 'tell application "Finder" to quit'
- open -a Finder
+Hide them again:
+
+```shell
+defaults write com.apple.finder AppleShowAllFiles -bool false
+osascript -e 'tell application "Finder" to quit'
+open -a Finder
+```

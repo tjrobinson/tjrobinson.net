@@ -4,11 +4,11 @@ tags:
 ---
 # SQL Server Authentication
 
-There are two main types of authentication:
+There are three main types of authentication:
 
 - SQL Server Authentication
 - Windows Authentication
-- Azure Active Directory
+- Microsoft Entra ID (formerly Azure Active Directory)
 
 ## Standard SQL Server
 
@@ -50,15 +50,9 @@ USE TestDB;
 -- Assign roles
 EXEC sp_addrolemember 'db_datareader', 'DuaneDibbley'
 EXEC sp_addrolemember 'db_datawriter', 'DuaneDibbley'
-
-
-USE TestDB;
-CREATE USER [tom.robinson@clear.bank] FROM EXTERNAL PROVIDER;
-EXEC sp_addrolemember 'db_datareader', 'DuaneDibbley'
-EXEC sp_addrolemember 'db_datawriter', 'DuaneDibbley'
 ```
 
-### Azure Active Directory Authentication
+### Microsoft Entra ID Authentication
 
 ```sql
 -- Switch to a database
@@ -68,6 +62,11 @@ USE TestDB;
 CREATE USER [someone@mydomain.com] FROM EXTERNAL PROVIDER;
 
 -- Assign roles
-EXEC sp_addrolemember 'db_datareader', 'DuaneDibbley'
-EXEC sp_addrolemember 'db_datawriter', 'DuaneDibbley'
+EXEC sp_addrolemember 'db_datareader', 'someone@mydomain.com'
+EXEC sp_addrolemember 'db_datawriter', 'someone@mydomain.com'
 ```
+
+## See also
+
+- [[SQL Server]]
+- [[Microsoft Entra ID]]

@@ -1,3 +1,8 @@
+---
+tags:
+  - r
+  - data
+---
 # Learning R
 
 I'm using Windows.
@@ -10,4 +15,9 @@ First you need to install R from this site that hasn't made it out of the 90s ye
 
 - [The Comprehensive R Archive Network (CRAN)](https://cloud.r-project.org/)
 
-All R packages are stored globally by default. See `packrat` or seemingly better, `renv`.
+All R packages are stored globally by default. See `packrat` or, seemingly better, `renv` for per-project package management.
+
+## See also
+
+- [[Python]]
+- [[Data Visualisation]]

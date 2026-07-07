@@ -1,6 +1,8 @@
 ---
 title: "Pukka tea tasting notes"
 date: "2016-07-21"
+tags:
+  - tea
 ---
 
 # Pukka tea tasting notes

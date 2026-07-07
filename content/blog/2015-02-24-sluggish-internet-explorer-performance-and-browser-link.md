@@ -3,6 +3,8 @@ title: Sluggish Internet Explorer performance and Browser Link
 date: "2015-02-24"
 aliases:
   - blog/2015-02-24-sluggish-internet-explorer-performance-and-browser-link/2015-02-24-sluggish-internet-explorer-performance-and-browser-link
+tags:
+  - visual-studio
 ---
 
 # Sluggish Internet Explorer performance and Browser Link

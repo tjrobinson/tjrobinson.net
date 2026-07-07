@@ -15,9 +15,9 @@ Although the event was aimed at "IT Pros" rather than developers I figured this 
 
 Below are some of the highlights from my perspective as a developer:
 
-\*\*XBox 360s
+**Xbox 360s**
 
-\*\* For some reason the Wembley conference centre is full of those XBox 360 stands. I played a bit of Need for Speed: Shift and then some Halo 3: ODST while waiting for the first session. Not a bad way to start the day.
+For some reason the Wembley conference centre is full of those XBox 360 stands. I played a bit of Need for Speed: Shift and then some Halo 3: ODST while waiting for the first session. Not a bad way to start the day.
 
 **Twittering and texting**
 
