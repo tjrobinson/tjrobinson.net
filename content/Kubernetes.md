@@ -4,6 +4,8 @@ tags:
 ---
 # Kubernetes
 
+- [[Azure Kubernetes Service]]
+- [[Mounting certificates in Kubernetes]]
 
 ## Security
 
@@ -14,8 +16,7 @@ tags:
 
 - CKA
 - CKAD
-- KCSA
-  - [[Kubernetes and Cloud Native Security Associate (KCSA)]]
+- KCSA - [[Kubernetes and Cloud Native Security Associate (KCSA)]]
 
 ## Useful commands
 
@@ -40,3 +41,7 @@ Get all service accounts:
 ```shell
 kubectl get sa --all-namespaces
 ```
+
+## See also
+
+- [[Docker]]

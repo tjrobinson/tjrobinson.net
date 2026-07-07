@@ -1,3 +1,10 @@
+---
+title: Laptop battery performance fixes
+date: 2026-06-20
+tags:
+  - linux
+  - hardware
+---
 # Laptop Battery Performance — Fixes & Reference
 
 **Last updated**: 2026-06-20

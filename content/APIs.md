@@ -4,5 +4,10 @@ tags:
 ---
 # APIs
 
-- [Spectral](https://stoplight.io/open-source/spectral) - An open-source API style guide enforcer and linter
+- [Spectral](https://stoplight.io/open-source/spectral) - An open-source API style guide enforcer and linter
 - [api-guidelines/Guidelines.md at vNext · microsoft/api-guidelines](https://github.com/microsoft/api-guidelines/blob/vNext/Guidelines.md)
+
+## See also
+
+- [[Postman JWT]]
+- [[Backstage]] - embedding OpenAPI specs in a developer portal

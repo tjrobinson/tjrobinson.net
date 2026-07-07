@@ -1,6 +1,9 @@
 ---
 title: "Voluntary Sector Project of the Year"
 date: "2005-11-17"
+tags:
+  - charity
+  - awards
 ---
 
 # Voluntary Sector Project of the Year

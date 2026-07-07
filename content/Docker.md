@@ -19,6 +19,18 @@ docker run --rm -dit --network none --name [container-name] [image-name]
 
 Overall, the command `docker run --rm -dit` creates and starts a Docker container in the background, with an interactive shell that you can access.
 
-Location of files when running in Windows:
+## Docker Desktop on Windows
 
+Location of volume files when running in Windows:
+
+```text
 \\wsl$\docker-desktop-data\version-pack-data\community\docker\volumes
+```
+
+## Links
+
+- [Using az cli authentication within local containers — endjin](https://endjin.com/blog/2022/09/using-azcli-authentication-within-local-containers)
+
+## See also
+
+- [[Kubernetes]]

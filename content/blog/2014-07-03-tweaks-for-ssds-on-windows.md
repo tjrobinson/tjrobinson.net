@@ -1,6 +1,9 @@
 ---
 title: "Tweaks for SSDs on Windows"
 date: "2014-07-03"
+tags:
+  - hardware
+  - windows
 ---
 
 # Tweaks for SSDs on Windows

@@ -4,6 +4,11 @@ tags:
 ---
 # Tabletop Gaming
 
-- [Table Top Simulator](./Table%20Top%20Simulator.md)
+- [[Table Top Simulator]]
 - [Reading Megagames](https://www.readingmegagames.com/)
 - [Megagame Assembly](https://www.megagameassembly.com/)
+
+## See also
+
+- [[Gaming]]
+- [[Pokemon]]

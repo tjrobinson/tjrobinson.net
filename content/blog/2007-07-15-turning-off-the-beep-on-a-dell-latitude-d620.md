@@ -1,6 +1,8 @@
 ---
 title: "Turning off the beep on a Dell Latitude D620"
 date: "2007-07-15"
+tags:
+  - hardware
 ---
 
 # Turning off the beep on a Dell Latitude D620

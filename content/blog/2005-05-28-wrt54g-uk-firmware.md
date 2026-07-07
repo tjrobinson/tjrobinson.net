@@ -1,6 +1,8 @@
 ---
 title: "WRT54G-UK Firmware"
 date: "2005-05-28"
+tags:
+  - hardware
 ---
 
 # WRT54G-UK Firmware

@@ -1,6 +1,8 @@
 ---
 title: "NVidia ForceWare Network Manager vs. SonicWall VPN Client"
 date: "2005-06-19"
+tags:
+  - hardware
 ---
 
 # NVidia ForceWare Network Manager vs. SonicWall VPN Client

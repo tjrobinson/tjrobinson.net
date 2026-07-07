@@ -1,6 +1,9 @@
 ---
 title: "Using SysInternals Process Monitor to troubleshoot permissions problems"
 date: "2007-07-10"
+tags:
+  - windows
+  - sysinternals
 ---
 
 # Using SysInternals Process Monitor to troubleshoot permissions problems

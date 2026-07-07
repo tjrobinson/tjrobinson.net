@@ -5,7 +5,11 @@ tags:
 ---
 # AI
 
-## Other
+## Tools
+
+- [[Claude Code]]
+- [[GitHub Copilot]]
+
+## See also
 
 - [[Security]]
-

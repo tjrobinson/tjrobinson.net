@@ -19,3 +19,13 @@ tags:
 ## Certification
 
 - [Security Certification Roadmap - Paul Jerimy Media](https://pauljerimy.com/security-certification-roadmap/)
+- [[CISSP (ISC2 Certified Information Systems Security Professional) Resources]]
+- [[AZ-500]]
+- [[Kubernetes and Cloud Native Security Associate (KCSA)]]
+
+## See also
+
+- [[Cybersecurity Skills Frameworks]]
+- [[Snyk CTF 2022]]
+- [[Sample Insecure Code]]
+- [[Security Conferences]]

@@ -1,6 +1,8 @@
 ---
 title: "Can't execute code from a freed script"
 date: "2006-09-03"
+tags:
+  - javascript
 ---
 
 # Can't execute code from a freed script

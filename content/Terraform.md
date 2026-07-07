@@ -23,3 +23,8 @@ git::https://your-module-url//modules/module_name?ref=somethingDodgyHere
 Can also be imported from various other untrusted source (GitHub over HTTP)
 
 Some code can execute during the plan stage of Terraform, usually unprotected.
+
+## See also
+
+- [[Bicep]]
+- [[Octopus HCL Parser]]

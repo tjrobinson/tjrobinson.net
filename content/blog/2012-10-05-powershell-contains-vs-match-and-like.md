@@ -7,13 +7,17 @@ tags:
 
 # Powershell: -contains vs. -match and -like
 
-I recently discovered a problem where the _Where-Object_&nbsp;_–contains_ operator wasn’t doing what I thought it was, i.e. the equivalent of _String.Contains()_ in C#. For example:
+I recently discovered a problem where the `Where-Object` `-contains` operator wasn’t doing what I thought it was, i.e. the equivalent of `String.Contains()` in C#. For example:
 
-(Get-Item .\MyDirectory) | where { \$\_.Attributes -contains "Directory" }
+```powershell
+(Get-Item .\MyDirectory) | where { $_.Attributes -contains "Directory" }
+```
 
 Is not the same as:
 
-(Get-Item .\MyDirectory) | where { \$\_.Attributes -match "Directory" }
+```powershell
+(Get-Item .\MyDirectory) | where { $_.Attributes -match "Directory" }
+```
 
 The former fails if the directory has more than one attribute. The reason for this is:
 
