@@ -16,7 +16,7 @@ There are three main types of authentication:
 
 ```sql
 -- Create user with SQL Authentication
-CREATE LOGIN DuaneDibbley WITH PASSWORD = 'rpZ9YRMkU&T8j&#h';
+CREATE LOGIN DuaneDibbley WITH PASSWORD = '<StrongPasswordHere>';
 
 -- At this point the user can log in, but can't see any databases
 
@@ -40,7 +40,7 @@ EXEC sp_addrolemember 'db_datawriter', 'DuaneDibbley'
 USE master;
 
 -- Create user with SQL Authentication
-CREATE LOGIN DuaneDibbley WITH PASSWORD = 'rpZ9YRMkU&T8j&#h';
+CREATE LOGIN DuaneDibbley WITH PASSWORD = '<StrongPasswordHere>';
 
 -- At this point the user can log in, but can't see any databases
 
