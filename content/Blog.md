@@ -4,8 +4,6 @@ tags:
 ---
 # Blog
 
-An archive of blog posts going back to 2005, from Serendipity via WordPress, Jekyll and Gatsby to the Quartz-published notes you're reading now.
-
 ## 2020
 
 - [[2020-10-05-a-guide-to-the-microsoft-dotnet-sdks-for-azure-table-storage|A guide to the Microsoft .NET SDKs for Azure Table Storage]]
