@@ -2,7 +2,10 @@
 // Fetches bookmarks.json from the private tjrobinson/raindrop-automation repo via the
 // GitHub contents API and writes it to data/bookmarks.json (gitignored) for the site
 // build to consume. Auth: BOOKMARKS_GITHUB_TOKEN env var (CI), falling back to the
-// local `gh` CLI token. Exits non-zero on any failure so builds fail loudly.
+// local `gh` CLI token. Exits non-zero on any failure so builds fail loudly, unless
+// BOOKMARKS_OPTIONAL is set and no token is available — then an empty snapshot is
+// written so the build can continue. CI sets that only for pull requests, where
+// Dependabot and fork runs never receive repository secrets.
 
 import { execFileSync } from "node:child_process";
 import { existsSync, mkdirSync, writeFileSync } from "node:fs";
@@ -19,7 +22,7 @@ const GH_LOCATIONS = [
   "/usr/bin/gh",
 ];
 
-function resolveToken(): string {
+function resolveToken(): string | undefined {
   const envToken = process.env.BOOKMARKS_GITHUB_TOKEN?.trim();
   if (envToken) return envToken;
   const gh = GH_LOCATIONS.find((location) => existsSync(location));
@@ -30,17 +33,34 @@ function resolveToken(): string {
       }).trim();
       if (ghToken) return ghToken;
     } catch {
-      // fall through to the error below
+      // fall through — the caller decides whether a missing token is fatal
     }
   }
-  console.error(
-    "fetch-bookmarks: no GitHub token available. Set BOOKMARKS_GITHUB_TOKEN or run `gh auth login`.",
-  );
-  process.exit(1);
+  return undefined;
+}
+
+// Written when the token is absent but bookmarks are optional, so downstream
+// consumers get a valid (empty) index instead of a missing-file error.
+function writeEmptySnapshot() {
+  mkdirSync(path.dirname(OUTPUT_PATH), { recursive: true });
+  writeFileSync(OUTPUT_PATH, JSON.stringify({ collections: [] }));
 }
 
 async function main() {
   const token = resolveToken();
+  if (!token) {
+    if (process.env.BOOKMARKS_OPTIONAL?.trim()) {
+      console.warn(
+        "fetch-bookmarks: no GitHub token available — writing an empty snapshot because BOOKMARKS_OPTIONAL is set. Related bookmarks will be absent from this build.",
+      );
+      writeEmptySnapshot();
+      return;
+    }
+    console.error(
+      "fetch-bookmarks: no GitHub token available. Set BOOKMARKS_GITHUB_TOKEN or run `gh auth login`.",
+    );
+    process.exit(1);
+  }
   const response = await fetch(API_URL, {
     headers: {
       // The raw media type is required: the contents API only serves files

@@ -36,6 +36,9 @@ jobs:
       - name: Fetch bookmarks
         env:
           BOOKMARKS_GITHUB_TOKEN: ${{ secrets.BOOKMARKS_GITHUB_TOKEN }}
+          # Dependabot and fork PRs never receive repository secrets, so let those
+          # builds continue without bookmarks. Pushes to main stay strict.
+          BOOKMARKS_OPTIONAL: ${{ github.event_name == 'pull_request' && '1' || '' }}
         run: npm run fetch:bookmarks
       - name: Build Quartz
         run: npx quartz build -d content -o public/content
@@ -67,6 +70,7 @@ jobs:
       - name: Fetch bookmarks
         env:
           BOOKMARKS_GITHUB_TOKEN: ${{ secrets.BOOKMARKS_GITHUB_TOKEN }}
+          BOOKMARKS_OPTIONAL: ${{ github.event_name == 'pull_request' && '1' || '' }}
         run: npm run fetch:bookmarks
       - name: Run unit tests
         run: npm test
