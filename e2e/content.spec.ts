@@ -1,4 +1,18 @@
 import { test, expect } from "@playwright/test";
+import { readFileSync } from "node:fs";
+
+// Bookmarks come from a private repo and need a token, so PR builds without
+// repository secrets (Dependabot, forks) legitimately have an empty snapshot.
+function hasBookmarkData(): boolean {
+  try {
+    const raw: { collections?: { bookmarks?: unknown[] }[] } = JSON.parse(
+      readFileSync("data/bookmarks.json", "utf-8"),
+    );
+    return (raw.collections ?? []).some((c) => (c.bookmarks?.length ?? 0) > 0);
+  } catch {
+    return false;
+  }
+}
 
 test.describe("Content (Quartz)", () => {
   test.describe("Index page", () => {
@@ -93,6 +107,10 @@ test.describe("Content (Quartz)", () => {
     });
 
     test("related bookmarks render on a tagged page", async ({ page }) => {
+      test.skip(
+        !hasBookmarkData(),
+        "no bookmark snapshot available (BOOKMARKS_GITHUB_TOKEN not set)",
+      );
       // Security.md is tagged `security`, which matches many Raindrop bookmarks
       await page.goto("/content/security");
       const bookmarks = page.locator(".related-bookmarks");
