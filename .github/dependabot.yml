@@ -1,0 +1,16 @@
+version: 2
+updates:
+  # Only GitHub Actions. npm is deliberately absent: without a config Dependabot
+  # still opens security updates for it, and adding an npm entry here would turn
+  # on version updates for every dependency in package.json.
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    commit-message:
+      prefix: "build(deps)"
+    groups:
+      # One PR for the lot — these are updated together in practice
+      actions:
+        patterns:
+          - "*"
