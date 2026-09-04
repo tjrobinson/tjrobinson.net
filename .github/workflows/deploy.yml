@@ -58,6 +58,10 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    permissions:
+      contents: read
+      # download-artifact reads the site the build job produced
+      actions: read
     steps:
       - uses: actions/checkout@v5
         with:
@@ -74,6 +78,17 @@ jobs:
         run: npm run fetch:bookmarks
       - name: Run unit tests
         run: npm test
+      - name: Download built site
+        uses: actions/download-artifact@v8
+        with:
+          name: github-pages
+          path: pages-artifact
+      - name: Unpack built site
+        # Test exactly what deploys, instead of spending another 7+ minutes
+        # rebuilding the site inside Playwright's webServer timeout
+        run: |
+          mkdir -p public
+          tar -xf pages-artifact/artifact.tar -C public
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps chromium
       - name: Run Playwright tests
