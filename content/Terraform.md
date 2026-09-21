@@ -10,6 +10,7 @@ tags:
 - [Terratest | Automated tests for your infrastructure code.](https://terratest.gruntwork.io/)
 - [Tools to Visualize your Terraform plan](https://medium.com/vmacwrites/tools-to-visualize-your-terraform-plan-d421c6255f9f)
 - [[Octopus HCL Parser]]
+- https://www.reddit.com/r/Terraform/comments/1uutao3/anyone_worried_about_the_terraform_supply_chain/
 
 Validation is quite handy:
 ![[Pasted image 20251019151206.png]]

@@ -13,3 +13,4 @@ replit.nix
 test-results/
 playwright-report/
 .log
+.claude/autoharness/
