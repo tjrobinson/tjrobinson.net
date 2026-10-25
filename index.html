@@ -6,182 +6,1111 @@
     <title>tjrobinson.net</title>
     <meta
       name="description"
-      content="Tom Robinson — notes, posts, and projects."
+      content="Tom Robinson — a digital garden of notes on software, cloud and security."
     />
+    <meta name="theme-color" content="#0b0f1e" />
+    <link rel="icon" href="/content/static/icon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600..800&family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap"
       rel="stylesheet"
     />
     <style>
       /* palette mirrors the dark theme of the Quartz site at /content/ */
       :root {
-        --bg: #15181a;
-        --panel: #1b2023;
-        --border: #2e3438;
-        --text: #e9edee;
-        --body: #c9d1d3;
-        --muted: #8a959c;
-        --accent: #5cc9b8;
-        --accent-bright: #7fe0cd;
-        --radius: 12px;
+        --bg: #0b0f1e;
+        --tile: rgba(160, 170, 255, 0.035);
+        --tile-hover: rgba(160, 170, 255, 0.06);
+        --border: rgba(160, 170, 255, 0.12);
+        --border-strong: rgba(160, 170, 255, 0.24);
+        --text: #eef1ff;
+        --body: #c3c9e4;
+        --muted: #7d86aa;
+        --lime: #c5f25a;
+        --violet: #9f8cff;
+        --radius: 22px;
+        --ff-display: "Bricolage Grotesque", system-ui, sans-serif;
+        --ff-body: Geist, system-ui, sans-serif;
+        --ff-mono: "Geist Mono", ui-monospace, monospace;
+        --pad: clamp(16px, 4vw, 40px);
       }
 
       * {
         box-sizing: border-box;
       }
 
-      html,
-      body {
-        height: 100%;
+      html {
+        scroll-behavior: smooth;
       }
 
       body {
         margin: 0;
-        font-family:
-          Inter,
-          system-ui,
-          -apple-system,
-          "Segoe UI",
-          Roboto,
-          sans-serif;
-        background: var(--bg);
+        font-family: var(--ff-body);
+        font-size: 16px;
+        line-height: 1.6;
         color: var(--body);
-        display: grid;
-        place-items: center;
-        padding: 2.5rem 1.5rem;
-        position: relative;
+        background-color: var(--bg);
+        background-image: radial-gradient(
+          rgba(160, 170, 255, 0.09) 1px,
+          transparent 1px
+        );
+        background-size: 22px 22px;
+        -webkit-font-smoothing: antialiased;
         overflow-x: hidden;
       }
 
-      /* soft teal glow behind the header */
-      body::before {
+      /* two soft "aurora" glows behind everything */
+      body::before,
+      body::after {
         content: "";
         position: fixed;
-        top: -20vh;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 60rem;
-        height: 60vh;
-        background: radial-gradient(
-          ellipse at center,
-          rgba(92, 201, 184, 0.09),
-          transparent 65%
-        );
+        z-index: -1;
+        border-radius: 50%;
         pointer-events: none;
+        filter: blur(40px);
       }
 
-      main {
-        width: 100%;
-        max-width: 40rem;
-        position: relative;
+      body::before {
+        top: -20vh;
+        left: -10vw;
+        width: 55vw;
+        height: 55vh;
+        background: radial-gradient(
+          closest-side,
+          rgba(197, 242, 90, 0.11),
+          transparent
+        );
       }
 
-      h1 {
-        font-family: "Space Grotesk", sans-serif;
-        font-size: clamp(2.1rem, 6vw, 2.8rem);
-        font-weight: 700;
+      body::after {
+        top: 10vh;
+        right: -15vw;
+        width: 60vw;
+        height: 70vh;
+        background: radial-gradient(
+          closest-side,
+          rgba(159, 140, 255, 0.16),
+          transparent
+        );
+      }
+
+      ::selection {
+        background: rgba(159, 140, 255, 0.4);
         color: var(--text);
-        margin: 0 0 0.75rem;
-        letter-spacing: -0.02em;
       }
 
-      h1 .dot-net {
-        color: var(--accent);
+      a {
+        color: inherit;
       }
 
-      .lead {
-        font-size: 1.05rem;
-        line-height: 1.6;
-        color: var(--muted);
-        margin: 0 0 2.25rem;
-      }
-
-      .cards {
-        display: grid;
-        gap: 0.9rem;
-      }
-
-      .card {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 1rem;
-        padding: 1.15rem 1.35rem;
-        background: var(--panel);
-        border: 1px solid var(--border);
-        border-radius: var(--radius);
-        text-decoration: none;
-        transition:
-          border-color 0.15s ease,
-          background-color 0.15s ease,
-          transform 0.15s ease;
-      }
-
-      .card:hover,
-      .card:focus-visible {
-        border-color: var(--accent);
-        transform: translateY(-2px);
-      }
-
-      .card:focus-visible {
-        outline: 2px solid var(--accent);
+      a:focus-visible,
+      button:focus-visible {
+        outline: 2px solid var(--lime);
         outline-offset: 3px;
       }
 
-      .card h2 {
-        font-family: "Space Grotesk", sans-serif;
-        font-size: 1.05rem;
-        font-weight: 600;
-        color: var(--text);
-        margin: 0 0 0.25rem;
+      .page {
+        max-width: 1180px;
+        margin: 0 auto;
+        padding: 0 var(--pad);
       }
 
-      .card p {
+      .grad {
+        background: linear-gradient(100deg, var(--lime), var(--violet) 80%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+      }
+
+      /* ---------------------------------------------------------------- */
+      /* header                                                            */
+      /* ---------------------------------------------------------------- */
+
+      .top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 84px;
+      }
+
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 0.6rem;
+        text-decoration: none;
+        font-family: var(--ff-display);
+        font-weight: 800;
+        font-size: 1.3rem;
+        letter-spacing: -0.03em;
+        color: var(--text);
+      }
+
+      .brand svg {
+        width: 28px;
+        height: 28px;
+      }
+
+      .brand .tld {
+        color: var(--lime);
+      }
+
+      .top nav {
+        display: flex;
+        gap: 0.4rem;
+      }
+
+      .top nav a {
+        padding: 0.45rem 0.9rem;
+        border-radius: 999px;
+        text-decoration: none;
+        font-size: 0.92rem;
+        font-weight: 500;
+        color: var(--body);
+        transition:
+          background-color 0.15s ease,
+          color 0.15s ease;
+      }
+
+      .top nav a:hover {
+        background: var(--tile-hover);
+        color: var(--text);
+      }
+
+      /* ---------------------------------------------------------------- */
+      /* bento grid                                                        */
+      /* ---------------------------------------------------------------- */
+
+      .bento {
+        display: grid;
+        grid-template-columns: repeat(12, minmax(0, 1fr));
+        gap: 16px;
+        margin-top: 1rem;
+      }
+
+      .tile {
+        position: relative;
+        background: var(--tile);
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        padding: 28px;
+        backdrop-filter: blur(6px);
+        -webkit-backdrop-filter: blur(6px);
+      }
+
+      .intro {
+        grid-column: span 7;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: clamp(28px, 4vw, 48px);
+      }
+
+      .pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        align-self: flex-start;
+        padding: 0.3rem 0.8rem;
+        border-radius: 999px;
+        background: rgba(197, 242, 90, 0.08);
+        border: 1px solid rgba(197, 242, 90, 0.2);
+        color: var(--lime);
+        font-size: 0.82rem;
+        font-weight: 500;
+        margin: 0 0 1.5rem;
+      }
+
+      .pill .dot {
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background: var(--lime);
+        box-shadow: 0 0 10px var(--lime);
+      }
+
+      h1 {
+        font-family: var(--ff-display);
+        font-weight: 800;
+        font-size: clamp(3rem, 7.5vw, 5.4rem);
+        line-height: 0.95;
+        letter-spacing: -0.045em;
+        color: var(--text);
+        margin: 0 0 1.5rem;
+      }
+
+      .lead {
+        font-size: 1.15rem;
+        font-weight: 500;
+        color: var(--text);
+        margin: 0 0 0.6rem;
+      }
+
+      .intro-text {
+        max-width: 34rem;
+        margin: 0 0 2rem;
+      }
+
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+      }
+
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.8rem 1.35rem;
+        border-radius: 999px;
+        border: 1px solid var(--border-strong);
+        background: transparent;
+        color: var(--text);
+        font: inherit;
+        font-weight: 600;
+        font-size: 0.95rem;
+        text-decoration: none;
+        cursor: pointer;
+        transition:
+          transform 0.15s ease,
+          background-color 0.15s ease,
+          border-color 0.15s ease,
+          box-shadow 0.15s ease;
+      }
+
+      .btn:hover {
+        transform: translateY(-2px);
+        background: var(--tile-hover);
+        border-color: var(--violet);
+      }
+
+      .btn-primary {
+        background: var(--lime);
+        border-color: var(--lime);
+        color: #0b0f1e;
+      }
+
+      .btn-primary:hover {
+        background: var(--lime);
+        border-color: var(--lime);
+        box-shadow: 0 8px 30px rgba(197, 242, 90, 0.3);
+      }
+
+      /* the live note graph */
+      .graph-tile {
+        grid-column: span 5;
+        min-height: 440px;
+        padding: 0;
+        overflow: hidden;
+        background:
+          radial-gradient(
+            circle at 50% 45%,
+            rgba(159, 140, 255, 0.12),
+            transparent 65%
+          ),
+          var(--tile);
+      }
+
+      .graph-tile canvas {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+      .graph-caption {
+        position: absolute;
+        left: 20px;
+        right: 20px;
+        bottom: 18px;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 1rem;
+        pointer-events: none;
+      }
+
+      .graph-caption strong {
+        font-family: var(--ff-display);
+        font-weight: 700;
+        font-size: 1.05rem;
+        color: var(--text);
+      }
+
+      .graph-caption span {
+        font-size: 0.8rem;
+        color: var(--muted);
+      }
+
+      .graph-tip {
+        position: absolute;
+        pointer-events: none;
+        padding: 0.35rem 0.7rem;
+        border-radius: 10px;
+        background: rgba(11, 15, 30, 0.92);
+        border: 1px solid var(--border-strong);
+        color: var(--text);
+        font-size: 0.82rem;
+        font-weight: 500;
+        white-space: nowrap;
+        transform: translate(-50%, calc(-100% - 12px));
+        opacity: 0;
+        transition: opacity 0.12s ease;
+      }
+
+      .graph-tip.show {
+        opacity: 1;
+      }
+
+      .stat {
+        grid-column: span 3;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        min-height: 150px;
+      }
+
+      .stat-num {
+        font-family: var(--ff-display);
+        font-weight: 800;
+        font-size: 3rem;
+        line-height: 1;
+        letter-spacing: -0.04em;
+        color: var(--text);
+        margin-bottom: 0.4rem;
+      }
+
+      .stat-label {
+        color: var(--muted);
+        font-size: 0.92rem;
+      }
+
+      .link-tile {
+        grid-column: span 3;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 150px;
+        text-decoration: none;
+        transition:
+          transform 0.15s ease,
+          background-color 0.15s ease,
+          border-color 0.15s ease;
+      }
+
+      .link-tile:hover {
+        transform: translateY(-3px);
+        background: var(--tile-hover);
+        border-color: var(--violet);
+      }
+
+      .link-tile .icon {
+        width: 28px;
+        height: 28px;
+        color: var(--text);
+      }
+
+      .link-tile .go {
+        position: absolute;
+        top: 24px;
+        right: 26px;
+        color: var(--muted);
+        font-size: 1.1rem;
+        transition:
+          transform 0.15s ease,
+          color 0.15s ease;
+      }
+
+      .link-tile:hover .go {
+        color: var(--lime);
+        transform: translate(2px, -2px);
+      }
+
+      .link-tile h3,
+      .topic h3 {
+        font-family: var(--ff-display);
+        font-weight: 700;
+        font-size: 1.2rem;
+        letter-spacing: -0.02em;
+        color: var(--text);
+        margin: 0 0 0.15rem;
+      }
+
+      .link-tile p,
+      .topic p {
+        margin: 0;
         font-size: 0.9rem;
         line-height: 1.5;
         color: var(--muted);
+      }
+
+      /* ---------------------------------------------------------------- */
+      /* topics                                                            */
+      /* ---------------------------------------------------------------- */
+
+      .topics-section {
+        padding: clamp(4rem, 9vw, 6.5rem) 0 2rem;
+      }
+
+      .section-head {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        justify-content: space-between;
+        gap: 1rem;
+        margin-bottom: 1.75rem;
+      }
+
+      h2 {
+        font-family: var(--ff-display);
+        font-weight: 800;
+        font-size: clamp(2.2rem, 5vw, 3.4rem);
+        line-height: 1;
+        letter-spacing: -0.04em;
+        color: var(--text);
         margin: 0;
       }
 
-      .card .arrow {
-        font-family: "Space Grotesk", sans-serif;
-        font-size: 1.2rem;
-        color: var(--accent);
-        flex-shrink: 0;
-        transition: transform 0.15s ease;
+      .section-head p {
+        margin: 0;
+        max-width: 26rem;
+        color: var(--muted);
       }
 
-      .card:hover .arrow {
-        transform: translateX(4px);
-        color: var(--accent-bright);
+      .topics {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(205px, 1fr));
+        gap: 16px;
+      }
+
+      .topic {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        min-height: 170px;
+        padding: 22px;
+        border-radius: 18px;
+        border: 1px solid var(--border);
+        background: var(--tile);
+        text-decoration: none;
+        transition:
+          transform 0.15s ease,
+          border-color 0.15s ease,
+          background-color 0.15s ease;
+      }
+
+      .topic:hover {
+        transform: translateY(-3px);
+        border-color: var(--c);
+        background: color-mix(in srgb, var(--c) 7%, transparent);
+      }
+
+      .topic-dot {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background: var(--c);
+        box-shadow: 0 0 14px var(--c);
+        margin-bottom: auto;
+      }
+
+      .topic h3 {
+        margin-top: 1.75rem;
+      }
+
+      .topic-count {
+        margin-top: 0.9rem;
+        font-family: var(--ff-mono);
+        font-size: 0.75rem;
+        color: var(--c);
+        min-height: 1.2em;
+      }
+
+      /* ---------------------------------------------------------------- */
+      /* footer                                                            */
+      /* ---------------------------------------------------------------- */
+
+      .foot {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 1rem;
+        padding: 3rem 0;
+        margin-top: 3rem;
+        border-top: 1px solid var(--border);
+        font-size: 0.88rem;
+        color: var(--muted);
+      }
+
+      /* ---------------------------------------------------------------- */
+      /* responsive                                                        */
+      /* ---------------------------------------------------------------- */
+
+      @media (max-width: 960px) {
+        .intro,
+        .graph-tile {
+          grid-column: span 12;
+        }
+
+        .graph-tile {
+          min-height: 360px;
+        }
+
+        .stat,
+        .link-tile {
+          grid-column: span 6;
+        }
+      }
+
+      @media (max-width: 560px) {
+        .top nav {
+          display: none;
+        }
+
+        .link-tile {
+          grid-column: span 12;
+        }
+
+        .stat {
+          min-height: 120px;
+          padding: 22px;
+        }
+
+        .stat-num {
+          font-size: 2.4rem;
+        }
+
+        .graph-tile {
+          min-height: 300px;
+        }
+
+        .topics {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+          gap: 12px;
+        }
+
+        .topic {
+          min-height: 0;
+          padding: 18px;
+        }
+
+        .topic h3 {
+          margin-top: 1rem;
+          font-size: 1.05rem;
+        }
+
+        .topic p {
+          font-size: 0.82rem;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        html {
+          scroll-behavior: auto;
+        }
+
+        .btn,
+        .topic,
+        .link-tile {
+          transition: none;
+        }
       }
     </style>
   </head>
 
   <body>
-    <main>
-      <h1>tjrobinson<span class="dot-net">.net</span></h1>
-      <p class="lead">The personal site of Tom Robinson.</p>
-      <nav class="cards" aria-label="Site sections">
-        <a class="card" href="/content/">
-          <span>
-            <h2>Content</h2>
-            <p>
-              Notes on software development, cloud, security, and other topics.
+    <div class="page">
+      <header class="top">
+        <a class="brand" href="/" aria-label="tjrobinson.net home">
+          <svg viewBox="0 0 28 28" aria-hidden="true">
+            <path
+              d="M7 20 L14 7 L22 16 Z"
+              fill="none"
+              stroke="rgba(159,140,255,0.6)"
+              stroke-width="1.5"
+            />
+            <circle cx="7" cy="20" r="3.5" fill="#9f8cff" />
+            <circle cx="14" cy="7" r="4.5" fill="#c5f25a" />
+            <circle cx="22" cy="16" r="3" fill="#eef1ff" />
+          </svg>
+          <span>tjrobinson<span class="tld">.net</span></span>
+        </a>
+        <nav aria-label="Primary">
+          <a href="#topics">Topics</a>
+          <a href="/content/blog">Blog</a>
+        </nav>
+      </header>
+
+      <main>
+        <div class="bento">
+          <section class="tile intro">
+            <p class="pill">
+              <span class="dot"></span>A digital garden, growing since 2005
             </p>
-          </span>
-          <span class="arrow" aria-hidden="true">&rarr;</span>
-        </a>
-        <a class="card" href="https://www.github.com/tjrobinson">
-          <span>
-            <h2>GitHub</h2>
-            <p>Repositories and code.</p>
-          </span>
-          <span class="arrow" aria-hidden="true">&rarr;</span>
-        </a>
-      </nav>
-    </main>
+            <h1>Hello, I'm <span class="grad">Tom</span>.</h1>
+            <p class="lead">The personal site of Tom Robinson.</p>
+            <p class="intro-text">
+              This is where I keep what I learn:
+              <span class="js-note-count">160+</span> interlinked notes on .NET,
+              Azure, Kubernetes, security and AI, plus a blog archive going back
+              to 2005.
+            </p>
+            <div class="actions">
+              <a class="btn btn-primary" href="/content/">
+                Browse the content <span aria-hidden="true">&rarr;</span>
+              </a>
+              <button class="btn" type="button" id="random-note">
+                Surprise me
+              </button>
+            </div>
+          </section>
+
+          <section class="tile graph-tile" aria-label="Graph of linked notes">
+            <canvas id="graph"></canvas>
+            <div class="graph-tip" id="graph-tip"></div>
+            <div class="graph-caption">
+              <strong>Every note, linked</strong>
+              <span>Hover a dot &middot; click to open</span>
+            </div>
+          </section>
+
+          <div class="tile stat">
+            <span class="stat-num js-note-count">160+</span>
+            <span class="stat-label">notes in the garden</span>
+          </div>
+
+          <div class="tile stat">
+            <span class="stat-num" id="link-count">200+</span>
+            <span class="stat-label">links between them</span>
+          </div>
+
+          <a class="tile link-tile" href="https://www.github.com/tjrobinson">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                fill="currentColor"
+                d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.08-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.8 1.19 1.82 1.19 3.08 0 4.41-2.69 5.38-5.26 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"
+              />
+            </svg>
+            <span class="go" aria-hidden="true">&nearr;</span>
+            <span>
+              <h3>GitHub</h3>
+              <p>Repositories and code.</p>
+            </span>
+          </a>
+
+          <a class="tile link-tile" href="/content/index.xml">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="5" cy="19" r="2.2" fill="currentColor" />
+              <path
+                d="M3 11a10 10 0 0 1 10 10M3 4a17 17 0 0 1 17 17"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.4"
+                stroke-linecap="round"
+              />
+            </svg>
+            <span class="go" aria-hidden="true">&nearr;</span>
+            <span>
+              <h3>RSS feed</h3>
+              <p>New and updated notes.</p>
+            </span>
+          </a>
+        </div>
+
+        <section class="topics-section" id="topics">
+          <div class="section-head">
+            <h2>Pick a <span class="grad">topic</span>.</h2>
+            <p>
+              The notes are a web, not a feed. These hub pages are the best way
+              in.
+            </p>
+          </div>
+          <ul class="topics">
+            <li>
+              <a class="topic" href="/content/security" style="--c: #c5f25a">
+                <span class="topic-dot"></span>
+                <h3>Security</h3>
+                <p>Notes, tools, conferences and certifications.</p>
+                <span class="topic-count" data-hub="security"></span>
+              </a>
+            </li>
+            <li>
+              <a class="topic" href="/content/azure" style="--c: #5ab8ff">
+                <span class="topic-dot"></span>
+                <h3>Azure</h3>
+                <p>Services, tooling and troubleshooting.</p>
+                <span class="topic-count" data-hub="azure"></span>
+              </a>
+            </li>
+            <li>
+              <a class="topic" href="/content/dotnet" style="--c: #9f8cff">
+                <span class="topic-dot"></span>
+                <h3>.NET</h3>
+                <p>.NET and ASP.NET development.</p>
+                <span class="topic-count" data-hub="dotnet"></span>
+              </a>
+            </li>
+            <li>
+              <a class="topic" href="/content/kubernetes" style="--c: #4fd1c5">
+                <span class="topic-dot"></span>
+                <h3>Kubernetes</h3>
+                <p>Containers and cluster security.</p>
+                <span class="topic-count" data-hub="kubernetes"></span>
+              </a>
+            </li>
+            <li>
+              <a class="topic" href="/content/ai" style="--c: #ff8bd1">
+                <span class="topic-dot"></span>
+                <h3>AI</h3>
+                <p>AI tools and learning resources.</p>
+                <span class="topic-count" data-hub="ai"></span>
+              </a>
+            </li>
+            <li>
+              <a class="topic" href="/content/powershell" style="--c: #7aa2ff">
+                <span class="topic-dot"></span>
+                <h3>PowerShell</h3>
+                <p>Scripts and profile setup.</p>
+                <span class="topic-count" data-hub="powershell"></span>
+              </a>
+            </li>
+            <li>
+              <a class="topic" href="/content/git" style="--c: #ff9e64">
+                <span class="topic-dot"></span>
+                <h3>Git</h3>
+                <p>Commands, hooks and aliases.</p>
+                <span class="topic-count" data-hub="git"></span>
+              </a>
+            </li>
+            <li>
+              <a class="topic" href="/content/management" style="--c: #ffd166">
+                <span class="topic-dot"></span>
+                <h3>Management</h3>
+                <p>Engineering management and leadership.</p>
+                <span class="topic-count" data-hub="management"></span>
+              </a>
+            </li>
+            <li>
+              <a class="topic" href="/content/gaming" style="--c: #f87171">
+                <span class="topic-dot"></span>
+                <h3>Gaming</h3>
+                <p>Games, backups and nostalgia.</p>
+                <span class="topic-count" data-hub="gaming"></span>
+              </a>
+            </li>
+            <li>
+              <a class="topic" href="/content/blog" style="--c: #b4b9d6">
+                <span class="topic-dot"></span>
+                <h3>Blog archive</h3>
+                <p>Posts going back to 2005.</p>
+                <span class="topic-count" data-hub="blog"></span>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </main>
+
+      <footer class="foot">
+        <span>&copy; <span id="year">2026</span> Tom Robinson</span>
+        <span>Written in Obsidian, published with Quartz</span>
+      </footer>
+    </div>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+
+      // topic hubs, in priority order, with the colour used for their notes
+      const HUBS = {
+        security: "#c5f25a",
+        azure: "#5ab8ff",
+        dotnet: "#9f8cff",
+        kubernetes: "#4fd1c5",
+        ai: "#ff8bd1",
+        powershell: "#7aa2ff",
+        git: "#ff9e64",
+        management: "#ffd166",
+        gaming: "#f87171",
+        blog: "#b4b9d6",
+      };
+      const NEUTRAL = "#4a5378";
+      const reduceMotion = matchMedia(
+        "(prefers-reduced-motion: reduce)",
+      ).matches;
+
+      let slugs = [];
+      document.getElementById("random-note").addEventListener("click", () => {
+        const slug = slugs[Math.floor(Math.random() * slugs.length)];
+        location.href = slug ? `/content/${slug}` : "/content/";
+      });
+
+      // build nodes and (undirected, de-duplicated) edges from the Quartz content index
+      function buildGraph(index) {
+        const ids = Object.keys(index);
+        const pos = new Map(ids.map((id, i) => [id, i]));
+        const nodes = ids.map((id) => ({
+          id,
+          title: index[id].title,
+          color: NEUTRAL,
+          degree: 0,
+          neighbours: new Set(),
+        }));
+        const seen = new Set();
+        const edges = [];
+        let realLinks = 0;
+        const link = (a, b) => {
+          if (a === b) return false;
+          const key = a < b ? `${a}|${b}` : `${b}|${a}`;
+          if (seen.has(key)) return false;
+          seen.add(key);
+          edges.push([a, b]);
+          nodes[a].neighbours.add(b);
+          nodes[b].neighbours.add(a);
+          nodes[a].degree++;
+          nodes[b].degree++;
+          return true;
+        };
+        ids.forEach((id, i) => {
+          for (const target of index[id].links) {
+            if (pos.has(target) && link(i, pos.get(target))) realLinks++;
+          }
+        });
+        // blog posts rarely link anywhere, so attach them to the blog hub
+        ids.forEach((id, i) => {
+          if (id.startsWith("blog/") && pos.has("blog"))
+            link(i, pos.get("blog"));
+        });
+        // colour each note by the first hub it is connected to
+        for (const [hub, color] of Object.entries(HUBS)) {
+          if (!pos.has(hub)) continue;
+          const h = nodes[pos.get(hub)];
+          h.color = color;
+          h.hub = true;
+          for (const n of h.neighbours) {
+            if (nodes[n].color === NEUTRAL) nodes[n].color = color;
+          }
+        }
+        return { nodes, edges, pos, realLinks };
+      }
+
+      // a decorative stand-in for when the index can't be loaded
+      function fakeGraph() {
+        const colors = Object.values(HUBS);
+        const nodes = [];
+        const edges = [];
+        for (let i = 0; i < 90; i++) {
+          const hub = i < colors.length;
+          nodes.push({
+            id: null,
+            title: "",
+            color: colors[i % colors.length],
+            hub,
+            degree: hub ? 8 : 1,
+            neighbours: new Set(),
+          });
+          if (!hub) {
+            const p = i % colors.length;
+            edges.push([i, p]);
+            nodes[i].neighbours.add(p);
+            nodes[p].neighbours.add(i);
+          }
+        }
+        return { nodes, edges };
+      }
+
+      function drawGraph({ nodes, edges }, interactive) {
+        const canvas = document.getElementById("graph");
+        const tip = document.getElementById("graph-tip");
+        const ctx = canvas.getContext("2d");
+        let width = 0;
+        let height = 0;
+
+        // simple force layout: repulsion + springs + gravity, run up front
+        nodes.forEach((n, i) => {
+          const a = i * 2.39996;
+          const r = 40 * Math.sqrt(i + 1);
+          n.x = Math.cos(a) * r;
+          n.y = Math.sin(a) * r;
+          n.vx = 0;
+          n.vy = 0;
+          n.r = n.hub ? 6.5 : 2.2 + Math.min(Math.sqrt(n.degree), 3);
+        });
+        function step(alpha) {
+          for (let i = 0; i < nodes.length; i++) {
+            const a = nodes[i];
+            for (let j = i + 1; j < nodes.length; j++) {
+              const b = nodes[j];
+              const dx = a.x - b.x;
+              const dy = a.y - b.y;
+              const d2 = dx * dx + dy * dy || 0.01;
+              if (d2 > 90000) continue;
+              const f = (900 * alpha) / d2;
+              a.vx += dx * f;
+              a.vy += dy * f;
+              b.vx -= dx * f;
+              b.vy -= dy * f;
+            }
+          }
+          for (const [i, j] of edges) {
+            const a = nodes[i];
+            const b = nodes[j];
+            const dx = b.x - a.x;
+            const dy = b.y - a.y;
+            const d = Math.sqrt(dx * dx + dy * dy) || 1;
+            const f = ((d - 26) / d) * 0.06 * alpha;
+            a.vx += dx * f;
+            a.vy += dy * f;
+            b.vx -= dx * f;
+            b.vy -= dy * f;
+          }
+          for (const n of nodes) {
+            n.vx -= n.x * 0.012 * alpha;
+            n.vy -= n.y * 0.012 * alpha;
+            n.vx *= 0.6;
+            n.vy *= 0.6;
+            n.x += n.vx;
+            n.y += n.vy;
+          }
+        }
+        for (let t = 0; t < 320; t++) step(1 - t / 400);
+
+        // fit the layout into the tile, leaving room for the caption
+        let scale = 1;
+        const bounds = nodes.reduce(
+          (m, n) => Math.max(m, Math.abs(n.x), Math.abs(n.y)),
+          1,
+        );
+        function resize() {
+          const dpr = window.devicePixelRatio || 1;
+          width = canvas.clientWidth;
+          height = canvas.clientHeight;
+          canvas.width = width * dpr;
+          canvas.height = height * dpr;
+          ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+          scale = (Math.min(width, height - 50) / 2 - 18) / bounds;
+          draw();
+        }
+
+        let angle = 0;
+        let hovered = null;
+        const screen = (n) => {
+          const c = Math.cos(angle);
+          const s = Math.sin(angle);
+          return [
+            width / 2 + (n.x * c - n.y * s) * scale,
+            (height - 40) / 2 + (n.x * s + n.y * c) * scale,
+          ];
+        };
+
+        function draw() {
+          ctx.clearRect(0, 0, width, height);
+          const pts = nodes.map(screen);
+          const focus = hovered;
+          ctx.lineWidth = 1;
+          for (const [i, j] of edges) {
+            const lit = focus !== null && (i === focus || j === focus);
+            ctx.strokeStyle = lit
+              ? "rgba(197, 242, 90, 0.75)"
+              : focus !== null
+                ? "rgba(159, 140, 255, 0.06)"
+                : "rgba(159, 140, 255, 0.2)";
+            ctx.beginPath();
+            ctx.moveTo(pts[i][0], pts[i][1]);
+            ctx.lineTo(pts[j][0], pts[j][1]);
+            ctx.stroke();
+          }
+          nodes.forEach((n, i) => {
+            const near =
+              focus === null || i === focus || nodes[focus].neighbours.has(i);
+            ctx.globalAlpha = near ? 1 : 0.18;
+            ctx.fillStyle = n.color;
+            if (n.hub || i === focus) {
+              ctx.shadowColor = n.color;
+              ctx.shadowBlur = 12;
+            }
+            ctx.beginPath();
+            ctx.arc(pts[i][0], pts[i][1], i === focus ? n.r + 2 : n.r, 0, 7);
+            ctx.fill();
+            ctx.shadowBlur = 0;
+          });
+          ctx.globalAlpha = 1;
+        }
+
+        // a very slow rotation; paused while hovering so dots are easy to hit
+        function tick() {
+          if (hovered === null) angle += 0.0007;
+          draw();
+          requestAnimationFrame(tick);
+        }
+
+        new ResizeObserver(resize).observe(canvas);
+        resize();
+        if (!reduceMotion) requestAnimationFrame(tick);
+
+        if (!interactive) return;
+
+        function nodeAt(event) {
+          const rect = canvas.getBoundingClientRect();
+          const x = event.clientX - rect.left;
+          const y = event.clientY - rect.top;
+          let best = null;
+          let bestDist = 14 * 14;
+          nodes.forEach((n, i) => {
+            const [px, py] = screen(n);
+            const d = (px - x) ** 2 + (py - y) ** 2;
+            if (d < bestDist) {
+              best = i;
+              bestDist = d;
+            }
+          });
+          return best;
+        }
+
+        canvas.addEventListener("pointermove", (event) => {
+          hovered = nodeAt(event);
+          canvas.style.cursor = hovered === null ? "default" : "pointer";
+          if (hovered === null) {
+            tip.classList.remove("show");
+          } else {
+            const [px, py] = screen(nodes[hovered]);
+            tip.textContent = nodes[hovered].title;
+            tip.style.left = `${Math.min(Math.max(px, 90), width - 90)}px`;
+            tip.style.top = `${py}px`;
+            tip.classList.add("show");
+          }
+          if (reduceMotion) draw();
+        });
+        canvas.addEventListener("pointerleave", () => {
+          hovered = null;
+          tip.classList.remove("show");
+          if (reduceMotion) draw();
+        });
+        canvas.addEventListener("click", (event) => {
+          const i = nodeAt(event);
+          if (i !== null) location.href = `/content/${nodes[i].id}`;
+        });
+      }
+
+      fetch("/content/static/contentIndex.json")
+        .then((res) => (res.ok ? res.json() : Promise.reject()))
+        .then((index) => {
+          slugs = Object.keys(index);
+          const graph = buildGraph(index);
+          for (const el of document.querySelectorAll(".js-note-count")) {
+            el.textContent = slugs.length;
+          }
+          document.getElementById("link-count").textContent = graph.realLinks;
+          for (const el of document.querySelectorAll(".topic-count")) {
+            const hub = graph.pos.get(el.dataset.hub);
+            if (hub === undefined) continue;
+            const count = graph.nodes[hub].neighbours.size;
+            el.textContent = `${count} linked note${count === 1 ? "" : "s"}`;
+          }
+          drawGraph(graph, true);
+        })
+        .catch(() => drawGraph(fakeGraph(), false));
+    </script>
   </body>
 </html>

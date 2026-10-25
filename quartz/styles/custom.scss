@@ -89,3 +89,173 @@
     padding-left: 0.6rem;
   }
 }
+
+// ---------------------------------------------------------------------------
+// "Night garden" theme: a faint dot grid, rounded tinted surfaces and
+// lime/violet accents
+// ---------------------------------------------------------------------------
+
+:root {
+  --surface: color-mix(in srgb, var(--dark) 4%, var(--light));
+  --border-soft: color-mix(in srgb, var(--dark) 9%, transparent);
+}
+
+::selection {
+  background: color-mix(in srgb, var(--tertiary) 40%, transparent);
+  color: var(--dark);
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: radial-gradient(
+    color-mix(in srgb, var(--dark) 7%, transparent) 1px,
+    transparent 1px
+  );
+  background-size: 22px 22px;
+}
+
+// a violet glow in the top corner of every page
+body::before {
+  content: "";
+  position: fixed;
+  top: -25vh;
+  right: -15vw;
+  width: 60vw;
+  height: 60vh;
+  background: radial-gradient(
+    closest-side,
+    color-mix(in srgb, var(--tertiary) 14%, transparent),
+    transparent
+  );
+  pointer-events: none;
+  z-index: -1;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: -0.02em;
+  font-weight: 700;
+}
+
+.article-title {
+  font-size: clamp(2.2rem, 5vw, 3.1rem);
+  font-weight: 800;
+  line-height: 1.05;
+  letter-spacing: -0.035em;
+  margin: 1.25rem 0 0.75rem;
+}
+
+article > h2 {
+  font-size: 1.55rem;
+  margin-top: 2.5rem;
+}
+
+a.internal {
+  border-radius: 4px;
+  transition: background-color 0.15s ease;
+
+  &:hover {
+    background-color: color-mix(in srgb, var(--secondary) 18%, transparent);
+  }
+}
+
+blockquote {
+  margin: 1.75rem 0;
+  padding: 0.75rem 1.1rem;
+  background: color-mix(in srgb, var(--tertiary) 8%, transparent);
+  border-left: 3px solid var(--tertiary);
+  border-radius: 0 12px 12px 0;
+  color: var(--dark);
+}
+
+hr {
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--lightgray) 20%,
+    var(--lightgray) 80%,
+    transparent
+  );
+  height: 1px;
+}
+
+pre {
+  background-color: var(--surface);
+  border: 1px solid var(--border-soft);
+  border-radius: 12px;
+}
+
+p > code,
+li > code,
+td > code {
+  background-color: var(--surface);
+  border: 1px solid var(--border-soft);
+  border-radius: 6px;
+  padding: 0.05rem 0.35rem;
+  font-size: 0.86em;
+}
+
+// metadata
+.content-meta {
+  color: var(--gray);
+  font-size: 0.9rem;
+}
+
+.breadcrumb-container {
+  font-size: 0.88rem;
+}
+
+a.internal.tag-link {
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--tertiary);
+  background-color: color-mix(in srgb, var(--tertiary) 12%, transparent);
+  border-radius: 999px;
+  padding: 0.22rem 0.7rem;
+
+  &:hover {
+    background-color: color-mix(in srgb, var(--tertiary) 22%, transparent);
+  }
+}
+
+// sidebar
+.left .page-title {
+  font-size: 1.6rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+
+  & a {
+    color: var(--dark);
+  }
+}
+
+.search > .search-button {
+  background-color: var(--surface);
+  border: 1px solid var(--border-soft);
+  border-radius: 999px;
+  transition: border-color 0.15s ease;
+
+  &:hover {
+    border-color: var(--lightgray);
+  }
+}
+
+.graph > .graph-outer {
+  border-color: var(--border-soft);
+  border-radius: 14px;
+  background-color: var(--surface);
+}
+
+.toc-content a,
+.backlinks a.internal {
+  background-color: transparent;
+}
+
+footer {
+  color: var(--gray);
+  font-size: 0.85rem;
+  opacity: 1;
+}
