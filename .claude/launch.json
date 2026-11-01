@@ -6,6 +6,15 @@
       "runtimeExecutable": "npx",
       "runtimeArgs": ["quartz", "build", "--serve"],
       "port": 8080
+    },
+    {
+      "name": "landing",
+      "runtimeExecutable": "sh",
+      "runtimeArgs": [
+        "-c",
+        "cp index.html public/index.html && npx serve public -l 3000 --no-request-logging"
+      ],
+      "port": 3000
     }
   ]
 }
